@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* includes */
+
+@import url(reset.css);
+
+/* global */
+
+*{
+    margin:0px;
+    padding:0px;
+}
+htm,body{
+	margin:0px auto;
+	text-align:center;
+	font:11px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	overflow-x:hidden;
+	}
+#wrapper{
+	margin:0 0;
+	text-align:left;
+	width:1024px;
+	height: auto;
+}
+a{text-decoration:none;}
+button{cursor:pointer;}
+.inline li{display:inline;padding:0 5px 0 0;}
+.b{display:block;}
+.c{clear:both;}
+.l{float:left;}
+.r{float:right;}
+.p{padding:20px;}
+.p5{padding:5px;}
+
+/* sprites */
+
+.sprite{background:url("../img/sprite.png") no-repeat;}
+
+/* corpo */
+
+#main-header{
+	width:auto;
+	height:auto;
+	padding:0 0 0 0;
+	}
+#main-content{
+	width:100% !important;
+	height:auto !important;
+	padding:0 0 0 0;
+}
+
+/* facebook app */
+
+iframe.facebook{
+	width:300px;
+	overflow:hidden;
+	height:27px;
+}
+
+/* breadcrumb */
+
+#breadcrumbs{
+	width:100%;
+	height:auto;
+	}
+	
+/* paginacao */ 
+
+.paginacao{
+	padding:10px 0 0 0;
+}
+.paginacao a{
+	background-color:#000;
+	color:#fff;
+	padding:2px 5px 2px 5px;
+}
+.paginacao a:hover,.paginacao a.active{
+	background-color:#000;
+}
+
+
+/* footer */
+
+#footer-holder{
+	background-color:#0189c7;
+	min-width:1400px;
+	max-width:100%;
+	overflow:hidden;
+	height:auto;
+}
+#footer{
+	min-height:120px;
+	padding:20px 0 0 30px;
+	text-align:left;
+	color:#fff;
+
+}
+
+
+
+
+
