@@ -16,6 +16,7 @@ htm,body{
 	text-align:center;
 	overflow-x:hidden;
 	font:12px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	height:100%;
 	}
 .wrapper-holder{
 	width:100%;
@@ -100,6 +101,13 @@ button{cursor:pointer;}
 	color:#666;
 }
 
+/* nav projects */
+
+select{
+	height: 18px; 
+	border: 0px;
+	}
+
 /* main menu */
 
 #mainMenu{
@@ -126,6 +134,34 @@ button{cursor:pointer;}
 	color:#fff;
 	font-size:11px;
 }
+#mainMenu table tr td.noSub{
+	background:none;
+}
+/* sub main menu */
+
+#mainMenuHolder:hover #subMainMenu{
+	display:block;
+}
+#subMainMenu{
+	position:absolute;
+	height:40px;
+	background-color:#e8852d;
+	display:none;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}
+#subMainMenu table tr td{
+	width:auto;
+	height:39px;
+	vertical-align:middle;
+	padding:0px 15px 0px 15px;
+}
+#subMainMenu a{
+	color:#ffff2c;
+	font-size:11px;
+}
+
 /* facebook app */
 
 iframe.facebook{
@@ -158,20 +194,22 @@ iframe.facebook{
 
 /* footer */
 
-#footer-holder{
-	background-color:#;
-	min-width:1400px;
-	max-width:100%;
-	overflow:hidden;
-	height:auto;
-}
 #footer{
-	min-height:120px;
-	padding:20px 0px 0px 30px;
+	
+	bottom:0;
+	min-height:90px;
 	text-align:left;
-	color:#fff;
+	background-color:#f1f1f1;
+	color:#666;
+	font-size:11px;
 }
-
+#footer .inline{
+	width:420px;
+	line-height:13px;
+}
+#footer a{
+	color:#666;
+}
 
 
 

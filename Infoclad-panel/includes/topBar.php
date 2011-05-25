@@ -13,6 +13,8 @@
 			<span class="b l p3"><!--  --></span>
 			<span class="b l sprite minha_conta"><!--  --></span>			
 			<span class="b l"><a class="whiteText" href="#">Acessar Minha Conta</a></span>
+			<span class="b l p3"><!--  --></span>
+			<?php include("navProjects.php"); ?>
 			<span class="c"><!--  --></span>
 		</div>
 		<div class="c"><!--  --></div>

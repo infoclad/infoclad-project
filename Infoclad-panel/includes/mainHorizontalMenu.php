@@ -1,9 +1,10 @@
 <!-- horizontal menu module -->
+<div id="mainMenuHolder">
 	<div id="mainMenu" class="b wrapper-holder sprite-x">
 		<div class="wrapper">
 			<table>
 				<tr>
-					<td><a href="#">Relatório do Sistema</a></td>
+					<td class="noSub"><a href="#">Relatório do Sistema</a></td>
 					<td><a href="#">Gerenciar Fornecedores</a></td>
 					<td><a href="#">Gerenciar Produtos</a></td>
 					<td><a href="#">Gerenciar Categorias</a></td>
@@ -12,4 +13,6 @@
 			</table>
 		</div>
 	</div>
+	<?php include("includes/subMainMenu.php"); ?>
+</div>
 <!-- horizontal menu module -->
