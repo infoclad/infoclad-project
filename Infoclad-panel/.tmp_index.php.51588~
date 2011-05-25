@@ -4,8 +4,10 @@
 		<?php include("head.php"); ?>
 	</head>
 	<body onload="letra();">
-		<?php include("header.php"); ?>
-		<?php include("home.php"); ?>
+		<div id="wrapper">
+			<?php include("header.php"); ?>
+			<?php include("home.php"); ?>
+		</div>
 		<?php include("footer.php");?>
 	</body>
 </html>

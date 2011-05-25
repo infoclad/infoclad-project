@@ -14,42 +14,118 @@
 htm,body{
 	margin:0px auto;
 	text-align:center;
-	font:11px Verdana, Geneva, Arial, Helvetica, sans-serif;
 	overflow-x:hidden;
+	font:12px Verdana, Geneva, Arial, Helvetica, sans-serif;
 	}
-#wrapper{
-	margin:0 0;
-	text-align:left;
-	width:1024px;
+.wrapper-holder{
+	width:100%;
 	height: auto;
+}
+.wrapper{
+	width:1024px;
+	margin:0px auto;
+	text-align:left;
 }
 a{text-decoration:none;}
 button{cursor:pointer;}
-.inline li{display:inline;padding:0 5px 0 0;}
+.inline li{display:inline;padding-bottom:5px;}
 .b{display:block;}
 .c{clear:both;}
 .l{float:left;}
 .r{float:right;}
 .p{padding:20px;}
+.p3{padding:3px;}
 .p5{padding:5px;}
+.disabled{display:none;}
+
+
+/* text */
+
+.bolder{font-weight:bold;}
+.whiteText{color:#fff;}
+.redText{color:#f24444;}
 
 /* sprites */
 
-.sprite{background:url("../img/sprite.png") no-repeat;}
-
+.sprite{background:url("../img/sprites/sprite.png") no-repeat;}
+.sprite-x{background:url("../img/sprites/sprite-x.png") repeat-x;}
+.sprite-y{background:url("../img/sprites/sprite-y.png") no-repeat;}
+.minha_conta{
+	background-position:-13px -12px;
+	min-width:20px;
+	height:20px;
+	}
+.envelope{
+	background-position:-13px -53px;
+	min-width:20px;
+	height:20px;
+}
+.redAdvice{
+	background-position:-52px -12px;
+	min-width:20px;
+	height:20px;
+}
+.pizzaGraph{
+	background-position:-93px -12px;
+	min-width:20px;
+	height:20px;
+}
 /* corpo */
 
 #main-header{
 	width:auto;
 	height:auto;
-	padding:0 0 0 0;
 	}
 #main-content{
 	width:100% !important;
 	height:auto !important;
-	padding:0 0 0 0;
+}
+#topBar{
+	height:36px;
+	background:#314975;
+	color:#fff;
+}
+#loggedAvatar{
+	width:18px;
+	height:18px;
+}
+#loggedAvatar img{width:18px;}
+
+/* switch theme */
+
+#switchTheme{
+	height:30px;
+}
+#switchTheme a{
+	color:#666;
 }
 
+/* main menu */
+
+#mainMenu{
+	height:39px;
+	background-position:0px 0px;
+	color:#fff;
+}
+#mainMenu table tr td{
+	width:auto;
+	height:39px;
+	vertical-align:middle;
+	border-right:1px #2e4169 solid;
+	padding:0px 15px 0px 15px;
+}
+#mainMenu table tr td:hover{
+	cursor:pointer;
+	background:url("../img/sprites/sprite-x.png") 0px -39px repeat-x;
+	color:#ffff2c;
+}
+#mainMenu table tr td:hover a{
+	color:#ffff2c;
+}
+#mainMenu a{
+	color:#fff;
+	font-size:11px;
+}
 /* facebook app */
 
 iframe.facebook{
@@ -68,7 +144,7 @@ iframe.facebook{
 /* paginacao */ 
 
 .paginacao{
-	padding:10px 0 0 0;
+	padding-top:10px;
 }
 .paginacao a{
 	background-color:#000;
@@ -83,7 +159,7 @@ iframe.facebook{
 /* footer */
 
 #footer-holder{
-	background-color:#0189c7;
+	background-color:#;
 	min-width:1400px;
 	max-width:100%;
 	overflow:hidden;
@@ -91,10 +167,9 @@ iframe.facebook{
 }
 #footer{
 	min-height:120px;
-	padding:20px 0 0 30px;
+	padding:20px 0px 0px 30px;
 	text-align:left;
 	color:#fff;
-
 }
 
 
