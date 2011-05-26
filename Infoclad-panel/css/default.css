@@ -45,6 +45,8 @@ button{cursor:pointer;}
 .bolder{font-weight:bold;}
 .whiteText{color:#fff;}
 .redText{color:#f24444;}
+.orangeText{color:#f78b15;}
+.maxSize{font-size:18px;}
 
 /* sprites */
 
@@ -71,6 +73,29 @@ button{cursor:pointer;}
 	min-width:20px;
 	height:20px;
 }
+.add{
+	background-position:-138px -13px;
+	min-width:20px;
+	height:20px;
+}
+.lupa{
+	background-position:-166px -8px;
+	height: 29px; 
+	width: 40px; 
+	margin-top: 5px;
+	background-color:#fff;
+}
+.orangeAdvice{
+	background-position:-52px -53px;
+	min-width:20px;
+	height:20px;
+}
+.grayArrow{
+	background-position:-140px -98px;
+	min-width:15px;
+ 	height: 15px;
+ 	margin-top: 3px;
+}
 /* corpo */
 
 #main-header{
@@ -92,6 +117,59 @@ button{cursor:pointer;}
 }
 #loggedAvatar img{width:18px;}
 
+/* pageHeader */
+
+#pageHeader,#pageHeader a{color:#666;}
+
+/* searchBar */
+
+#searchBar{
+	height:39px;
+	width:100%;
+	background-color:#f0f0f0;	
+}
+#searchBar table{
+	height: 29px;
+	margin-top: 5px;
+	}
+#searchBar table tr td{
+	height: 29px; 
+	vertical-align:middle;
+	text-align:right;
+	padding:5px;
+	background-color:#fff;
+	}
+#searchBar input[type="text"]{
+	border:0;
+	width:176px;
+	font:italic 11px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color:#666;
+}
+
+/* login */
+
+#loginSection{
+	background-color:#f0f0f0;
+	height:310px;
+	border-top:4px #e4e4e4 solid;
+	border-bottom:1px #e4e4e4 solid;
+}
+.loginWrapper{
+	width:368px;
+	margin:0px auto;
+	text-align:left;
+	padding-top:40px;
+}
+#loginSection input[type="text"],#loginSection input[type="password"]{
+	border: 0px; 
+	width: 356px; 
+	padding: 10px 5px;
+	border:1px #666 solid;
+	cursor:pointer;
+	}
+#loginSection input[type="text"]:focus,#loginSection input[type="password"]:focus{
+	border:1px orange solid;
+}
 /* switch theme */
 
 #switchTheme{
@@ -172,10 +250,7 @@ iframe.facebook{
 
 /* breadcrumb */
 
-#breadcrumbs{
-	width:100%;
-	height:auto;
-	}
+#breadcrumb,#breadcrumb a{color:#666;}
 	
 /* paginacao */ 
 
