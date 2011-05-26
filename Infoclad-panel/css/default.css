@@ -47,6 +47,13 @@ button{cursor:pointer;}
 .redText{color:#f24444;}
 .orangeText{color:#f78b15;}
 .maxSize{font-size:18px;}
+.subTitle{
+	font-size:16px;
+	text-transform:capitalize;
+	color:#666;
+}
+.tinySize{font-size:10px;}
+.grayText{color:#666;}
 
 /* sprites */
 
@@ -96,6 +103,57 @@ button{cursor:pointer;}
  	height: 15px;
  	margin-top: 3px;
 }
+.view{
+	background-position:-218px -53px;
+	min-width:15px;
+ 	height: 18px;	
+}
+.delete{
+	background-position:-135px -54px;
+	min-width:18px;
+ 	height: 18px;	
+}
+.config{
+	background-position:-218px -12px;
+	min-width:15px;
+ 	height: 18px;		
+}
+.ortograph{
+	background-position:-129px -135px;
+	min-width:40px;
+	height:20px;
+}
+.confirm{
+	background-position:-135px -176px;
+	min-width:20px;
+	height:20px;
+}
+.typing{
+	background-position:-83px -42px;
+	min-width:40px;
+	height:40px;	
+}
+.desactivated{
+	background-position:-53px -217px;
+	min-width:20px;
+	height:20px;
+}
+.activated{
+	background-position:-52px -135px;
+	min-width:20px;
+	height:20px;	
+}
+.naoPago{
+	background-position:-52px -94px;
+	min-width:20px;
+	height:20px;	
+}
+.entregue{
+	background-position:-50px -176px;
+	min-width:20px;
+	height:20px;	
+}
+
 /* corpo */
 
 #main-header{
@@ -170,6 +228,21 @@ button{cursor:pointer;}
 #loginSection input[type="text"]:focus,#loginSection input[type="password"]:focus{
 	border:1px orange solid;
 }
+
+/* detalhes */
+
+#entryInfoHolder{
+	width: 715px;
+}
+.entryInfo{
+	max-width:330px;
+	padding-right:30px;
+	padding-bottom:20px;
+}
+.obs{	
+	border-top:6px #e4e4e4 solid;
+}
+
 /* switch theme */
 
 #switchTheme{
@@ -186,6 +259,10 @@ select{
 	border: 0px;
 	}
 
+/* organizer */
+
+#organizerModule a{color:#666;}
+
 /* main menu */
 
 #mainMenu{
@@ -193,52 +270,192 @@ select{
 	background-position:0px 0px;
 	color:#fff;
 }
-#mainMenu table tr td{
+#mainMenu .inline{
+	padding-top:11px;
+}
+#mainMenu .inline li a.mainLink{
 	width:auto;
-	height:39px;
+	height:40px;
 	vertical-align:middle;
 	border-right:1px #2e4169 solid;
-	padding:0px 15px 0px 15px;
+	padding:17px 15px 9px 15px;
+	margin-left:-3px;
 }
-#mainMenu table tr td:hover{
+#mainMenu .inline li a.mainLink:hover{
 	cursor:pointer;
 	background:url("../img/sprites/sprite-x.png") 0px -39px repeat-x;
-	color:#ffff2c;
-}
-#mainMenu table tr td:hover a{
 	color:#ffff2c;
 }
 #mainMenu a{
 	color:#fff;
 	font-size:11px;
 }
-#mainMenu table tr td.noSub{
-	background:none;
-}
+
 /* sub main menu */
 
-#mainMenuHolder:hover #subMainMenu{
-	display:block;
-}
-#subMainMenu{
+.subMainMenu{
 	position:absolute;
-	height:40px;
+	height: 28px;
+	width: 100%;
 	background-color:#e8852d;
-	display:none;
 	opacity: 0.9;
 	filter: alpha(opacity=90);
 	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	z-index:999;
+	margin-top: 9px;   
+	margin-left:-436px;
+	padding-left: 447px;
+
 }
-#subMainMenu table tr td{
-	width:auto;
+.subMainMenu li{
+	padding-right:30px;
+}
+.subMainMenu a{
+	color:#ffff2c;
+}
+
+
+/* listas */
+
+table.listagem{
+	width:1024px;
+	color:#000;
+}
+table.listagem tr td{
 	height:39px;
 	vertical-align:middle;
-	padding:0px 15px 0px 15px;
+	padding:0px 5px 0px 5px;
+	min-width:auto;
 }
-#subMainMenu a{
-	color:#ffff2c;
-	font-size:11px;
+table.listagem tr.color1 {
+	background-color:#526ea1;
+	color:#fff;
 }
+table.listagem tr.color2 {
+	background-color:#2e4672;
+	color:#fff;
+}
+table.listagem tr.color0 td{
+	white-space:nowrap;
+}
+table.listagem tr.color0 td,table.listagem tr.color0 td a{
+	color:#666;
+}
+table.listagem tr.color1 td a,table.listagem tr.color2 td a{color:#fff;}
+.prodThumb{
+	width:25px;
+	height:25px;
+}
+.prodThumb img{
+	width:25px;
+	height:25px;	
+}
+table.listagem tr td.space{
+	width:139px;
+}
+
+/* galeria */
+
+#galeria{
+	width:305px;
+	height:auto;
+}
+#galeriaMaxPic{
+	width:305px;
+	height:auto;
+}
+#galeriaMaxPic img{
+	width:305px;
+	height:305px;
+}
+#galeriaPicRow .rowPic img{
+	width:105px;
+
+}
+
+/* cadastros */
+
+
+.cadastroForm select{
+	width:50px;
+	height:24px;
+	border:1px #ccc solid;
+	padding:3px;
+	margin-left:3px;
+}
+.cadastroForm input[type="text"],.cadastroForm input[type="file"],.cadastroForm input[type="password"]{
+	width:200px;
+	border:1px #ccc solid;
+	padding:3px;
+	color:#666;
+	cursor:pointer;
+}
+
+.cadastroForm input[type="text"]:focus{
+	border:1px orange solid;
+}
+.fileAdvice{
+	width:290px;
+}
+textarea.descr{
+	width: 900px; height: 90px;
+	color:#666;
+	font:italic 10px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	border:1px #ccc solid;
+	cursor:pointer;
+	}
+textarea.descr:focus{
+	border:1px orange solid;
+}
+.typingIcoHolder{
+	padding-top: 40px; 
+	padding-left: 30px; 
+	padding-right: 10px;}
+
+/* status pedido */
+
+.statusContent{text-align:center;}
+.status1{z-index:3;position:relative;}
+.status2{position:relative;margin-left:-60px;z-index:2;}
+.status3{position:relative;margin-left:-60px;z-index:1;}
+#statusSelect #naoPago{
+	padding-top: 46px; 
+	height: 66px; 
+	width: 172px;
+	cursor:pointer;
+	}
+#statusSelect #naoPago:hover{
+	background-position:0px -111px;color:#b01515;
+}
+#statusSelect #pago{
+	padding-top: 46px;
+	padding-left:32px;  
+	height: 66px; 
+	width: 144px; 
+	cursor:pointer;
+}
+#statusSelect #pago:hover{
+	background-position:0px -223px;color:#5c9d3a;
+}
+
+#statusSelect #enviado{
+	padding-top: 46px;  
+	padding-left:40px;
+	height: 66px; 
+	width: 133px;
+	cursor:pointer;
+	}
+#statusSelect #enviado:hover{
+	background-position:0px -335px;color:#b4aa33;
+}
+
+/* classes pra ativar e desativar */
+
+.statusDesactivated{background-position:0px 1px;color:#666;}
+.status1activated{background-position:0px -111px;color:#b01515;}
+.status2activated{background-position:0px -223px;color:#5c9d3a;}
+.status3activated{background-position:0px -335px;color:#b4aa33;}
+
 
 /* facebook app */
 
@@ -254,18 +471,49 @@ iframe.facebook{
 	
 /* paginacao */ 
 
+.paginacao-holder{
+	height:39px;
+	width:100%;
+	background-color:#f0f0f0;
+}
 .paginacao{
-	padding-top:10px;
+	padding:10px 10px 0px 0px;
 }
 .paginacao a{
-	background-color:#000;
-	color:#fff;
+	color:#666;
 	padding:2px 5px 2px 5px;
 }
 .paginacao a:hover,.paginacao a.active{
-	background-color:#000;
+	background-color:#666;
+	color:#fff;
+}
+.paginacao a.noBg{
+	background:none;
+}
+.paginacao a.noBg:hover{
+	color:#848484;
 }
 
+/* pageFooter */
+
+#pageFooterHolder{
+	height:39px;
+	width:100%;
+	background-color:#f0f0f0;
+}
+.pageFooterLink {
+	background-color:none;
+	color:#666;
+	height:27px;
+	padding:12px 6px 0px 6px;
+	cursor:pointer;
+}
+.pageFooterLink a{
+	color:#666;
+}
+.pageFooterLink:hover{
+	background-color:#fff;
+}
 
 /* footer */
 

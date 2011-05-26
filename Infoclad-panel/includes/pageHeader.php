@@ -2,11 +2,10 @@
 	<div class="wrapper">
 		<span class="b l">
 			<h1 class="maxSize orangeText disabled">Login</h1>
-			<h1 class="maxSize orangeText ">Relatório do sistema</h1>
+			<h1 class="maxSize orangeText ">Lorem Ipsum</h1>
 		</span>
-		<span class="b r">		
-			<span class="b l disabled"><a href="#">Criar nova conta</a></span>
-			<span class="b l "><a href="#">Exibir lista completa</a></span>
+		<span id="subMenuPage" class="b r ">		
+			<span class="b l "><a href="#">Lorem Ipsum</a></span>
 			<span class="b l p3"><!--  --></span>
 			<span class="b sprite add l"><!--  --></span>
 			<div class="c"><!--  --></div>
