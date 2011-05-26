@@ -1,5 +1,6 @@
+		<span class="b p5"><!--  --></span>
 		<div id="footer" class="b wrapper-holder">	
-			<span class="wrapper b p">
+			<div class="wrapper b p">
 				<span class="b l">
 					<h1 class="b">painel admnistrativo INFOCLAD</h1>
 					<ul class="b inline">
@@ -20,6 +21,6 @@
 				<span class="b r">
 					<img src="img/copyright.png"/>
 				</span>
-				<span class="c"><!--  --></span>
-			</span>
+				<div class="c"><!--  --></div>
+			</div>
 		</div>
