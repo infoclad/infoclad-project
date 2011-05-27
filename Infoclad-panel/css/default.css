@@ -309,8 +309,8 @@ select{
 	filter: alpha(opacity=90);
 	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
 	z-index:999; 
-	margin-left:-444px;
-	padding-left: 447px;
+	margin-left: -447px;
+	padding-left: 449px;
 	display:none;
 
 }
