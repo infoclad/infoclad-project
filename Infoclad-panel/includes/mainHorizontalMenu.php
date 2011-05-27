@@ -18,16 +18,16 @@
 						<a href="?page=produtos"><div class="b l mainLink">Gerenciar Produtos</div></a>
 						<ul class="subMainMenu inline">
 							<li><a href="?page=produtos">gerenciar produtos</a></li>
-							<li><a href="?page=cadastroProduto">adicionar novo produto</a></li>
-							<li><a href="?page=cadastroProduto">editar produto</a></li>
+							<li><a href="?page=cadastroProdutos">adicionar novo produto</a></li>
+							<li><a href="?page=cadastroProdutos">editar produto</a></li>
 						</ul>
 					</li>
 					<li class="aSub">
 						<a href="?page=categorias"><div class="b l mainLink">Gerenciar Categorias</div></a>
 						<ul class="subMainMenu inline">
 							<li><a href="?page=categorias">gerenciar categorias</a></li>
-							<li><a href="?page=cadastroCategoria">adicionar nova categoria</a></li>
-							<li><a href="?page=cadastroCategoria">editar categoria</a></li>
+							<li><a href="?page=cadastroCategorias">adicionar nova categoria</a></li>
+							<li><a href="?page=cadastroCategorias">editar categoria</a></li>
 						</ul>
 					</li>
 					<li class="aSub">
