@@ -109,7 +109,7 @@
 					<span class="b p5"><!--  --></span>
 					<span class="b">
 						<span id="statusSelect">
-							<span id="naoPago" class="status1 statusDesactivated sprite-y b l">
+							<span id="naoPago" class="status1 status1activated sprite-y b l">
 								<span class="statusContent">
 									<span class="b">Pedido não Pago</span>
 									<span class="b"><input type="radio"/></span>
