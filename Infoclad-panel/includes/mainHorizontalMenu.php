@@ -4,38 +4,38 @@
 		<div class="wrapper">
 			<ul class="inline">
 					<li>
-						<a href="#"><div class="b l mainLink">Relatório do Sistema</div></a>
+						<a href="?page=relatorio"><div class="b l mainLink">Relatório do Sistema</div></a>
 					</li>
 					<li class="aSub">
-						<a href="#"><div class="b l mainLink">Gerenciar Fornecedores</div></a>
+						<a href="?page=fornecedores"><div class="b l mainLink">Gerenciar Fornecedores</div></a>
 						<ul class="subMainMenu inline">
-							<li><a href="#">gerenciar fornecedores</a></li>
-							<li><a href="#">adicionar fornecedores</a></li>
-							<li><a href="#">editar fornecedor</a></li>
+							<li><a href="?page=fornecedores">gerenciar fornecedores</a></li>
+							<li><a href="?page=cadastroFornecedores">adicionar fornecedores</a></li>
+							<li><a href="?page=cadastroFornecedores">editar fornecedor</a></li>
 						</ul>
 					</li>
 					<li class="aSub">
-						<a href="#"><div class="b l mainLink">Gerenciar Produtos</div></a>
+						<a href="?page=produtos"><div class="b l mainLink">Gerenciar Produtos</div></a>
 						<ul class="subMainMenu inline">
-							<li><a href="#">gerenciar produtos</a></li>
-							<li><a href="#">adicionar novo produto</a></li>
-							<li><a href="#">editar produto</a></li>
+							<li><a href="?page=produtos">gerenciar produtos</a></li>
+							<li><a href="?page=cadastroProduto">adicionar novo produto</a></li>
+							<li><a href="?page=cadastroProduto">editar produto</a></li>
 						</ul>
 					</li>
 					<li class="aSub">
-						<a href="#"><div class="b l mainLink">Gerenciar Categorias</div></a>
+						<a href="?page=categorias"><div class="b l mainLink">Gerenciar Categorias</div></a>
 						<ul class="subMainMenu inline">
-							<li><a href="#">gerenciar categorias</a></li>
-							<li><a href="#">adicionar nova categoria</a></li>
-							<li><a href="#">editar categoria</a></li>
+							<li><a href="?page=categorias">gerenciar categorias</a></li>
+							<li><a href="?page=cadastroCategoria">adicionar nova categoria</a></li>
+							<li><a href="?page=cadastroCategoria">editar categoria</a></li>
 						</ul>
 					</li>
 					<li class="aSub">
-						<a href="#"><div class="b l mainLink">Gerenciar Pedidos</div></a>
+						<a href="?page=pedidos"><div class="b l mainLink">Gerenciar Pedidos</div></a>
 						<ul class="subMainMenu inline">
-							<li><a href="#">gerenciar pedidos</a></li>
-							<li><a href="#">adicionar novo pedido</a></li>
-							<li><a href="#">editar pedido</a></li>
+							<li><a href="?page=pedidos">gerenciar pedidos</a></li>
+							<li><a href="?page=pedidosDetalhes">adicionar novo pedido</a></li>
+							<li><a href="?page=pedidosDetalhes">editar pedido</a></li>
 						</ul>
 					</li>	
 					<div class="c"><!--  --></div>				
