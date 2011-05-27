@@ -86,10 +86,10 @@ button{cursor:pointer;}
 	height:20px;
 }
 .lupa{
-	background-position:-166px -8px;
-	height: 29px; 
+	background-position:-160px -10px;
+	height: 20px; 
 	width: 40px; 
-	margin-top: 5px;
+
 	background-color:#fff;
 }
 .orangeAdvice{
@@ -187,11 +187,11 @@ button{cursor:pointer;}
 	background-color:#f0f0f0;	
 }
 #searchBar table{
-	height: 29px;
+	height: auto;
 	margin-top: 5px;
 	}
 #searchBar table tr td{
-	height: 29px; 
+	height: auto; 
 	vertical-align:middle;
 	text-align:right;
 	padding:5px;
@@ -266,27 +266,32 @@ select{
 /* main menu */
 
 #mainMenu{
-	height:39px;
+	height:auto;
 	background-position:0px 0px;
 	color:#fff;
 }
 #mainMenu .inline{
-	padding-top:11px;
+	padding-top:0;
+	height:39px;
 }
-#mainMenu .inline li a.mainLink{
+#mainMenu .inline li .inline{
+	padding-top: 10px; 
+	height: 29px;
+}
+#mainMenu .inline li .mainLink{
 	width:auto;
-	height:40px;
+	height:13px;
 	vertical-align:middle;
 	border-right:1px #2e4169 solid;
 	padding:17px 15px 9px 15px;
 	margin-left:-3px;
 }
-#mainMenu .inline li a.mainLink:hover{
+#mainMenu .inline li .mainLink:hover{
 	cursor:pointer;
 	background:url("../img/sprites/sprite-x.png") 0px -39px repeat-x;
 	color:#ffff2c;
 }
-#mainMenu a.mainLink{
+#mainMenu .mainLink{
 	color:#fff;
 	font-size:11px;
 }
@@ -295,14 +300,13 @@ select{
 
 .subMainMenu{
 	position:absolute;
-	height: 28px;
+	margin-top:39px;
 	width: 100%;
 	background-color:#e8852d;
 	opacity: 0.9;
 	filter: alpha(opacity=90);
 	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
-	z-index:999;
-	margin-top: 9px;   
+	z-index:999; 
 	margin-left:-436px;
 	padding-left: 447px;
 	display:none;
@@ -317,7 +321,7 @@ select{
 .subMainMenu a:hover{
 	color:#fff;
 }
-li.aSub:hover .subMainMenu{
+.aSub:hover .subMainMenu{
 	display:block;
 }
 

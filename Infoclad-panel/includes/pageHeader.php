@@ -15,9 +15,9 @@
 	<span class="b p5"><!--  --></span>
 	<div id="searchBar" class="b">
 		<div class="wrapper">
-			<a href="#"><span class="b sprite lupa r"><!--  --></span></a>
+			
 			<table class="b r">
-				<tr><td><input type="text" value="Busca"/></td></tr>
+				<tr><td><input type="text" value="Busca"/></td><td><a href="#"><span class="b sprite lupa"><!--  --></span></a></td></tr>
 			</table>
 			<div class="c"><!--  --></div>
 		</div>
