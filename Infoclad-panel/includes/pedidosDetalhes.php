@@ -110,7 +110,7 @@
                     <span class="b">
                         <span id="statusSelect">
                             <label>
-                                <span id="naoPago" class="status1 status1activated sprite-y b l">
+                                <span id="naoPago" class="status1 status1activated sprite-y b l"onclick="set_NaoPago();">
                                     <span class="statusContent">
                                         <span class="b">Pedido não Pago</span>
                                         <span class="b"><input name="status" type="radio"/></span>
@@ -118,7 +118,7 @@
                                 </span>
                             </label>
                             <label>
-                                <span id="pago" class="status2 statusDesactivated b l sprite-y">
+                                <span id="pago" class="status2 statusDesactivated b l sprite-y" onclick="set_Pago();">
                                     <span class="statusContent">
                                         <span class="b">Pedido Pago</span>
                                         <span class="b"><input name="status" type="radio"/></span>
@@ -126,7 +126,7 @@
                                 </span>
                             </label>
                             <label>
-                                <span id="enviado" class="status3 statusDesactivated b l sprite-y">
+                                <span id="enviado" class="status3 statusDesactivated b l sprite-y" onclick="set_Enviado();">
                                     <span class="statusContent">
                                         <span class="b">Pedido Enviado</span>
                                         <span class="b"><input name="status" type="radio"/></span>
