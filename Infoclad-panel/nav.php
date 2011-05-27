@@ -4,4 +4,4 @@
 	<?php include("includes/pageHeader.php"); ?>
 	<span class="b p5"><!--  --></span>
 	
-	<?php include("includes/pedidosDetalhes.php"); ?>
+	<?php include("includes/categorias.php"); ?>

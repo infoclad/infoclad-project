@@ -57,13 +57,14 @@ button{cursor:pointer;}
 
 /* sprites */
 
-.sprite{background:url("../img/sprites/sprite.png") no-repeat;}
-.sprite-x{background:url("../img/sprites/sprite-x.png") repeat-x;}
-.sprite-y{background:url("../img/sprites/sprite-y.png") no-repeat;}
+.sprite{background:url("../img/sprites/sprite.gif") no-repeat;}
+.sprite-x{background:url("../img/sprites/sprite-x.gif") repeat-x;}
+.sprite-y{background:url("../img/sprites/sprite-y.gif") no-repeat;}
 .minha_conta{
 	background-position:-13px -12px;
 	min-width:20px;
 	height:20px;
+	
 	}
 .envelope{
 	background-position:-13px -53px;
@@ -174,6 +175,7 @@ button{cursor:pointer;}
 	height:18px;
 }
 #loggedAvatar img{width:18px;}
+
 
 /* pageHeader */
 
@@ -307,13 +309,13 @@ select{
 	filter: alpha(opacity=90);
 	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
 	z-index:999; 
-	margin-left:-436px;
+	margin-left:-444px;
 	padding-left: 447px;
 	display:none;
 
 }
 .subMainMenu li{
-	padding-right:30px;
+	padding-left:9px;
 }
 .subMainMenu a{
 	color:#ffff2c;

@@ -19,7 +19,7 @@
 					</ul>
 				</span>
 				<span class="b r">
-					<img src="img/copyright.png"/>
+					<img src="img/copyright.gif"/>
 				</span>
 				<div class="c"><!--  --></div>
 			</div>

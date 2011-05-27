@@ -3,7 +3,7 @@
 				<?php include("includes/switchTheme.php"); ?>
 				<div id="logo" class="b wrapper-holder">
 					<div class="wrapper p5">
-						<span class=b"><a href="index.php"><img src="img/logo.png"/></a></span>
+						<span class=b"><a href="index.php"><img src="img/logo.gif"/></a></span>
 					</div>
 				</div>
 				<?php include("includes/mainHorizontalMenu.php"); ?>
