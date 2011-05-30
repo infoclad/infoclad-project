@@ -41,48 +41,29 @@ Não pensava um espaço negócio, mas um espaço vivo.  Um espaço onde pudesse atend
             <div class="b l">
                 <div class="b"><h1 class="titulo-cat">notícias</h1></div>
                 <div class="b noticia-capsule">
-                    <h2 class="titulo-principal blt">Lorem ipsum et est tractatos reprehendunt. In mel omnes.</h2>
+                    <h2 class="titulo-principal blt">Segurança na educação.</h2>
                     <span class="b p5"><!-- --></span>
                     <p class="destaque-txt">
                         <img class="noticia-thumb l" src="img/noticia1.png">
-                        <a href="noticia.php#noticia">Lorem ipsum et est tractatos reprehendunt. In mel omnesque eligendi. Falli salutandi est ei. Dictas habemus mnesarchum vis no, laoreet conclusionemque nec cu.</a>
+                        <a href="noticia.php#noticia">O Colégio Dimitri Marques, em parceria com a empresa <A HREF="http://www.infoclad.com.br">INFOCLAD</a> está implementando no seu novo site, uma tecnologia para que os pais possam ver o dia-a-dia de seus filhos no colégio, por meio de oito câmeras localizadas em todo perímetro escolar, onde os responsáveis poderam ter acesso através da <a href="#">Secretaria Online.</a>
                     </p>
                     <div class="c"><!-- --></div>
-                    <p class="destaque-txt noticia-header">segunda-feira,21/02/2011 às 16:08</p>
+                    <p class="destaque-txt noticia-header">segunda-feira,30/05/2011 às 17:00</p>
                 </div>
-                <div class="b noticia-capsule">
-                    <h2 class="titulo-principal orgt">Lorem ipsum et est tractatos reprehendunt. In mel omnes.</h2>
-                    <span class="b p5"><!-- --></span>
-                    <p class="destaque-txt">
-                        <img class="noticia-thumb l" src="img/noticia1.png">
-                        <a href="noticia.php#noticia">Lorem ipsum et est tractatos reprehendunt. In mel omnesque eligendi. Falli salutandi est ei. Dictas habemus mnesarchum vis no, laoreet conclusionemque nec cu.</a>
-                    </p>
-                    <div class="c"><!-- --></div>
-                    <p class="destaque-txt noticia-header">segunda-feira,21/02/2011 às 16:08</p>
-                </div>
+
                 <div class="c"><!-- --></div>
             </div>
             <div class="b l">
                 <div class="b"><h1 class="titulo-cat">galeria multimídia</h1></div>
                 <div class="b noticia-capsule">
-                    <h2 class="titulo-principal blt"><span class="sprite multimidia-icon l"><!-- --></span> Lorem ipsum et est tractatos reprehendunt. In mel omnes.</h2>
+                    <h2 class="titulo-principal orgt"><span class="sprite multimidia-icon l"><!-- --></span> Lorem ipsum et est tractatos reprehendunt. In mel omnes.</h2>
                     <span class="b p5"><!-- --></span>
                     <p class="destaque-txt">
                         <img class="noticia-thumb l" src="img/noticia1.png">
                         <a href="noticia.php#noticia">Lorem ipsum et est tractatos reprehendunt. In mel omnesque eligendi. Falli salutandi est ei. Dictas habemus mnesarchum vis no, laoreet conclusionemque nec cu.</a>
                     </p>
                     <div class="c"><!-- --></div>
-                    <p class="destaque-txt noticia-header">segunda-feira,21/02/2011 às 16:08</p>
-                </div>
-                <div class="b noticia-capsule">
-                    <h2 class="titulo-principal orgt"><span class="sprite multimidia-icon l"><!-- --></span>Lorem ipsum et est tractatos reprehendunt. In mel omnes.</h2>
-                    <span class="b p5"><!-- --></span>
-                    <p class="destaque-txt">
-                        <img class="noticia-thumb l" src="img/noticia1.png">
-                        <a href="noticia.php#noticia">Lorem ipsum et est tractatos reprehendunt. In mel omnesque eligendi. Falli salutandi est ei. Dictas habemus mnesarchum vis no, laoreet conclusionemque nec cu.</a>
-                    </p>
-                    <div class="c"><!-- --></div>
-                    <p class="destaque-txt noticia-header">segunda-feira,21/02/2011 às 16:08</p>
+                    <p class="destaque-txt noticia-header">segunda-feira,30/05/2011 às 17:00</p>
                 </div>
                 <div class="c"><!-- --></div>
             </div>

@@ -242,13 +242,16 @@ input[type="text"].busca{
     padding-left: 10px;
 }
 .destaque-txt{
-    width:315px;
+    width:400px;
+	text-align:justify;
+	height:100px;
 }
 .destaque-txt-principal{
     width:600px;
 }
 h2.titulo-principal{
     font:bold 16px Arial, Helvetica, sans-serif;
+	height:40px;
 }
 h1.titulo-cat{
     font:normal 18px Arial, Helvetica, sans-serif;
@@ -301,7 +304,7 @@ h1.titulo-cat{
 .noticia-capsule{
     border-bottom:1px #666 dotted;
     width:400px;
-    height:auto;
+    min-height:140px;
     padding:0 0 30px 0;
     margin:0 30px 30px 0;
 }
@@ -311,7 +314,7 @@ h1.titulo-cat{
 .noticia-header{
     font:normal 11px Arial, Helvetica, sans-serif;
     color:#666;
-    padding:5px 0 0 0;
+	height:13px;
 }
 .cmm-box{
     padding:0 0 0 450px;
