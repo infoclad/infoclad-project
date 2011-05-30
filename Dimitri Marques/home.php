@@ -16,19 +16,12 @@
                     </span>
                 </div>
                 <div class="b">
-                    <span class="destaque-txt b l">
-                        <h2 class="titulo-principal blt">Lorem ipsum</h2>
-                        <p>Lorem ipsum et est tractatos reprehendunt. In mel omnesque 
-                            eligendi. Falli salutandi est ei. Dictas habemus mnesarchum vis no, laoreet conclusionemque nec cu. Te mel habemus temporibus, 
-                            vis veniam incorrupte at. Usu cu nostrud admodum interpretaris.</p>
+                    <span class="destaque-txt-principal b">
+                        <h2 class="b titulo-principal blt">O Colégio Dimitri Marques</h2>
+                        <p class="b"><a href="colegio.php">Há doze anos instigados pelo fazer da minha família de educadores e pelo meu ímpeto inquieto de empreendedor sonhador, arrisquei-me em criar um espaço de educação. 
+Não pensava um espaço negócio, mas um espaço vivo.  Um espaço onde pudesse atender as necessidades de uma comunidade escolar que busca qualidade duradoura na educação. 
+</a></p>
                     </span>
-                    <span class="destaque-txt b l">
-                        <h2 class="titulo-principal blt">Lorem ipsum</h2>
-                        <p>Lorem ipsum et est tractatos reprehendunt. In mel omnesque 
-                            eligendi. Falli salutandi est ei. Dictas habemus mnesarchum vis no, laoreet conclusionemque nec cu. Te mel habemus temporibus, 
-                            vis veniam incorrupte at. Usu cu nostrud admodum interpretaris.</p>
-                    </span>
-                    <div class="c"><!-- --></div>
                 </div>
             </div>
             <div class="b l">
