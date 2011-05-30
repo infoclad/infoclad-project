@@ -44,7 +44,7 @@ Não pensava um espaço negócio, mas um espaço vivo.  Um espaço onde pudesse atend
                     <h2 class="titulo-principal blt">Segurança na educação.</h2>
                     <span class="b p5"><!-- --></span>
                     <p class="destaque-txt">
-                        <img class="noticia-thumb l" src="img/noticia1.png">
+                        <a href="http://www.infoclad.com.br"><img class="noticia-thumb l" src="img/noticia1.png"></a>
                         <a href="noticia.php#noticia">O Colégio Dimitri Marques, em parceria com a empresa <A HREF="http://www.infoclad.com.br">INFOCLAD</a> está implementando no seu novo site, uma tecnologia para que os pais possam ver o dia-a-dia de seus filhos no colégio, por meio de oito câmeras localizadas em todo perímetro escolar, onde os responsáveis poderam ter acesso através da <a href="#">Secretaria Online.</a>
                     </p>
                     <div class="c"><!-- --></div>
