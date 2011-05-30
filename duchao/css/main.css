@@ -40,6 +40,7 @@ p{font:normal 11px Tahoma;}
 .minor{font-size:10px;}
 .maxSize{font-size:20px;}
 .sup{font-size:10px;}
+.disabled{display:none;visibility:hidden;}
 
 /* sprites */
 
@@ -139,7 +140,7 @@ p{font:normal 11px Tahoma;}
     padding:0 15px 0 15px;
 }
 #main-header-menu a{
-    font:normal 16px Arial Black;
+    font:normal 14px Arial Black;
     text-decoration:none;
     color:#d60006;
     text-transform:uppercase;
@@ -164,15 +165,11 @@ p{font:normal 11px Tahoma;}
     width:637px;
     height:303px;
 }
-.main-content-capa img{
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-}
+
 .main-content-search{
     display:block;
     float:right;
     width:380px;
-    height:303px;
     background-color:#000;
     -moz-border-radius: 5px;
     border-radius: 5px;
@@ -203,7 +200,7 @@ p{font:normal 11px Tahoma;}
 .innerbox-text{
     width:330px;
 }
-.content-holder{width:745px;padding:0 0 0 20px;}
+.content-holder{width:1024px;padding:0 0 0 20px;}
 .banner-titulo h2.titulos{font-weight:bold;color:#fff;text-transform:uppercase;padding:35px 0 0 5px;}
 .content-holder .b .b .b .b a{font:bold 11px Tahoma;color:#000;text-decoration:none;}
 .content-holder .b .b .b{padding:0 0 5px 0;}
@@ -217,7 +214,7 @@ p{font:normal 11px Tahoma;}
 /* paginacao */
 
 .paginacao li{display:inline;}
-.paginacao-footer{padding-left:325px;width:330px;text-align:center;font:normal 11px Tahoma;color:#f6be05;}
+.paginacao-footer{padding-left:325px;width:345px;text-align:center;font:normal 11px Tahoma;color:#f6be05;}
 .paginacao-footer a{font:normal 11px Tahoma;color:#106933;text-decoration:none;}
 .paginacao-footer ul li{display:inline;}
 a.copyright{color:#106933;font-weight:bold;}
@@ -231,7 +228,8 @@ a.copyright{color:#106933;font-weight:bold;}
 
 /* facebook app */
 
-.facebook-app1 iframe{border:none; width:360px; height:25px;margin:10px 0px;}
+.facebook-app1 iframe{border:none; width:360px; height:35px;padding-top:15px;}
+
 
 /* tags */
 
@@ -411,3 +409,4 @@ select.qt{
 .cart-item,.cart-item-pic img{border:1px #ccc solid;}
 .cart-item-desc{background-color:#fff;width: 500px; height: 130px;padding:5px;border:1px #ccc solid;}
 .usrNameCart{padding:0 0 5px 0;}
+.duchao-novidades{width: 350px; padding-left: 30px;}

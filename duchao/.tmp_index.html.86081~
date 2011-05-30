@@ -81,7 +81,7 @@
 
                 <div id="main-content-header" class="b">
                     <div class="main-content-capa" style="height: 257px;">
-                        <img src="img/duchao_capa3.png" alt="" style="height: 257px; width: 634px;" />
+                        <img src="img/duchao_capa.png" alt="" style="height: 257px; width: 634px;" />
                     </div>
 
                     <div class="main-content-search" style="height: 256px">
@@ -422,7 +422,7 @@
                     <div class="c"><!-- --></div>
                 </div>
                 <div id="main-content-content">
-                    <div id="destaques" class="b l disabled">
+                    <div id="destaques" class="b l">
                         <div id="destaque1" class="destaque-cap b">
                             <img class="hover" src="img/destaque1_hover.png">
                             <img src="img/destaque1.png">
@@ -443,20 +443,20 @@
                                 <div class="b p5">
                                     <div class="b l">
                                         <span class="sprite_duchao seta"><!-- --></span>
-                                        <span><a href="representantes.html">Representantes</a></span>
+                                        <span><a href="#">Lorem Ipsum</a></span>
                                         <div class="c"><!-- --></div>
                                     </div>
 
                                     <div class="b r">
                                         <span class="sprite_duchao seta"><!-- --></span>
-                                        <span><a href="catalogo.html">Clientes</a></span>
+                                        <span><a href="#">Lorem Ipsum</a></span>
                                         <div class="c"><!-- --></div>
                                     </div>
                                     <div class="c"><!-- --></div>
                                     <div class="b">
                                         <span class="sprite_duchao seta"><!-- --></span>
 
-                                        <span><a href="contato.html">Fornecedores</a></span>
+                                        <span><a href="#">Lorem Ipsum</a></span>
                                     </div>
                                 </div>
                             </div>
@@ -478,7 +478,8 @@
                                     <div class="c"><!-- --></div>
                                 </div>
                             </div>
-                            <div class="b l duchao-novidades">
+                            <div class="c"><!-- --></div>
+                            <div class="b l">
                                 <div class="b sprite_duchao banner-titulo">
                                     <h2 class="titulos">duchão novidades</h2>
 
@@ -510,7 +511,7 @@
                             <div id="propagandas-holder"  class="b r">
 
                                 <span class="b"><img src="img/propaganda1.png" alt="" /></span>
-                                <span class="b"><img src="img/propaganda2.png" alt="" /></span>					
+                                <span class="b"><img src="img/propaganda1.png" alt="" /></span>					
                             </div>
                             <div class="c"><!-- --></div>
                         </div>
@@ -545,7 +546,10 @@
             </div>
 
         </div>	
+        <div class="c"><!-- --></div>
 
-
+        <div class="b" id="copyright">
+            <a href="#">powered by Wesley Andrade</a> 
+        </div>
     </body>
 </html>
