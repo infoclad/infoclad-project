@@ -34,7 +34,7 @@
 					<div class="c"><!-- --></div>
 				</div>
 				<div id="main-header-content">
-					<div class="b logo-holder"><img id="logo" src="img/duchao_logo.gif"></div>
+					<div class="b logo-holder"><img id="logo" src="img/duchao_logo.png"></div>
 					<div id="main-header-menu" class="b">
 						<ul>
 							<li><a href="sobre.html" id="a-duchao">a duchão</a></li>
@@ -64,57 +64,21 @@
 							<ul>
 								<li><a href="#">Home</a></li>
 								<li>&#xBB;</li>
-								<li><a href="#" class="active-page">Representantes</a></li>
+								<li><a href="#" class="active-page">About</a></li>
 							</ul>
 						</div>
 					</div>
 					<div class="b">
 					<div class="b l coluna-esquerda">
-						<div class="b representante">
-							<h3>Lorem ipsum dolor sit amet.</h3>					
-							<h2>Lorem dolor - 1999 Sl. 2</h2>
-							<h2>Rio de Janeiro, RJ.</h2>
+						<div class="b">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet sollicitudin mi at ornare. Fusce tincidunt tincidunt velit vel consequat. Ut aliquet ante et eros aliquam non rutrum arcu viverra. Vivamus sollicitudin sagittis posuere. Pellentesque non nibh ac sapien condimentum ultrices sit amet sit amet purus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris nisi diam, fringilla quis convallis ac, luctus varius diam. Suspendisse non dolor velit, aliquet eleifend augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quam mi, fermentum ut sagittis at, rutrum vestibulum erat.
 						</div>
-						<div class="b representante">
-							<h3>Lorem ipsum dolor sit amet.</h3>					
-							<h2>Lorem dolor - 1999 Sl. 2</h2>
-							<h2>Rio de Janeiro, RJ.</h2>
+						<div class="b">
+							Vivamus odio eros, tincidunt eu pellentesque at, eleifend sit amet dolor. Fusce ac semper ante. Phasellus at neque sit amet nulla venenatis lobortis. Vestibulum ut sagittis mauris. Etiam posuere auctor blandit. Duis gravida auctor risus, ut ultricies odio interdum sit amet. Vestibulum convallis venenatis ipsum, et tempus libero placerat sit amet. Sed sed metus dolor. Ut sit amet turpis purus, ac dapibus sem. Mauris faucibus dui elit, sit amet iaculis urna. Praesent tellus nulla, suscipit ut imperdiet id, convallis quis nunc.
 						</div>
-						<div class="b representante">
-							<h3>Lorem ipsum dolor sit amet.</h3>					
-							<h2>Lorem dolor - 1999 Sl. 2</h2>
-							<h2>Rio de Janeiro, RJ.</h2>
+						<div class="b">
+							Donec luctus nibh nec augue ullamcorper ornare. Mauris vitae commodo metus. Aliquam eget odio ut metus pretium faucibus. Maecenas placerat vulputate quam consequat vestibulum. Aliquam eu nisi a erat tristique convallis. Aenean quis ante massa, id posuere nibh. Donec eu aliquet velit. Praesent nec eros vitae quam pulvinar tristique at a neque. Maecenas nibh tellus, aliquet eget volutpat sit amet, scelerisque non mauris. Donec fermentum ipsum vitae erat congue ut scelerisque ipsum porttitor. Ut nibh mauris, faucibus sit amet dignissim ac, fringilla pretium ligula. Integer molestie dapibus molestie. Vivamus felis augue, commodo sodales venenatis sed, auctor vel nunc. Nunc vel dui sed sapien eleifend condimentum imperdiet non leo. Quisque dolor eros, blandit ut consequat a, lacinia sit amet ipsum.
 						</div>
-						<div class="b representante">
-							<h3>Lorem ipsum dolor sit amet.</h3>					
-							<h2>Lorem dolor - 1999 Sl. 2</h2>
-							<h2>Rio de Janeiro, RJ.</h2>
-						</div>
-						<div class="b representante">
-							<h3>Lorem ipsum dolor sit amet.</h3>					
-							<h2>Lorem dolor - 1999 Sl. 2</h2>
-							<h2>Rio de Janeiro, RJ.</h2>
-						</div>
-						<div class="b representante">
-							<h3>Lorem ipsum dolor sit amet.</h3>					
-							<h2>Lorem dolor - 1999 Sl. 2</h2>
-							<h2>Rio de Janeiro, RJ.</h2>
-						</div>
-						<div class="b representante">
-							<h3>Lorem ipsum dolor sit amet.</h3>					
-							<h2>Lorem dolor - 1999 Sl. 2</h2>
-							<h2>Rio de Janeiro, RJ.</h2>
-						</div>
-									<div class="b">
-										<ul class="paginacao paginacao-headline">
-											<li><a href="#">1</a></li>
-											<li><a href="#">à</a></li>
-											<li><a href="#">5</a></li>
-											<li><span class="sprite_duchao seta"><a href="#">&nbsp;</a></span></li>
-											<li>|</li>
-											<li><a href="#">se torne um representante DUCHÃO +</a></li>
-										</ul>
-									</div>
 					</div>
 					<div class="b r">
 							<div class="b">

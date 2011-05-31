@@ -34,7 +34,7 @@
 					<div class="c"><!-- --></div>
 				</div>
 				<div id="main-header-content">
-					<div class="b logo-holder"><img id="logo" src="img/duchao_logo.gif"></div>
+					<div class="b logo-holder"><img id="logo" src="img/duchao_logo.png"></div>
 					<div id="main-header-menu" class="b">
 						<ul>
 							<li><a href="sobre.html" id="a-duchao">a duchão</a></li>
@@ -78,7 +78,7 @@
 						<div class="b catalogo-holder">
 							<div class="b l catalogo-capsule">
 								<div class="b produto">
-									<div class="b produto-img"><img src="img/catalogo/produto001.gif"/></div>
+									<div class="b produto-img"><img src="img/catalogo/produto001.png"/></div>
 									<div class="b preco-holder">
 										<span class="minor">apenas:</span>
 										<span>R$15,99</span>
@@ -90,7 +90,7 @@
 							</div>
 							<div class="b l catalogo-capsule">
 								<div class="b produto">
-									<div class="b produto-img"><img src="img/catalogo/produto001.gif"/></div>
+									<div class="b produto-img"><img src="img/catalogo/produto001.png"/></div>
 									<div class="b preco-holder">
 										<span class="minor">apenas:</span>
 										<span>R$15,99</span>
@@ -102,7 +102,7 @@
 							</div>
 							<div class="b l catalogo-capsule">
 								<div class="b produto">
-									<div class="b produto-img"><img src="img/catalogo/produto001.gif"/></div>
+									<div class="b produto-img"><img src="img/catalogo/produto001.png"/></div>
 									<div class="b preco-holder">
 										<span class="minor">apenas:</span>
 										<span>R$15,99</span>
@@ -114,7 +114,7 @@
 							</div>
 							<div class="b l catalogo-capsule">
 								<div class="b produto">
-									<div class="b produto-img"><img src="img/catalogo/produto001.gif"/></div>
+									<div class="b produto-img"><img src="img/catalogo/produto001.png"/></div>
 									<div class="b preco-holder">
 										<span class="minor">apenas:</span>
 										<span>R$15,99</span>
@@ -126,7 +126,7 @@
 							</div>
 							<div class="b l catalogo-capsule">
 								<div class="b produto">
-									<div class="b produto-img"><img src="img/catalogo/produto001.gif"/></div>
+									<div class="b produto-img"><img src="img/catalogo/produto001.png"/></div>
 									<div class="b preco-holder">
 										<span class="minor">apenas:</span>
 										<span>R$15,99</span>
@@ -138,7 +138,7 @@
 							</div>
 							<div class="b l catalogo-capsule">
 								<div class="b produto">
-									<div class="b produto-img"><img src="img/catalogo/produto001.gif"/></div>
+									<div class="b produto-img"><img src="img/catalogo/produto001.png"/></div>
 									<div class="b preco-holder">
 										<span class="minor">apenas:</span>
 										<span>R$15,99</span>
@@ -150,7 +150,7 @@
 							</div>
 							<div class="b l catalogo-capsule">
 								<div class="b produto">
-									<div class="b produto-img"><img src="img/catalogo/produto001.gif"/></div>
+									<div class="b produto-img"><img src="img/catalogo/produto001.png"/></div>
 									<div class="b preco-holder">
 										<span class="minor">apenas:</span>
 										<span>R$15,99</span>
@@ -162,7 +162,7 @@
 							</div>
 							<div class="b l catalogo-capsule">
 								<div class="b produto">
-									<div class="b produto-img"><img src="img/catalogo/produto001.gif"/></div>
+									<div class="b produto-img"><img src="img/catalogo/produto001.png"/></div>
 									<div class="b preco-holder">
 										<span class="minor">apenas:</span>
 										<span>R$15,99</span>
@@ -234,10 +234,10 @@
 				</div>
 				<div class="b paginacao-footer">
 					<ul>
-						<li><a href="#"><img src="img/castrol_logo.gif"></a></li>
-						<li><a href="#"><img src="img/lubrax_logo.gif"></a></li>
-						<li><a href="#"><img src="img/petrobras_logo.gif"></a></li>
-						<li><a href="#"><img src="img/shell_logo.gif"></a></li>
+						<li><a href="#"><img src="img/castrol_logo.png"></a></li>
+						<li><a href="#"><img src="img/lubrax_logo.png"></a></li>
+						<li><a href="#"><img src="img/petrobras_logo.png"></a></li>
+						<li><a href="#"><img src="img/shell_logo.png"></a></li>
 					</ul>
 				</div>
 			</div>

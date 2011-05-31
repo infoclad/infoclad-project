@@ -34,7 +34,7 @@
 					<div class="c"><!-- --></div>
 				</div>
 				<div id="main-header-content">
-					<div class="b logo-holder"><img id="logo" src="img/duchao_logo.gif"></div>
+					<div class="b logo-holder"><img id="logo" src="img/duchao_logo.png"></div>
 					<div id="main-header-menu" class="b">
 						<ul>
 							<li><a href="sobre.html" id="a-duchao">a duchão</a></li>
@@ -64,23 +64,18 @@
 							<ul>
 								<li><a href="#">Home</a></li>
 								<li>&#xBB;</li>
-								<li><a href="#" class="active-page">Fale conosco</a></li>
+								<li><a href="#" class="active-page">Login</a></li>
 							</ul>
 						</div>
 					</div>
 					<div class="b">
 						<div class="b l coluna-esquerda">
-								<div class="b"><h1 class="maxSize">Fale conosco</h1><h2>Dúvidas ou sugestoes? Contate-nos.</h2></div>
+								<div class="b"><h1 class="maxSize">Área Restrita</h1><h2>Faça o login para acessar a área restrita. ou <u><a href="#">cadastre-se</a></u>.</h2></div>
 								<div class="b">
 
 		<table class="b  form-box">
-			<tr><td colspan="2"><h1>Dados Pessoais</h1></td></tr>
-			<tr><td>Nome/Razão Social</td><td><input type="text"></td></tr>
-			<tr><td>E-mail</td><td><input type="text"></td></tr>
-			<tr><td>Telefone</td><td>(<input class="ddd" type="text">)<input class="tel" type="text"></td></tr>
-			<tr><td>&nbsp;</td><td>(<input class="ddd" type="text">)<input class="tel" type="text"></td></tr>
-			<tr><td>Assunto</td><td><input type="text"></td></tr>
-			<tr><td>Mensagem<br/> atuação na área(*)</td><td><textarea></textarea></td></tr>
+			<tr><td>Login</td><td><input type="text"></td></tr>
+			<tr><td>Senha</td><td><input type="password"></td></tr>
 			<tr><td>&nbsp;</td><td><button id="encomenda-fisica" class="sprite_duchao ok l" type="button"></td></tr>
 		</table>
 
@@ -139,10 +134,10 @@
 				</div>
 				<div class="b paginacao-footer">
 					<ul>
-						<li><a href="#"><img src="img/castrol_logo.gif"></a></li>
-						<li><a href="#"><img src="img/lubrax_logo.gif"></a></li>
-						<li><a href="#"><img src="img/petrobras_logo.gif"></a></li>
-						<li><a href="#"><img src="img/shell_logo.gif"></a></li>
+						<li><a href="#"><img src="img/castrol_logo.png"></a></li>
+						<li><a href="#"><img src="img/lubrax_logo.png"></a></li>
+						<li><a href="#"><img src="img/petrobras_logo.png"></a></li>
+						<li><a href="#"><img src="img/shell_logo.png"></a></li>
 					</ul>
 				</div>
 			</div>

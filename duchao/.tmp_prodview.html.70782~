@@ -34,7 +34,7 @@
 					<div class="c"><!-- --></div>
 				</div>
 				<div id="main-header-content">
-					<div class="b logo-holder"><img id="logo" src="img/duchao_logo.gif"></div>
+					<div class="b logo-holder"><img id="logo" src="img/duchao_logo.png"></div>
 					<div id="main-header-menu" class="b">
 						<ul>
 							<li><a href="sobre.html" id="a-duchao">a duchão</a></li>
@@ -64,35 +64,67 @@
 							<ul>
 								<li><a href="#">Home</a></li>
 								<li>&#xBB;</li>
-								<li><a href="#" class="active-page">Fale conosco</a></li>
+								<li><a href="#" class="active-page">Catálogo de produtos</a></li>
 							</ul>
 						</div>
 					</div>
 					<div class="b">
-						<div class="b l coluna-esquerda">
-								<div class="b"><h1 class="maxSize">Fale conosco</h1><h2>Dúvidas ou sugestoes? Contate-nos.</h2></div>
-								<div class="b">
-
-		<table class="b  form-box">
-			<tr><td colspan="2"><h1>Dados Pessoais</h1></td></tr>
-			<tr><td>Nome/Razão Social</td><td><input type="text"></td></tr>
-			<tr><td>E-mail</td><td><input type="text"></td></tr>
-			<tr><td>Telefone</td><td>(<input class="ddd" type="text">)<input class="tel" type="text"></td></tr>
-			<tr><td>&nbsp;</td><td>(<input class="ddd" type="text">)<input class="tel" type="text"></td></tr>
-			<tr><td>Assunto</td><td><input type="text"></td></tr>
-			<tr><td>Mensagem<br/> atuação na área(*)</td><td><textarea></textarea></td></tr>
-			<tr><td>&nbsp;</td><td><button id="encomenda-fisica" class="sprite_duchao ok l" type="button"></td></tr>
-		</table>
-
-		<div class="c"><!-- --></div>
-								</div>
+					<div class="b l coluna-esquerda">
+						<div class="b">
+							<table class="catalogo-busca">
+								<tr><td>Buscar pelo nome:</td><td><input type="text"/></td><td>Por fabricante:</td><td><select><option>Lubrax</option></select></td><td>Por categoria:</td><td><select><option>Motor</option></select></td><td><button class="sprite_duchao buscar" type="button"></button></td></tr>
+							</table>
 						</div>
+						<div class="b prodview-holder">
+							<div class="b"><h1 class="maxSize">Lubrificante Lubrax LS</h1><h2>COD#RJ456897858BR</h2></div>
+							<div class="b">
+								<div class="b l">
+									<div class="b prodMax"><img src="img/catalogo/prod001Max.gif"/></div>
+									<div class="b prodGal">
+										<div class="b l miniGalPic"><img src="img/catalogo/prod001Max.gif"/></div>
+										<div class="b l miniGalPic"><img src="img/catalogo/prod001Max.gif"/></div>
+										<div class="c"><!-- --></div>
+									</div>
+								</div>
+								<div class="b r descricao">
+									<div class="b">
+										<div class="b"><h1>Descrição:</h1></div>
+										<div class="b"><p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis eget est erat. Donec ut nunc vitae libero lobortis egestas id id elit. Vestibulum sed ultrices neque. Sed orci metus, semper nec suscipit ut, lacinia eu orci. Sed neque sem, aliquet sit amet laoreet ac, mollis eget urna. Sed vitae tellus in tellus molestie posuere id eget mi. Pellentesque varius ornare urna, vitae eleifend mi vulputate eu. Nunc ut euismod elit. Etiam vestibulum quam eu nunc pharetra vel auctor elit placerat. Fusce quam lacus, tincidunt ac dictum non, dictum vel orci. </p></div>
+									</div>
+									<div class="b">
+										<h1>preço total:</h1>
+										<sup>R$</sup><span class="maxSize">15,99</span>
+									</div>
+									<div class="b">
+										<div class="b"><h1>Escolha a quantidade:</h1></div>
+										<div class="b"><select class="qt"><option>0</option></select></div>
+									</div>
+									<div class="b">
+										<div class="b"><h1>Envie uma pergunta: *opcional</h1></div>
+										<div class="b"><textarea class="question"></textarea></div>
+										<div class="b">
+											<button class="l sprite_duchao ok"></button>
+											<button class="r sprite_duchao comprar"></button>
+											<div class="c"><!-- --></div>
+										</div>
+									</div>
+								</div>
+								<div class="c"><!-- --></div>
+							</div>					
+									<div class="b">
+										<ul class="paginacao paginacao-headline">
+											<li><a href="#">voltar</a></li>
+											<li><span class="sprite_duchao seta"><a href="#">&nbsp;</a></span></li>
+
+										</ul>
+									</div>
+						</div>
+					</div>
 					<div class="b r">
 							<div class="b">
 								<div class="b sprite_duchao banner-titulo">
 									<h2 class="titulos">duchão categorias</h2>
 								</div>
-
 								<div id="noticias-holder" class="b p5">
 									<div class="b">
 										<span class="sprite_duchao seta"><!-- --></span>
@@ -104,7 +136,6 @@
 										<span><a href="#">Correias</a></span> 
 									<div class="c"><!-- --></div>	
 									</div>
-
 									<div class="b">
 										<span class="sprite_duchao seta"><!-- --></span>
 										<span><a href="#">Motor</a></span> 
@@ -115,7 +146,6 @@
 										<span><a href="#">Lorem Lipsum</a></span> 
 									<div class="c"><!-- --></div>	
 									</div>
-
 								</div>
 							</div>
 					</div>

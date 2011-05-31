@@ -290,7 +290,7 @@ select{
 }
 #mainMenu .inline li .mainLink:hover{
     cursor:pointer;
-    background:url("../img/sprites/sprite-x.png") 0px -39px repeat-x;
+    background:url("../img/sprites/sprite-x.gif") 0px -39px repeat-x;
     color:#ffff2c;
 }
 #mainMenu .mainLink{

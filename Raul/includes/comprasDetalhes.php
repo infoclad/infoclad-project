@@ -9,10 +9,10 @@
         </span>
         <span class="b">
             <span id="galeria" class="b l">
-                <span id="galeriaMaxPic" class="b"><img src="img/produtos/standardPic.png"/></span>
+                <span id="galeriaMaxPic" class="b"><img src="img/produtos/standardPic.gif"/></span>
                 <span class="b p"><!--  --></span>
                 <span id="galeriaPicRow">
-                    <span class="b l rowPic"><a href="#"><img src="img/produtos/standardPic.png"/></a></span>
+                    <span class="b l rowPic"><a href="#"><img src="img/produtos/standardPic.gif"/></a></span>
                     <div class="c"><!--  --></div>
                 </span>
             </span>

@@ -45,7 +45,7 @@ p{font:normal 11px Tahoma;}
 /* sprites */
 
 .sprite_duchao{
-    background:url(../img/sprite_duchao.png) 0px 0px no-repeat;
+    background:url(../img/sprite_duchao.gif) 0px 0px no-repeat;
 }
 .marcador-menu{
     background-position:-18px -27px;
@@ -163,7 +163,7 @@ p{font:normal 11px Tahoma;}
     display:block;
     float:left;
     width:637px;
-    height:303px;
+    height:257px;
 }
 
 .main-content-search{
@@ -356,7 +356,7 @@ table.catalogo-busca select{
 .catalogo-capsule .produto{
     width:120px;
     height:130px;
-    background:url("../img/catalogo/catalogo-produto-fundo.png") no-repeat;
+    background:url("../img/catalogo/catalogo-produto-fundo.gif") no-repeat;
     padding-left:10px;
 }
 .catalogo-capsule .nome-produto{
@@ -381,7 +381,7 @@ table.catalogo-busca select{
     height:50px;
     margin-top:-5px;
     margin-left: -6px; 
-    background:url("../img/degrade.png") 0px 20px repeat-x; 
+    background:url("../img/degrade.gif") 0px 20px repeat-x; 
     padding-left: 3px;
     color:#666;
     cursor:pointer;
@@ -410,3 +410,5 @@ select.qt{
 .cart-item-desc{background-color:#fff;width: 500px; height: 130px;padding:5px;border:1px #ccc solid;}
 .usrNameCart{padding:0 0 5px 0;}
 .duchao-novidades{width: 350px; padding-left: 30px;}
+
+
