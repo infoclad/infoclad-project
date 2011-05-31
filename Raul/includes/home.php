@@ -20,7 +20,10 @@
 							<span class="b"><h1>Apenas:</h1></span>
 							<span class="b"><h1 class="preco">R$37,90</h1></span>
 							<span class="b p"><!--  --></span>
-							<span class="b"><h1>desconto de 50%</h1></span>
+							<span class="b"><h1 class="oferta">desconto de <span class="maxSize">50%</span></h1></span>
+							<span class="b p5"><!--  --></span>
+							<span class="b p5"><!--  --></span>
+							<span class="b oferta"><a class="bannerComprar" href="#">Comprar</a></span>
 						</div>
 						<div class="c"><!--  --></div>
 					</div>

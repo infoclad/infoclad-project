@@ -205,7 +205,7 @@ button{cursor:pointer;border:0;}
 #banner{
 	width:897px;
 	height:279px;
-	background:url("../img/banner.gif") no-repeat;
+	background:url("../img/banner.gif") #d8dfe3 no-repeat;
 	z-index:1;
 }
 #bannerInfo{
@@ -241,7 +241,7 @@ button{cursor:pointer;border:0;}
 }
 #bannerProductInfo{
 	height: 270px; 
-	width: 160px;
+	width: 155px;
 	padding-right: 15px; 
 	font:bold 11px Verdana, Geneva, Arial, Helvetica, sans-serif;
 }
@@ -287,7 +287,16 @@ button{cursor:pointer;border:0;}
 	padding-bottom:30px;
 }
 #bannerProductInfo .oferta{text-align:center;}
-#bannerProductInfo .preco{color:#f0ff00;font:normal 35px "Arial Black";}
+#bannerProductInfo .preco{
+	color:#f0ff00;
+	font:normal 35px "Arial Black";
+	}
+.bannerComprar{
+	color:#fff;
+	font:normal 18px "Arial Black";
+	letter-spacing:2px;
+	}
+
 /* pageHeader */
 
 #pageHeader,#pageHeader a{color:#666;}
