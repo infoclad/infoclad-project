@@ -344,8 +344,8 @@ table.listagem tr.post{
     color:#666;
 }
 table.boletim{
-	width:100%;
-	color:#666;
+    width:100%;
+    color:#666;
 }
 
 
@@ -361,8 +361,8 @@ table.listagem tr td.space{
     width:139px;
 }
 .boletim{
-	width:100%;
-	color:#666;
+    width:100%;
+    color:#666;
 }
 table.boletim tr.titulo td{text-align:center;width:1024px;vertical-align:middle;}
 table.boletim tr.titulo td.left{text-align:left;}
@@ -373,7 +373,7 @@ td.color2{background-color:#374f7d;color:#fff;border-bottom:1px #fff solid;borde
 /* cameras */
 
 .cameras{width:320px;}
- 
+
 /* galeria */
 
 #galeria{

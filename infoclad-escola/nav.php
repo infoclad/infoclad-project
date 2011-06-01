@@ -1,3 +1,5 @@
+<div id="main-content">
+
 <span class="b p5"><!--  --></span>
 <?php include("includes/breadcrumb.php"); ?>
 <span class="b p5"><!--  --></span>
@@ -14,4 +16,6 @@ if (file_exists("includes/{$page}.php") == true) {
     include('includes/mural.php');
 }
 ?>
+</div>
+
 </div>
