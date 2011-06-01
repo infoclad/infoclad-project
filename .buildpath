@@ -3,4 +3,5 @@
 	<buildpathentry kind="src" path="Default"/>
 	<buildpathentry kind="src" path="Infoclad-panel"/>
 	<buildpathentry kind="con" path="org.eclipse.php.core.LANGUAGE"/>
+	<buildpathentry kind="src" path="infoclad-escola"/>
 </buildpath>
