@@ -4,9 +4,11 @@
 		<?php include("head.php"); ?>
 	</head>
 	<body onload="letra();">
-		<div id="wrapper">
-			<?php include("header.php"); ?>
-			<?php include("home.php"); ?>
+		<?php include("header.php"); ?>
+		<div id="navigationHolder" class="b wrapper-holder">
+			<div class="wrapper">
+				<?php include("nav.php"); ?>
+			</div>
 		</div>
 		<?php include("footer.php");?>
 	</body>

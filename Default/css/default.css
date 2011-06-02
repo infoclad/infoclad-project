@@ -12,30 +12,52 @@
     padding:0px;
 }
 htm,body{
-	margin:0px auto;
-	text-align:center;
-	font:11px Verdana, Geneva, Arial, Helvetica, sans-serif;
-	overflow-x:hidden;
-	}
-#wrapper{
-	margin:0 0;
-	text-align:left;
-	width:1024px;
-	height: auto;
+    margin:0px auto;
+    text-align:center;
+    overflow-x:hidden;
+    font:12px Verdana, Geneva, Arial, Helvetica, sans-serif;
+    height:100%;
+	background:url(../img/bg.gif) #dce0e0 no-repeat;
+}
+.wrapper-holder{
+    width:100%;
+    height: auto;
+}
+.wrapper{
+    width:1024px;
+    margin:0px auto;
+    text-align:left;
 }
 a{text-decoration:none;}
-button{cursor:pointer;}
-.inline li{display:inline;padding:0 5px 0 0;}
+button{cursor:pointer;border:0;}
+.inline li{display:inline;padding-bottom:5px;}
 .b{display:block;}
 .c{clear:both;}
 .l{float:left;}
 .r{float:right;}
 .p{padding:20px;}
+.p3{padding:3px;}
 .p5{padding:5px;}
+.disabled{display:none;}
+
+/* text */
+
+.bolder{font-weight:bold;}
+.whiteText{color:#fff;}
+.redText{color:#f24444;}
+.orangeText{color:#f78b15;}
+.maxSize{font-size:18px;}
+.tinySize{font-size:10px;}
+.grayText{color:#666;}
 
 /* sprites */
 
-.sprite{background:url("../img/sprite.png") no-repeat;}
+.sprite{background:url("../img/sprites/sprite.gif") no-repeat;}
+.sprite-x{background:url("../img/sprites/sprite-x.gif") repeat-x;}
+.sprite-y{
+	background:url("../img/sprites/sprite-y.gif") no-repeat;
+	width:28px;
+}
 
 /* corpo */
 
@@ -45,7 +67,7 @@ button{cursor:pointer;}
 	padding:0 0 0 0;
 	}
 #main-content{
-	width:100% !important;
+	width:auto !important;
 	height:auto !important;
 	padding:0 0 0 0;
 }
@@ -60,10 +82,10 @@ iframe.facebook{
 
 /* breadcrumb */
 
-#breadcrumbs{
-	width:100%;
-	height:auto;
-	}
+#breadcrumb{
+	padding-top:10px;
+}
+#breadcrumb,#breadcrumb a{color:#666;}
 	
 /* paginacao */ 
 
@@ -82,19 +104,11 @@ iframe.facebook{
 
 /* footer */
 
-#footer-holder{
-	background-color:#0189c7;
-	min-width:1400px;
-	max-width:100%;
-	overflow:hidden;
-	height:auto;
-}
 #footer{
 	min-height:120px;
-	padding:20px 0 0 30px;
+	padding:0;
 	text-align:left;
-	color:#fff;
-
+	color:#000;
 }
 
 
