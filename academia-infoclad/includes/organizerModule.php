@@ -1,6 +1,6 @@
 <!-- organizer module -->
 <span id="organizerModule" class="b">
-    <span class="r">
+    <span class="b r">
         <span class="b l">
             <span class="b l sprite grayArrow"><!--  --></span>
             <span class="b l"><a href="#">Organizar por nome</a></span>

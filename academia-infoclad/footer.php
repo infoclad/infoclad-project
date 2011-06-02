@@ -1,26 +1,36 @@
 <span class="b p5"><!--  --></span>
 <div id="footer" class="b wrapper-holder">	
-    <div class="wrapper b p">
-        <span class="b l">
-            <h1 class="b">painel admnistrativo INFOCLAD</h1>
-            <ul class="b inline">
-                <li><a href="#">ajuda</a></li>
-                <li>::</li>
-                <li><a href="#">suporte online</a></li>
-                <li>::</li>
-                <li><a href="#">resumo do sistema</a></li>
-                <li>::</li>
-                <li><a href="#">gerenciar fornecedores</a></li>
-                <li>::</li>
-                <li><a href="#">gerenciar categorias</a></li>
-                <li>::</li>
-                <li><a href="#">gerenciar pedidos</a></li>
-                <li>::</li>
-            </ul>
-        </span>
-        <span class="b r">
-            <img src="img/copyright.gif"/>
-        </span>
-        <div class="c"><!--  --></div>
-    </div>
+	<div id="footerHeader" class="b">
+		<div class="wrapper">
+			<div class="b l">
+				<ul class="inline">
+					<li><a href="#">A Academia</a></li>
+					<li>::</li>
+					<li><a href="#">Nossos cursos</a></li>
+					<li>::</li>
+					<li><a href="#">Fale conosco</a></li>
+					<li>::</li>
+					<li><a href="#">Matricule-se</a></li>
+				</ul>
+			</div>
+			<div class="b r">
+				<span class="b l">
+					<a href="#"><span class="sprite-y b  facebook"><!--  --></span></a>
+				</span>
+				<span class="b l p3"><!--  --></span>
+				<span class="b l">
+					<a href="#"><span class="sprite-y b  twitter"><!--  --></span></a>
+				</span>
+			</div>
+			<div class="c"><!--  --></div>
+			<span class="b p5"><!--  --></span>
+			<div class="b">
+				<p>
+					Academia de Cursos e Especializações INFOCLAD © 2011 Todos os direitos reservados.</br>
+					Estr. Rio São Paulo,n°283 sala 101 - Campo Grande - Rio de Janeiro - RJ, 23087-005</br>
+					TEL (021) 3248-3248 <a class="bolder" href="mailto:contato@academiainfoclad.com.br">contato@academiainfoclad.com.br</a> 
+				</p>
+			</div>
+		</div>
+	</div>
 </div>

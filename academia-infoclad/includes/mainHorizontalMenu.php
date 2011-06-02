@@ -7,20 +7,7 @@
                     <a href="?page=academia"><div class="b l mainLink">A Academia</div></a>
                 </li>
                 <li class="aSub">
-                    <a href="?page=infoclad"><div class="b l mainLink">Conheça a infoclad</div></a>
-                    <ul class="subMainMenu inline">
-                        <li><a href="?page=fornecedores">gerenciar fornecedores</a></li>
-                        <li><a href="?page=cadastroFornecedores">adicionar fornecedores</a></li>
-                        <li><a href="?page=cadastroFornecedores">editar fornecedor</a></li>
-                    </ul>
-                </li>
-                <li class="aSub">
                     <a href="?page=instalacao"><div class="b l mainLink">Nossas instalações</div></a>
-                    <ul class="subMainMenu inline">
-                        <li><a href="?page=produtos">gerenciar produtos</a></li>
-                        <li><a href="?page=cadastroProdutos">adicionar novo produto</a></li>
-                        <li><a href="?page=cadastroProdutos">editar produto</a></li>
-                    </ul>
                 </li>
                 <li class="aSub">
                     <a href="?page=cursos"><div class="b l mainLink">Nossos cursos</div></a>
@@ -31,7 +18,7 @@
                     </ul>
                 </li>
                 <li class="aSub">
-                    <a href="?page=cadastro"><div class="b l mainLink">Cadastre-se</div></a>
+                    <a href="?page=grade"><div class="b l mainLink">Grade de horários</div></a>
                     <ul class="subMainMenu inline">
                         <li><a href="?page=pedidos">gerenciar pedidos</a></li>
                         <li><a href="?page=pedidosDetalhes">adicionar novo pedido</a></li>
@@ -39,12 +26,7 @@
                     </ul>
                 </li>	
                 <li class="aSub">
-                    <a href="?page=grade"><div class="b l mainLink">Grade de horários</div></a>
-                    <ul class="subMainMenu inline">
-                        <li><a href="?page=pedidos">gerenciar pedidos</a></li>
-                        <li><a href="?page=pedidosDetalhes">adicionar novo pedido</a></li>
-                        <li><a href="?page=pedidosDetalhes">editar pedido</a></li>
-                    </ul>
+                    <a href="?page=cadastro"><div class="b l mainLink">Cadastre-se</div></a>
                 </li>	
                 <li>
                     <a href="?page=aluno"><div class="b l mainLink">Área do aluno</div></a>

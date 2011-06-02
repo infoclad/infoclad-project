@@ -27,7 +27,7 @@ html a,body a{
     height: auto;
 }
 .wrapper{
-    width:1024px;
+    width:960px;
     margin:0px auto;
     text-align:left;
 }
@@ -50,6 +50,7 @@ button{cursor:pointer;border:0;}
 .whiteText{color:#fff;}
 .redText{color:#f24444;}
 .orangeText{color:#f78b15;}
+.blueText{color:#106abd;}
 .maxSize{font-size:18px;}
 .subTitle{
     font-size:16px;
@@ -58,12 +59,20 @@ button{cursor:pointer;border:0;}
 }
 .tinySize{font-size:10px;}
 .grayText{color:#666;}
+.minParagraph{
+	width:50%;
+}
 
 /* sprites */
 
 .sprite{background:url("../img/sprites/sprite.gif") no-repeat;}
 .sprite-x{background:url("../img/sprites/sprite-x.gif") repeat-x;}
 .sprite-y{background:url("../img/sprites/sprite-y.gif") no-repeat;}
+.premios{
+	background:url("../img/sprites/premios.gif") no-repeat;
+	width:183px;
+	height:155px;
+	}
 .minha_conta{
     background-position:-13px -12px;
     min-width:20px;
@@ -157,6 +166,26 @@ button{cursor:pointer;border:0;}
     min-width:20px;
     height:20px;	
 }
+.facebook,.twitter,.rss,.vimeo,.youtube,.wp{
+	width:28px;
+	height:25px;
+}
+.twitter{background-position:-0 -25px;}
+.rss{background-position:-0 -127px;}
+.vimeo{background-position:-0 -77px;}
+.youtube{background-position:-0 -102px;}
+.wp{background-position:-0 -51px;}
+.emprebras{background-position:-0 -0;}
+.topbus{background-position:-0 -165px;}
+.topqua{background-position:-0 -320px;}
+.goldint{background-position:-0 -475px;}
+.meritoempresarial{background-position:-0 -640px;}
+.topempreendedor{background-position:-0 -800px;}
+.topint{background-position:-0 -955px;}
+.brasqual{background-position:-0 -1115px;}
+.ruybar{background-position:-0 -1280px;}
+.americalat{background-position:-0 -1440px;}
+
 
 /* corpo */
 
@@ -178,7 +207,24 @@ button{cursor:pointer;border:0;}
     height:18px;
 }
 #loggedAvatar img{width:18px;}
-
+#navigation-holder{
+	min-height:768px;
+}
+.atendimento{
+	width:65%;
+	margin:0px auto;
+}
+.premiosHolder .premios{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	cursor:pointer;
+}
+.premiosHolder a:hover .premios{
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}
 /* logo */
 
 #logo{
@@ -201,8 +247,8 @@ button{cursor:pointer;border:0;}
     color:#666;
 	background-color:#fff;
 	padding:2px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
 	border:1px #ccc solid;
 }
 #searchBar input[type="text"]:focus{
@@ -214,6 +260,43 @@ button{cursor:pointer;border:0;}
 	max-height:19px;
 }
 
+/* banner */
+
+.adbanner{
+	width:960px;
+	height:255px;
+}
+#imageContainer {
+	position:relative;
+	margin:auto;
+	width:960px;
+	height:255px;
+
+}
+#imageContainer img {
+	display:none;
+	position:absolute;
+	top:0; left:0;
+	width:960px;
+	height:255px;
+}
+.banner-holder{
+	border-top:5px #eaebeb solid;
+	border-bottom:5px #eaebeb solid;
+}
+.navbanner{
+	border-top:5px #eaebeb solid;
+	border-bottom:5px #eaebeb solid;
+	height:110px;
+}
+.navbanner #imageContainer{
+	height:110px;
+	overflow:hidden;
+}
+.navbanner #imageContainer img {
+	width:100%;
+	height:110px;
+}
 
 /* login */
 
@@ -280,6 +363,7 @@ select{
     height:auto;
     background-position:0px 0px;
     color:#fff;
+	
 }
 #mainMenu .inline{
     padding-top:0;
@@ -318,8 +402,8 @@ select{
     filter: alpha(opacity=90);
     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
     z-index:999; 
-    margin-left: -447px;
-    padding-left: 449px;
+    margin-left: -480px;
+    padding-left: 480px;
     display:none;
 
 }
@@ -543,7 +627,7 @@ iframe.facebook{
     bottom:0;
     min-height:90px;
     text-align:left;
-    background-color:#f1f1f1;
+    background-color:#eaebeb;
     color:#666;
     font-size:11px;
 }
@@ -554,7 +638,90 @@ iframe.facebook{
 #footer a{
     color:#666;
 }
+#footerHeader{
+	background:url("../img/footer.gif") #eaebeb no-repeat;
+	height:40px;
+}
+#footerHeader .wrapper{
+	padding-top:13px;
+}
 
+/* tab */
 
+.tab-holder{
+	min-height:250px;
+	padding-left:8px;
+	max-width:405px;
+}
+#tab-container-1 {
+    margin-top: 12px;
+	width:402px;
+}
+#tab-container-1-nav{
+	height:18px;
+	padding-top:1px;
+}
+#tab-container-1-nav .navTab {
+    display: inline;
+    position: relative;
+    z-index: 2;
+	width:102px;
+	text-align:center;
+    text-decoration: none;
+	font:bold 12px Arial, Helvetica, sans-serif;
+	background:url("../img/tab.gif") no-repeat;
+	height:15px;
+	padding-top:3px;
+}
+#tab-container-1-nav .navTab a{
+	color:#ccc;
+}
+#tab-container-1-nav .navTab:hover{
+	background:url("../img/tabHover.gif") no-repeat;
+	border-bottom:1px #ebf3f3 solid;
+}
+#tab-container-1 .active {
+	border-bottom:1px #ebf3f3 solid;
+	background:url("../img/tabHover.gif") no-repeat;
+}
+#tab-container-1 .active a,#tab-container-1-nav .navTab:hover a{
+	color:#005f69;
+}
+#tab-container-1 .tab {
+    position: relative;
+    z-index: 1;
+    width: 401px;
+    height: auto;
+    border-top: 1px #cccccc solid;
+	display:none;
+}
 
-
+.horarioGrid{
+	width:401px;
+	color:#005f69;
+}
+.horarioGrid a {
+	color:#005f69;
+	font-weight:bold;
+}
+.horarioGrid tr td{
+	text-align:center;
+	font:normal 10px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	padding-top:5px;
+	padding-bottom:5px;
+	white-space:nowrap;
+}
+.horarioGrid tr.color1{
+	background-color:#ebf3f3;
+}
+.horarioGrid tr.color2{
+	background-color:#eefafa;
+}
+.horarioGrid tr:hover{
+	background-color:#e9f3f2;
+	cursor:pointer;
+}
+img.infocladAcad{
+	padding-right:10px;
+	padding-bottom:10px;
+}

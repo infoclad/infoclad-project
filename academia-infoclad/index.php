@@ -5,7 +5,9 @@
 	</head>
 	<body onload="letra();">
 		<?php include("header.php"); ?>
-		<?php include("nav.php"); ?>
+		<div id="navigation-holder" class="b wrapper-holder">
+			<?php include("nav.php"); ?>
+		</div>
 		<?php include("footer.php");?>
 	</body>
 </html>
