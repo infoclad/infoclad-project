@@ -7,14 +7,14 @@
                     <a href="?page=home"><div class="b l mainLink">Home</div></a>
                 </li>
                 <li>
-                    <a href="?page=sobre"><div class="b l mainLink">A Marca</div></a>
+                    <a href="?page=institucional"><div class="b l mainLink">A Marca</div></a>
                 </li>
                 <li class="aSub">
                     <a href="?page=fornecedores"><div class="b l mainLink">Linhas</div></a>
                     <ul class="subMainMenu inline">
-                        <li><a href="?page=fornecedores">linha street</a></li>
-                        <li><a href="?page=cadastroFornecedores">linha cult</a></li>
-                        <li><a href="?page=cadastroFornecedores">linha custom</a></li>
+                        <li><a href="?page=street">linha street</a></li>
+                        <li><a href="?page=style">linha style</a></li>
+                        <li><a href="?page=cult">linha cult</a></li>
                     </ul>
                 </li>
                 <li class="aSub">

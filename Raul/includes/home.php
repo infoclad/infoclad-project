@@ -192,9 +192,22 @@
 				</div>
 				<div class="c"><!--  --></div>
 			</div>
-			<div class="c"><!--  --></div>
 			<span class="b p5"><!--  --></span>
-			
+			<div id="novidadesSlideshow" class="b">
+				<span class="b l"><a href="#"><span class="sprite slideEsquerda b"><!--  --></span></a></span>
+				<div id="slideShowHolder" class="b l">
+					<div id="slideShow">
+						<span class="b l picCell"><img src="img/produtos/thumbs/produto00.gif"></span>
+						<span class="b l picCell"><img src="img/produtos/thumbs/produto00.gif"></span>
+						<span class="b l picCell"><img src="img/produtos/thumbs/produto00.gif"></span>
+						<span class="b l picCell"><img src="img/produtos/thumbs/produto00.gif"></span>
+						<span class="b l picCell"><img src="img/produtos/thumbs/produto00.gif"></span>
+						<span class="b l picCell"><img src="img/produtos/thumbs/produto00.gif"></span>
+					</div>
+				</div>
+				<span class="b r"><a href="#"><span class="sprite slideDireita b"><!--  --></span></a></span>
+				<div class="c"><!--  --></div>
+			</div>
 		</div>
 		<div class="b wrapper contentBottom">
 			<img src="img/content-bottom.gif">
