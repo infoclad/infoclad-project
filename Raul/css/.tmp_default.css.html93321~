@@ -1,4 +1,39 @@
-@charset "utf-8";
+<html><h1>The H1 tag looks like this</h1>
+<p>The paragraph tag after an H1 tag looks like this</p>
+<h2>The H2 tag looks like this</h2>
+<p>The paragraph tag after an H2 tag looks like this</p>
+<h3>The H3 tag looks like this</h3>
+<p>The paragraph tag after an H3 tag looks like this</p>
+<h4>The H4 tag looks like this</h4>
+<p>The paragraph tag after an H4 tag looks like this</p>
+<h5>The H5 tag looks like this</h5>
+<p>The paragraph tag after an H5 tag looks like this</p>
+<ol>
+<li><strong>This is a strong element in an ordered list</strong></li>
+<li><i>This is an italic element in an ordered list</i></li>
+<li><b>This is a bold element in an ordered list</b></li>
+<li><em>This is an emphasized element in an ordered list</em></li>
+<li>This is a regular element in an ordered list</li>
+</ol>
+<ul>
+<li><strong>This is a strong element in an unordered list</strong></li>
+<li><i>This is an italic element in an unordered list</i></li>
+<li><b>This is a bold element in an unordered list</b></li>
+<li><em>This is an emphasized element in an unordered list</em></li>
+<li>This is a regular element in an unordered list</li>
+</ul>
+<blockquote>The block quote element looks like this</blockquote>
+<pre>The pre element looks like this</pre>
+<code>The code element looks like this</code>
+<br/>
+<span>The span element looks like this</span>
+<br/>
+<a href="#">The anchor element looks like this</a>
+<br/>
+<br/>
+<div style="float:left;margin:20px;width:200px;">Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.</div>
+<div style="float:left;margin:20px;width:400px;">Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.</div>
+<div style="float:left;margin:20px;width:600px;">Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.</div><style>@charset "utf-8";
 /* CSS Document */
 
 /* includes */
@@ -55,12 +90,7 @@ button{cursor:pointer;border:0;}
 }
 .tinySize{font-size:10px;}
 .grayText{color:#666;}
-.pageTitle{
-	text-transform:capitalize;
-	font:italic 22px Verdana, Geneva, Arial, Helvetica, sans-serif;
-	color:#666;
-}
-.minParagraph{width:530px;}
+
 /* sprites */
 
 .sprite{background:url("../img/sprites/sprite.gif") no-repeat;}
@@ -198,11 +228,6 @@ button{cursor:pointer;border:0;}
 .slideDireita{
 	background-position:-176px -124px;	
 }
-.redSub{
-	background-position:-178px -218px;	
-	width:18px;
-	height:18px;
-}
 /* corpo */
 
 #logo{
@@ -230,28 +255,6 @@ button{cursor:pointer;border:0;}
     height:18px;
 }
 #loggedAvatar img{width:18px;}
-#topoFooter{
-	height:109px;
-	overflow:hidden;
-	background:url("../img/topofooter.gif") center -45px #000 no-repeat;
-	margin-top:-51px;
-	}
-.topoFooterFundo{
-	height:193px;
-	width:100%;
-	position:absolute;
-	z-index:1;
-	overflow:hidden;}
-#topoFooter .socialCmm{padding-top:45px;}
-.topoFooterFundo img{
-	width:100%;
-	height:193px;}
-#navigationHolder{
-	min-height:768px;
-}
-#navigation{
-	padding-top:30px;
-}
 
 /*banner*/
 
@@ -349,13 +352,6 @@ button{cursor:pointer;border:0;}
 	font:normal 18px "Arial Black";
 	letter-spacing:2px;
 	}
-#videoCorner{
-	 padding-top:278px;
-}
-#videoWrapper{
-	width:800px;
-	margin:0px auto;
-}
 	
 /* novidades */
 
@@ -381,7 +377,6 @@ button{cursor:pointer;border:0;}
 	color:#666;
 	padding-left:10px;
 }
-#navigation .headerSubtitulo{padding:0;}
 .headerMenu{
 	padding-right:10px;
 }
@@ -563,13 +558,13 @@ select{
 	height:39px;
     margin-top:39px;
     width: 100%;
-    opacity: 0.9;
-    filter: alpha(opacity=90);
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
     z-index:998; 
     margin-left: -595px;
     display:none;
-	background-color:#8a0a21;
+	background-color:#2d2d2d;
 
 }
 .subMainMenu li{
@@ -739,9 +734,6 @@ iframe.facebook{
 
 /* breadcrumb */
 
-#breadcrumb{
-	padding-top:10px;
-}
 #breadcrumb,#breadcrumb a{color:#666;}
 
 /* paginacao */ 
@@ -810,30 +802,11 @@ iframe.facebook{
 }
 #footerHeader{
 	height:190px;
-}
-#footerHeader h1{
-	text-transform:uppercase;
-}
-#footerHeader ul{
-	width:110px;
+	padding-bottom:5px;
 }
 #footerFooter{
 	text-align:center;
 }
-#footerHeader .newsletter{
-	width:140px;
-	white-space:nowrap;
-	font-size:8px;
-}
-#footerHeader .newsletter input[type="text"]{
-	width:110px;
-	height:9px;
-	padding:4px 2px 4px 4px;
-	border:0;
-	font:italic 9px Verdana, Geneva, Arial, Helvetica, sans-serif;
-	color:#666;
-	cursor:pointer;
-}
-#footerHeader .newsletter input[type="text"]:focus{
-	background-color:#f3f2f2;
-}
+
+
+</style></html>

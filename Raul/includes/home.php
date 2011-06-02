@@ -1,4 +1,4 @@
-<div id="relatorio" class="wrapper-holder">
+<div class="wrapper-holder">
     <div class="wrapper">
 		<div id="banner-holder" class="b wrapper">
 			<div id="banner" class="wrapper">
@@ -43,6 +43,174 @@
 				<div class="c"><!--  --></div>
 			</div>
 			<div class="c"><!--  --></div>
+		</div>
+		<div class="b wrapper contentBottom">
+			<img src="img/content-bottom.gif">
+		</div>
+		<div class="b p5"><!--  --></div>
+		<div id="novidades" class="b wrapper">
+			<span class="b p5"><!--  --></span>
+			<div class="headerTitulo b">
+				Novidades
+			</div>
+			<div class="b novidadesHeaderFooter">
+				<div class="headerSubtitulo b l">
+					Frete grátis para pedidos acima de R$ 80
+				</div>
+				<div class="headerMenu b r">
+					<span class="b l sprite headerMenuSeta"><!--  --></span>
+					<span class="b l"><a href="#">promoções</a></span>
+					<span class="b l sprite headerMenuSeta"><!--  --></span>
+					<span class="b l"><a href="#">catálogo completo</a></span>
+					<span class="b l sprite headerMenuSeta"><!--  --></span>
+					<span class="b l"><a href="#">estoque</a></span>
+					<div class="c"><!--  --></div>
+				</div>
+				<div class="c"><!--  --></div>
+			</div>
+			<div class="c"><!--  --></div>
+			<span class="b p5"><!--  --></span>
+			<div id="prodRow" class="b p5">
+				<div class="b l prodCell p5">
+					<span class="b prodPic"><img src="img/produtos/produto/produto01.gif"/></span>
+					<span class="b p5"><!--  --></span>
+					<span class="b prodDetail sprite-x">
+						<span class="b prodTitulo">nome da camisa</span>
+						<span class="b">
+							<span class="b l prodPreco">R$40</span>
+							<span class="b r comprar"><!--  --></span>
+							<div class="c"><!--  --></div>
+						</span>
+					</span>
+				</div>
+				<div class="b l prodCell p5">
+					<span class="b prodPic"><img src="img/produtos/produto/produto01.gif"/></span>
+					<span class="b p5"><!--  --></span>
+					<span class="b prodDetail sprite-x">
+						<span class="b prodTitulo">nome da camisa</span>
+						<span class="b">
+							<span class="b l prodPreco">R$40</span>
+							<span class="b r comprar"><!--  --></span>
+							<div class="c"><!--  --></div>
+						</span>
+					</span>
+				</div>
+				<div class="b l prodCell p5">
+					<span class="b prodPic"><img src="img/produtos/produto/produto01.gif"/></span>
+					<span class="b p5"><!--  --></span>
+					<span class="b prodDetail sprite-x">
+						<span class="b prodTitulo">nome da camisa</span>
+						<span class="b">
+							<span class="b l prodPreco">R$40</span>
+							<span class="b r comprar"><!--  --></span>
+							<div class="c"><!--  --></div>
+						</span>
+					</span>
+				</div>
+				<div class="b l prodCell p5">
+					<span class="b prodPic"><img src="img/produtos/produto/produto01.gif"/></span>
+					<span class="b p5"><!--  --></span>
+					<span class="b prodDetail sprite-x">
+						<span class="b prodTitulo">nome da camisa</span>
+						<span class="b">
+							<span class="b l prodPreco">R$40</span>
+							<span class="b r comprar"><!--  --></span>
+							<div class="c"><!--  --></div>
+						</span>
+					</span>
+				</div>
+				<div class="b l prodCell p5">
+					<span class="b prodPic"><img src="img/produtos/produto/produto01.gif"/></span>
+					<span class="b p5"><!--  --></span>
+					<span class="b prodDetail sprite-x">
+						<span class="b prodTitulo">nome da camisa</span>
+						<span class="b">
+							<span class="b l prodPreco">R$40</span>
+							<span class="b r comprar"><!--  --></span>
+							<div class="c"><!--  --></div>
+						</span>
+					</span>
+				</div>
+				<div class="b l prodCell p5">
+					<span class="b prodPic"><img src="img/produtos/produto/produto01.gif"/></span>
+					<span class="b p5"><!--  --></span>
+					<span class="b prodDetail sprite-x">
+						<span class="b prodTitulo">nome da camisa</span>
+						<span class="b">
+							<span class="b l prodPreco">R$40</span>
+							<span class="b r comprar"><!--  --></span>
+							<div class="c"><!--  --></div>
+						</span>
+					</span>
+				</div>
+				<div class="b l prodCell p5">
+					<span class="b prodPic"><img src="img/produtos/produto/produto01.gif"/></span>
+					<span class="b p5"><!--  --></span>
+					<span class="b prodDetail sprite-x">
+						<span class="b prodTitulo">nome da camisa</span>
+						<span class="b">
+							<span class="b l prodPreco">R$40</span>
+							<span class="b r comprar"><!--  --></span>
+							<div class="c"><!--  --></div>
+						</span>
+					</span>
+				</div>
+				<div class="b l prodCell p5">
+					<span class="b prodPic"><img src="img/produtos/produto/produto01.gif"/></span>
+					<span class="b p5"><!--  --></span>
+					<span class="b prodDetail sprite-x">
+						<span class="b prodTitulo">nome da camisa</span>
+						<span class="b">
+							<span class="b l prodPreco">R$40</span>
+							<span class="b r comprar"><!--  --></span>
+							<div class="c"><!--  --></div>
+						</span>
+					</span>
+				</div>
+				<div class="c"><!--  --></div>
+			</div>
+		</div>
+		<div class="b wrapper contentBottom">
+			<img src="img/content-bottom.gif">
+		</div>
+		<div class="b p5"><!--  --></div>
+		<div id="novidades" class="b wrapper">
+			<span class="b p5"><!--  --></span>
+			<div class="headerTitulo b">
+				Concurso
+			</div>
+			<div class="b novidadesHeaderFooter">
+				<div class="headerSubtitulo b l">
+					Envie sua estampa e receba $$$$$$$ em dinheiro.
+				</div>
+				<div class="headerMenu b r">
+					<span class="b l sprite headerMenuSeta"><!--  --></span>
+					<span class="b l"><a href="#">envie sua arte</a></span>
+					<span class="b l sprite headerMenuSeta"><!--  --></span>
+					<span class="b l"><a href="#">vote</a></span>
+					<div class="c"><!--  --></div>
+				</div>
+				<div class="c"><!--  --></div>
+			</div>
+			<span class="b p5"><!--  --></span>
+			<div id="novidadesSlideshow" class="b">
+				<span class="b l"><a href="#"><span class="sprite slideEsquerda b"><!--  --></span></a></span>
+				<div id="slideShowHolder" class="b l">
+					<div id="slideShow">
+						<span class="b l picCell"><img src="img/produtos/thumbs/produto00.gif"></span>
+						<span class="b l picCell"><img src="img/produtos/thumbs/produto00.gif"></span>
+						<span class="b l picCell"><img src="img/produtos/thumbs/produto00.gif"></span>
+						<span class="b l picCell"><img src="img/produtos/thumbs/produto00.gif"></span>
+						<span class="b l picCell"><img src="img/produtos/thumbs/produto00.gif"></span>
+						<span class="b l picCell"><img src="img/produtos/thumbs/produto00.gif"></span>
+					</div>
+				</div>
+				<span class="b r"><a href="#"><span class="sprite slideDireita b"><!--  --></span></a></span>
+				<div class="c"><!--  --></div>
+			</div>
+		</div>
+		<div class="b wrapper contentBottom">
+			<img src="img/content-bottom.gif">
 		</div>
     </div>
 </div>
