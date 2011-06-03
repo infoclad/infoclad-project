@@ -10,7 +10,7 @@
                     <a href="?page=institucional"><div class="b l mainLink">A Marca</div></a>
                 </li>
                 <li class="aSub">
-                    <a href="?page=fornecedores"><div class="b l mainLink">Linhas</div></a>
+                    <a href="?page=street"><div class="b l mainLink">Linhas</div></a>
                     <ul class="subMainMenu inline">
                         <li><a href="?page=street">linha street</a></li>
                         <li><a href="?page=style">linha style</a></li>
@@ -18,16 +18,22 @@
                     </ul>
                 </li>
                 <li class="aSub">
-                    <a href="?page=produtos"><div class="b l mainLink">Produtos</div></a>
+                    <a href="?page=catalogo"><div class="b l mainLink">Produtos</div></a>
                     <ul class="subMainMenu inline">
-                        <li><a href="?page=produtos">camisas</a></li>
+                        <li><a href="?page=catalogo">camisas</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="?page=home"><div class="b l mainLink">Concurso</div></a>
+                    <a href="?page=concurso"><div class="b l mainLink">Concurso</div></a>
                 </li>
-                <li>
-                    <a href="?page=home"><div class="b l mainLink">Comunidade</div></a>
+                <li class="aSub">
+                    <a href="#"><div class="b l mainLink">Comunidade</div></a>
+                    <ul class="subMainMenu inline">
+                        <li><a href="#">blog</a></li>
+                        <li><a href="#">facebook</a></li>
+                        <li><a href="#">twitter</a></li>
+                        <li><a href="#">vimeo</a></li>
+                    </ul>
                 </li>
                 <li>
                     <a href="?page=home"><div class="b l mainLink">Ajuda</div></a>

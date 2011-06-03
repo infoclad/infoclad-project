@@ -8,10 +8,10 @@
 								<div class="b l modelo"><img src="img/produtos/modelo/modelo00.gif"></div>
 								<div class="b l produto"><img src="img/produtos/produto/produto00.gif"></div>
 								<div class="b r titulo">
-									<h1 class="titulo">Lorem Ipsum</h1>
+									<h1 class="titulo"><a class="whiteText" href="?page=prodView">Lorem Ipsum</a></h1>
 									<h2 class="copy">Por: Raul Santana</h2>
 								</div>
-								<div class="b estampa"><img src="img/produtos/estampa/estampa00.gif"></div>
+								<div class="b estampa"><a href="?page=prodView"><img src="img/produtos/estampa/estampa00.gif"></a></div>
 								<div class="c"><!--  --></div>					
 						</div>
 						<div id="bannerProductInfo" class="b r">
@@ -23,7 +23,7 @@
 							<span class="b"><h1 class="oferta">desconto de <span class="maxSize">50%</span></h1></span>
 							<span class="b p5"><!--  --></span>
 							<span class="b p5"><!--  --></span>
-							<span class="b oferta"><a class="bannerComprar" href="#">Comprar</a></span>
+							<span class="b oferta"><a class="bannerComprar" href="?page=prodView">Comprar</a></span>
 						</div>
 						<div class="c"><!--  --></div>
 					</div>
@@ -59,11 +59,11 @@
 				</div>
 				<div class="headerMenu b r">
 					<span class="b l sprite headerMenuSeta"><!--  --></span>
-					<span class="b l"><a href="#">promoções</a></span>
+					<span class="b l"><a href="?page=promocoes">promoções</a></span>
 					<span class="b l sprite headerMenuSeta"><!--  --></span>
-					<span class="b l"><a href="#">catálogo completo</a></span>
+					<span class="b l"><a href="?page=catalogo">catálogo completo</a></span>
 					<span class="b l sprite headerMenuSeta"><!--  --></span>
-					<span class="b l"><a href="#">estoque</a></span>
+					<span class="b l"><a href="?page=estoque">estoque</a></span>
 					<div class="c"><!--  --></div>
 				</div>
 				<div class="c"><!--  --></div>
@@ -72,97 +72,27 @@
 			<span class="b p5"><!--  --></span>
 			<div id="prodRow" class="b p5">
 				<div class="b l prodCell p5">
-					<span class="b prodPic"><img src="img/produtos/produto/produto01.gif"/></span>
-					<span class="b p5"><!--  --></span>
-					<span class="b prodDetail sprite-x">
-						<span class="b prodTitulo">nome da camisa</span>
-						<span class="b">
-							<span class="b l prodPreco">R$40</span>
-							<span class="b r comprar"><!--  --></span>
-							<div class="c"><!--  --></div>
-						</span>
+					<span class="b prodPic">
+										<span class="b picContainer"><a class="grayText" href="?page=prodView"><img src="img/produtos/produto/produto01.gif"/></a></span>
+
 					</span>
-				</div>
-				<div class="b l prodCell p5">
-					<span class="b prodPic"><img src="img/produtos/produto/produto01.gif"/></span>
 					<span class="b p5"><!--  --></span>
-					<span class="b prodDetail sprite-x">
-						<span class="b prodTitulo">nome da camisa</span>
-						<span class="b">
-							<span class="b l prodPreco">R$40</span>
-							<span class="b r comprar"><!--  --></span>
-							<div class="c"><!--  --></div>
+					<span class="b">
+						<span class="b l">
+							
+							<div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:send href="example.com" font=""></fb:send>
+			
+							
 						</span>
+
+						<div class="c"><!--  --></div>
 					</span>
-				</div>
-				<div class="b l prodCell p5">
-					<span class="b prodPic"><img src="img/produtos/produto/produto01.gif"/></span>
 					<span class="b p5"><!--  --></span>
 					<span class="b prodDetail sprite-x">
-						<span class="b prodTitulo">nome da camisa</span>
+						<span class="b prodTitulo"><a class="grayText" href="?page=prodView">nome da camisa</a></span>
 						<span class="b">
 							<span class="b l prodPreco">R$40</span>
-							<span class="b r comprar"><!--  --></span>
-							<div class="c"><!--  --></div>
-						</span>
-					</span>
-				</div>
-				<div class="b l prodCell p5">
-					<span class="b prodPic"><img src="img/produtos/produto/produto01.gif"/></span>
-					<span class="b p5"><!--  --></span>
-					<span class="b prodDetail sprite-x">
-						<span class="b prodTitulo">nome da camisa</span>
-						<span class="b">
-							<span class="b l prodPreco">R$40</span>
-							<span class="b r comprar"><!--  --></span>
-							<div class="c"><!--  --></div>
-						</span>
-					</span>
-				</div>
-				<div class="b l prodCell p5">
-					<span class="b prodPic"><img src="img/produtos/produto/produto01.gif"/></span>
-					<span class="b p5"><!--  --></span>
-					<span class="b prodDetail sprite-x">
-						<span class="b prodTitulo">nome da camisa</span>
-						<span class="b">
-							<span class="b l prodPreco">R$40</span>
-							<span class="b r comprar"><!--  --></span>
-							<div class="c"><!--  --></div>
-						</span>
-					</span>
-				</div>
-				<div class="b l prodCell p5">
-					<span class="b prodPic"><img src="img/produtos/produto/produto01.gif"/></span>
-					<span class="b p5"><!--  --></span>
-					<span class="b prodDetail sprite-x">
-						<span class="b prodTitulo">nome da camisa</span>
-						<span class="b">
-							<span class="b l prodPreco">R$40</span>
-							<span class="b r comprar"><!--  --></span>
-							<div class="c"><!--  --></div>
-						</span>
-					</span>
-				</div>
-				<div class="b l prodCell p5">
-					<span class="b prodPic"><img src="img/produtos/produto/produto01.gif"/></span>
-					<span class="b p5"><!--  --></span>
-					<span class="b prodDetail sprite-x">
-						<span class="b prodTitulo">nome da camisa</span>
-						<span class="b">
-							<span class="b l prodPreco">R$40</span>
-							<span class="b r comprar"><!--  --></span>
-							<div class="c"><!--  --></div>
-						</span>
-					</span>
-				</div>
-				<div class="b l prodCell p5">
-					<span class="b prodPic"><img src="img/produtos/produto/produto01.gif"/></span>
-					<span class="b p5"><!--  --></span>
-					<span class="b prodDetail sprite-x">
-						<span class="b prodTitulo">nome da camisa</span>
-						<span class="b">
-							<span class="b l prodPreco">R$40</span>
-							<span class="b r comprar"><!--  --></span>
+							<a class="grayText" href="?page=prodView"><span class="b r comprar"><!--  --></span></a>
 							<div class="c"><!--  --></div>
 						</span>
 					</span>
@@ -185,9 +115,9 @@
 				</div>
 				<div class="headerMenu b r">
 					<span class="b l sprite headerMenuSeta"><!--  --></span>
-					<span class="b l"><a href="#">envie sua arte</a></span>
+					<span class="b l"><a href="?page=envie">envie sua arte</a></span>
 					<span class="b l sprite headerMenuSeta"><!--  --></span>
-					<span class="b l"><a href="#">vote</a></span>
+					<span class="b l"><a href="?page=votacao">vote</a></span>
 					<div class="c"><!--  --></div>
 				</div>
 				<div class="c"><!--  --></div>
@@ -197,12 +127,10 @@
 				<span class="b l"><a href="#"><span class="sprite slideEsquerda b"><!--  --></span></a></span>
 				<div id="slideShowHolder" class="b l">
 					<div id="slideShow">
-						<span class="b l picCell"><img src="img/produtos/thumbs/produto00.gif"></span>
-						<span class="b l picCell"><img src="img/produtos/thumbs/produto00.gif"></span>
-						<span class="b l picCell"><img src="img/produtos/thumbs/produto00.gif"></span>
-						<span class="b l picCell"><img src="img/produtos/thumbs/produto00.gif"></span>
-						<span class="b l picCell"><img src="img/produtos/thumbs/produto00.gif"></span>
-						<span class="b l picCell"><img src="img/produtos/thumbs/produto00.gif"></span>
+						<span class="b l">
+							<a href="?page=votar"><span class="b picCell"><img src="img/produtos/thumbs/produto00.gif"></span></a>
+						</span>
+						
 					</div>
 				</div>
 				<span class="b r"><a href="#"><span class="sprite slideDireita b"><!--  --></span></a></span>

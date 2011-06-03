@@ -6,7 +6,12 @@
 		<![endif]-->
 		<script type="text/javascript" src="js/functions.js"></script>
 		<script type="text/javascript" src="js/jquery-1.4.3.min.js"></script>
-
+		<script src="js/jqzoom.pack.1.0.1.js" type="text/javascript"></script>
+		<script type="text/javascript">
+		$(function() {
+			$(".jqzoom").jqzoom();
+		});
+		</script>
 
 
 		

@@ -46,6 +46,7 @@ button{cursor:pointer;border:0;}
 .bolder{font-weight:bold;}
 .whiteText{color:#fff;}
 .redText{color:#f24444;}
+.whiteText{color:#fff;}
 .orangeText{color:#f78b15;}
 .maxSize{font-size:18px;}
 .subTitle{
@@ -203,6 +204,26 @@ button{cursor:pointer;border:0;}
 	width:18px;
 	height:18px;
 }
+.star{
+	background-position:-91px -91px;	
+	width:29px;
+	height:25px;
+}
+.happyface{
+	background-position:-93px -133px;	
+	width:25px;
+	height:25px;	
+}
+.sadface{
+	background-position:-93px -175px;	
+	width:25px;
+	height:25px;
+}
+.sadstar{
+	background-position:-93px -213px;	
+	width:29px;
+	height:25px;
+}
 /* corpo */
 
 #logo{
@@ -252,6 +273,7 @@ button{cursor:pointer;border:0;}
 #navigation{
 	padding-top:30px;
 }
+
 
 /*banner*/
 
@@ -391,13 +413,16 @@ button{cursor:pointer;border:0;}
 }
 .prodCell{
 	display:table-cell;
-	width:205px;
-	height:315px;
+	width:auto;
+	height:auto;
 	padding-right:10px;
 }
 .prodPic{
 	max-width:205px;
 	max-height:250px;
+}
+.prodPic .picContainer{
+	z-index:1;
 }
 .prodPic img{
 	max-width:205px;
@@ -422,6 +447,9 @@ button{cursor:pointer;border:0;}
 	font:bold 20px Verdana, Geneva, Arial, Helvetica, sans-serif;
 	color:#666;	
 	letter-spacing:2px;
+}
+#prodView{
+	width:885px;
 }
 #novidadesSlideshow{
 	width:859px;
@@ -731,11 +759,37 @@ textarea.descr:focus{
 
 /* facebook app */
 
-iframe.facebook{
-    width:300px;
-    overflow:hidden;
-    height:27px;
+iframe.fb_ltr{
+	padding-top:3px;
+	padding-right:3px;
+
 }
+
+/* busca */
+
+#busca{
+	background-color:#dde0e0;
+	padding:10px 10px 10px 10px;
+	background-position:0px 0px;
+	color:#fff;
+}
+#busca input[type="text"]{border:0;padding:1px;}
+
+/* votacao */
+
+.votacaoBox a.votacao:hover .sadstar{
+	background-position:-93px -90px;	
+	width:29px;
+	height:25px;
+}
+.votacaoStatus{
+	position:absolute;
+	z-index:999;
+	margin-top:0;
+	padding-left:0;
+	width:305px;
+}
+
 
 /* breadcrumb */
 
@@ -749,7 +803,6 @@ iframe.facebook{
 .paginacao-holder{
     height:39px;
     width:100%;
-    background-color:#f0f0f0;
 }
 .paginacao{
     padding:10px 10px 0px 0px;
@@ -759,8 +812,8 @@ iframe.facebook{
     padding:2px 5px 2px 5px;
 }
 .paginacao a:hover,.paginacao a.active{
-    background-color:#666;
-    color:#fff;
+    background-color:#890b20;
+    color:#f3e83a;
 }
 .paginacao a.noBg{
     background:none;
