@@ -6,17 +6,17 @@
 		<div id="novidades" class="b wrapper">
 			<span class="b p5"><!--  --></span>
 			<div class="headerTitulo b">
-				Login
+				Envie
 			</div>
 			<div class="b novidadesHeaderFooter">
 				<div class="headerSubtitulo b l">
-					Área restrita, somente membros cadastrados pode vê-la, faça login abaixo.
+					Envie sua arte agora mesmo para participar de nossos concursos!
 				</div>
 				<div class="headerMenu b r">
 					<span class="b l sprite headerMenuSeta"><!--  --></span>
 					<span class="b l"><a href="?page=catatalogo">Catálogo completo</a></span>
 					<span class="b l sprite headerMenuSeta"><!--  --></span>
-					<span class="b l"><a href="?page=reenviar">Reenviar senha</a></span>
+					<span class="b l"><a href="?page=votacao">Vote</a></span>
 					<div class="c"><!--  --></div>
 				</div>
 				<div class="c"><!--  --></div>
@@ -26,9 +26,13 @@
 			<span class="b p formCadastro">
 				<table>
 					<tr><td colspan="2"><h1>*Preencha cuidadosamente os campos abaixo.</h1></td></tr>
-					<tr><td>Login:</td><td><input class="" type="text"/></td></tr>
-					<tr><td>Senha:</td><td><input class="" type="password"/></td></tr>
-					<tr><td colspan="2"><input type="submit" class="laranjaBtn" value="Login"/></td></tr>
+					<tr><td>Nome do estampa:</td><td><input class="" type="text"/></td></tr>
+					<tr><td>Autor:</td><td ><input class="" type="text"/></td></tr>
+					<tr><td>Thumbnail:</td><td><input type="file"/></td></tr>
+					<tr><td>&nbsp;</td><td><h1 class="tinySize grayText">*JPG,*PNG,*BMP com no máximo 10Mb.</h1></td></tr>
+					<tr><td>Foto para exibição:</td><td><input type="file"/></td></tr>
+					<tr><td>&nbsp;</td><td><h1 class="tinySize grayText">*JPG,*PNG,*BMP com no máximo 10Mb.</h1></td></tr>
+					<tr><td colspan="2"><input type="submit" class="laranjaBtn" value="Cadastrar"/></td></tr>
 				</table>
 			</span>
 		</div>

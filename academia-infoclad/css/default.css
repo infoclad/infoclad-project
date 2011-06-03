@@ -655,7 +655,7 @@ iframe.facebook{
 }
 #tab-container-1 {
     margin-top: 12px;
-	width:402px;
+	width:408px;
 }
 #tab-container-1-nav{
 	height:18px;
@@ -690,14 +690,14 @@ iframe.facebook{
 #tab-container-1 .tab {
     position: relative;
     z-index: 1;
-    width: 401px;
+    width: 408px;
     height: auto;
     border-top: 1px #cccccc solid;
 	display:none;
 }
 
 .horarioGrid{
-	width:401px;
+	width:408px;
 	color:#005f69;
 }
 .horarioGrid a {
@@ -724,4 +724,38 @@ iframe.facebook{
 img.infocladAcad{
 	padding-right:10px;
 	padding-bottom:10px;
+}
+.cabecatabela{
+	padding-left:4px;
+}
+.instalacao p{width:90%;}
+.cursos{
+	padding-bottom:1px;
+	padding-right:5px;
+}
+.cursos tr td{
+	vertical-align:middle;
+	padding:5px;
+	border-bottom:1px #ccc dotted;
+	width:234px;
+}
+.cursos .categoria td{
+	background-color:#23a2da;
+}
+.cursos .categoria2 td{
+	background-color:#077fb3;
+}
+.cursos .categoria td,.cursos .categoria2 td,.cursos .categoria3 td{
+	color:#fff;
+	text-align:center;
+	max-width:130px;
+	font-size:10px;	
+}
+.imgCurso{padding-right:10px;}
+.conteudoProgramatico ul{
+	width:200px;
+	padding-bottom:5px;
+}
+.descricaoCurso{
+	text-align:justify;
 }

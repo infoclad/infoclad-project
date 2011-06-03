@@ -10,30 +10,36 @@
 <span class="b p5"><!--  --></span>
 <div class="b wrapper">
 	<div class="b l minParagraph">
-		<div class="b"><img src="img/cabecatabela.gif"/></div>	
+		<div class="b cabecatabela"><img src="img/cabecatabela.gif"/></div>	
 		<div class="b tab-holder">
                                 <div id="tab-container-1">
                                     <div id="tab-container-1-nav">
-                                        <span class="b l navTab active"><a href="#tab1">Lorem Ipsum</a></span>
-                                        <span class="b l navTab"><a href="#tab2" class="">Lorem Ipsum</a></span>
+                                        <span class="b l navTab active"><a href="#windows">Windows</a></span>
+                                        <span class="b l navTab"><a href="#bd" class="">BD</a></span>
+                                        <span class="b l navTab"><a href="#programacao" class="">Programação</a></span>
+                                        <span class="b l navTab"><a href="#linux" class="">Linux</a></span>
                                     </div>
-                                    <div id="tab1" class="tab">
+                                    <div id="windows" class="tab">
 										<table class="horarioGrid">
-											<tr class="color1"><td><a href="#">Gerenciamento de Servidor...</a></td><td>13:00 às 18:00</td><td>02/04/2011</td></tr>
-											<tr class="color2"><td><a href="#">Lorem Ipsum</a></td><td>13:00 às 18:00</td><td>02/04/2011</td></tr>
-											<tr class="color1"><td><a href="#">Lorem Ipsum</a></td><td>13:00 às 18:00</td><td>02/04/2011</td></tr>
-											<tr class="color2"><td><a href="#">Lorem Ipsum</a></td><td>13:00 às 18:00</td><td>02/04/2011</td></tr>
-											<tr class="color1"><td><a href="#">Lorem Ipsum</a></td><td>13:00 às 18:00</td><td>02/04/2011</td></tr>
-											<tr class="color2"><td><a href="#">Lorem Ipsum</a></td><td>13:00 às 18:00</td><td>02/04/2011</td></tr>
-											<tr class="color1"><td><a href="#">Lorem Ipsum</a></td><td>13:00 às 18:00</td><td>02/04/2011</td></tr>
-											<tr class="color2"><td><a href="#">Lorem Ipsum</a></td><td>13:00 às 18:00</td><td>02/04/2011</td></tr>
+											<tr class="color1"><td><a href="#">Gerenciamento Windows Server '08</a></td><td>13:00 às 18:00</td><td>Esgotado</td></tr>
 										</table>
                                     </div>
-                                    <div id="tab2" class="tab">
+                                    <div id="bd" class="tab">
 										<table class="horarioGrid">
-											<tr class="color1"><td><a href="#">Lorem Ipsum</a></td><td>13:00 às 18:00</td><td>02/04/2011</td></tr>
-											<tr class="color2"><td><a href="#">Lorem Ipsum</a></td><td>13:00 às 18:00</td><td>02/04/2011</td></tr>
-											<tr class="color1"><td><a href="#">Lorem Ipsum</a></td><td>13:00 às 18:00</td><td>02/04/2011</td></tr>
+											<tr class="color1"><td><a href="#">Banco de Dados</a></td><td>08:00 as 12:00</td><td>13/08/2011</td></tr>
+											<tr class="color2"><td><a href="#">Banco de Dados</a></td><td>13:00 as 17:00</td><td>13/08/2011</td></tr>
+										</table>
+                                    </div>
+                                    <div id="programacao" class="tab">
+										<table class="horarioGrid">
+											<tr class="color1"><td><a href="#">Desenvolvedor ASP.NET Avançado</a></td><td>08:00 as 12:00</td><td>13/08/2011</td></tr>
+											<tr class="color2"><td><a href="#">Desenvolvedor PHP</a></td><td>13:00 as 17:00</td><td>13/08/2011</td></tr>
+											<tr class="color1"><td><a href="#">Desenvolvedor Java</a></td><td>08:00 as 12:00</td><td>13/08/2011</td></tr>
+										</table>
+                                    </div>
+                                    <div id="linux" class="tab">
+										<table class="horarioGrid">
+											<tr class="color1"><td><a href="#">Administração de Redes Linux</a></td><td>13:00 as 17:00</td><td>Esgotado</td></tr>
 										</table>
                                     </div>
                                 </div>

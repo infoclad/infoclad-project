@@ -40,7 +40,7 @@
 				<li><a href="#">wiki custom</a></li>
 			</ul>
 			<ul class="b l">
-				<li><a href="index.php"><h1>contatos</h1></a></li>
+				<li><a href="?page=contatos"><h1>contatos</h1></a></li>
 			</ul>
 			<span class="b l">
 				<span class="b"><a href="#"><img src="img/rss.gif"/></a></span>

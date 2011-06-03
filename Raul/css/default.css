@@ -890,3 +890,21 @@ iframe.fb_ltr{
 #footerHeader .newsletter input[type="text"]:focus{
 	background-color:#f3f2f2;
 }
+.formCadastro tr td{
+	padding:5px;
+}
+.formCadastro input[type="text"],.formCadastro input[type="password"],#itelefone,#icpf{
+	padding:2px;
+	border:1px #ccc solid;
+	width:205px;
+}
+.formCadastro input.fullInput{width:99%;}
+.formCadastro input.minInput{width:15%;}
+.laranjaBtn{
+	background-color:#f2921c;
+	border:2px #fff solid;
+	font:normal 16px "Arial Black";
+	color:#fff;
+	padding:3px;
+	width:180px;
+}

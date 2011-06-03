@@ -12,17 +12,17 @@
                 <li class="aSub">
                     <a href="?page=cursos"><div class="b l mainLink">Nossos cursos</div></a>
                     <ul class="subMainMenu inline">
-                        <li><a href="?page=categorias">gerenciar categorias</a></li>
-                        <li><a href="?page=cadastroCategorias">adicionar nova categoria</a></li>
-                        <li><a href="?page=cadastroCategorias">editar categoria</a></li>
+                        <li><a href="?page=cursos">cat</a></li>
+                        <li><a href="?page=cursos">cat</a></li>
+                        <li><a href="?page=cursos">cat</a></li>
                     </ul>
                 </li>
                 <li class="aSub">
                     <a href="?page=grade"><div class="b l mainLink">Grade de horários</div></a>
                     <ul class="subMainMenu inline">
-                        <li><a href="?page=pedidos">gerenciar pedidos</a></li>
-                        <li><a href="?page=pedidosDetalhes">adicionar novo pedido</a></li>
-                        <li><a href="?page=pedidosDetalhes">editar pedido</a></li>
+                        <li><a href="?page=horarios">cat</a></li>
+                        <li><a href="?page=horarios">cat</a></li>
+                        <li><a href="?page=horarios">cat</a></li>
                     </ul>
                 </li>	
                 <li class="aSub">

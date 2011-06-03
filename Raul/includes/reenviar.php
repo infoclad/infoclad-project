@@ -1,28 +1,40 @@
-
-<div id="loginSection" class="b wrapper-holder">
-    <div class="loginWrapper">
-        <span class="b p5"><!--  --></span>
-        <span class="b"> 
-            <span class="b l sprite orangeAdvice"><!--  --></span>
-            <span class="b p3 l"><!--  --></span>
-            <span class="b l p3 orangeText"><h1>Atenção! Digite seu e-mail corretamente.</h1></span>
-            <div class="c"><!--  --></div>
-        </span>
-        <span class="b p5"><!--  --></span>
-        <span class="b">
-            <span class="b">E-mail:</span>
-            <span class="b p3"><!--  --></span>
-            <span class="b"><input type="text"/></span>
-            <span class="b p3"><!--  --></span>
-            <span class="b">Confirme o e-mail:</span>
-            <span class="b p3"><!--  --></span>
-            <span class="b"><input type="text"/></span>
-        </span>
-        <span class="b p5"><!--  --></span>
-        <span class="b">
-            <span class="b r"><a class="orangeText" href="#">Reenviar</a></span>
-            <div class="c"><!--  --></div>
-        </span>
+<?php include("includes/topoFooter.php"); ?>
+<?php include("includes/breadcrumb.php"); ?>
+<span class="b p"><!--  --></span>
+<div class="wrapper-holder">
+    <div class="wrapper">
+		<div id="novidades" class="b wrapper">
+			<span class="b p5"><!--  --></span>
+			<div class="headerTitulo b">
+				Senha 
+			</div>
+			<div class="b novidadesHeaderFooter">
+				<div class="headerSubtitulo b l">
+					Reenvie sua senha abaixo.
+				</div>
+				<div class="headerMenu b r">
+					<span class="b l sprite headerMenuSeta"><!--  --></span>
+					<span class="b l"><a href="?page=catatalogo">Catálogo completo</a></span>
+					<span class="b l sprite headerMenuSeta"><!--  --></span>
+					<span class="b l"><a href="?page=login">Login</a></span>
+					<div class="c"><!--  --></div>
+				</div>
+				<div class="c"><!--  --></div>
+			</div>
+			<div class="c"><!--  --></div>
+			<span class="b p5"><!--  --></span>
+			<span class="b p formCadastro">
+				<table>
+					<tr><td colspan="2"><h1>*Preencha cuidadosamente os campos abaixo.</h1></td></tr>
+					<tr><td>E-mail:</td><td><input class="" type="text"/></td></tr>
+					<tr><td>Confirme o e-mail:</td><td><input class="" type="text"/></td></tr>
+					<tr><td colspan="2"><input type="submit" class="laranjaBtn" value="Reenviar Senha"/></td></tr>
+				</table>
+			</span>
+		</div>
+		<div class="b wrapper contentBottom">
+			<img src="img/content-bottom.gif">
+		</div>
+		
     </div>
-    <span class="b p5"><!--  --></span>
 </div>
