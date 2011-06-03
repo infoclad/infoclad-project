@@ -37,11 +37,11 @@
 		<tr><td><a href="?page=cursoView">Desenvolvimento com XNA</td></tr>
 	</table>
 	<table class="cursos b ">
-		<tr class="categoria"><td rowspan="8">Desenvolvimento<br/>de<br/>Jogos</td></tr>
+		<tr class="categoria"><td rowspan="8">Desenvolvimento de Jogos</td></tr>
 		<tr><td><a href="?page=cursoView">ITIL V3 FOUNDATION</a></td></tr>
 	</table>
 	<table class="cursos b ">
-		<tr class="categoria2"><td rowspan="8">Desenvolvimento<br/>Web</td></tr>
+		<tr class="categoria2"><td rowspan="8">Desenvolvimento Web</td></tr>
 		<tr><td><a href="?page=cursoView">xHTML</td></tr>
 	</table>
 </div>

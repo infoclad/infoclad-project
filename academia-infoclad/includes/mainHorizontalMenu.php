@@ -11,19 +11,21 @@
                 </li>
                 <li class="aSub">
                     <a href="?page=cursos"><div class="b l mainLink">Nossos cursos</div></a>
+                    <!-- 
                     <ul class="subMainMenu inline">
                         <li><a href="?page=cursos">cat</a></li>
                         <li><a href="?page=cursos">cat</a></li>
                         <li><a href="?page=cursos">cat</a></li>
-                    </ul>
+                    </ul> -->
                 </li>
                 <li class="aSub">
                     <a href="?page=grade"><div class="b l mainLink">Grade de horários</div></a>
+                    <!-- 
                     <ul class="subMainMenu inline">
                         <li><a href="?page=horarios">cat</a></li>
                         <li><a href="?page=horarios">cat</a></li>
                         <li><a href="?page=horarios">cat</a></li>
-                    </ul>
+                    </ul> -->
                 </li>	
                 <li class="aSub">
                     <a href="?page=cadastro"><div class="b l mainLink">Cadastre-se</div></a>

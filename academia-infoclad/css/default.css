@@ -748,7 +748,7 @@ img.infocladAcad{
 .cursos .categoria td,.cursos .categoria2 td,.cursos .categoria3 td{
 	color:#fff;
 	text-align:center;
-	max-width:130px;
+	width:150px;
 	font-size:10px;	
 }
 .imgCurso{padding-right:10px;}
