@@ -19,17 +19,14 @@
 							<span class="b countdown">teste</span>
 							<span class="b"><h1>Apenas:</h1></span>
 							<span class="b"><h1 class="preco">R$37,90</h1></span>
-							<span class="b p"><!--  --></span>
+							
 							<span class="b"><h1 class="oferta">desconto de <span class="maxSize">50%</span></h1></span>
 							<span class="b p5"><!--  --></span>
 							<span class="b p5"><!--  --></span>
-							<span class="b oferta"><a class="bannerComprar" href="?page=prodView">Comprar</a></span>
+							<span class="b oferta"><a class="bannerComprar" href="?page=prodView"><span class="b comprarBanner">Compre Agora &#9658;</span></a></span>
 						</div>
 						<div class="c"><!--  --></div>
 					</div>
-				</div>
-				<div id="bannerInfo" class="b r">
-					<!--  -->
 				</div>
 				<div id="bannerSocial" class=" b r">
 					<a href="#"><span class="b l sprite-y facebook"><!--  --></span></a>
@@ -50,7 +47,7 @@
 		<div class="b p5"><!--  --></div>
 		<div id="novidades" class="b wrapper">
 			<span class="b p5"><!--  --></span>
-			<div class="headerTitulo b">
+			<div class="headerTituloRed b">
 				Novidades
 			</div>
 			<div class="b novidadesHeaderFooter">

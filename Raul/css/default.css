@@ -17,7 +17,7 @@ htm,body{
     overflow-x:hidden;
     font:12px Verdana, Geneva, Arial, Helvetica, sans-serif;
     height:100%;
-	background:url(../img/bg.gif) #dce0e0 no-repeat;
+	background:url(../img/bgletras.gif) #dce0e0 repeat;
 }
 .wrapper-holder{
     width:100%;
@@ -278,8 +278,8 @@ button{cursor:pointer;border:0;}
 /*banner*/
 
 #banner{
-	width:897px;
-	height:265px;
+	width:900px;
+	height:270px;
 	background:url("../img/banner.gif") #d8dfe3 no-repeat;
 	z-index:1;
 }
@@ -287,10 +287,9 @@ button{cursor:pointer;border:0;}
 	position:relative;
 	z-index:3;
 	margin-right:20px;
-	margin-top:-40px;
+	margin-top:-0;
 	width:207px;
-	height:295px;
-	background:url("../img/banner_capa.gif") -35px 0px no-repeat;
+	height:268px;
 }
 #bannerSocial{
 	position:relative;
@@ -298,7 +297,7 @@ button{cursor:pointer;border:0;}
  	width: 185px;
 	height:33px;
 	background:url("../img/cmm_capa.gif") no-repeat;
-	margin-right: -21px; 
+	margin-right: -0; 
 	margin-top: -31px;
 	padding-left: 65px;
 	padding-top:3px;
@@ -315,10 +314,11 @@ button{cursor:pointer;border:0;}
 	height: 264px;
 }
 #bannerProductInfo{
-	height: 270px; 
+	height: 250px; 
 	width: 155px;
 	padding-right: 15px; 
 	font:bold 11px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	padding-top: 40px; 
 }
 #bannerProductInfo h1{
 	font:bold 12px Verdana, Geneva, Arial, Helvetica, sans-serif;
@@ -330,7 +330,7 @@ button{cursor:pointer;border:0;}
 	max-height:262px;
 	padding-left: 100px;
 }
-.produto,.modelo{position:absolute;z-index:2;}
+.produto,.modelo{position:absolute;z-index:2;margin-top:3px;}
 .produto{margin-left: 115px;}
 .estampa img{
 	max-width:302px;
@@ -378,6 +378,14 @@ button{cursor:pointer;border:0;}
 	width:800px;
 	margin:0px auto;
 }
+.comprarBanner{
+	background-color:#239214;
+	border:1px #fff solid;
+	font:bold 14px Arial, Helvetica, sans-serif;
+	padding:6px 3px 6px 3px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
 	
 /* novidades */
 
@@ -393,6 +401,15 @@ button{cursor:pointer;border:0;}
 	width:170px;
 	height:53px;
 	background:url("../img/div.gif") no-repeat;
+	color:#fff;
+	font:italic 22px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-align:center;
+	margin-left:-13px;
+}
+.headerTituloRed{
+	width:170px;
+	height:53px;
+	background:url("../img/divred.gif") no-repeat;
 	color:#fff;
 	font:italic 22px Verdana, Geneva, Arial, Helvetica, sans-serif;
 	text-align:center;
@@ -868,7 +885,7 @@ iframe.fb_ltr{
 	text-transform:uppercase;
 }
 #footerHeader ul{
-	width:110px;
+	width:120px;
 }
 #footerFooter{
 	text-align:center;
