@@ -1067,10 +1067,10 @@ iframe.fb_ltr{
 .infiniteCarousel .wrapper {
  /* .infiniteCarousel width - (.wrapper margin-left + .wrapper margin-right) */
   overflow: auto;
-  margin: 0 40px;
+  margin: 0 70px;
   position: absolute;
   top: 0;
-  width: 770px; height: 160px;
+  width: 725px; height: 160px;
   }
  
 
