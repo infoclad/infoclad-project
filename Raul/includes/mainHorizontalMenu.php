@@ -24,7 +24,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="?page=concurso"><div class="b l mainLink">Concurso</div></a>
+                    <a href="?page=regulamento"><div class="b l mainLink">Concurso</div></a>
                 </li>
                 <li class="aSub">
                     <a href="#"><div class="b l mainLink">Comunidade</div></a>
@@ -36,10 +36,10 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="?page=home"><div class="b l mainLink">Ajuda</div></a>
+                    <a href="?page=ajuda"><div class="b l mainLink">Ajuda</div></a>
                 </li>
                 <li>
-                    <a href="?page=home"><div class="b l mainLink">Contato</div></a>
+                    <a href="?page=contatos"><div class="b l mainLink">Contato</div></a>
                 </li>
                 <div class="c"><!--  --></div>				
             </ul>
@@ -48,7 +48,7 @@
             		<tr>
 	            		<td><input class="login" type="text" value="login"/></td>
 	            		<td><input class="login" type="password"/></td>
-	            		<td><a href="#"><button class="sprite submit"></button></a></td>
+	            		<td><a href="#"><button class="sprite redSub"></button></a></td>
             		</tr>
             	</table>
             </div>

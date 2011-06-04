@@ -1,5 +1,5 @@
 <?php include("includes/topoFooter.php"); ?>
-<?php include("includes/breadcrumb.php"); ?>
+
 <span class="b p"><!--  --></span>
 <div class="wrapper-holder">
     <div class="wrapper">
@@ -65,7 +65,7 @@
 						<span class="b prodTitulo"><a class="grayText" href="?page=prodView">nome da camisa</a></span>
 						<span class="b">
 							<span class="b l prodPreco">R$40</span>
-							<a class="grayText" href="?page=prodView"><span class="b r comprar"><!--  --></span></a>
+							<a class="whiteText" href="?page=prodView"><span class="b r comprarBanner">Comprar</span></a>
 							<div class="c"><!--  --></div>
 						</span>
 					</span>

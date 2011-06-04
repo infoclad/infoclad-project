@@ -1,11 +1,28 @@
 <?php include("includes/topoFooter.php"); ?>
-<?php include("includes/breadcrumb.php"); ?>
-<div id="navigation" class="wrapper-holder">
-	    <div class="wrapper">
-	    	<span class="b"><h1 class="pageTitle">Custom Street</h1></span>
-	    	<span class="b"><h2 class="headerSubtitulo">Uma linha voltada para um público urbano</h2></span>
-	    	<span class="b p5"><!--  --></span>
-	    	<span class="b">
+<span class="b p"><!--  --></span>
+<div class="wrapper-holder">
+    <div class="wrapper">
+		<div id="novidades" class="b wrapper">
+			<span class="b p5"><!--  --></span>
+			<div class="headerTitulo b">
+				Street
+			</div>
+			<div class="b novidadesHeaderFooter">
+				<div class="headerSubtitulo b l">
+					Uma linha voltada para um público urbano
+				</div>
+				<div class="headerMenu b r">
+					<span class="b l sprite headerMenuSeta"><!--  --></span>
+					<span class="b l"><a href="?page=catalogo">Catálogo completo</a></span>
+					<span class="b l sprite headerMenuSeta"><!--  --></span>
+					<span class="b l"><a href="?page=votacao">Vote</a></span>
+					<div class="c"><!--  --></div>
+				</div>
+				<div class="c"><!--  --></div>
+			</div>
+			<div class="c"><!--  --></div>
+			<span class="b p5"><!--  --></span>
+	    	<span class="b p">
 	    		<p>
 				Com suas estampas agressivas, revolucionárias e cheias de atitude a Custom Street se difencia da moda tradicional, por carregar em sua identidade o protesto da arte urbana em seu espirito provocador.
 				<br/><br/>
@@ -15,8 +32,13 @@
 				</p>
 	    	</span>
 	    	<span class="b p5"><!--  --></span>
-	    	<span id="videoWrapper" class="b">
+	    	<span id="" class="b p">
 				<img src="img/linhas.gif"/>
 	    	</span>
-	    </div>
+		</div>
+		<div class="b wrapper contentBottom">
+			<img src="img/content-bottom.gif">
+		</div>
+		
+    </div>
 </div>

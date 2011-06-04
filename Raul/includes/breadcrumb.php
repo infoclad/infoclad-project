@@ -136,7 +136,7 @@ function breadcrumb(array $options = array()) {
 }
 ?>
 
-<div id="breadcrumb" class="wrapper">
+<div id="breadcrumb" class="p5 wrapper">
 <?php
 $format = create_function('$s', 'return $s;');
 echo breadcrumb(array('format_callback' => $format));

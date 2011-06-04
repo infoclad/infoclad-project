@@ -1,13 +1,32 @@
 <?php include("includes/topoFooter.php"); ?>
-<?php include("includes/breadcrumb.php"); ?>
-<div id="navigation" class="wrapper-holder">
-	    <div class="wrapper">
-	    	<span class="b"><h1 class="pageTitle">proposta</h1></span>
-	    	<span class="b"><h2 class="headerSubtitulo">Conheça nossa mente, nossa ideologia.</h2></span>
-	    	<span class="b p5"><!--  --></span>
+<span class="b p"><!--  --></span>
+<div class="wrapper-holder">
+    <div class="wrapper">
+		<div id="novidades" class="b wrapper">
+			<span class="b p5"><!--  --></span>
+			<div class="headerTitulo b">
+				A Marca
+			</div>
+			<div class="b novidadesHeaderFooter">
+				<div class="headerSubtitulo b l">
+					Conheça nossa alma, nossa filosofia.
+				</div>
+				<div class="headerMenu b r">
+					<span class="b l sprite headerMenuSeta"><!--  --></span>
+					<span class="b l"><a href="?page=catalogo">Catálogo completo</a></span>
+					<span class="b l sprite headerMenuSeta"><!--  --></span>
+					<span class="b l"><a href="?page=cadastro">Cadastre-se</a></span>
+					<span class="b l sprite headerMenuSeta"><!--  --></span>
+					<span class="b l"><a href="?page=login">Login</a></span>
+					<div class="c"><!--  --></div>
+				</div>
+				<div class="c"><!--  --></div>
+			</div>
+			<div class="c"><!--  --></div>
 			<span class="b">
-				<span class="b l">
-					<p class="minParagraph">
+			
+				<span class="b l minParagraph p">
+					<p>
 					Nossa empresa tem como diferencial no mercado, a proposta de EXCLUSIVIDADE 
 					das estampas finalizadas e vendidas para um público específico e pré determinado.<br/><br/>
 					É através desse conceito que surgiu a melhor maneira de agregar nossa arte à
@@ -20,7 +39,7 @@
 					Essa é nossa proposta. Faça parte dela.Seja Exclusivo!!”
 					</p>
 				</span>
-				<span class="b r">
+				<span class="b l p minParagraph">
 					<span class="b">
 						<img src="img/proposta1.gif"/>
 						<p align="right" class="headerSubtitulo">Conheça nossa alma e a nossa filosofia.</p>
@@ -30,8 +49,14 @@
 						<img src="img/proposta2.gif"/>
 						<p align="right" class="headerSubtitulo">Conheça nossa alma e a nossa filosofia.</p>
 					</span>
-				</span>
+				</span>				
 				<div class="c"><!--  --></div>
+				<span class="b p"><!--  --></span>
 			</span>
-	    </div>
+		</div>
+		<div class="b wrapper contentBottom">
+			<img src="img/content-bottom.gif">
+		</div>
+		
+    </div>
 </div>

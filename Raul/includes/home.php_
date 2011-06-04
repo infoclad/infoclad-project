@@ -16,24 +16,20 @@
 						</div>
 						<div id="bannerProductInfo" class="b r">
 							<span class="b"><h1 class="oferta">Esta oferta pode ser adiquirida em:</h1></span>
-							<span class="b countdown">
-								<div id="defaultCountdown"></div>
-								<script type="text/javascript">
-								try {
-								var pageTracker = _gat._getTracker("UA-1719985-3");
-								pageTracker._trackPageview();
-								} catch(err) {}</script>
-							</span>
+							<span class="b countdown">teste</span>
 							<span class="b"><h1>Apenas:</h1></span>
 							<span class="b"><h1 class="preco">R$37,90</h1></span>
-							
+							<span class="b p"><!--  --></span>
 							<span class="b"><h1 class="oferta">desconto de <span class="maxSize">50%</span></h1></span>
 							<span class="b p5"><!--  --></span>
 							<span class="b p5"><!--  --></span>
-							<span class="b oferta"><a class="bannerComprar" href="?page=prodView"><span class="b comprarBanner">Compre Agora &#9658;</span></a></span>
+							<span class="b oferta"><a class="bannerComprar" href="?page=prodView">Comprar</a></span>
 						</div>
 						<div class="c"><!--  --></div>
 					</div>
+				</div>
+				<div id="bannerInfo" class="b r">
+					<!--  -->
 				</div>
 				<div id="bannerSocial" class=" b r">
 					<a href="#"><span class="b l sprite-y facebook"><!--  --></span></a>
@@ -54,7 +50,7 @@
 		<div class="b p5"><!--  --></div>
 		<div id="novidades" class="b wrapper">
 			<span class="b p5"><!--  --></span>
-			<div class="headerTituloRed b">
+			<div class="headerTitulo b">
 				Novidades
 			</div>
 			<div class="b novidadesHeaderFooter">
@@ -96,7 +92,7 @@
 						<span class="b prodTitulo"><a class="grayText" href="?page=prodView">nome da camisa</a></span>
 						<span class="b">
 							<span class="b l prodPreco">R$40</span>
-							<a class="whiteText" href="?page=prodView"><span class="b r comprarBanner">Comprar</span></a>
+							<a class="grayText" href="?page=prodView"><span class="b r comprar"><!--  --></span></a>
 							<div class="c"><!--  --></div>
 						</span>
 					</span>

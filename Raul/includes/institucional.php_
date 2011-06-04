@@ -1,29 +1,11 @@
 <?php include("includes/topoFooter.php"); ?>
-<span class="b p"><!--  --></span>
-<div class="wrapper-holder">
-    <div class="wrapper">
-		<div id="novidades" class="b wrapper">
-			<span class="b p5"><!--  --></span>
-			<div class="headerTitulo b">
-				A Marca
-			</div>
-			<div class="b novidadesHeaderFooter">
-				<div class="headerSubtitulo b l">
-					Conheça nossa alma, nossa filosofia.
-				</div>
-				<div class="headerMenu b r">
-					<span class="b l sprite headerMenuSeta"><!--  --></span>
-					<span class="b l"><a href="?page=catalogo">Catálogo completo</a></span>
-					<span class="b l sprite headerMenuSeta"><!--  --></span>
-					<span class="b l"><a href="?page=cadastro">Cadastre-se</a></span>
-					<span class="b l sprite headerMenuSeta"><!--  --></span>
-					<span class="b l"><a href="?page=login">Login</a></span>
-					<div class="c"><!--  --></div>
-				</div>
-				<div class="c"><!--  --></div>
-			</div>
-			<div class="c"><!--  --></div>
-	    	<span class="b p">
+<?php include("includes/breadcrumb.php"); ?>
+<div id="navigation" class="wrapper-holder">
+	    <div class="wrapper">
+	    	<span class="b"><h1 class="pageTitle">institucional</h1></span>
+	    	<span class="b"><h2 class="headerSubtitulo">Conheça nossa alma, nossa filosofia.</h2></span>
+	    	<span class="b p5"><!--  --></span>
+	    	<span class="b">
 	    		<p>
 	    		Criada em 2006, a Custom Limited tem como missão entrar e se firmar no mercado nacional,  e trazer consigo toda sua história, repercussão e trajetória de sucesso que alcançou ao longo de 4 anos de trabalho nos EUA.
 	    		<br/><br/>  
@@ -40,7 +22,7 @@
 				</p>
 	    	</span>
 	    	<span class="b p5"><!--  --></span>
-	    	<span class="b p">
+	    	<span class="b">
 	    		<div id="videoWrapper">
 	    			<span id="videoCorner" class="b l"><img src="img/redCorner.gif"/></span>
 	    			<span class="b l">
@@ -50,10 +32,5 @@
 	    			<div class="c"><!--  --></div>
 	    		</div>
 	    	</span>
-		</div>
-		<div class="b wrapper contentBottom">
-			<img src="img/content-bottom.gif">
-		</div>
-		
-    </div>
+	    </div>
 </div>

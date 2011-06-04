@@ -1,29 +1,37 @@
+<?php include("includes/topoFooter.php"); ?>
 
-<div id="loginSection" class="b wrapper-holder">
-    <div class="loginWrapper">
-        <span class="b p5"><!--  --></span>
-        <span class="b"> 
-            <span class="b l sprite orangeAdvice"><!--  --></span>
-            <span class="b p3 l"><!--  --></span>
-            <span class="b l p3 orangeText"><h1>Atenção! Área restrita, efetue login para visualizar.</h1></span>
-            <div class="c"><!--  --></div>
-        </span>
-        <span class="b p5"><!--  --></span>
-        <span class="b">
-            <span class="b">Nome de usuário:</span>
-            <span class="b p3"><!--  --></span>
-            <span class="b"><input type="text"/></span>
-            <span class="b p3"><!--  --></span>
-            <span class="b">Senha:</span>
-            <span class="b p3"><!--  --></span>
-            <span class="b"><input type="password"/></span>
-        </span>
-        <span class="b p5"><!--  --></span>
-        <span class="b">
-            <span class="b l"><input type="checkbox"> Esqueci minha senha.</span>
-            <span class="b r"><a class="orangeText" href="#">Entrar</a></span>
-            <div class="c"><!--  --></div>
-        </span>
+<span class="b p"><!--  --></span>
+<div class="wrapper-holder">
+    <div class="wrapper">
+		<div id="novidades" class="b wrapper">
+			<span class="b p5"><!--  --></span>
+			<div class="headerTitulo b">
+				Login
+			</div>
+			<div class="b novidadesHeaderFooter">
+				<div class="headerSubtitulo b l">
+					Área restrita, somente membros cadastrados pode vê-la, faça login abaixo.
+				</div>
+				<div class="headerMenu b r">
+					<span class="b l sprite headerMenuSeta"><!--  --></span>
+					<span class="b l"><a href="?page=catatalogo">Catálogo completo</a></span>
+					<span class="b l sprite headerMenuSeta"><!--  --></span>
+					<span class="b l"><a href="?page=reenviar">Reenviar senha</a></span>
+					<div class="c"><!--  --></div>
+				</div>
+				<div class="c"><!--  --></div>
+			</div>
+			<span class="b p formCadastro">
+				<table>
+					<tr><td>Login:</td><td><input class="" type="text"/></td></tr>
+					<tr><td>Senha:</td><td><input class="" type="password"/></td></tr>
+					<tr><td colspan="2" align="center"><input type="submit" class="laranjaBtn" value="Login"/></td></tr>
+				</table>
+			</span>
+		</div>
+		<div class="b wrapper contentBottom">
+			<img src="img/content-bottom.gif">
+		</div>
+		
     </div>
-    <span class="b p5"><!--  --></span>
 </div>

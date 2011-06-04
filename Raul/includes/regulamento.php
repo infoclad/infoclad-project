@@ -5,11 +5,11 @@
 		<div id="novidades" class="b wrapper">
 			<span class="b p5"><!--  --></span>
 			<div class="headerTitulo b">
-				Cult
+				Concurso
 			</div>
 			<div class="b novidadesHeaderFooter">
 				<div class="headerSubtitulo b l">
-					Uma linha voltada para um público ****
+					Fique por dentro do regulamento de nosso concurso!
 				</div>
 				<div class="headerMenu b r">
 					<span class="b l sprite headerMenuSeta"><!--  --></span>
@@ -22,17 +22,7 @@
 			</div>
 			<div class="c"><!--  --></div>
 			<span class="b p5"><!--  --></span>
-	    	<span class="b p">
-	    		<p>
-				Se você se considera estiloso(a), essas estampas são feitas sob medida para seu cotidiano, a intenção aqui não é provocar e sim dizer para quem os olha, que vc é uma pessoa de identidade própria. As artes desse segmento são desenvolvidas para quem quer se posicionar e se diferenciar diante da multidão.
-				<br/><br/>
-				" Be Cool! Custom Style.” 
-				</p>
-	    	</span>
-	    	<span class="b p5"><!--  --></span>
-	    	<span id="" class="b p">
-				<img src="img/linhas.gif"/>
-	    	</span>
+
 		</div>
 		<div class="b wrapper contentBottom">
 			<img src="img/content-bottom.gif">

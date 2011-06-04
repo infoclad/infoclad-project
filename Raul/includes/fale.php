@@ -6,17 +6,17 @@
 		<div id="novidades" class="b wrapper">
 			<span class="b p5"><!--  --></span>
 			<div class="headerTitulo b">
-				Senha 
+				Contato
 			</div>
 			<div class="b novidadesHeaderFooter">
 				<div class="headerSubtitulo b l">
-					Reenvie sua senha abaixo.
+					Dúvidas ou Sugestões? Fale conosco agora mesmo!
 				</div>
 				<div class="headerMenu b r">
 					<span class="b l sprite headerMenuSeta"><!--  --></span>
 					<span class="b l"><a href="?page=catatalogo">Catálogo completo</a></span>
 					<span class="b l sprite headerMenuSeta"><!--  --></span>
-					<span class="b l"><a href="?page=login">Login</a></span>
+					<span class="b l"><a href="?page=votacao">Vote</a></span>
 					<div class="c"><!--  --></div>
 				</div>
 				<div class="c"><!--  --></div>
@@ -25,10 +25,16 @@
 			<span class="b p5"><!--  --></span>
 			<span class="b p formCadastro">
 				<table>
-					<tr><td colspan="2"><h1>*Preencha cuidadosamente os campos abaixo.</h1></td></tr>
+					<tr><td>Nome:</td><td colspan="3"><input class="" type="text"/></td></tr>
 					<tr><td>E-mail:</td><td><input class="" type="text"/></td></tr>
-					<tr><td>Confirme o e-mail:</td><td><input class="" type="text"/></td></tr>
-					<tr><td colspan="2"><input type="submit" class="laranjaBtn" value="Reenviar Senha"/></td></tr>
+					<tr><td>Telefone:</td><td>
+                                        <label for="itelefone">
+                                            <input id="itelefone" onkeypress="mascara(this,telefone)" maxlength="14" />
+                                        </label>
+					</td></tr>
+					<tr><td>Assunto:</td><td><input type="text"/></td></tr>
+					<tr><td>Mensagem:</td><td colspan="2"><textarea>Digite sua mensagem...</textarea></td></tr>
+					<tr><td colspan="2" align="center"><input type="submit" class="laranjaBtn" value="Enviar Mensagem"/></td></tr>
 				</table>
 			</span>
 		</div>

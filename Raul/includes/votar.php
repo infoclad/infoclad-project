@@ -1,5 +1,4 @@
 <?php include("includes/topoFooter.php"); ?>
-<?php include("includes/breadcrumb.php"); ?>
 <span class="b p"><!--  --></span>
 <div class="wrapper-holder">
     <div class="wrapper">
@@ -38,13 +37,13 @@
 					<span class="b p5">
 					<span class="b">
 						<span class="b l">
-							<span class="b l sprite pizzaGraph"><!--  --></span>
-							<span class="b l p5">349 Votos</span>
+							<span class="b l sprite star"><!--  --></span>
+							<span class="b l p5">349 Pessoas votaram nesta camisa</span>
 							<div class="c"><!--  --></div>
 							
 						</span>
 						<span class="b l p3"><!--  --></span>
-						<span class="votacaoBox" class="b r">
+						<span class="votacaoBox b r">
 							<a class="votacao" href="#votacaoStatus"><span class="b l sprite sadstar"><!--  --></span></a>
 							<a class="votacao" href="#votacaoStatus"><span class="b l sprite sadstar"><!--  --></span></a>
 							<a class="votacao" href="#votacaoStatus"><span class="b l sprite sadstar"><!--  --></span></a>
@@ -52,6 +51,7 @@
 							<a class="votacao" href="#votacaoStatus"><span class="b l sprite sadstar"><!--  --></span></a>
 							<div class="c"><!--  --></div>
 						</span>
+						<span class="b r p5">Vote:</span>
 						<div class="c"><!--  --></div>
 					</span>
 						<div class="c"><!--  --></div>
