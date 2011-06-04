@@ -60,7 +60,7 @@
 				<div class="c"><!--  --></div>
 					<span class="b p5"><!--  --></span>
 					<span class="b">
-						<span class="b r"><a href="#"><span class="b finalizarPedido">Finalizar Pedido &#9654;</span></a></span>
+						<span class="b r"><a href="?page=enderecos"><span class="b finalizarPedido">Finalizar Pedido &#9654;</span></a></span>
 						<span class="b r p5"><!--  --></span>
 						<span class="b r"><a href="#"><span class="b removerProduto">Remover Produto &#9654;</span></a></span>
 						
@@ -131,7 +131,7 @@
 				<div class="c"><!--  --></div>
 					<span class="b p5"><!--  --></span>
 					<span class="b">
-						<span class="b r"><a href="#"><span class="b finalizarPedido">Finalizar Pedido &#9654;</span></a></span>
+						<span class="b r"><a href="?page=enderecos"><span class="b finalizarPedido">Finalizar Pedido &#9654;</span></a></span>
 						<span class="b r p5"><!--  --></span>
 						<span class="b r"><a href="#"><span class="b removerProduto">Remover Produto &#9654;</span></a></span>
 						
@@ -202,7 +202,7 @@
 				<div class="c"><!--  --></div>
 					<span class="b p5"><!--  --></span>
 					<span class="b">
-						<span class="b r"><a href="#"><span class="b finalizarPedido">Finalizar Pedido &#9654;</span></a></span>
+						<span class="b r"><a href="?page=enderecos"><span class="b finalizarPedido">Finalizar Pedido &#9654;</span></a></span>
 						<span class="b r p5"><!--  --></span>
 						<span class="b r"><a href="#"><span class="b removerProduto">Remover Produto &#9654;</span></a></span>
 						
