@@ -2,9 +2,19 @@
     <div class="wrapper">
 		<div id="banner-holder" class="b wrapper">
 			<div id="banner" class="wrapper">
-				<div id="bannerDynamicContent">
+				<div id="bannerSocial" class=" b r">
+					<a href="#"><span class="b l sprite-y facebook"><!--  --></span></a>
+					<a href="#"><span class="b l sprite-y twitter"><!--  --></span></a>
+					<a href="#"><span class="b l sprite-y wp"><!--  --></span></a>
+					<a href="#"><span class="b l sprite-y vimeo"><!--  --></span></a>
+					<a href="#"><span class="b l sprite-y youtube"><!--  --></span></a>
+					<a href="#"><span class="b l sprite-y rss"><!--  --></span></a>
+					<div class="c"><!--  --></div>
+				</div>	
+				<div class="c"><!--  --></div>	
+				<div class="b bannerDynamicContent">
 					<div class="b switchProduct">
-						<div id="bannerProduct" class="b l">
+						<div class="bannerProduct b l">
 								<div class="b l modelo"><img src="img/produtos/modelo/modelo00.gif"></div>
 								<div class="b l produto"><img src="img/produtos/produto/produto00.gif"></div>
 								<div class="b r titulo">
@@ -14,7 +24,7 @@
 								<div class="b estampa"><a href="?page=prodView"><img src="img/produtos/estampa/estampa00.gif"></a></div>
 								<div class="c"><!--  --></div>					
 						</div>
-						<div id="bannerProductInfo" class="b r">
+						<div class="bannerProductInfo b r">
 							<span class="b"><h1 class="oferta">Esta oferta pode ser adiquirida em:</h1></span>
 							<span class="b countdown">
 								<div id="defaultCountdown"></div>
@@ -34,15 +44,6 @@
 						</div>
 						<div class="c"><!--  --></div>
 					</div>
-				</div>
-				<div id="bannerSocial" class=" b r">
-					<a href="#"><span class="b l sprite-y facebook"><!--  --></span></a>
-					<a href="#"><span class="b l sprite-y twitter"><!--  --></span></a>
-					<a href="#"><span class="b l sprite-y wp"><!--  --></span></a>
-					<a href="#"><span class="b l sprite-y vimeo"><!--  --></span></a>
-					<a href="#"><span class="b l sprite-y youtube"><!--  --></span></a>
-					<a href="#"><span class="b l sprite-y rss"><!--  --></span></a>
-					<div class="c"><!--  --></div>
 				</div>
 				<div class="c"><!--  --></div>
 			</div>
@@ -128,17 +129,33 @@
 			</div>
 			<span class="b p5"><!--  --></span>
 			<div id="novidadesSlideshow" class="b">
-				<span class="b l"><a href="#"><span class="sprite slideEsquerda b"><!--  --></span></a></span>
-				<div id="slideShowHolder" class="b l">
-					<div id="slideShow">
-						<span class="b l">
-							<a href="?page=votar"><span class="b picCell"><img src="img/produtos/thumbs/produto00.gif"></span></a>
-						</span>
-						
+				<div id="slideShowHolder" class="b">
+					<div id="carouselHolder">
+					<!-- carousel -->
+
+    <div class="infiniteCarousel"> 
+      <div class="wrapper"> 
+        <ul> 
+          <li><a href="?page=votar"><span class="b picCell"><img src="img/produtos/thumbs/produto00.gif"></span></a></li>
+          <li><a href="?page=votar"><span class="b picCell"><img src="img/produtos/thumbs/produto00.gif"></span></a></li>
+          <li><a href="?page=votar"><span class="b picCell"><img src="img/produtos/thumbs/produto00.gif"></span></a></li>
+          <li><a href="?page=votar"><span class="b picCell"><img src="img/produtos/thumbs/produto00.gif"></span></a></li>
+          <li><a href="?page=votar"><span class="b picCell"><img src="img/produtos/thumbs/produto00.gif"></span></a></li>
+          <li><a href="?page=votar"><span class="b picCell"><img src="img/produtos/thumbs/produto00.gif"></span></a></li>
+          <li><a href="?page=votar"><span class="b picCell"><img src="img/produtos/thumbs/produto00.gif"></span></a></li>
+          <li><a href="?page=votar"><span class="b picCell"><img src="img/produtos/thumbs/produto00.gif"></span></a></li>
+          <li><a href="?page=votar"><span class="b picCell"><img src="img/produtos/thumbs/produto00.gif"></span></a></li>
+          <li><a href="?page=votar"><span class="b picCell"><img src="img/produtos/thumbs/produto00.gif"></span></a></li>
+          <li><a href="?page=votar"><span class="b picCell"><img src="img/produtos/thumbs/produto00.gif"></span></a></li>
+          <li><a href="?page=votar"><span class="b picCell"><img src="img/produtos/thumbs/produto00.gif"></span></a></li> 
+        </ul>        
+      </div> 
+    </div>
+
+
+					<!-- carousel -->
 					</div>
 				</div>
-				<span class="b r"><a href="#"><span class="sprite slideDireita b"><!--  --></span></a></span>
-				<div class="c"><!--  --></div>
 			</div>
 		</div>
 		<div class="b wrapper contentBottom">

@@ -302,25 +302,24 @@ button{cursor:pointer;border:0;}
 	padding-left: 65px;
 	padding-top:3px;
 }
-#bannerDynamicContent{
+.bannerDynamicContent{
 	position:absolute;
 	z-index:4;
-	width: 875px; height: 255px; margin-top: -30px;
+	width: 875px; height: 255px; margin-top: -35px;
 }
-#bannerProduct{
+.bannerProduct{
 	padding-top: 31px;  
 	padding-left: 40px;
 	width: 565px;
 	height: 264px;
 }
-#bannerProductInfo{
+.bannerProductInfo{
 	height: 250px; 
 	width: 155px;
-	padding-right: 15px; 
 	font:bold 11px Verdana, Geneva, Arial, Helvetica, sans-serif;
 	padding-top: 40px; 
 }
-#bannerProductInfo h1{
+.bannerProductInfo h1{
 	font:bold 12px Verdana, Geneva, Arial, Helvetica, sans-serif;
 	color:#fff;
 }
@@ -344,7 +343,7 @@ button{cursor:pointer;border:0;}
 	max-width:128px;
 	max-height:262px;
 }
-#bannerProduct .titulo{
+.bannerProduct .titulo{
 	padding-top: 20px;
 	font:bold 20px Verdana, Geneva, Arial, Helvetica, sans-serif;
 	color:#fff;
@@ -352,7 +351,7 @@ button{cursor:pointer;border:0;}
   -moz-text-shadow: 0 0 2px #000;
   -webkit-text-shadow: 0 0 2px #000;
 }
-#bannerProduct .copy{
+.bannerProduct .copy{
 	padding-left: 50px;
 	font:bold 12px Verdana, Geneva, Arial, Helvetica, sans-serif;
 }
@@ -361,8 +360,8 @@ button{cursor:pointer;border:0;}
 	padding-top:10px;
 
 }
-#bannerProductInfo .oferta{text-align:center;}
-#bannerProductInfo .preco{
+.bannerProductInfo .oferta{text-align:center;}
+.bannerProductInfo .preco{
 	color:#f0ff00;
 	font:normal 35px "Arial Black";
 	}
@@ -474,21 +473,7 @@ button{cursor:pointer;border:0;}
 	width:859px;
 	margin:0px auto;
 }
-#slideShowHolder{
-	width:740px;
-	margin:0px auto;
-	overflow:hidden;
-	padding-left:35px;
-	padding-right:5px;
-}
-#slideShow{
-	width:999px;
-	height:160px;
-	overflow:hidden;
-}
-#slideShow .picCell{
-	padding-right:10px;
-}
+
 
 /* pageHeader */
 
@@ -1073,3 +1058,84 @@ iframe.fb_ltr{
 
 
 #defaultCountdown { width: 155px; height: 55px; text-align: center;}
+
+.infiniteCarousel {
+  width: 865px;
+  position: relative;
+}
+ 
+.infiniteCarousel .wrapper {
+ /* .infiniteCarousel width - (.wrapper margin-left + .wrapper margin-right) */
+  overflow: auto;
+  margin: 0 40px;
+  position: absolute;
+  top: 0;
+  width: 770px; height: 160px;
+  }
+ 
+
+ 
+.infiniteCarousel .wrapper ul {
+  width: 9999px;
+  list-style-image:none;
+  list-style-position:outside;
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  position: absolute;
+  top: 0;
+}
+ 
+.infiniteCarousel ul li {
+  display:block;
+  float:left;
+
+  height: 145px;
+  width: 145px;
+  
+}
+ 
+.infiniteCarousel ul li a img {
+  display:block;
+}
+ 
+.infiniteCarousel .arrow {
+  display: block;
+	width:22px;
+	height:40px;
+  background: url(../img/sprites/sprite.gif) no-repeat 0 0;
+  text-indent: -999px;
+  position: absolute;
+  top: 37px;
+  cursor: pointer;
+}
+ 
+.infiniteCarousel .forward {
+  background-position:-176px -124px;
+  right: 0;
+}
+ 
+.infiniteCarousel .back {
+  background-position:-173px -165px;
+  left: 0;
+}
+ 
+.infiniteCarousel .forward:hover {
+ background-position:-176px -124px;
+}
+ 
+.infiniteCarousel .back:hover {
+  background-position:-173px -165px;	
+}
+#carouselHolder{
+	width:865px;
+	height:160px;
+	margin:0px auto;
+	overflow:hidden;
+}
+.carousel{
+	height:160px;
+}
+.carousel .picCell{
+	padding-right:10px;
+}
