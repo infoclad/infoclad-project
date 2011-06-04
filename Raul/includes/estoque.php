@@ -1,8 +1,10 @@
+<?php include("includes/topoFooter.php"); ?>
+<span class="b p"><!-- --></span>
 <div class="wrapper-holder">
     <div class="wrapper">
 		<div id="novidades" class="b wrapper">
 			<span class="b p5"><!--  --></span>
-			<div class="headerTitulo b">
+			<div class="headerTituloRed b">
 				Estoque
 			</div>
 			<div class="b novidadesHeaderFooter">
@@ -13,7 +15,7 @@
 					<span class="b l sprite headerMenuSeta"><!--  --></span>
 					<span class="b l"><a href="?page=promocoes">promoções</a></span>
 					<span class="b l sprite headerMenuSeta"><!--  --></span>
-					<span class="b l"><a href="?page=estoque">estoque</a></span>
+					<span class="b l"><a href="?page=catalogo">catálogo completo</a></span>
 					<div class="c"><!--  --></div>
 				</div>
 				<div class="c"><!--  --></div>
@@ -35,7 +37,7 @@
 				<span class="b l p3"><!--  --></span>
 				<span class="b l p3"><input type="radio"/> Tudo</span>
 				<span class="b l">
-					<a href="#"><button class="sprite submit"></button></a>
+					<a href="#"><button class="sprite redSub"></button></a>
 				</span>
 				<div class="c"><!--  --></div>
 			</div>
@@ -43,7 +45,7 @@
 			<div id="prodRow" class="b p5">
 				<div class="b l prodCell p5">
 					<span class="b prodPic">
-										<span class="b picContainer"><a class="grayText" href="?page=prodView"><img src="img/produtos/produto/produto01.gif"/></a></span>
+										<span class="b picContainer"><a class="grayText" href="?page=prodView"><img src="img/produtos/produto/produto01.gif"/></a><?php include("includes/box-count.php");?></span>
 					</span>
 					<span class="b p5"><!--  --></span>
 					<span class="b">
@@ -81,6 +83,6 @@
 		<div class="b wrapper contentBottom">
 			<img src="img/content-bottom.gif">
 		</div>
-		
+		<?php include("includes/like.php");?>
     </div>
 </div>

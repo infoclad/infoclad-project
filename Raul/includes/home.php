@@ -78,21 +78,33 @@
 			<div id="prodRow" class="b p5">
 				<div class="b l prodCell p5">
 					<span class="b prodPic">
-										<span class="b picContainer"><a class="grayText" href="?page=prodView"><img src="img/produtos/produto/produto01.gif"/></a></span>
-
+										<span class="b picContainer">
+											<a class="grayText" href="?page=prodView"><img src="img/produtos/produto/produto01.gif"/></a>
+											<?php include("includes/box-count.php");?>
+										</span>
 					</span>
+					
 					<span class="b p5"><!--  --></span>
-					<span class="b">
-						<span class="b l">
-							
-							<div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:send href="example.com" font=""></fb:send>
-			
-							
+
+					<span class="b prodDetail sprite-x">
+						<span class="b prodTitulo"><a class="grayText" href="?page=prodView">nome da camisa</a></span>
+						<span class="b">
+							<span class="b l prodPreco">R$40</span>
+							<a class="whiteText" href="?page=prodView"><span class="b r comprarBanner">Comprar</span></a>
+							<div class="c"><!--  --></div>
 						</span>
-
-						<div class="c"><!--  --></div>
 					</span>
+				</div>
+				<div class="b l prodCell p5">
+					<span class="b prodPic">
+										<span class="b picContainer">
+											<a class="grayText" href="?page=prodView"><img src="img/produtos/produto/produto01.gif"/></a>
+											<?php include("includes/box-count.php");?>
+										</span>
+					</span>
+					
 					<span class="b p5"><!--  --></span>
+
 					<span class="b prodDetail sprite-x">
 						<span class="b prodTitulo"><a class="grayText" href="?page=prodView">nome da camisa</a></span>
 						<span class="b">

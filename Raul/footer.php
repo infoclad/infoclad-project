@@ -63,7 +63,7 @@
 						<span class="b">
 							<span class="b l"><input type="text" value="example@domain.com"></span>
 							<span class="b l">
-								<a href="#"><span class="sprite b redSub"><!--  --></span></a>
+								<a href="#"><span class="sprite b redSub noBorder"><!--  --></span></a>
 							</span>
 						<div class="c"><!--  --></div>
 						</span>

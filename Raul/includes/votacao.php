@@ -1,11 +1,10 @@
 <?php include("includes/topoFooter.php"); ?>
-<?php include("includes/breadcrumb.php"); ?>
 <span class="b p"><!--  --></span>
 <div class="wrapper-holder">
     <div class="wrapper">
 		<div id="novidades" class="b wrapper">
 			<span class="b p5"><!--  --></span>
-			<div class="headerTitulo b">
+			<div class="headerTituloRed b">
 				Vote
 			</div>
 			<div class="b novidadesHeaderFooter">
@@ -38,7 +37,7 @@
 				<span class="b l p3"><!--  --></span>
 				<span class="b l p3"><input type="radio"/> Tudo</span>
 				<span class="b l">
-					<a href="#"><button class="sprite submit"></button></a>
+					<a href="#"><button class="sprite redSub"></button></a>
 				</span>
 				<div class="c"><!--  --></div>
 			</div>
@@ -79,6 +78,6 @@
 		<div class="b wrapper contentBottom">
 			<img src="img/content-bottom.gif">
 		</div>
-		
+		<?php include("includes/like.php");?>
     </div>
 </div>

@@ -5,7 +5,7 @@
     <div class="wrapper">
 		<div id="novidades" class="b wrapper">
 			<span class="b p5"><!--  --></span>
-			<div class="headerTitulo b">
+			<div class="headerTituloRed b">
 				Cadastre-se
 			</div>
 			<div class="b novidadesHeaderFooter">
@@ -54,6 +54,6 @@
 		<div class="b wrapper contentBottom">
 			<img src="img/content-bottom.gif">
 		</div>
-		
+		<?php include("includes/like.php");?>
     </div>
 </div>

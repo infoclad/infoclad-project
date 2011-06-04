@@ -6,8 +6,12 @@
                 <li>
                     <a href="?page=home"><div class="b l mainLink">Home</div></a>
                 </li>
-                <li>
-                    <a href="?page=institucional"><div class="b l mainLink">A Marca</div></a>
+                <li class="aSub">
+                    <a href="#"><div class="b l mainLink">A Marca</div></a>
+                    <ul class="subMainMenu inline">
+                        <li><a href="?page=institucional">institucional</a></li>
+                        <li><a href="?page=proposta">proposta</a></li>
+                    </ul>
                 </li>
                 <li class="aSub">
                     <a href="?page=street"><div class="b l mainLink">Linhas</div></a>

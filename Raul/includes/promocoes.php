@@ -5,7 +5,7 @@
     <div class="wrapper">
 		<div id="novidades" class="b wrapper">
 			<span class="b p5"><!--  --></span>
-			<div class="headerTitulo b">
+			<div class="headerTituloRed b">
 				Promoções
 			</div>
 			<div class="b novidadesHeaderFooter">
@@ -14,7 +14,7 @@
 				</div>
 				<div class="headerMenu b r">
 					<span class="b l sprite headerMenuSeta"><!--  --></span>
-					<span class="b l"><a href="?page=promocoes">promoções</a></span>
+					<span class="b l"><a href="?page=catalogo">catálogo completo</a></span>
 					<span class="b l sprite headerMenuSeta"><!--  --></span>
 					<span class="b l"><a href="?page=estoque">estoque</a></span>
 					<div class="c"><!--  --></div>
@@ -38,7 +38,7 @@
 				<span class="b l p3"><!--  --></span>
 				<span class="b l p3"><input type="radio"/> Tudo</span>
 				<span class="b l">
-					<a href="#"><button class="sprite submit"></button></a>
+					<a href="#"><button class="sprite redSub"></button></a>
 				</span>
 				<div class="c"><!--  --></div>
 			</div>
@@ -46,19 +46,8 @@
 			<div id="prodRow" class="b p5">
 								<div class="b l prodCell p5">
 					<span class="b prodPic">
-										<span class="b picContainer"><a class="grayText" href="?page=prodView"><img src="img/produtos/produto/produto01.gif"/></a></span>
+										<span class="b picContainer"><a class="grayText" href="?page=prodView"><img src="img/produtos/produto/produto01.gif"/></a><?php include("includes/box-count.php");?></span>
 
-					</span>
-					<span class="b p5"><!--  --></span>
-					<span class="b">
-						<span class="b l">
-							
-							<div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:send href="example.com" font=""></fb:send>
-			
-							
-						</span>
-
-						<div class="c"><!--  --></div>
 					</span>
 					<span class="b p5"><!--  --></span>
 					<span class="b prodDetail sprite-x">
@@ -80,6 +69,6 @@
 		<div class="b wrapper contentBottom">
 			<img src="img/content-bottom.gif">
 		</div>
-		
+		<?php include("includes/like.php");?>
     </div>
 </div>

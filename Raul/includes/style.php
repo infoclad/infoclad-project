@@ -4,7 +4,7 @@
     <div class="wrapper">
 		<div id="novidades" class="b wrapper">
 			<span class="b p5"><!--  --></span>
-			<div class="headerTitulo b">
+			<div class="headerTituloRed b">
 				Style
 			</div>
 			<div class="b novidadesHeaderFooter">
@@ -13,9 +13,11 @@
 				</div>
 				<div class="headerMenu b r">
 					<span class="b l sprite headerMenuSeta"><!--  --></span>
-					<span class="b l"><a href="?page=catalogo">Catálogo completo</a></span>
+					<span class="b l"><a href="?page=catalogo">catálogo completo</a></span>
 					<span class="b l sprite headerMenuSeta"><!--  --></span>
-					<span class="b l"><a href="?page=votacao">Vote</a></span>
+					<span class="b l"><a href="?page=street">custom street</a></span>
+					<span class="b l sprite headerMenuSeta"><!--  --></span>
+					<span class="b l"><a href="?page=cult">custom cult</a></span>
 					<div class="c"><!--  --></div>
 				</div>
 				<div class="c"><!--  --></div>
@@ -37,6 +39,6 @@
 		<div class="b wrapper contentBottom">
 			<img src="img/content-bottom.gif">
 		</div>
-		
+		<?php include("includes/like.php");?>
     </div>
 </div>

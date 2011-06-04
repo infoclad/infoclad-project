@@ -5,7 +5,7 @@
     <div class="wrapper">
 		<div id="novidades" class="b wrapper">
 			<span class="b p5"><!--  --></span>
-			<div class="headerTitulo b">
+			<div class="headerTituloRed b">
 				Contato
 			</div>
 			<div class="b novidadesHeaderFooter">
@@ -14,7 +14,7 @@
 				</div>
 				<div class="headerMenu b r">
 					<span class="b l sprite headerMenuSeta"><!--  --></span>
-					<span class="b l"><a href="?page=catatalogo">Catálogo completo</a></span>
+					<span class="b l"><a href="?page=catalogo">Catálogo completo</a></span>
 					<span class="b l sprite headerMenuSeta"><!--  --></span>
 					<span class="b l"><a href="?page=votacao">Vote</a></span>
 					<div class="c"><!--  --></div>
@@ -22,7 +22,6 @@
 				<div class="c"><!--  --></div>
 			</div>
 			<div class="c"><!--  --></div>
-			<span class="b p5"><!--  --></span>
 			<span class="b p formCadastro">
 				<table>
 					<tr><td>Nome:</td><td colspan="3"><input class="" type="text"/></td></tr>
@@ -41,6 +40,6 @@
 		<div class="b wrapper contentBottom">
 			<img src="img/content-bottom.gif">
 		</div>
-		
+		<?php include("includes/like.php");?>
     </div>
 </div>

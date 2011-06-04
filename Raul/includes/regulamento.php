@@ -4,7 +4,7 @@
     <div class="wrapper">
 		<div id="novidades" class="b wrapper">
 			<span class="b p5"><!--  --></span>
-			<div class="headerTitulo b">
+			<div class="headerTituloRed b">
 				Concurso
 			</div>
 			<div class="b novidadesHeaderFooter">
@@ -16,6 +16,8 @@
 					<span class="b l"><a href="?page=catalogo">Catálogo completo</a></span>
 					<span class="b l sprite headerMenuSeta"><!--  --></span>
 					<span class="b l"><a href="?page=votacao">Vote</a></span>
+					<span class="b l sprite headerMenuSeta"><!--  --></span>
+					<span class="b l"><a href="?page=cadastro">Cadastre-se</a></span>
 					<div class="c"><!--  --></div>
 				</div>
 				<div class="c"><!--  --></div>
@@ -27,6 +29,6 @@
 		<div class="b wrapper contentBottom">
 			<img src="img/content-bottom.gif">
 		</div>
-		
+		<?php include("includes/like.php");?>
     </div>
 </div>

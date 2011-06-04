@@ -5,7 +5,7 @@
     <div class="wrapper">
 		<div id="novidades" class="b wrapper">
 			<span class="b p5"><!--  --></span>
-			<div class="headerTitulo b">
+			<div class="headerTituloRed b">
 				COD#P543
 			</div>
 			<div class="b novidadesHeaderFooter">
@@ -28,6 +28,7 @@
 				<a href="img/produtos/produto/produto03grande.gif" class="jqzoom prodGrande" title="">
 						<img width="891" src="img/produtos/produto/produto03grande.gif"/>
 				</a>
+				<?php include("includes/box-count.php");?>
 			</div>
 			<span class="b p5"><p><h1>Lorem ipsum dolor sit amet</h1>Consectetur adipiscing elit. Praesent neque orci, consectetur id faucibus eget, ullamcorper ut enim. Aliquam sed leo mattis tortor vulputate sagittis. Aenean nisl velit, fermentum non faucibus nec, imperdiet hendrerit enim. Nam non diam ligula. Aenean quis dignissim sem.</p></span>
 					<span class="b p5">
@@ -44,7 +45,7 @@
 						</ul>
 					</span>
 					<span class="b r">
-							<a class="whiteText" href="?page=prodView"><span class="b comprarBanner">Compre Agora &#9658;</span></a>
+							<a class="whiteText" href="?page=checkout"><span class="b comprarBanner">Compre Agora &#9658;</span></a>
 					</span>
 					<div class="c"><!--  --></div>
 					</span>
@@ -53,6 +54,6 @@
 		<div class="b wrapper contentBottom">
 			<img src="img/content-bottom.gif">
 		</div>
-		
+		<?php include("includes/like.php");?>
     </div>
 </div>

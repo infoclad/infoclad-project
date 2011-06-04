@@ -26,9 +26,9 @@
 								'<div id="t7_s" class="t7_numbs">{snn}</div>'+
 							'</div>'+
 							'<div id="t7_labels">'+
-								'<div id="t7_hl" class="t7_labs">hours</div>'+
-								'<div id="t7_ml" class="t7_labs">mins</div>'+
-								'<div id="t7_sl" class="t7_labs">secs</div>'+
+								'<div id="t7_hl" class="t7_labs">horas</div>'+
+								'<div id="t7_ml" class="t7_labs">minutos</div>'+
+								'<div id="t7_sl" class="t7_labs">segundos</div>'+
 							'</div>'+
 							'<div id="t7_timer_over"></div>'+
 						'</div>'
