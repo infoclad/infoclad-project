@@ -1,4 +1,4 @@
-<?php include("includes/topoFooter.php"); ?>
+
 
 <span class="b p"><!--  --></span>
 <div class="wrapper-holder">
@@ -13,9 +13,9 @@
 					Dúvidas ou Sugestões? Fale conosco agora mesmo!
 				</div>
 				<div class="headerMenu b r">
-					<span class="b l sprite headerMenuSeta"><!--  --></span>
+					<span class="b l sprite headerMenuSetaRed"><!--  --></span>
 					<span class="b l"><a href="?page=catalogo">Catálogo completo</a></span>
-					<span class="b l sprite headerMenuSeta"><!--  --></span>
+					<span class="b l sprite headerMenuSetaRed"><!--  --></span>
 					<span class="b l"><a href="?page=votacao">Vote</a></span>
 					<div class="c"><!--  --></div>
 				</div>
@@ -36,10 +36,11 @@
 					<tr><td colspan="2" align="center"><input type="submit" class="laranjaBtn" value="Enviar Mensagem"/></td></tr>
 				</table>
 			</span>
+					<?php include("includes/like.php");?>
 		</div>
 		<div class="b wrapper contentBottom">
 			<img src="img/content-bottom.gif">
 		</div>
-		<?php include("includes/like.php");?>
+
     </div>
 </div>

@@ -1,4 +1,4 @@
-<?php include("includes/topoFooter.php"); ?>
+
 <span class="b p"><!--  --></span>
 <div class="wrapper-holder">
     <div class="wrapper">
@@ -12,11 +12,11 @@
 					Uma linha voltada para um público com identidade
 				</div>
 				<div class="headerMenu b r">
-					<span class="b l sprite headerMenuSeta"><!--  --></span>
+					<span class="b l sprite headerMenuSetaRed"><!--  --></span>
 					<span class="b l"><a href="?page=catalogo">catálogo completo</a></span>
-					<span class="b l sprite headerMenuSeta"><!--  --></span>
+					<span class="b l sprite headerMenuSetaRed"><!--  --></span>
 					<span class="b l"><a href="?page=street">custom street</a></span>
-					<span class="b l sprite headerMenuSeta"><!--  --></span>
+					<span class="b l sprite headerMenuSetaRed"><!--  --></span>
 					<span class="b l"><a href="?page=cult">custom cult</a></span>
 					<div class="c"><!--  --></div>
 				</div>
@@ -35,10 +35,11 @@
 	    	<span id="" class="b p">
 				<img src="img/linhas.gif"/>
 	    	</span>
+	    			<?php include("includes/like.php");?>
 		</div>
 		<div class="b wrapper contentBottom">
 			<img src="img/content-bottom.gif">
 		</div>
-		<?php include("includes/like.php");?>
+
     </div>
 </div>

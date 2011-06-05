@@ -12,6 +12,11 @@
 					<div class="c"><!--  --></div>
 				</div>	
 				<div class="c"><!--  --></div>	
+				<!-- banner -->
+
+		<div id="slideshow" class="b">
+			<ul id="slides">
+				<li id="content">
 				<div class="b bannerDynamicContent">
 					<div class="b switchProduct">
 						<div class="bannerProduct b l">
@@ -27,7 +32,7 @@
 						<div class="bannerProductInfo b r">
 							<span class="b"><h1 class="oferta">Esta oferta pode ser adiquirida em:</h1></span>
 							<span class="b countdown">
-								<div id="defaultCountdown"></div>
+								<div class="defaultCountdown"></div>
 								<script type="text/javascript">
 								try {
 								var pageTracker = _gat._getTracker("UA-1719985-3");
@@ -45,7 +50,134 @@
 						<div class="c"><!--  --></div>
 					</div>
 				</div>
-				<div class="c"><!--  --></div>
+				</li>
+				<li id="content">
+				<div class="b bannerDynamicContent">
+					<div class="b switchProduct">
+						<div class="bannerProduct b l">
+								<div class="b l modelo"><img src="img/produtos/modelo/modelo00.gif"></div>
+								<div class="b l produto"><img src="img/produtos/produto/produto00.gif"></div>
+								<div class="b r titulo">
+									<h1 class="titulo"><a class="whiteText" href="?page=prodView">Lorem Ipsum 2</a></h1>
+									<h2 class="copy">Por: Raul Santana</h2>
+								</div>
+								<div class="b estampa"><a href="?page=prodView"><img src="img/produtos/estampa/estampa00.gif"></a></div>
+								<div class="c"><!--  --></div>					
+						</div>
+						<div class="bannerProductInfo b r">
+							<span class="b"><h1 class="oferta">Esta oferta pode ser adiquirida em:</h1></span>
+							<span class="b countdown">
+								<div class="defaultCountdown"></div>
+								<script type="text/javascript">
+								try {
+								var pageTracker = _gat._getTracker("UA-1719985-3");
+								pageTracker._trackPageview();
+								} catch(err) {}</script>
+							</span>
+							<span class="b"><h1>Apenas:</h1></span>
+							<span class="b"><h1 class="preco">R$17,90</h1></span>
+							
+							<span class="b"><h1 class="oferta">desconto de <span class="maxSize">30%</span></h1></span>
+							<span class="b p5"><!--  --></span>
+							<span class="b p5"><!--  --></span>
+							<span class="b oferta"><a class="bannerComprar" href="?page=prodView"><span class="b comprarBanner">Compre Agora &#9658;</span></a></span>
+						</div>
+						<div class="c"><!--  --></div>
+					</div>
+				</div>
+				</li>
+
+				<li id="content">
+				<div class="b bannerDynamicContent">
+					<div class="b switchProduct">
+						<div class="bannerProduct b l">
+								<div class="b l modelo"><img src="img/produtos/modelo/modelo00.gif"></div>
+								<div class="b l produto"><img src="img/produtos/produto/produto00.gif"></div>
+								<div class="b r titulo">
+									<h1 class="titulo"><a class="whiteText" href="?page=prodView">Lorem Ipsum 3</a></h1>
+									<h2 class="copy">Por: Raul Santana</h2>
+								</div>
+								<div class="b estampa"><a href="?page=prodView"><img src="img/produtos/estampa/estampa00.gif"></a></div>
+								<div class="c"><!--  --></div>					
+						</div>
+						<div class="bannerProductInfo b r">
+							<span class="b"><h1 class="oferta">Esta oferta pode ser adiquirida em:</h1></span>
+							<span class="b countdown">
+								<div class="defaultCountdown"></div>
+								<script type="text/javascript">
+								try {
+								var pageTracker = _gat._getTracker("UA-1719985-3");
+								pageTracker._trackPageview();
+								} catch(err) {}</script>
+							</span>
+							<span class="b"><h1>Apenas:</h1></span>
+							<span class="b"><h1 class="preco">R$27,90</h1></span>
+							
+							<span class="b"><h1 class="oferta">desconto de <span class="maxSize">30%</span></h1></span>
+							<span class="b p5"><!--  --></span>
+							<span class="b p5"><!--  --></span>
+							<span class="b oferta"><a class="bannerComprar" href="?page=prodView"><span class="b comprarBanner">Compre Agora &#9658;</span></a></span>
+						</div>
+						<div class="c"><!--  --></div>
+					</div>
+				</div>
+				</li>
+				<li id="content">
+				<div class="b bannerDynamicContent">
+					<div class="b switchProduct">
+						<div class="bannerProduct b l">
+								<div class="b l modelo"><img src="img/produtos/modelo/modelo00.gif"></div>
+								<div class="b l produto"><img src="img/produtos/produto/produto00.gif"></div>
+								<div class="b r titulo">
+									<h1 class="titulo"><a class="whiteText" href="?page=prodView">Lorem Ipsum 4</a></h1>
+									<h2 class="copy">Por: Raul Santana</h2>
+								</div>
+								<div class="b estampa"><a href="?page=prodView"><img src="img/produtos/estampa/estampa00.gif"></a></div>
+								<div class="c"><!--  --></div>					
+						</div>
+						<div class="bannerProductInfo b r">
+							<span class="b"><h1 class="oferta">Esta oferta pode ser adiquirida em:</h1></span>
+							<span class="b countdown">
+								<div class="defaultCountdown"></div>
+								<script type="text/javascript">
+								try {
+								var pageTracker = _gat._getTracker("UA-1719985-3");
+								pageTracker._trackPageview();
+								} catch(err) {}</script>
+							</span>
+							<span class="b"><h1>Apenas:</h1></span>
+							<span class="b"><h1 class="preco">R$57,90</h1></span>
+							
+							<span class="b"><h1 class="oferta">desconto de <span class="maxSize">30%</span></h1></span>
+							<span class="b p5"><!--  --></span>
+							<span class="b p5"><!--  --></span>
+							<span class="b oferta"><a class="bannerComprar" href="?page=prodView"><span class="b comprarBanner">Compre Agora &#9658;</span></a></span>
+						</div>
+						<div class="c"><!--  --></div>
+					</div>
+				</div>
+				</li>
+			</ul>
+		</div>
+	<ul id="pagination" class="b pagination disabled">
+		<li onclick="slideshow.pos(0)">1</li>
+		<li onclick="slideshow.pos(1)">2</li>
+		<li onclick="slideshow.pos(2)">3</li>
+		<li onclick="slideshow.pos(3)">4</li>
+	</ul>
+<script type="text/javascript">
+var slideshow=new TINY.fader.fade('slideshow',{
+	id:'slides',
+	auto:3,
+	resume:true,
+	navid:'pagination',
+	activeclass:'current',
+	visible:true,
+	position:0
+});
+</script>
+
+				<!-- banner -->
 			</div>
 			<div class="c"><!--  --></div>
 		</div>
@@ -63,11 +195,11 @@
 					Frete grátis para pedidos acima de R$ 80
 				</div>
 				<div class="headerMenu b r">
-					<span class="b l sprite headerMenuSeta"><!--  --></span>
+					<span class="b l sprite headerMenuSetaRed"><!--  --></span>
 					<span class="b l"><a href="?page=promocoes">promoções</a></span>
-					<span class="b l sprite headerMenuSeta"><!--  --></span>
+					<span class="b l sprite headerMenuSetaRed"><!--  --></span>
 					<span class="b l"><a href="?page=catalogo">catálogo completo</a></span>
-					<span class="b l sprite headerMenuSeta"><!--  --></span>
+					<span class="b l sprite headerMenuSetaRed"><!--  --></span>
 					<span class="b l"><a href="?page=estoque">estoque</a></span>
 					<div class="c"><!--  --></div>
 				</div>
@@ -132,7 +264,7 @@
 				</div>
 				<div class="headerMenu b r">
 					<span class="b l sprite headerMenuSeta"><!--  --></span>
-					<span class="b l"><a href="?page=envie">envie sua arte</a></span>
+					<span class="b l"><a href="?page=arte">envie sua arte</a></span>
 					<span class="b l sprite headerMenuSeta"><!--  --></span>
 					<span class="b l"><a href="?page=votacao">vote</a></span>
 					<div class="c"><!--  --></div>

@@ -12,10 +12,11 @@
 			$(".jqzoom").jqzoom();
 		});
 		</script>
+		<script type="text/javascript" src="js/tinyfader.js"></script>
 		<script type="text/javascript" src="js/jquery.countdown.js"></script>
 		<script type="text/javascript">
 		$(function () {
-			$('#defaultCountdown').countdown({
+			$('.defaultCountdown').countdown({
 				until: +300, 
 				format: 'YDHMS',
 				layout: '<div id="t7_timer">'+

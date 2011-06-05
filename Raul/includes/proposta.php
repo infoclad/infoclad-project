@@ -1,4 +1,4 @@
-<?php include("includes/topoFooter.php"); ?>
+
 <span class="b p"><!--  --></span>
 <div class="wrapper-holder">
     <div class="wrapper">
@@ -44,10 +44,10 @@
 				<div class="c"><!--  --></div>
 				<span class="b p"><!--  --></span>
 			</span>
+					<?php include("includes/like.php");?>
 		</div>
 		<div class="b wrapper contentBottom">
 			<img src="img/content-bottom.gif">
 		</div>
-		<?php include("includes/like.php");?>
     </div>
 </div>

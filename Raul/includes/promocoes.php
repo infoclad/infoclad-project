@@ -1,4 +1,4 @@
-<?php include("includes/topoFooter.php"); ?>
+
 
 <span class="b p"><!--  --></span>
 <div class="wrapper-holder">
@@ -13,9 +13,9 @@
 					Frete grátis para pedidos acima de R$ 80
 				</div>
 				<div class="headerMenu b r">
-					<span class="b l sprite headerMenuSeta"><!--  --></span>
+					<span class="b l sprite headerMenuSetaRed"><!--  --></span>
 					<span class="b l"><a href="?page=catalogo">catálogo completo</a></span>
-					<span class="b l sprite headerMenuSeta"><!--  --></span>
+					<span class="b l sprite headerMenuSetaRed"><!--  --></span>
 					<span class="b l"><a href="?page=estoque">estoque</a></span>
 					<div class="c"><!--  --></div>
 				</div>

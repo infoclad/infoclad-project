@@ -1,4 +1,4 @@
-<?php include("includes/topoFooter.php"); ?>
+
 <span class="b p"><!--  --></span>
 <div class="wrapper-holder">
     <div class="wrapper">
@@ -13,11 +13,11 @@
 					Raul Lorem Ipsum Santana
 				</div>
 				<div class="headerMenu b r">
-					<span class="b l sprite headerMenuSeta"><!--  --></span>
+					<span class="b l sprite headerMenuSetaRed"><!--  --></span>
 					<span class="b l"><a href="?page=catalogo">catálogo completo</a></span>
-					<span class="b l sprite headerMenuSeta"><!--  --></span>
+					<span class="b l sprite headerMenuSetaRed"><!--  --></span>
 					<span class="b l"><a href="?page=votacao">vote</a></span>
-					<span class="b l sprite headerMenuSeta"><!--  --></span>
+					<span class="b l sprite headerMenuSetaRed"><!--  --></span>
 					<span class="b l"><a href="?page=votacao">editar conta</a></span>
 					<div class="c"><!--  --></div>
 				</div>
@@ -30,8 +30,8 @@
 					<span class="b">
 						<img class="prodPic" src="img/usuario/avatar.jpg"/>
 					</span> 
-					<span class="b" align=center>
-						<a href="#" class="grayText bolder">alterar avatar</a>
+					<span class="b">
+						<center><a href="#" class="grayText bolder">alterar avatar</a></center>
 					</span>
 				</span>
 				<span class="b l p5"><!--  --></span>

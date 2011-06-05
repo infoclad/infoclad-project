@@ -1,4 +1,4 @@
-<?php include("includes/topoFooter.php"); ?>
+
 <span class="b p"><!--  --></span>
 <div class="wrapper-holder">
     <div class="wrapper">
@@ -60,7 +60,7 @@
 				<div class="c"><!--  --></div>
 					<span class="b p5"><!--  --></span>
 					<span class="b">
-						<span class="b r"><a href="?page=enderecos"><span class="b finalizarPedido">Finalizar Pedido &#9654;</span></a></span>
+						
 						<span class="b r p5"><!--  --></span>
 						<span class="b r"><a href="#"><span class="b removerProduto">Remover Produto &#9654;</span></a></span>
 						
@@ -131,7 +131,7 @@
 				<div class="c"><!--  --></div>
 					<span class="b p5"><!--  --></span>
 					<span class="b">
-						<span class="b r"><a href="?page=enderecos"><span class="b finalizarPedido">Finalizar Pedido &#9654;</span></a></span>
+						
 						<span class="b r p5"><!--  --></span>
 						<span class="b r"><a href="#"><span class="b removerProduto">Remover Produto &#9654;</span></a></span>
 						
@@ -202,7 +202,7 @@
 				<div class="c"><!--  --></div>
 					<span class="b p5"><!--  --></span>
 					<span class="b">
-						<span class="b r"><a href="?page=enderecos"><span class="b finalizarPedido">Finalizar Pedido &#9654;</span></a></span>
+						
 						<span class="b r p5"><!--  --></span>
 						<span class="b r"><a href="#"><span class="b removerProduto">Remover Produto &#9654;</span></a></span>
 						
@@ -215,6 +215,23 @@
 		</div>
 		</div>
 		
-		<?php include("includes/like.php");?>
+<div class="b">
+		<div class="b contentBox wrapper">
+			<div class="b p checkoutRow">
+				<div class="c"><!--  --></div>
+					<span class="b p5"><!--  --></span>
+					<span class="b">
+						<span class="b r"><a href="?page=enderecos"><span class="b finalizarPedido">Finalizar Pedido &#9654;</span></a></span>
+						<span class="b r p5"><!--  --></span>
+						<span class="b r"><a href="?page=catalogo"><span class="b blueBtn">Comprar Mais &#9654;</span></a></span>
+						<div class="c"><!--  --></div>
+					</span>
+			</div>
+
+		</div>
+		<div class="b wrapper contentBottom">
+			<img src="img/content-bottom.gif">
+		</div>
+		</div>
     </div>
 </div>

@@ -1,10 +1,10 @@
-<?php include("includes/topoFooter.php"); ?>
+
 <span class="b p"><!--  --></span>
 <div class="wrapper-holder">
     <div class="wrapper">
 		<div id="novidades" class="b wrapper">
 			<span class="b p5"><!--  --></span>
-			<div class="headerTitulo b">
+			<div class="headerTituloRed b">
 				COD#P543
 			</div>
 			<div class="b novidadesHeaderFooter">
@@ -12,9 +12,9 @@
 					Frete grátis para pedidos acima de R$ 80
 				</div>
 				<div class="headerMenu b r">
-					<span class="b l sprite headerMenuSeta"><!--  --></span>
+					<span class="b l sprite headerMenuSetaRed"><!--  --></span>
 					<span class="b l"><a href="?page=catalogo">catálogo completo</a></span>
-					<span class="b l sprite headerMenuSeta"><!--  --></span>
+					<span class="b l sprite headerMenuSetaRed"><!--  --></span>
 					<span class="b l"><a href="?page=votacao">vote</a></span>
 					<div class="c"><!--  --></div>
 				</div>
@@ -56,11 +56,10 @@
 					</span>
 						<div class="c"><!--  --></div>
 					</span>
-		
+				<?php include("includes/like.php");?>
 		</div>
 		<div class="b wrapper contentBottom">
 			<img src="img/content-bottom.gif">
 		</div>
-		<?php include("includes/like.php");?>
     </div>
 </div>

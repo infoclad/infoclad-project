@@ -1,11 +1,11 @@
-<?php include("includes/topoFooter.php"); ?>
+
 
 <span class="b p"><!--  --></span>
 <div class="wrapper-holder">
     <div class="wrapper">
 		<div id="novidades" class="b wrapper">
 			<span class="b p5"><!--  --></span>
-			<div class="headerTitulo b">
+			<div class="headerTituloRed b">
 				Login
 			</div>
 			<div class="b novidadesHeaderFooter">
@@ -13,9 +13,9 @@
 					Área restrita, somente membros cadastrados pode vê-la, faça login abaixo.
 				</div>
 				<div class="headerMenu b r">
-					<span class="b l sprite headerMenuSeta"><!--  --></span>
+					<span class="b l sprite headerMenuSetaRed"><!--  --></span>
 					<span class="b l"><a href="?page=catatalogo">Catálogo completo</a></span>
-					<span class="b l sprite headerMenuSeta"><!--  --></span>
+					<span class="b l sprite headerMenuSetaRed"><!--  --></span>
 					<span class="b l"><a href="?page=reenviar">Reenviar senha</a></span>
 					<div class="c"><!--  --></div>
 				</div>
