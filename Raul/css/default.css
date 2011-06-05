@@ -523,12 +523,13 @@ p.headerSubtitulo{
 #prodView{
 	width:295px;
 }
-a.prodGrande{
-	margin-top: -360px; padding-left: 235px;
-}
-a.prodGrande img{
+.prodGrande img{
 	height: 360px; 
 	width: 231px;
+}
+#prodView .zoomImg{
+	position:absolute;
+	padding-left:235px;
 }
 #prodDescrView{
 	width: 420px; height: auto;

@@ -24,9 +24,9 @@
 			<div class="c"><!--  --></div>
 			<span class="b p5"><!--  --></span>
 			<span class="b"><h1 class="maxSize p5">Lorem Ipsum Camisa</h1><h2 class="p5">Autor: Raul Santana</h2></span>
-			<div id="prodView" class="b l p5">
+			<div id="prodView" class="b l p5 prodGrande">
 				<span class="b l"><img src="img/produtos/estampa/estampa01grande.gif"/></span>
-				<span class="b l"><a href="img/produtos/produto/produto03grande.gif" class="jqzoom prodGrande" title=""><img src="img/produtos/produto/produto03grande.gif"/></a></span>
+				<span class="b l zoomImg"><a href="img/produtos/produto/produto03grande.gif" class="jqzoom " title=""><img src="img/produtos/produto/produto03grande.gif"/></a></span>
 				<div class="c"><!--  --></div>
 				<?php include("includes/box-count.php");?>
 				<div class="c"><!--  --></div>
