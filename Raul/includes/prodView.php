@@ -72,7 +72,7 @@
 							<div class="c"><!--  --></div>		
 						</span>			
 						<span class="b p"><!--  --></span>			
-						<span class="b r comprarBanner">Compre Agora &#9658;</span>
+						<a href="?page=checkout"><span class="b r comprarBanner">Compre Agora &#9658;</span></a>
 						<div class="c"><!--  --></div>
 				</span>
 			</div>
