@@ -2,7 +2,7 @@
 <span class="b p"><!--  --></span>
 <div class="wrapper-holder">
     <div class="wrapper">
-		<div id="novidades" class="b wrapper">
+		<div class="contentBox b wrapper">
 			<span class="b p5"><!--  --></span>
 			<div class="headerTituloRed b">
 				Proposta

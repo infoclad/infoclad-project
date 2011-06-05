@@ -185,7 +185,7 @@ var slideshow=new TINY.fader.fade('slideshow',{
 			<img src="img/content-bottom.gif">
 		</div>
 		<div class="b p5"><!--  --></div>
-		<div id="novidades" class="b wrapper">
+		<div class="contentBox b wrapper">
 			<span class="b p5"><!--  --></span>
 			<div class="headerTituloRed b">
 				Novidades
@@ -253,7 +253,7 @@ var slideshow=new TINY.fader.fade('slideshow',{
 			<img src="img/content-bottom.gif">
 		</div>
 		<div class="b p5"><!--  --></div>
-		<div id="novidades" class="b wrapper">
+		<div class="contentBox b wrapper">
 			<span class="b p5"><!--  --></span>
 			<div class="headerTitulo b">
 				Concurso

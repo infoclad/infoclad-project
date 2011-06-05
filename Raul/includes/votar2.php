@@ -24,31 +24,27 @@
 			<div class="c"><!--  --></div>
 			<span class="b p5"><!--  --></span>
 			<span class="b"><h1 class="maxSize p5">Lorem Ipsum Camisa</h1><h2 class="p5">Autor: Raul Santana</h2></span>
-			<div id="prodView" class="b p5">
-				<a href="img/produtos/produto/produto03grande.gif" class="jqzoom prodGrande" title="">
+			<div id="votacaoView" class="b p5">
+				<a href="img/produtos/produto/produto03grande.gif" class="jqzoom " title="">
 						<img width="891" src="img/produtos/produto/produto03grande.gif"/>
 				</a>
+										<span class="votacaoBox" class="b">
+											<a class="votacao" href="?page=votar"><span class="b l sprite sadstar"><!--  --></span></a>
+											<a class="votacao" href="?page=votar"><span class="b l sprite sadstar"><!--  --></span></a>
+											<a class="votacao" href="?page=votar"><span class="b l sprite sadstar"><!--  --></span></a>
+											<a class="votacao" href="?page=votar"><span class="b l sprite sadstar"><!--  --></span></a>
+											<a class="votacao" href="?page=votar"><span class="b l sprite sadstar"><!--  --></span></a>
+											<div class="c"><!--  --></div>
+										</span>
+
 				<?php include("includes/box-count.php");?>
 			</div>
-			<span class="b p5"><p><h1>Lorem ipsum dolor sit amet</h1>Consectetur adipiscing elit. Praesent neque orci, consectetur id faucibus eget, ullamcorper ut enim. Aliquam sed leo mattis tortor vulputate sagittis. Aenean nisl velit, fermentum non faucibus nec, imperdiet hendrerit enim. Nam non diam ligula. Aenean quis dignissim sem.</p></span>
-					<span class="b p5">
-					<span class="b l p5">
-						<ul class="inline tamanChoose">
-							<li>Escolha o tamanho:</li>
-							<li><a href="#">PP</a></li>
-							<li><a href="#">P</a></li>
-							<li><a href="#">M</a></li>
-							<li><a href="#">G</a></li>
-							<li><a href="#">GG</a></li>
-							<li>Escolha a quantidade:</li>
-							<li><select><option>01</option></select></li>
-						</ul>
-					</span>
-					<span class="b r">
-							<a class="whiteText" href="?page=checkout"><span class="b comprarBanner">Compre Agora &#9658;</span></a>
-					</span>
-					<div class="c"><!--  --></div>
-					</span>
+			<span class="b p5">
+			<h1>Lorem ipsum dolor sit amet</h1>
+			<h2>Por:Raul Santana</h2>
+			<p>Consectetur adipiscing elit. Praesent neque orci, consectetur id faucibus eget, ullamcorper ut enim. Aliquam sed leo mattis tortor vulputate sagittis. Aenean nisl velit, fermentum non faucibus nec, imperdiet hendrerit enim. Nam non diam ligula. Aenean quis dignissim sem.</p>
+			</span>
+
 							<?php include("includes/like.php");?>
 		
 		</div>

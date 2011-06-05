@@ -2,7 +2,7 @@
 <span class="b p"><!--  --></span>
 <div class="wrapper-holder">
     <div class="wrapper">
-		<div id="novidades" class="b wrapper">
+		<div class="contentBox b wrapper">
 			<span class="b p5"><!--  --></span>
 			<div class="headerTituloRed b">
 				Vote
@@ -46,25 +46,18 @@
 				<div class="b l prodCell p5">
 					<span class="b prodPic">
 										<span class="b picContainer"><a href="?page=votar"><img src="img/produtos/produto/produto01.gif"/></a></span>
+										<span class="votacaoBox" class="b">
+											<a class="votacao" href="?page=votar"><span class="b l sprite sadstar"><!--  --></span></a>
+											<a class="votacao" href="?page=votar"><span class="b l sprite sadstar"><!--  --></span></a>
+											<a class="votacao" href="?page=votar"><span class="b l sprite sadstar"><!--  --></span></a>
+											<a class="votacao" href="?page=votar"><span class="b l sprite sadstar"><!--  --></span></a>
+											<a class="votacao" href="?page=votar"><span class="b l sprite sadstar"><!--  --></span></a>
+											<div class="c"><!--  --></div>
+										</span>
 					</span>
-					<span class="b p5"><!--  --></span>
 					<span class="b">
-						<span class="b l">
-							
-							<span class="b l sprite pizzaGraph"><!--  --></span>
-							<span class="b l p5">349 </span>
-							<div class="c"><!--  --></div>
-							
-						</span>
-						<span class="votacaoBox" class="b r">
-							<a class="votacao" href="?page=votar"><span class="b l sprite sadstar"><!--  --></span></a>
-							<a class="votacao" href="?page=votar"><span class="b l sprite sadstar"><!--  --></span></a>
-							<a class="votacao" href="?page=votar"><span class="b l sprite sadstar"><!--  --></span></a>
-							<a class="votacao" href="?page=votar"><span class="b l sprite sadstar"><!--  --></span></a>
-							<a class="votacao" href="?page=votar"><span class="b l sprite sadstar"><!--  --></span></a>
-							<div class="c"><!--  --></div>
-						</span>
-						<div class="c"><!--  --></div>
+					<h1 class="grayText">Camisa Lorem Ipsum</h1>
+					<p class="grayText b l">Por: Raul Santana</p>
 					</span>
 				</div>
 			

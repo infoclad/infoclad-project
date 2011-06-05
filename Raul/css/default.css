@@ -742,7 +742,10 @@ table.listagem tr td.space{
     width:105px;
 
 }
-
+#prodRow p{
+	text-indent:0;
+	max-width:200px;
+}
 /* cadastros */
 
 
@@ -851,6 +854,14 @@ iframe.fb_ltr{
 
 /* votacao */
 
+.votacaoBox{
+	position:absolute;
+	z-index:5;
+	margin-top: -35px; margin-left: 45px;
+}
+#votacaoView .votacaoBox{
+	margin-top: -35px; margin-left: 75px;
+}
 .votacaoBox a.votacao:hover .sadstar{
 	background-position:-93px -90px;	
 	width:29px;

@@ -2,7 +2,7 @@
 <span class="b p"><!-- --></span>
 <div class="wrapper-holder">
     <div class="wrapper">
-		<div id="novidades" class="b wrapper">
+		<div class="b wrapper contentBox">
 			<span class="b p5"><!--  --></span>
 			<div class="headerTituloRed b">
 				Estoque
@@ -51,13 +51,6 @@
 					<span class="b">
 						<span class="b l">
 							
-							<span class="b l sprite star"><!--  --></span>
-							<span class="b l p5">349 Votos</span>
-							<div class="c"><!--  --></div>
-							
-						</span>
-						<span class="b l p3"><!--  --></span>
-						<span class="votacaoBox" class="b r">							
 							<span class="b l sprite pizzaGraph"><!--  --></span>
 							<span class="b l p5 redText">40 Un. </span>
 							<div class="c"><!--  --></div>
