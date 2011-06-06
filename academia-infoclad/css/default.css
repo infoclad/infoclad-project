@@ -62,6 +62,8 @@ button{cursor:pointer;border:0;}
 .minParagraph{
 	width:50%;
 }
+.orangeText{color:orange;}
+.greenText{color:#8fde11;}
 
 /* sprites */
 
@@ -185,7 +187,12 @@ button{cursor:pointer;border:0;}
 .brasqual{background-position:-0 -1115px;}
 .ruybar{background-position:-0 -1280px;}
 .americalat{background-position:-0 -1440px;}
-
+.headerMenuSeta{
+	background-position:-175px -95px;
+	width:11px;
+	height:15px;
+	margin: 0px 3px 0px 3px;
+}
 
 /* corpo */
 
@@ -363,7 +370,6 @@ select{
     height:auto;
     background-position:0px 0px;
     color:#fff;
-	
 }
 #mainMenu .inline{
     padding-top:0;
@@ -397,13 +403,13 @@ select{
     position:absolute;
     margin-top:39px;
     width: 100%;
-    background-color:#2081dc;
+    background-color:#e8852d;
     opacity: 0.9;
     filter: alpha(opacity=90);
     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
     z-index:999; 
-    margin-left: -480px;
-    padding-left: 480px;
+    margin-left: -500px;
+    padding-left: 449px;
     display:none;
 
 }
@@ -480,16 +486,16 @@ table.listagem tr td.space{
 
 /* cadastros */
 
-
-.cadastroForm select{
-    width:50px;
-    height:24px;
-    border:1px #ccc solid;
-    padding:3px;
-    margin-left:3px;
+.cadastroForm tr td{
+	padding:3px 3px 5px 3px;
+	vertical-align:middle;
 }
-.cadastroForm input[type="text"],.cadastroForm input[type="file"],.cadastroForm input[type="password"]{
-    width:200px;
+.cadastroForm select{
+	width:208px;
+    border:1px #ccc solid;
+}
+.cadastroForm input[type="text"],.cadastroForm input[type="file"],.cadastroForm input[type="password"],textarea{
+	width:200px;
     border:1px #ccc solid;
     padding:3px;
     color:#666;
@@ -499,24 +505,29 @@ table.listagem tr td.space{
 .cadastroForm input[type="text"]:focus{
     border:1px orange solid;
 }
-.fileAdvice{
-    width:290px;
-}
-textarea.descr{
-    width: 900px; height: 90px;
-    color:#666;
-    font:italic 10px Verdana, Geneva, Arial, Helvetica, sans-serif;
-    border:1px #ccc solid;
-    cursor:pointer;
-}
-textarea.descr:focus{
+.cadastroForm textarea:focus{
     border:1px orange solid;
 }
 .typingIcoHolder{
     padding-top: 40px; 
     padding-left: 30px; 
     padding-right: 10px;}
+.minInput{
+	width:20px;
+}
+#cadastro ul li {
+	line-height:20px;
+	padding-bottom:20px;
+}
+#cadastro .cadastroForm{
 
+	width: 415px;
+}
+.cursImg{
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+}
 /* status pedido */
 
 .statusContent{text-align:center;}
@@ -732,6 +743,7 @@ img.infocladAcad{
 .cursos{
 	padding-bottom:1px;
 	padding-right:5px;
+	width:100%;
 }
 .cursos tr td{
 	vertical-align:middle;
@@ -748,7 +760,6 @@ img.infocladAcad{
 .cursos .categoria td,.cursos .categoria2 td,.cursos .categoria3 td{
 	color:#fff;
 	text-align:center;
-	width:150px;
 	font-size:10px;	
 }
 .imgCurso{padding-right:10px;}
@@ -759,3 +770,178 @@ img.infocladAcad{
 .descricaoCurso{
 	text-align:justify;
 }
+
+ /* Online - Cursos*/
+ #onlineCursos {
+	width: 160px;
+	float:left;
+	background:#FFF;
+	margin:15px 0px 10px 10px;
+	
+	/*clear: both;*/
+}
+#onlineCursos img {
+	border:0;
+}
+ 
+ /* Títulos */
+.TituloPagina {
+	height:20px;
+	margin: 10px 0px 15px 12px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#0C8CCD;	
+	font-weight:bold;	
+}
+
+div#menuLateral {
+	float:left;
+	width: 170px;
+}
+
+div#menuLateral .coll {
+		float: left;
+		width:158px;
+		margin: 0px 0px 15px 12px;
+}
+
+.SemNivel {
+	margin: 0px;
+	padding: 0px;
+	border-top: solid 2px #ededed;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#0066A9;
+	font-weight:bold;
+	text-decoration: none;
+	padding: 11px 0px 11px 29px;
+	background:url(../img/ico_seta_menus.jpg) no-repeat 12px 12px;
+}
+.SemNivel a{
+	font-size: 11px;
+	color:#0066A9;
+	text-decoration: none;
+}
+.SemNivel a:hover{
+	color:#0066A9;
+}
+
+
+.CollapsiblePanel {
+	margin: 0px;
+	padding: 0px;
+	border-top: solid 2px #ededed;
+	/*border-left: solid 1px #CCC;
+	border-right: solid 1px #999;
+	border-top: solid 1px #999;
+	border-bottom: solid 1px #CCC;*/
+}
+
+/* This is the selector for the CollapsiblePanelTab. This container houses
+ * the title for the panel. This is also the container that the user clicks
+ * on to open or close the panel.
+ *
+ * The name of the class ("CollapsiblePanelTab") used in this selector is not necessary
+ * to make the widget function. You can use any class name you want to style an
+ * CollapsiblePanel panel tab container.
+ */
+.CollapsiblePanelTab {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#0066A9;
+	font-weight:bold;
+	text-decoration: none;
+	padding: 11px 0px 11px 29px;
+	background:url(../img/ico_seta_menus.jpg) no-repeat 12px 12px;
+	
+	/*font: bold 0.7em sans-serif;
+	background-color: #DDD;
+	border-bottom: solid 1px #CCC;*/
+	/*margin: 0px;
+	padding: 2px;*/
+	cursor: pointer;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+}
+/* This is the selector for a CollapsiblePanel's Content area. It's important to note that
+ * you should never put any padding on the content area element if you plan to
+ * use the CollapsiblePanel's open/close animations. Placing a non-zero padding on the content
+ * element can cause the CollapsiblePanel to abruptly grow in height while the panels animate.
+ *
+ * The name of the class ("CollapsiblePanelContent") used in this selector is not necessary
+ * to make the widget function. You can use any class name you want to style a
+ * CollapsiblePanel content container.
+ */
+.CollapsiblePanelContent {
+	margin: 0px;
+	padding: 0px;
+}
+.CollapsiblePanelContent h3 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color: #565656;
+	padding: 10px 0px 10px 23px;
+	border-top: 1px dotted #e7e7e7;
+}
+
+.CollapsiblePanelContent h3 a {
+	font-size: 11px;
+	font-weight: normal;
+	color: #565656;
+	text-decoration: none;
+}
+.CollapsiblePanelContent h3 a:hover {
+	color:#0066A9;
+}
+
+
+/* An anchor tag can be used inside of a CollapsiblePanelTab so that the
+ * keyboard focus ring appears *inside* the tab instead of around the tab.
+ * This is an example of how to make the text within the anchor tag look
+ * like non-anchor (normal) text.
+ */
+.CollapsiblePanelTab a {
+	/*color: black;*/
+	text-decoration: none;
+}
+
+/* This is an example of how to change the appearance of the panel tab that is
+ * currently open. The class "CollapsiblePanelOpen" is programatically added and removed
+ * from panels as the user clicks on the tabs within the CollapsiblePanel.
+ */
+.CollapsiblePanelOpen .CollapsiblePanelTab {
+	/*background-color: #EEE;*/
+	padding: 11px 0px 11px 29px;
+	background:url(../img/ico_seta_menus_baixo.jpg) no-repeat 12px 12px;
+}
+
+/* This is an example of how to change the appearance of the panel tab when the
+ * CollapsiblePanel is closed. The "CollapsiblePanelClosed" class is programatically added and removed
+ * whenever the CollapsiblePanel is closed.
+ */
+
+.CollapsiblePanelClosed .CollapsiblePanelTab {
+ /* background-color: #EFEFEF */
+ padding: 11px 0px 11px 29px;
+ background:url(../img/ico_seta_menus.jpg) no-repeat 12px 12px;
+}
+
+/* This is an example of how to change the appearance of the panel tab as the
+ * mouse hovers over it. The class "CollapsiblePanelTabHover" is programatically added
+ * and removed from panel tab containers as the mouse enters and exits the tab container.
+ */
+.CollapsiblePanelTabHover,  .CollapsiblePanelOpen .CollapsiblePanelTabHover {
+	/*background-color: #CCC;*/
+	
+}
+
+/* This is an example of how to change the appearance of all the panel tabs when the
+ * CollapsiblePanel has focus. The "CollapsiblePanelFocused" class is programatically added and removed
+ * whenever the CollapsiblePanel gains or loses keyboard focus.
+ */
+.CollapsiblePanelFocused .CollapsiblePanelTab {
+	/*background-color: #3399FF;*/
+	padding: 11px 0px 11px 29px;
+	background:url(../img/ico_seta_menus_baixo.jpg) no-repeat 12px 12px;
+}
+

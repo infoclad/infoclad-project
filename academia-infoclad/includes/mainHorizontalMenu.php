@@ -7,34 +7,19 @@
                     <a href="?page=academia"><div class="b l mainLink">A Academia</div></a>
                 </li>
                 <li class="aSub">
-                    <a href="?page=instalacao"><div class="b l mainLink">Nossas instalações</div></a>
+                    <a href="instalacoes"><div class="b l mainLink">Infraestrutura</div></a>
                 </li>
                 <li class="aSub">
-                    <a href="?page=cursos"><div class="b l mainLink">Nossos cursos</div></a>
-                    <!-- 
-                    <ul class="subMainMenu inline">
-                        <li><a href="?page=cursos">cat</a></li>
-                        <li><a href="?page=cursos">cat</a></li>
-                        <li><a href="?page=cursos">cat</a></li>
-                    </ul> -->
+                    <a href="?page=grade"><div class="b l mainLink">Horário dos Cursos</div></a>
                 </li>
                 <li class="aSub">
-                    <a href="?page=grade"><div class="b l mainLink">Grade de horários</div></a>
-                    <!-- 
-                    <ul class="subMainMenu inline">
-                        <li><a href="?page=horarios">cat</a></li>
-                        <li><a href="?page=horarios">cat</a></li>
-                        <li><a href="?page=horarios">cat</a></li>
-                    </ul> -->
+                    <a href="?page=cursos"><div class="b l mainLink">Nossos Cursos</div></a>
                 </li>	
                 <li class="aSub">
-                    <a href="?page=cadastro"><div class="b l mainLink">Cadastre-se</div></a>
-                </li>	
-                <li>
-                    <a href="?page=aluno"><div class="b l mainLink">Área do aluno</div></a>
+                    <a href="?page=cadastro"><div class="b l mainLink">Matricule-se</div></a>
                 </li>
-                <li>
-                    <a href="?page=fale"><div class="b l mainLink">Fale conosco</div></a>
+                <li class="aSub">
+                    <a href="?page=fale"><div class="b l mainLink">Fale Conosco</div></a>
                 </li>
                 <div class="c"><!--  --></div>				
             </ul>

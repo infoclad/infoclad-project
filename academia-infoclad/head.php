@@ -10,6 +10,7 @@
 		<script type="text/javascript" src="js/xfade2.js"></script>
 		<script type="text/javascript" src="js/csstarget.js"></script>	
 		<script type="text/javascript" src="js/yetii.js"></script> 
+		<script type="text/javascript" src="js/SpryCollapsiblePanel.js"></script> 
 	
 
 		
