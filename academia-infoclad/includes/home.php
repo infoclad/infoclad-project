@@ -2,8 +2,8 @@
 	<div class="b adbanner wrapper">
 			<div id="imageContainer"> 
 									<img src="img/banner/capa1.gif">
-									<img src="img/banner/capa1.gif">
-									<img src="img/banner/capa1.gif">
+									<img src="img/banner/capa2.gif">
+									<img src="img/banner/capa3.gif">
 			</div>
 	</div>
 </div>

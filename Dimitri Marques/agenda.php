@@ -12,7 +12,7 @@
                 <?php include('menu.php'); ?>
                 <div id="main-content-content" class="b l">
                     <div class="b">
-                        <span><img src="img/banners/projeto.png"></span>
+                        <span><img class="navbanner" src="img/banners/projeto.gif"></span>
                     </div>
                     <div class="b">
                         <?php include("breadcrumb.php"); ?>
@@ -20,43 +20,106 @@
                         <div class="c"><!-- --></div>
                     </div>
                     <div class="b p5"><!-- --></div>
-                    <div class="b agenda agenda-color-1">
+                    <div class="b l agenda agenda-color-1">
                         <div class="b">
                             <span class="b l">
                                 <span class="ano l">2011</span> 
-                                <span class="data l">- 3 de Maio - 5 de Junho</span>
+                                <span class="data l">- 17 de Junho</span>
                             </span>
                             <span class="b r">
-                                <iframe class="facebook" src="http://www.facebook.com/plugins/like.php?href=www.facebook.com%2Ffacebook&amp;send=true&amp;layout=standard&amp;width=450&amp;show_faces=true&amp;action=recommend&amp;colorscheme=light&amp;font=verdana&amp;height=80" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                
                             </span>
                             <div class="c"><!--  --></div>
                         </div>
                         <span class="b p5"><!--  --></span>
-                        <h1>Workshop Internacional</h1>
-                        <h2>Segunda edição com os maiores (...)</h2>
-                        <h3>Local: Colégio Dimitri Marques às 00h15m</h3>
+                        <h1>Excursão para o Jd. Zoológico</h1>
+                        <h2>Para Educação Infantil</h2>
                     </div>
-                    <div class="b agenda agenda-color-2">
+                    <div class="b l agenda agenda-color-2">
                         <div class="b">
                             <span class="b l">
                                 <span class="ano l">2011</span> 
-                                <span class="data l">- 3 de Maio - 5 de Junho</span>
+                                <span class="data l">- 18 de Junho</span>
                             </span>
                             <span class="b r">
-                                <iframe class="facebook" src="http://www.facebook.com/plugins/like.php?href=www.facebook.com%2Ffacebook&amp;send=true&amp;layout=standard&amp;width=450&amp;show_faces=true&amp;action=recommend&amp;colorscheme=light&amp;font=verdana&amp;height=80" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                
                             </span>
                             <div class="c"><!--  --></div>
                         </div>
                         <span class="b p5"><!--  --></span>
-                        <h1>Workshop Internacional</h1>
-                        <h2>Segunda edição com os maiores (...)</h2>
-                        <h3>Local: Colégio Dimitri Marques às 00h15m</h3>
+                        <h1>Prova da professora Solange</h1>
+                        <h2>Turmas: 702 e 901 - Ensino Fundamental II/1001 2001 - Ens. Médio</h2>
                     </div>
-                    <?php include("paginacao.php"); ?>
+                    <div class="b l agenda agenda-color-2">
+                        <div class="b">
+                            <span class="b l">
+                                <span class="ano l">2011</span> 
+                                <span class="data l">- 15 de Junho</span>
+                            </span>
+                            <span class="b r">
+                                
+                            </span>
+                            <div class="c"><!--  --></div>
+                        </div>
+                        <span class="b p5"><!--  --></span>
+                        <h1>2° Chamada das Avaliações - Inglês, Espanhol, Português II, Matemática II e História</h1>
+                        <h2>1° Turno 14H - 2° Turno 09H</h2>
+                    </div>
+                    <div class="b l agenda agenda-color-1">
+                        <div class="b">
+                            <span class="b l">
+                                <span class="ano l">2011</span> 
+                                <span class="data l">- 16 de Junho</span>
+                            </span>
+                            <span class="b r">
+                                
+                            </span>
+                            <div class="c"><!--  --></div>
+                        </div>
+                        <span class="b p5"><!--  --></span>
+                        <h1>2° Chamada das Avaliações - Português I, Matemática I, Ciências, Geografia, Ed. Física</h1>
+                        <h2>1° Turno 14H - 2° Turno 09H</h2>
+                    </div>
+		    <a href="files/passpeda.pdf" target=_blank>
+                    <div class="b l agenda agenda-color-1">
+                        <div class="b">
+                            <span class="b l">
+                                <span class="ano l">2011</span> 
+                                <span class="data l">- 22 de Junho</span>
+                            </span>
+                            <span class="b r">
+                                
+                            </span>
+                            <div class="c"><!--  --></div>
+                        </div>
+                        <span class="b p5"><!--  --></span>
+                        <h1>1° Passeio Pedagógico</h1>
+                        <h2>Aula passeio para as turmas do 5° ano. Valor:R$74,00(1xR$37,00 até dia 09/06 e 2xR$37,00 até dia 21/06) <a href="files/passpeda.pdf" target=_blank>(Leia mais)</a></h2>
+                    </div>
+		    </a>
+		    <a href="files/teatro.pdf" target=_blank>
+                    <div class="b l agenda agenda-color-2">
+                        <div class="b">
+                            <span class="b l">
+                                <span class="ano l">2011</span> 
+                                <span class="data l">- 09 de Junho</span>
+                            </span>
+                            <span class="b r">
+                                
+                            </span>
+                            <div class="c"><!--  --></div>
+                        </div>
+                        <span class="b p5"><!--  --></span>
+                        <h1>Vamos ao Teatro!</h1>
+                        <h2>Aula passeio para as turmas do 1° ao 4° ano. Valor:R$43,00(Inc. Transp. c/ ar e Ingressos para o espetáculo) <a href="files/teatro.pdf" target=_blank>(Leia mais)</a></h2>
+                    </div>
+		    </a>
+		    <div class="c"><!-- --></div>
+                   
                     <div class="b p5"><!-- --></div>
                 </div>			
             </div>
         </div>
-        <?php include("footer.php"); ?>
+       
     </body>
 </html>

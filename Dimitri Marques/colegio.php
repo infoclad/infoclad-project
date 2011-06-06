@@ -12,7 +12,7 @@
                 <?php include('menu.php'); ?>
                 <div id="main-content-content" class="b l">
                     <div class="b">
-                        <span><img src="img/banners/aboutbanner.png"></span>
+                        <span><img class="navbanner" src="img/banners/aboutbanner.gif"></span>
                     </div>
                     <div class="b">
                         <?php include("breadcrumb.php"); ?>
@@ -52,6 +52,6 @@
                 </div>			
             </div>
         </div>
-        <?php include("footer.php"); ?>
+    
     </body>
 </html>

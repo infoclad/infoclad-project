@@ -12,7 +12,7 @@
                 <?php include('menu.php'); ?>
                 <div id="main-content-content" class="b l">
                     <div class="b">
-                        <span><img src="img/banners/proposta.gif"></span>
+                        <span><img class="navbanner" src="img/banners/proposta.gif"></span>
                     </div>
                     <div class="b">
                         <?php include("breadcrumb.php"); ?>
@@ -21,21 +21,6 @@
                     </div>
                     <div class="b p5"><!-- --></div>
                     <div class="b">			
-                        <?php include("atencao.php"); ?>
-                        <span class="b p5"><!--  --></span>
-                        <p>
-							Quisque placerat, magna nec elementum varius, est odio vehicula velit, quis convallis nibh justo eu arcu. Morbi sed lectus augue, id aliquam mi. Etiam convallis, ipsum non aliquam tincidunt, dui magna tincidunt purus, vel euismod massa erat a libero. Ut tristique tempor augue, id venenatis urna vehicula at. 	
-                            <br><br>
-                        <ul class="b p5">
-                            <li>a) Integer ullamcorper lacus dictum felis molestie id ultrices est luctus.</li>						
-                            <li>b) Aliquam vitae tellus velit, fringilla mollis felis.</li>						
-                            <li>c) Curabitur sollicitudin urna quis dolor porttitor mollis.</li>						
-                            <li>d) Nulla vitae lectus at neque malesuada condimentum ut et urna.</li>						
-                            <li>e) Nunc ultrices eros non mauris ultricies et pretium augue posuere.</li>						
-                            <li>f) Aliquam ultrices lorem sit amet mi placerat et rhoncus erat interdum.</li>						
-                            <li>g) Quisque aliquet purus quis massa hendrerit mattis.</li>
-                        </ul>
-                        </p>
                         <div class="login-box p5">
                             <table>
                                 <tr><td>Nome:</td></tr>
@@ -74,6 +59,6 @@
                 </div>			
             </div>
         </div>
-        <?php include("footer.php"); ?>
+        
     </body>
 </html>

@@ -33,7 +33,7 @@ function so_init() {
 	imgs[0].style.display = "block";
 	imgs[0].xOpacity = .99;
 	
-	setTimeout(so_xfade,5000);
+	setTimeout(so_xfade,9000);
 }
 
 function so_xfade() {
@@ -55,7 +55,7 @@ function so_xfade() {
 	if(cOpacity<=0) {
 		imgs[current].style.display = "none";
 		current = nIndex;
-		setTimeout(so_xfade,1000);
+		setTimeout(so_xfade,8000);
 	} else {
 		setTimeout(so_xfade,50);
 	}

@@ -13,7 +13,7 @@
 
                 <div id="main-content-content" class="b l">
                     <div class="b">
-                        <span><img src="img/banners/cal.png"></span>
+                        <span><img class="navbanner" src="img/banners/cal.gif"></span>
                     </div>
                     <div class="b">
                         <?php include("breadcrumb.php"); ?>
@@ -53,7 +53,7 @@
                             </table>
                         </div>
                         <div class="b r">
-                            <iframe width="465" height="230" src="http://www.youtube.com/embed/eXaiLZ4qaPE" frameborder="0" allowfullscreen></iframe>
+                            <iframe width="330" height="230" src="http://www.youtube.com/embed/eXaiLZ4qaPE" frameborder="0" allowfullscreen></iframe>
                         </div>
                         <div class="c"><!-- --></div>
                     </div>
@@ -61,6 +61,6 @@
                 </div>			
             </div>
         </div>
-        <?php include("footer.php"); ?>
+        
     </body>
 </html>

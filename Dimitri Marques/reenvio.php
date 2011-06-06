@@ -13,7 +13,7 @@
 
                 <div id="main-content-content" class="b l">
                     <div class="b">
-                        <span><img src="img/banners/proposta.gif"></span>
+                        <span><img class="navbanner" src="img/banners/proposta.gif"></span>
                     </div>
                     <div class="b">
                         <?php include("breadcrumb.php"); ?>

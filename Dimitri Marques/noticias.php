@@ -13,7 +13,7 @@
 
                 <div id="main-content-content" class="b l">
                     <div class="b">
-                        <span><img src="img/banners/projeto.png"></span>
+                        <span><img class="navbanner" src="img/banners/projeto.gif"></span>
                     </div>
                     <div class="b">
                         <?php include("breadcrumb.php"); ?>
@@ -26,7 +26,7 @@
                         <br>		
                         <p>		
                         <ul class="b lista-noticias">
-                            <li><strong>Postado: 00/05/2011</strong> - <a href="#">Integer elementum suscipit tortor ut pulvinar. Donec eget augue et tortor tempus pulvinar. Etiam adipiscing mattis accumsan.</a></li>					
+                            <li><strong>Postado: 00/05/2011</strong> - <a href="noticiasView.php">Integer elementum suscipit tortor ut pulvinar. Donec eget augue et tortor tempus pulvinar. Etiam adipiscing mattis accumsan.</a></li>					
                         </ul>
                         </p>	
                     </div>
@@ -35,6 +35,6 @@
                 </div>			
             </div>
         </div>
-        <?php include("footer.php"); ?>
+      
     </body>
 </html>

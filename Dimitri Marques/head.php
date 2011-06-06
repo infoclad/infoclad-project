@@ -8,6 +8,7 @@
 		<script type="text/javascript" src="js/zoom_dom.js"></script>
 		<script type="text/javascript" src="js/jquery.popeye-2.0.4.min.js"></script>
 		<script type="text/javascript" src="js/swfobject.js"></script>
+<script type="text/javascript" src="js/xfade2.js"></script>
 		<script type="text/javascript">
 
 			// JAVASCRIPT VARS
@@ -16,7 +17,7 @@
 			
 			// stage dimensions
 			var stageW = 623;//"100%";
-			var stageH = 125;//"100%";
+			var stageH = 200;//"100%";
 			
 			
 			// ATTRIBUTES
@@ -47,6 +48,51 @@
 			swfobject.embedSWF("js/preview.swf"+cacheBuster, attributes.id, stageW, stageH, "9.0.124", "js/expressInstall.swf", flashvars, params);
 			
 		</script>
+<script type="text/javascript">
 
+var jQury = jQuery.noConflict();
+
+jQury(document).ready(function() {
+
+    modalPublicidade = function () {
+
+        var maskHeight = jQury(document).height();
+        var maskWidth = jQury(window).width();
+
+        jQury('#mask').css({
+            'width':maskWidth,
+            'height':maskHeight
+        });
+
+        jQury('#mask').fadeIn(1000);
+        jQury('#mask').fadeTo("slow",0.8);
+
+        var winH = jQury(window).height();
+        var winW = jQury(window).width();
+
+        jQury('#dialog').css('top',  winH/2-jQury('#dialog').height()/2);
+        jQury('#dialog').css('left', winW/2-jQury('#dialog').width()/2);
+
+        jQury('#dialog').fadeIn(2000);
+
+        jQury('#dialog').show();
+    }
+
+    jQury('.window .close').click(function (e) {
+        e.preventDefault();
+
+        jQury('#mask').hide();
+        jQury('.window').hide();
+    });
+
+    jQury('#mask').click(function () {
+        jQury(this).hide();
+        jQury('.window').hide();
+    });
+
+    modalPublicidade();
+});
+
+</script>
 		
 		

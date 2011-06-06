@@ -1,18 +1,27 @@
 <div id="main-content" class="b">
     <?php include('menu.php'); ?>
+	<!--
+        <div id="boxes">
+            <div id="dialog" class="window">
 
+                <a href="files/cartgay.pdf" class="close" title="Saiba sobre a campanha!">
+                    <img src="img/cartilha.png" alt="" />
+                </a>
+            </div>
+            <div id="mask"></div>
+        </div>
+	-->
     <div id="main-content-content" class="b l">
         <div class="b">
             <div id="destaque" class="b l">
                 <div class="b capa-destaque">
                         <!-- <span class="balao-titulo sprite balao-2"><h1>destaque</h1></span> -->
                     <span class="capa-imagem">
-                        <div id="FlabellComponent">
-                            <p>In order to view this object you need Flash Player 9+ support!</p>
-                            <a href="http://www.adobe.com/go/getflashplayer">
-                                <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player"/>
-                            </a>
-                        </div>
+        <div id="imageContainer"> 
+            <img src="banner/content/images/capa1.png" alt="" />
+            <img src="banner/content/images/capa2.png" alt="" />
+            <img src="banner/content/images/capa3.png" alt="" />
+        </div> 
                     </span>
                 </div>
                 <div class="b">
@@ -24,12 +33,12 @@ Não pensava um espaço negócio, mas um espaço vivo.  Um espaço onde pudesse atend
                     </span>
                 </div>
             </div>
-            <div class="b l">
+            <div class="b l nossos-eventos">
                 <div class="b capa-destaque">							
                     <div class="b">
                         <div class="b">
                             <span class="balao-titulo sprite balao-3"><h1>nossos eventos</h1></span>
-                            <span class="capa-imagem"><a href="agenda.php"><img src="img/capa2.png"></a></span>
+                            <span class="capa-imagem"><a href="agenda.php"><img src="img/capa2.gif"></a></span>
                         </div>
                     </div>								
                 </div>
@@ -42,28 +51,43 @@ Não pensava um espaço negócio, mas um espaço vivo.  Um espaço onde pudesse atend
                 <div class="b"><h1 class="titulo-cat">notícias</h1></div>
                 <div class="b noticia-capsule">
                     <h2 class="titulo-principal blt">Segurança na educação.</h2>
+                    <p class="destaque-txt noticia-header">segunda-feira,30/05/2011 às 17:00</p>
                     <span class="b p5"><!-- --></span>
+                    
                     <p class="destaque-txt">
-                        <a href="http://www.infoclad.com.br"><img class="noticia-thumb l" src="img/noticia1.png"></a>
-                        <a href="noticia.php#noticia">O Colégio Dimitri Marques, em parceria com a empresa <A HREF="http://www.infoclad.com.br">INFOCLAD</a> está implementando no seu novo site, uma tecnologia para que os pais possam ver o dia-a-dia de seus filhos no colégio, por meio de oito câmeras localizadas em todo perímetro escolar, onde os responsáveis poderam ter acesso através da <a href="#">Secretaria Online.</a>
+                        <a href="http://www.infoclad.com.br"><img class="noticia-thumb l" src="img/noticia1.gif"></a>
+                        <a href="#">O Colégio Dimitri Marques, em parceria com a empresa INFOCLAD está implementando no seu novo site, uma tecnologia para que os pais possam ver o dia-a-dia de seus filhos no colégio, por meio de oito câmeras localizadas em todo perímetro escolar, onde os responsáveis poderam ter acesso através da Secretaria Online.</a>
                     </p>
                     <div class="c"><!-- --></div>
-                    <p class="destaque-txt noticia-header">segunda-feira,30/05/2011 às 17:00</p>
+                    
                 </div>
-
+                <div class="b noticia-capsule">
+                    <h2 class="titulo-principal blt">Cartilha Gay nos Colégios</h2>
+                     <p class="destaque-txt noticia-header">sexta-feira,03/05/2011 às 16:25</p>
+                    <span class="b p5"><!-- --></span>
+                    <p class="destaque-txt">
+                        <a href="http://localhost/infoclad/infoclad-project/Dimitri%20Marques/files/cartgay.pdf"><img class="noticia-thumb l" src="img/noticia2.gif"></a>
+                        O Colégio Dimitri Marques, a partir de uma roda viva de interlocuções, um “diagnóstico” multidisciplinar e mais justo, está disposto a fazer com que a Cartilha Gay não seja distribuída no espaço escolar. <a href="files/cartgay.pdf"><strong>Confira aqui</strong></a> maiores informações.
+                    </p>
+                    <div class="c"><!-- --></div>
+                   
+                </div>
                 <div class="c"><!-- --></div>
             </div>
             <div class="b l">
                 <div class="b"><h1 class="titulo-cat">galeria multimídia</h1></div>
+
                 <div class="b noticia-capsule">
-                    <h2 class="titulo-principal orgt"><span class="sprite multimidia-icon l"><!-- --></span> Lorem ipsum et est tractatos reprehendunt. In mel omnes.</h2>
+                    <h2 class="titulo-principal orgt"><span class="sprite multimidia-icon l"><!-- --></span> Olimpiadas de Matemática</h2>
+                     <p class="destaque-txt noticia-header">segunda-feira,30/05/2011 às 17:00</p>
                     <span class="b p5"><!-- --></span>
                     <p class="destaque-txt">
-                        <img class="noticia-thumb l" src="img/noticia1.png">
-                        <a href="noticia.php#noticia">Lorem ipsum et est tractatos reprehendunt. In mel omnesque eligendi. Falli salutandi est ei. Dictas habemus mnesarchum vis no, laoreet conclusionemque nec cu.</a>
+                        <img class="noticia-thumb l" src="img/olimpiadamatematica.gif">
+                        <a href="inscricao.php">Já estão abertas as inscrições para a Olimpiada de Matemática do Colégio Dimitri Marques. Venha concorrer você também!
+Inscrições abertas!</a>
                     </p>
                     <div class="c"><!-- --></div>
-                    <p class="destaque-txt noticia-header">segunda-feira,30/05/2011 às 17:00</p>
+                   
                 </div>
                 <div class="c"><!-- --></div>
             </div>

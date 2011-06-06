@@ -2,7 +2,7 @@
 
 <!-- slideShowTime - if set to 0, there is no autoslide -->
 
-<banner width = "623" height = "125"
+<banner width = "623" height = "200"
 		backgroundColor = "0xFFFFFF"
 		backgroundTransparency = "100"
 		
