@@ -1,0 +1,137 @@
+@CHARSET "ISO-8859-1";
+
+#logo{
+	padding-top: 20px; 
+	padding-left: 60px;
+}
+.menu-header a{
+	font:bold 20px Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+.submenu,.submenu a{
+	color:#666;
+}
+#menu{
+	margin-left:-150px;
+	min-height:768px;
+	background-color:#0097da;
+}
+.mborda{margin-top:-11px;}
+.menu{
+	background-color:#0097da;
+	text-align:right;
+	padding-top:20px;
+	min-height:1280px;
+	padding-bottom:30px;
+}
+.menu a{
+	color:#fff;
+}
+.menu h2{
+	border-bottom:1px #0087c3 solid;
+	padding:5px;
+	color:#fff;
+	padding-right:15px;
+	font:bold 15px Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+.CollapsiblePanelContent h2,.CollapsiblePanelContent h2 a{
+	font-weight:bold;
+	color:#fff;
+}
+.CollapsiblePanelContent .CollapsiblePanelContent h2 a{
+	font-weight:normal;
+	color:#fff;
+}
+.CollapsiblePanelContent .CollapsiblePanelContent h2:hover{
+	background-color:#fdcc47;
+}
+#conteudo{
+	width:100%;
+}
+.conteudo{
+	max-width:690px;
+	padding-left:35px;
+}
+#footer{
+	background-color:#067db2;
+	height:120px;
+	text-align:left;
+	color:#fff;
+}
+#footer a{color:#fff;}
+.copyright{
+	padding-top:10px;
+	text-align:right;
+}
+
+/* collapse */
+
+.SemNivel {
+	margin: 0px;
+	padding: 0px;
+}
+.CollapsiblePanel {
+	margin: 0px;
+	padding: 0px;
+
+}
+.CollapsiblePanelTab {
+	cursor: pointer;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+}
+
+.CollapsiblePanelContent {
+	margin: 0px;
+	padding: 0px;
+}
+ 
+#imageContainer {
+	position:relative;
+	margin:auto;
+	width:450px;
+	height:144px;
+}
+#imageContainer img {
+	display:none;
+	position:absolute;
+	top:0; left:0;
+	width:450px;
+
+}	
+.chamada-flutuante{
+	
+}
+.chamada-conteudo{
+	padding-top:15px;
+}
+.chamada-conteudo-video{
+	padding-top:60px;
+}
+.chamada-conteudo img{
+	width:230px;
+}
+.dotted{border-bottom:1px #ccc dotted;padding-bottom:30px;}
+.nav-banner,.nav-banner img{width: 690px;}
+p.paragrafo-conteudo{text-align:justify;}
+.miniTable{width:350px;}
+.miniTable tr td{padding:5px;color:#fff;}
+.miniTable .color1{background-color:#0097da;}
+.miniTable .color2{background-color:#0e75a2;}
+.miniTable .color3{background-color:#377a98;}
+.formulario{max-width:250px;}
+.formulario tr td{padding-bottom:5px;}
+.formulario input[type="text"],input[type="password"],#itelefone,#icpf,#icep,textarea{
+	padding:5px;
+	border:1px #ccc solid;
+	width:250px;
+}
+.graybox{
+	background-color:#43424b;
+	color:#fff;
+	padding:5px;
+}
+.bluebox{
+	background-color:#0097da;
+	color:#fff;
+	padding:5px;
+}

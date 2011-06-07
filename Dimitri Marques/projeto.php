@@ -22,22 +22,7 @@
                     </div>
                     <div class="b p5"><!-- --></div>
                     <div class="b">
-                        <h1>Projetos Pedagógicos</h1>
-                        <br>		
-                        <p>		
-						Na Educação Infantil trabalhamos com projetos semanais que agigantam as propostas de apreensão deste segmento, e, nos demais segmentos desenvolvemos projetos periódicos que potencializam o saber e geram interatividade, interdisciplinaridade e prazer numa atuação feita e próspera a partir da vivência
-                            <br/><br/>
-						O CDM é vivência...
-                            <br/>
-                        <ul class="b p5">
-                            <li>a) Busca de valores,</li>						
-                            <li>b) Resgate de importantes conceitos,</li>
-                            <li>c) Inspiração em propostas de ensino,</li>
-                            <li>d) Valorização do estudo,</li>
-                            <li>e) Pesquisa como ferramenta do saber,</li>
-                            <li>f) Ética norteadora de escolhas,</li>
-                        </ul>
-                        </p>	
+
                     </div>
                     <div class="b p5"><!-- --></div>
                 </div>			
