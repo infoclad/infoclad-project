@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 /* CSS Document */
 
 /* includes */
@@ -765,7 +765,11 @@ img.infocladAcad{
 .imgCurso{padding-right:10px;}
 .conteudoProgramatico ul{
 	width:200px;
-	padding-bottom:5px;
+	padding-bottom:20px;
+	padding-right:30px
+}
+.conteudoProgramatico ul li {
+	line-height:20px;
 }
 .descricaoCurso{
 	text-align:justify;
