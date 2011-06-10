@@ -948,4 +948,8 @@ div#menuLateral .coll {
 	padding: 11px 0px 11px 29px;
 	background:url(../img/ico_seta_menus_baixo.jpg) no-repeat 12px 12px;
 }
-
+.dotted{
+	border-bottom:1px #ccc dotted;
+	padding-bottom:20px;
+	margin-bottom:20px;
+}

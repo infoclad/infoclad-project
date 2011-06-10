@@ -1,9 +1,13 @@
 <div class="b banner-holder">
 	<div class="b adbanner wrapper">
 			<div id="imageContainer"> 
-									<img src="img/banner/capa1.gif">
-									<img src="img/banner/capa2.gif">
-									<img src="img/banner/capa3.gif">
+									<img src="img/banner/capa1.png">
+									<img src="img/banner/capa2.png">
+									<img src="img/banner/capa3.png">
+									<img src="img/banner/capa4.png">
+									<img src="img/banner/capa5.png">
+									<img src="img/banner/capa6.png">
+									<img src="img/banner/capa7.png">
 			</div>
 	</div>
 </div>

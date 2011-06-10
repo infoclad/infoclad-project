@@ -28,7 +28,7 @@
 					</p>
 			</span>	
 			<span class="b">
-				<span class="b r"><a href="#">Topo &#9650;</a>
+				<span class="b r"><a href="#topBar">Topo &#9650;</a>
 			</span>	
 			<div class="c"><!--  --></div>
 		</div>
