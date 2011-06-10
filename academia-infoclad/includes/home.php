@@ -8,6 +8,8 @@
 									<img src="img/banner/capa5.png">
 									<img src="img/banner/capa6.png">
 									<img src="img/banner/capa7.png">
+									<img src="img/banner/capa8.png">
+									<img src="img/banner/capa9.png">
 			</div>
 	</div>
 </div>
