@@ -2,7 +2,10 @@
 
 #logo{
 	padding-top: 20px; 
-	padding-left: 60px;
+	padding-left: 40px;
+}
+#menu-header{
+	padding:20px 40px 20px 0px;
 }
 .menu-header a{
 	font:bold 20px Verdana, Geneva, Arial, Helvetica, sans-serif;
@@ -11,7 +14,7 @@
 	color:#666;
 }
 #menu{
-	margin-left:-150px;
+	margin-left:-170px;
 	min-height:768px;
 	background-color:#0097da;
 }
@@ -31,19 +34,77 @@
 	padding:5px;
 	color:#fff;
 	padding-right:15px;
-	font:bold 15px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font:normal 15px Verdana, Geneva, Arial, Helvetica, sans-serif;
 }
-.CollapsiblePanelContent h2,.CollapsiblePanelContent h2 a{
-	font-weight:bold;
-	color:#fff;
+/*
+.CollapsiblePanelOpen .CollapsiblePanelTab h2{
+	font:15px Verdana, Geneva, Arial, Helvetica, sans-serif;
 }
-.CollapsiblePanelContent .CollapsiblePanelContent h2 a{
+*/
+
+/* 2 arvores */
+
+.CollapsiblePanelClosed .CollapsiblePanelTab h2{
+	font:normal 15px Verdana, Geneva, Arial, Helvetica, sans-serif;	
+}
+.CollapsiblePanelOpen .CollapsiblePanelTab h2.mainLink{
+	font:normal 15px Verdana, Geneva, Arial, Helvetica, sans-serif;	
+}
+.CollapsiblePanelOpen .CollapsiblePanelContent .CollapsiblePanelClosed h2.mainLink{
+	border-bottom:0;
+}
+.CollapsiblePanelOpen .CollapsiblePanelContent .CollapsiblePanelOpen h2.mainLink{
+	/* font-weight:bold; */
+}
+.CollapsiblePanelOpen .CollapsiblePanelContent h2,.CollapsiblePanelOpen .CollapsiblePanelContent h2.mainLink{
 	font-weight:normal;
-	color:#fff;
 }
-.CollapsiblePanelContent .CollapsiblePanelContent h2:hover{
-	background-color:#fdcc47;
+.CollapsiblePanelOpen .CollapsiblePanelContent h2{
+	
 }
+h2.edinfantil{
+	border-right:8px #8cc63f solid;
+}
+.CollapsiblePanelOpen h2.edinfantil{
+	background-color:#8cc63f;
+	border-right:0;
+}
+h2.ensifundamental{
+	border-right:8px #ec50df solid;
+}
+.CollapsiblePanelOpen h2.ensifundamental{
+	background-color:#ec50df;
+	border-right:0;
+}
+h2.ensimedio{
+	border-right:8px #f78b15 solid;
+}
+.CollapsiblePanelOpen h2.ensimedio{
+	background-color:#f78b15;
+	border-right:0;
+}
+h2.ensfundamental1{
+	border-right:8px #e984e1 solid;
+	}
+.CollapsiblePanelOpen .CollapsiblePanelContent .CollapsiblePanelOpen  h2.ensfundamental1{
+	background-color:#e984e1;
+	border-right:0;
+}
+h2.ensfundamental2{
+	border-right:8px #d276ca solid;
+	}
+.CollapsiblePanelOpen .CollapsiblePanelContent .CollapsiblePanelOpen h2.ensfundamental2{
+	background-color:#d276ca;
+	border-right:0;
+}
+/* 2++ arvores */
+
+.CollapsiblePanelOpen .CollapsiblePanelContent .CollapsiblePanelOpen .CollapsiblePanelContent .CollapsiblePanelClosed h2.mainLink {
+	font-weight:normal;
+	border-bottom:1px #0087c3 solid;
+	border-top:0;
+} 
+
 #conteudo{
 	width:100%;
 }
@@ -56,11 +117,11 @@
 	height:120px;
 	text-align:left;
 	color:#fff;
+	padding-right:10px;	
 }
 #footer a{color:#fff;}
 .copyright{
 	padding-top:10px;
-	text-align:right;
 }
 
 /* collapse */
@@ -135,3 +196,16 @@ p.paragrafo-conteudo{text-align:justify;}
 	color:#fff;
 	padding:5px;
 }
+.webmail-caixa{
+	font:normal 11px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color:#666;
+}
+.webmail-caixa input[type="text"],.webmail-caixa input[type="password"]{
+	border:1px #ccc solid;
+	padding:0;
+	width:100px;
+}
+.powered{
+	padding-top:25px;
+}
+

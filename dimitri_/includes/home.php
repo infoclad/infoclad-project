@@ -24,7 +24,7 @@
 			<span class="b p5"><!--  --></span>
 			<span class="b chamada-flutuante">			
 				<span class="b">
-					<p class="paragrafo-conteudo"><img class="b l p5" src="img/noticia1.gif"/> O Colégio Dimitri Marques, em parceria com a empresa INFOCLAD está implementando no seu novo site, uma tecnologia para que os pais possam ver o dia-a-dia de seus filhos no colégio, por meio de oito câmeras localizadas em todo perímetro escolar, onde os responsáveis poderam ter acesso através da Secretaria Online.</p>
+					<p class="paragrafo-conteudo"><a href="http://www.infoclad.com.br"><img class="b l p5" src="img/noticia1.gif"/> O Colégio Dimitri Marques, em parceria com a empresa INFOCLAD está implementando no seu novo site, uma tecnologia para que os pais possam ver o dia-a-dia de seus filhos no colégio, por meio de oito câmeras localizadas em todo perímetro escolar, onde os responsáveis poderam ter acesso através da Secretaria Online.</a></p>
 				</span>
 				<div class="c"><!--  --></div>
 				<span class="b p5"><!--  --></span>
@@ -35,11 +35,37 @@
 			<span class="b p5"><!--  --></span>
 			<span class="b chamada-flutuante">			
 				<span class="b">
-					<p class="paragrafo-conteudo"><img class="b l p5" src="img/noticia2.gif"/> <a href="files/cartgay.pdf">O Colégio Dimitri Marques, a partir de uma roda viva de interlocuções, um “diagnóstico” multidisciplinar e mais justo, está disposto a fazer com que a Cartilha Gay não seja distribuída no espaço escolar.</a></p>
+					<p class="paragrafo-conteudo"><a href="files/cartgay.pdf"><img class="b l p5" src="img/noticia2.gif"/> O Colégio Dimitri Marques, a partir de uma roda viva de interlocuções, um “diagnóstico” multidisciplinar e mais justo, está disposto a fazer com que a Cartilha Gay não seja distribuída no espaço escolar.</a></p>
 				</span>
 				<div class="c"><!--  --></div>
 				<span class="b p5"><!--  --></span>
 				<span class="b grayText">sexta-feira, 03/05/2011 às 16:25</span>
+			</span>
+		</span>
+	</div>
+	<div class="b p5"><!--  --></div>
+	<div class="b ">
+		<span class="b"><h2 class="grayText">Notícias do Dia-a-Dia Dimitri Marques</h2></span>
+		<span class="b dotted">
+			<span class="b p5"><!--  --></span>
+			<span class="b chamada-flutuante">			
+				<span class="b">
+					<p class="paragrafo-conteudo"><a href="?page=noticias#noticia00">Comunicamos que em virtude do feriado e recesso e também da aula-passeio para as turmas do 5º ano, o calendário da P4 sofre alterações.</a></p>
+				</span>
+				<div class="c"><!--  --></div>
+				<span class="b p5"><!--  --></span>
+				<span class="b grayText">quarta feira, 08/05/2011 às 19:58</span>
+			</span>
+		</span>
+		<span class="b dotted">
+			<span class="b p5"><!--  --></span>
+			<span class="b chamada-flutuante">			
+				<span class="b">
+					<p class="paragrafo-conteudo"><a href="?page=noticias#noticia01">Alterações no quadro de aulas de MONITORIA.</a></p>
+				</span>
+				<div class="c"><!--  --></div>
+				<span class="b p5"><!--  --></span>
+				<span class="b grayText">quarta feira, 08/05/2011 às 20:00</span>
 			</span>
 		</span>
 	</div>
@@ -54,7 +80,7 @@
 				</span>
 				<span class="b p5"><!--  --></span>
 				<span class="b">
-					<p class="paragrafo-conteudo"><img class="b l p5" src="img/noticia3.gif"/> <a href="?page=inscricao">O Colégio Dimitri Marques, em parceria com a empresa INFOCLAD está implementando no seu novo site, uma tecnologia para que os pais possam ver o dia-a-dia de seus filhos no colégio, por meio de oito câmeras localizadas em todo perímetro escolar, onde os responsáveis poderam ter acesso através da Secretaria Online.</a></p>
+					<p class="paragrafo-conteudo"> <a href="?page=inscricao"><img class="b l p5" src="img/noticia3.gif"/>O Colégio Dimitri Marques, em parceria com a empresa INFOCLAD está implementando no seu novo site, uma tecnologia para que os pais possam ver o dia-a-dia de seus filhos no colégio, por meio de oito câmeras localizadas em todo perímetro escolar, onde os responsáveis poderam ter acesso através da Secretaria Online.</a></p>
 				</span>
 				<div class="c"><!--  --></div>
 				<span class="b p5"><!--  --></span>

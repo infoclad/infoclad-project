@@ -12,25 +12,25 @@
 <span class="b">
 	<ul>
 		<li><h1>Alyne da Silva</h1></li>
-		<li><i><a class="blueText" href="mailto:professor@colegiodimitrimarques.com.br">professor@colegiodimitrimarques.com.br</a></i></li>
+		<li><i><a class="blueText" href="mailto:aline.silva@colegiodimitrimarques.com.br">aline.silva@colegiodimitrimarques.com.br</a></i></li>
 		<li>&nbsp;</li>
 		<li><h1>Michele Maria</h1></li>
-		<li><i><a class="blueText" href="mailto:professor@colegiodimitrimarques.com.br">professor@colegiodimitrimarques.com.br</a></i></li>
+		<li><i><a class="blueText" href="mailto:michele.maria@colegiodimitrimarques.com.br">michele.maria@colegiodimitrimarques.com.br</a></i></li>
 		<li>&nbsp;</li>
 		<li><h1>Ana Lucia Rodrigues</h1></li>
-		<li><i><a class="blueText" href="mailto:professor@colegiodimitrimarques.com.br">professor@colegiodimitrimarques.com.br</a></i></li>
+		<li><i><a class="blueText" href="mailto:ana.luciar@colegiodimitrimarques.com.br">ana.luciar@colegiodimitrimarques.com.br</a></i></li>
 		<li>&nbsp;</li>
 		<li><h1>Camilla Lopes</h1></li>
-		<li><i><a class="blueText" href="mailto:professor@colegiodimitrimarques.com.br">professor@colegiodimitrimarques.com.br</a></i></li>
+		<li><i><a class="blueText" href="mailto:camilla.lopes@colegiodimitrimarques.com.br">camilla.lopes@colegiodimitrimarques.com.br</a></i></li>
 		<li>&nbsp;</li>
 		<li><h1>Rosemere Pacheco</h1></li>
-		<li><i><a class="blueText" href="mailto:professor@colegiodimitrimarques.com.br">professor@colegiodimitrimarques.com.br</a></i></li>
+		<li><i><a class="blueText" href="mailto:rose.pacheco@colegiodimitrimarques.com.br">rose.pacheco@colegiodimitrimarques.com.br</a></i></li>
 		<li>&nbsp;</li>
 		<li><h1>Cristiane Santos</h1></li>
-		<li><i><a class="blueText" href="mailto:professor@colegiodimitrimarques.com.br">professor@colegiodimitrimarques.com.br</a></i></li>
+		<li><i><a class="blueText" href="mailto:cris.santos@colegiodimitrimarques.com.br">cris.santos@colegiodimitrimarques.com.br</a></i></li>
 		<li>&nbsp;</li>
 		<li><h1>Milena Castellano</h1></li>
-		<li><i><a class="blueText" href="mailto:professor@colegiodimitrimarques.com.br">professor@colegiodimitrimarques.com.br</a></i></li>
+		<li><i><a class="blueText" href="mailto:milena.castellano@colegiodimitrimarques.com.br">milena.castellano@colegiodimitrimarques.com.br</a></i></li>
 		<li>&nbsp;</li>
 	</ul>
 </span>
