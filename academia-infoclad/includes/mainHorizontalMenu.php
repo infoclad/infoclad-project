@@ -7,7 +7,7 @@
                     <a href="?page=academia"><div class="b l mainLink">A Academia</div></a>
                 </li>
                 <li class="aSub">
-                    <a href="instalacoes"><div class="b l mainLink">Infraestrutura</div></a>
+                    <a href="?page=instalacoes"><div class="b l mainLink">Infraestrutura</div></a>
                 </li>
                 <li class="aSub">
                     <a href="?page=grade"><div class="b l mainLink">Horário dos Cursos</div></a>

@@ -18,82 +18,13 @@
 	<span class="b p5"><!--  --></span>
 	<span class="b conteudoProgramatico">
 	<ul class="b l">
-		<li><strong>Histórico do Unix e Linux</strong></li>
-		<li>&#9658; Origem do Unix;</li>
-		<li>&#9658; Origem do Linux;</li>
-		<li>&#9658; Distribuições;</li>
-		<li>&#9658; Características e diferenças.</li>
-	</ul>	
-	<ul class="b l">
-		<li><strong>Instalação do sistema</strong></li>
-		<li>&#9658; Preparando a instalação;</li>
-		<li>&#9658; Instalando o Linux.</li>
-	</ul>
-	<ul class="b l">
-		<li><strong>O Shell</strong></li>
-		<li>&#9658; Conceituação e o login;</li>
-		<li>&#9658; Bash;</li>
-		<li>&#9658; Terminal.</li>
-	</ul>
-	<ul class="b l">
-		<li><strong>Arquitetura do sistema</strong></li>
-		<li>&#9658; Estrutura da arquitetura;</li>
-		<li>&#9658; Principais diretórios.</li>
-	</ul>
-	<ul class="b l">
-		<li><strong>Comandos para arquivos e diretórios</strong></li>
-		<li>&#9658; ls, pwd;</li>
-		<li>&#9658; mkdir, rmdir;</li>
-		<li>&#9658; cp, mv, rm, touch;</li>
-		<li>&#9658; cat, more, less, tail, head;</li>
-		<li>&#9658; Redirecionamento de entrada e saída .</li>
-	</ul>
-	<ul class="b l">
-		<li><strong>Trabalhando com o terminal</strong></li>
-		<li>&#9658; Wildcards;</li>
-		<li>&#9658; Variáveis;</li>
-		<li>&#9658; Echo;</li>
-		<li>&#9658; Alias.</li>
-	</ul>
-	<ul class="b l">
-		<li><strong>Comandos de ajuda e documentação</strong></li>
-		<li>&#9658; Help;</li>
-		<li>&#9658; Man;</li>
-		<li>&#9658; info, whatis;</li>
-		<li>&#9658; tldp.</li>
-	</ul>
-	<ul class="b l">
-		<li><strong>Edição de arquivos com o VI</strong></li>
-		<li>&#9658; Intrudução ao VI;</li>
-		<li>&#9658; Editando textos no VI.</li>
-	</ul>
-	<ul class="b l">
-		<li><strong>Sistema de arquivos</strong></li>
-		<li>&#9658; Inodes;</li>
-		<li>&#9658; Permissões;</li>
-		<li>&#9658; Comandos chmod, chown, chgrp;</li>
-		<li>&#9658; Umask;</li>
-		<li>&#9658; SUID, SGID, Sticky Bit;</li>
-		<li>&#9658; Chattr Links rígidos e simbólicos.</li>
-	</ul>
-	<ul class="b l">
-		<li><strong>Comandos de busca de arquivos</strong></li>
-		<li>&#9658; whereis, which;</li>
-		<li>&#9658; locate, slocate, updatedb;</li>
-		<li>&#9658; find;</li>
-		<li>&#9658; grep.</li>
-	</ul>
-	<ul class="b l">
-		<li><strong>Uso de programas gráficos</strong></li>
-		<li>&#9658; X-Windows;</li>
-		<li>&#9658; OpenOffice;</li>
-		<li>&#9658; Mozilla, firebird;</li>
-		<li>&#9658; kmail, ximian. </li>
+		<li><strong>Tópico</strong></li>
+		<li>&#9658; Subtópicos;</li>
 	</ul>
 		<div class="c"><!--  --></div>
 	</span>
 	<span class="b p5"><!--  --></span>
 	<span class="b">
-		<p align="center"><a href="?page=matricule"><img src="img/matricule.png"/></a></p>
+		<p align="center"><a href="?page=matricule"><img src="img/matricule.gif"/></a></p>
 	</span>
 </div>
