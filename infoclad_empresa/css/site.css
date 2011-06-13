@@ -5,13 +5,16 @@
 	padding-left: 60px;
 }
 #topBar{
-	height:17px;
+	height:auto;
 	width:100%;
 	background-color:#0094cf;
 	color:#fff;
 }
 #topBar a{
 	color:#fff;
+}
+.barra{
+	padding:5px 0px 5px 0px;
 }
 #logoMensagem{
 	margin-top: -30px; 
@@ -45,6 +48,7 @@
 	margin:auto;
 	width:1024px;
 	height:250px;
+	padding-bottom: 5px;
 }
 #imageContainer img{
 	display:none;
