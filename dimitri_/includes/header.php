@@ -1,5 +1,5 @@
 <div id="logo" class="b l"><a href="?page=home"><img src="img/logo.gif"/></a></div>
-<div id="menu-header" class="b r p">
+<div id="menu-header" class="b r">
 	<div class="b">
 		<div class="b l"> 
 			<ul class="inline submenu">
@@ -9,10 +9,18 @@
 			</ul>
 		</div>
 		<div class="b l p5"><!--  --></div>
-		<div class="b l">
-			<span class="b l"><input type="text"/></span>
-			<span class="b l"><input type="submit" class="sprite busca" value=""/></span>
+		<div class="b l webmail-caixa">
+		<form target="_blank" method="get" action="http://www.colegiodimitrimarques.com.br:2095/login/">
+			<span class="b l">Webmail:</span>	
+			<span class="b l p3"><!-- --></span>
+			<span class="b l"><input type="text" name="user"/></span>
+			<span class="b l p3"><!-- --></span>
+			<span class="b l">Senha:</span>
+			<span class="b l p3"><!-- --></span>
+			<span class="b l"><input type="password" name="pass"/></span>
+			<span class="b l"><input type="submit" class="b sprite busca" value=""/></span>
 			<div class="c"><!--  --></div>
+		</form>
 		</div>
 		<div class="c"><!--  --></div>
 	</div>

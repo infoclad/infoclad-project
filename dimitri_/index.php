@@ -97,7 +97,7 @@
 	</head>
 	<body onload="letra();">
 	<div id="wrapper">
-		<div id="header" class="b"><?php include("Includes/header.php"); ?></div>
+		<div id="header" class="b"><?php include("includes/header.php"); ?></div>
 		<div id="conteudo" class="b">
 			<div id="menu" class="b l">
 				<?php include("includes/menu.php"); ?>

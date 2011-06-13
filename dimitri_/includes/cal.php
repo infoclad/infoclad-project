@@ -21,18 +21,24 @@ Tem por finalidade atender a comunidade local e escolar em diversas atividades e
 			<tr class="color1"><td><strong>TER,QUI</strong></td><td>18:00hs - Prof. Alexandre Bagestão</td></tr>
 			<tr class="color2"><td colspan="2"><strong>Futsal</strong></td></tr>
 			<tr class="color1"><td colspan="2"><strong>SEG,QUA,SEX</strong></td></tr>
-			<tr class="color1"><td colspan="2">18:00hs - Prof. Alexandre Bagestão</td></tr>
+			<tr class="color1"><td colspan="2">18:00hs - Prof. André Silva</td></tr>
 			<tr class="color1"><td colspan="2">19:00hs - 9 a 11 anos – Prof. André Silva</td></tr>
 			<tr class="color1"><td colspan="2">20:00hs - 12 a 15 anos - Prof. André Silva</td></tr>
 			<tr class="color1"><td colspan="2"><strong>TER,QUI</strong></td></tr>
 			<tr class="color1"><td colspan="2">19:00hs - 7 e 8 anos - Prof. André Silva</td></tr>
 			<tr class="color2"><td colspan="2"><strong>Natação</strong></td></tr>
 			<tr class="color1"><td colspan="2"><strong>SEG,QUA,SEX</strong></td></tr>
-			<tr class="color1"><td colspan="2">18:00hs - Fraldinha – 4 a 6 anos – Prof. André Silva</td></tr>
-			<tr class="color1"><td colspan="2">19:00hs - 9 a 11 anos – Prof. André Silva</td></tr>
-			<tr class="color1"><td colspan="2">20:00hs - 12 a 15 anos - Prof. André Silva</td></tr>
+			<tr class="color1"><td colspan="2">09:00hs - Prof. Paula</td></tr>
+			<tr class="color1"><td colspan="2">10:00hs - Natação para Bebês - Prof. Marcelo</td></tr>
+			<tr class="color1"><td colspan="2">15:00hs - Prof. Pasqual</td></tr>
+			<tr class="color1"><td colspan="2">16:00hs - Prof. Pasqual</td></tr>
+			<tr class="color1"><td colspan="2">17:00hs - Prof. Pasqual</td></tr>
+			<tr class="color1"><td colspan="2">18:00hs - Prof. Fernanda</td></tr>
 			<tr class="color1"><td colspan="2"><strong>TER,QUI</strong></td></tr>
-			<tr class="color1"><td colspan="2">19:00hs - 7 e 8 anos - Prof. André Silva</td></tr>
+			<tr class="color1"><td colspan="2">17:00hs - Prof. Fernanda</td></tr>
+			<tr class="color1"><td colspan="2">18:00hs - Prof. Fernanda</td></tr>
+			<tr class="color1"><td colspan="2">19:00hs - Prof. Sabrina</td></tr>
+			<tr class="color1"><td colspan="2">20:00hs - Prof. Sabrina</td></tr>
 		</table>
 	</span>
 	<span class="b r">

@@ -73,6 +73,7 @@ h3{font:normal 22px Verdana, Geneva, Arial, Helvetica, sans-serif;}
 	}
 .balao{
 	position:absolute;
+	margin-left: -5px;
 	}
 .balao1{
 	background-position:-380px -18px;    
