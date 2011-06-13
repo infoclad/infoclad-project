@@ -145,7 +145,7 @@ input[type="text"].busca{
 .destaque-link{
 	position:absolute;
 	z-index:2;
-	padding-top: 125px; padding-left: 5px;
+	padding-top: 145px; padding-left: 5px;
 }
 .mid{
 	padding:0 46px 0 46px;
