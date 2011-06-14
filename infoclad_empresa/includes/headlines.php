@@ -31,6 +31,6 @@
 	</div>
 	<div class="c p3"><!--  --></div>
 	<div class="b p5">
-		> <a href="#">Ver Todas as Headlines</a>
+		> <a href="?page=headlines_view">Ver Todas as Headlines</a>
 	</div>
 </span>

@@ -29,7 +29,7 @@
 					<tr><td>&nbsp;</td><td><h1 class="tinySize grayText">*JPG,*PNG,*BMP com no máximo 10Mb.</h1></td></tr>
 					<tr><td>Foto para exibição:</td><td><input type="file"/></td></tr>
 					<tr><td>&nbsp;</td><td><h1 class="tinySize grayText">*JPG,*PNG,*BMP com no máximo 10Mb.</h1></td></tr>
-					<tr><td colspan="2" align="center"><input type="submit" class="laranjaBtn" value="Cadastrar"/></td></tr>
+					<tr><td colspan="2" align="center"><input type="submit" class="laranjaBtn" value="Enviar arte"/></td></tr>
 				</table>
 			</span>
 					<?php include("includes/like.php");?>

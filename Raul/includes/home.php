@@ -159,7 +159,7 @@
 				</li>
 			</ul>
 		</div>
-	<ul id="pagination" class="b pagination disabled">
+	<ul id="pagination" class="b pagination">
 		<li onclick="slideshow.pos(0)">1</li>
 		<li onclick="slideshow.pos(1)">2</li>
 		<li onclick="slideshow.pos(2)">3</li>
@@ -199,8 +199,6 @@ var slideshow=new TINY.fader.fade('slideshow',{
 					<span class="b l"><a href="?page=promocoes">promoções</a></span>
 					<span class="b l sprite headerMenuSetaRed"><!--  --></span>
 					<span class="b l"><a href="?page=catalogo">catálogo completo</a></span>
-					<span class="b l sprite headerMenuSetaRed"><!--  --></span>
-					<span class="b l"><a href="?page=estoque">estoque</a></span>
 					<div class="c"><!--  --></div>
 				</div>
 				<div class="c"><!--  --></div>

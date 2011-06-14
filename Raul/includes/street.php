@@ -34,9 +34,31 @@
 				</p>
 	    	</span>
 	    	<span class="b p5"><!--  --></span>
-	    	<span id="" class="b p">
-				<img src="img/linhas.gif"/>
-	    	</span>
+			<div class="headerTituloRed b">
+				Catálogo
+			</div>
+			<div id="prodRow" class="b p5">
+				<div class="b l prodCell p5">
+					<span class="b prodPic">
+										<span class="b picContainer"><a class="grayText" href="?page=prodView"><img src="img/produtos/produto/produto01.gif"/></a><?php include("includes/box-count.php");?></span>
+
+					</span>
+					<span class="b p5"><!--  --></span>
+					<span class="b prodDetail sprite-x">
+						<span class="b prodTitulo"><a class="grayText" href="?page=prodView">nome da camisa</a></span>
+						<span class="b">
+							<span class="b l prodPreco">R$40</span>
+							<a class="whiteText" href="?page=prodView"><span class="b r comprarBanner">Comprar</span></a>
+							<div class="c"><!--  --></div>
+						</span>
+					</span>
+				</div>
+				
+
+				
+				<div class="c"><!--  --></div>
+			</div>
+				<?php include("includes/paginacaoModule.php");?>
 	    			<?php include("includes/like.php");?>
 		</div>
 		<div class="b wrapper contentBottom">

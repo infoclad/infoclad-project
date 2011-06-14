@@ -2,16 +2,14 @@
 <div class="b footer-header">
 	<ul class="b l ">
 		<li><h1>A INFOCLAD</h1></li>
-		<li><a href="?page=">Lorem Ipsum</a></li>
-		<li><a href="?page=">Lorem Ipsum</a></li>
-		<li><a href="?page=">Lorem Ipsum</a></li>
+		<li><a href="?page=infoclad">Quem Somos</a></li>
 		<li><a href="?page=index">Home</a></li>
 		<li>&nbsp;</li>
 		<li>&nbsp;</li>
 		<li><h1>Academia Infoclad</h1></li>
-		<li><a href="?page=">Lorem Ipsum</a></li>
-		<li><a href="?page=">Lorem Ipsum</a></li>
-		<li><a href="?page=">Lorem Ipsum</a></li>
+		<li><a href="http://www.academiainfoclad.com.br">A Academia Infoclad</a></li>
+		<li><a href="http://www.academiainfoclad.com.br/cursos.html">Cursos</a></li>
+		<li><a href="http://www.academiainfoclad.com.br/cadastro.html">Matricule-se</a></li>
 	</ul>
 	<ul class="b l ">
 		<li><h1>Soluções</h1></li>
@@ -26,13 +24,7 @@
 		<li><a href="?page=">Lorem Ipsum</a></li>
 	</ul>
 	<ul class="b l ">
-		<li><h1>Cursos</h1></li>
-		<li><a href="?page=">Lorem Ipsum</a></li>
-		<li><a href="?page=">Lorem Ipsum</a></li>
-		<li><a href="?page=">Lorem Ipsum</a></li>
-		<li>&nbsp;</li>
-		<li>&nbsp;</li>
-		<li><h1><a href="?page=">Contate-nos</a></h1></li>
+		<li><h1><a href="?page=fale">Contate-nos</a></h1></li>
 	</ul>
 	<div class="b r p10"><a href="http://www.infoclad.com.br"><img src="img/copyright.gif"/></a></div>
 	<div class="c"><!--  --></div>

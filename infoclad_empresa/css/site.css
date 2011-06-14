@@ -47,7 +47,7 @@
 	position:relative;
 	margin:auto;
 	width:1024px;
-	height:250px;
+	height:248px;
 	padding-bottom: 2px;
 }
 #imageContainer img{
@@ -60,12 +60,11 @@
 	border-radius: 5px;*/
 }
 #headlines{
-	width:1024px;
 	height:auto;
 	background-color:#6c7d9d;
 	color:#fff;
-	padding-bottom:10px;
-	margin-bottom:2px;
+	width: 1004px;
+	padding:5px 10px 10px 10px;
 }
 #headlines a{
 	color:#fff;
@@ -79,6 +78,9 @@
 	text-transform:capitalize;
 	text-align:justify;
 	
+}
+#barra-busca{
+	height:33px;
 }
 .barra-busca{
 	background-color:#289ac7;
@@ -103,7 +105,7 @@ input[type="text"].busca{
 }
 .menu{
 	position:absolute;
-	border-top:2px #fff solid;
+	/*border-top:2px #fff solid;*/
 	width:1024px;
 	background-color:#0094cf;
 	text-transform:capitalize;
@@ -170,3 +172,40 @@ input[type="text"].busca{
 	padding-top:15px;
 	padding-bottom:10px;
 }
+.dotted{
+	border-bottom:1px #ccc dotted;
+	padding-bottom:10px;
+	margin-bottom:10px;
+}
+.paginacao a{
+	color:#666;
+}
+.paginacao a:hover{
+	color:#ccc;
+}
+.paginacao .current{
+	color:#0a8fe8;
+}
+.formulario{
+	width:480px;
+
+}
+.formulario input[type="text"],.formulario textarea,#itelefone,#icpf,#icnpj,#icep{
+	width:470px;
+	padding:5px;
+	border:1px #ccc solid;
+}
+.formulario select{
+	width:484px;
+}
+.formulario textarea{
+	height:200px;
+	overflow:hidden;
+	white-space:pre-wrap;
+}
+.formulario tr td{
+	padding-top:8px;
+}
+textarea.mensagem{height: 377px;}
+.mediumBox{width:60%;}
+.extraMediumBox{width:45%;}

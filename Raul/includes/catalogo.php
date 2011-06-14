@@ -15,10 +15,7 @@
 				<div class="headerMenu b r">
 					<span class="b l sprite headerMenuSetaRed"><!--  --></span>
 					<span class="b l"><a href="?page=promocoes">promoções</a></span>
-					<span class="b l sprite headerMenuSetaRed"><!--  --></span>
-					<span class="b l"><a href="?page=estoque">estoque</a></span>
-					<span class="b l sprite headerMenuSetaRed"><!--  --></span>
-					<span class="b l"><a href="?page=votacao">vote</a></span>
+
 					<div class="c"><!--  --></div>
 				</div>
 				<div class="c"><!--  --></div>

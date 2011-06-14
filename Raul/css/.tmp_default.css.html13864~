@@ -1,4 +1,39 @@
-@charset "utf-8";
+<html><h1>The H1 tag looks like this</h1>
+<p>The paragraph tag after an H1 tag looks like this</p>
+<h2>The H2 tag looks like this</h2>
+<p>The paragraph tag after an H2 tag looks like this</p>
+<h3>The H3 tag looks like this</h3>
+<p>The paragraph tag after an H3 tag looks like this</p>
+<h4>The H4 tag looks like this</h4>
+<p>The paragraph tag after an H4 tag looks like this</p>
+<h5>The H5 tag looks like this</h5>
+<p>The paragraph tag after an H5 tag looks like this</p>
+<ol>
+<li><strong>This is a strong element in an ordered list</strong></li>
+<li><i>This is an italic element in an ordered list</i></li>
+<li><b>This is a bold element in an ordered list</b></li>
+<li><em>This is an emphasized element in an ordered list</em></li>
+<li>This is a regular element in an ordered list</li>
+</ol>
+<ul>
+<li><strong>This is a strong element in an unordered list</strong></li>
+<li><i>This is an italic element in an unordered list</i></li>
+<li><b>This is a bold element in an unordered list</b></li>
+<li><em>This is an emphasized element in an unordered list</em></li>
+<li>This is a regular element in an unordered list</li>
+</ul>
+<blockquote>The block quote element looks like this</blockquote>
+<pre>The pre element looks like this</pre>
+<code>The code element looks like this</code>
+<br/>
+<span>The span element looks like this</span>
+<br/>
+<a href="#">The anchor element looks like this</a>
+<br/>
+<br/>
+<div style="float:left;margin:20px;width:200px;">Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.</div>
+<div style="float:left;margin:20px;width:400px;">Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.</div>
+<div style="float:left;margin:20px;width:600px;">Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.</div><style>@charset "utf-8";
 /* CSS Document */
 
 /* includes */
@@ -39,7 +74,6 @@ button{cursor:pointer;border:0;}
 .p3{padding:3px;}
 .p5{padding:5px;}
 .disabled{display:none;}
-hr{border:1px #ccc solid;}
 p{
 	text-indent:40px;
 }
@@ -477,7 +511,7 @@ p.headerSubtitulo{
 .headerMenu a{
 	font:bold 12px Verdana, Geneva, Arial, Helvetica, sans-serif;
 	color:#666;
-	text-transform:capitalize;
+	text-transform:lowercase;
 }
 .prodCell{
 	display:table-cell;
@@ -523,16 +557,15 @@ p.headerSubtitulo{
 #prodView{
 	width:295px;
 }
-.prodGrande img{
+a.prodGrande{
+	margin-top: -360px; padding-left: 235px;
+}
+a.prodGrande img{
 	height: 360px; 
 	width: 231px;
 }
-#prodView .zoomImg{
-	position:absolute;
-	padding-left:235px;
-}
 #prodDescrView{
-	width: 420px; height: auto;
+	width: 420px; height: 365px;
 }
 #prodDescrView p{
 	text-indent:0;
@@ -743,10 +776,7 @@ table.listagem tr td.space{
     width:105px;
 
 }
-#prodRow p{
-	text-indent:0;
-	max-width:200px;
-}
+
 /* cadastros */
 
 
@@ -855,14 +885,6 @@ iframe.fb_ltr{
 
 /* votacao */
 
-.votacaoBox{
-	position:absolute;
-	z-index:5;
-	margin-top: -35px; margin-left: 45px;
-}
-#votacaoView .votacaoBox{
-	margin-top: -35px; margin-left: 75px;
-}
 .votacaoBox a.votacao:hover .sadstar{
 	background-position:-93px -90px;	
 	width:29px;
@@ -879,7 +901,7 @@ iframe.fb_ltr{
 	position:absolute;
 	z-index:999;
 	width:50px;
-	margin-top: -74px; margin-left: 8px;
+	margin-top: -93px; margin-left: 8px;
 }
 
 /* breadcrumb */
@@ -907,7 +929,7 @@ iframe.fb_ltr{
 }
 .leftwards a,.rightwards a{
 	font:bold 9px Verdana, Geneva, Arial, Helvetica, sans-serif;
-	padding: 7px 4px 5px 4px;
+	padding: 6px 4px 4px 4px;
 }
 .paginacao a:hover,.paginacao a.active{
     background-color:#f21717;
@@ -1257,25 +1279,13 @@ iframe.fb_ltr{
 
 .pagination {
 	float:left; list-style:none; height:25px;
-	z-index:99999;
-	position:absolute;
-	margin-top: 230px; margin-left: 10px;
+
+	margin-left: 15px;
+	z-index:5;
 }
-.pagination li {
-	float:left; 
-	cursor:pointer; 
-	padding:5px 8px; 
-	margin:0 4px 0 0; 
-	text-align:center; 
-    background-color: #CCCCCC;
-    border: 1px solid #FFFFFF;
-    color: #FFFFFF;
-	}
+.pagination li {float:left; cursor:pointer; padding:5px 8px; background:#666; border:1px solid #999; margin:0 4px 0 0; text-align:center; color:#222}
 .pagination li:hover {background:#777; border:1px solid #bbb; color:#000}
-li.current {
-    background-color:#f21717;
-    color:#fff;
-}
+li.current {border:1px solid #ccc; background:#888}
 
 li#content {width:900px; height:270px;}
 
@@ -1299,3 +1309,4 @@ li#content {width:900px; height:270px;}
 	overflow:hidden;
 
 }
+</style></html>
