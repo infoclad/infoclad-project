@@ -171,13 +171,13 @@ function site(v){
 
 function letra() {
     var valor_inicial = "11px";
-    document.getElementById("wrapper").style.fontSize = valor_inicial;
+    document.getElementById("conteudo").style.fontSize = valor_inicial;
 }
 function tamanhofonte(op) {
 
     var incremento = 2;  
 
-    var local_alterado = document.getElementById("wrapper").style.fontSize;
+    var local_alterado = document.getElementById("conteudo").style.fontSize;
 
     local_alterado = parseInt(local_alterado.replace(/px/,""));
 
@@ -187,7 +187,7 @@ function tamanhofonte(op) {
         local_alterado -= incremento;
     }
 
-    document.getElementById("wrapper").style.fontSize = local_alterado + 'px';
+    document.getElementById("conteudo").style.fontSize = local_alterado + 'px';
 
 }
 

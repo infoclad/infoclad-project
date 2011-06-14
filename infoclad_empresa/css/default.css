@@ -21,13 +21,15 @@ htm,body{
 	width:100%;
 }
 .wrapper{
-    width:995px;
+    width:1024px;
     margin:0px auto;
     text-align:left;
 }
 a{text-decoration:none;color:#000;}
 button{cursor:pointer;border:0;}
-.inline,.inline li{display:inline;padding:5px;}
+.inline{padding:5px;}
+.inline li{padding:0;}
+.inline,.inline li{display:inline;}
 .b{display:block;}
 .c{clear:both;}
 .l{float:left;}
@@ -35,6 +37,7 @@ button{cursor:pointer;border:0;}
 .p{padding:20px;}
 .p3{padding:3px;}
 .p5{padding:5px;}
+.p10{padding:10px;}
 .disabled{display:none;}
 
 
@@ -70,12 +73,6 @@ h3{font:normal 22px Verdana, Geneva, Arial, Helvetica, sans-serif;}
 	color:#fff;
 	text-transform:uppercase;
 	padding:2px 11px 0 0;
-}
-.busca{
-	background-position: 0 0;
-	border:0;
-	width:25px;
-	height:18px;
 }
 .facebook,.twitter,.rss,.vimeo,.youtube,.wp{
 	width:28px;
