@@ -4,12 +4,14 @@
 		<?php include("head.php"); ?>
 	</head>
 	<body onload="letra();">
-		<?php include("header.php"); ?>
-		<div id="navigationHolder" class="b wrapper-holder">
-			<div class="wrapper">
-				<?php include("nav.php"); ?>
-			</div>
-		</div>
-		<?php include("footer.php");?>
+<?php
+$page = isset($_GET['page']) ? $_GET['page'] : 'home';
+
+if (file_exists("includes/{$page}.php") == true) {
+    include("includes/{$page}.php");
+} else {
+    include('includes/home.php');
+}
+?>
 	</body>
 </html>

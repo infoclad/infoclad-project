@@ -1,0 +1,162 @@
+@CHARSET "ISO-8859-1";
+#header{
+	background:#538aca;
+	height:24px;
+	color:#fff;
+}
+#menu{
+	padding-left:0px;
+}
+#menu .aSub{
+	color:#fff;
+	padding-top:5px;
+	padding-bottom:5px;
+	width:190px;
+}
+.submenu{
+	cursor:pointer;
+}
+.submenu ul{
+	position:absolute;
+	z-index:999;
+	color:#000;
+	display:none;
+	width:190px;
+}
+.submenu ul li{
+	background:#538aca;
+	margin-top:1px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.submenu li a{
+	color:#fff;
+}
+.submenu li:hover{
+	background:#fff;
+	color:#000;
+}
+.submenu li:hover a{
+	color:#000;
+}
+.submenu:hover ul{
+	display:block;
+}
+.translate a{
+	color:#fff;
+}
+.capa{
+	height:720px;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+.capa img{
+	width:100%;
+	height:1306px;
+	margin-top: -70px;
+}
+#conteudo{
+	background-color:#fff;
+	min-height:720px;
+}
+.textoPrincipal{
+	color:#fff;
+	padding-top:50px;
+	z-index:2;
+	position:relative;
+}
+.textoPrincipal h3{
+	font-size:50px;
+}
+.textoPrincipal h2{
+	font-size:25px;
+	padding-left:25px;
+}
+.textoPrincipal h1{
+	font-size:20px;
+	padding-left:10px;
+}
+.capa-conteudo{
+	padding-top: 115px;
+}
+#footerHeader{
+	background:#508bbb;
+	height:170px;
+	padding:40px 0px 0px 0px;
+}
+#footerFooter{
+	background:#4578a2;
+	height:120px;
+}
+#footer,#footer a{
+	color:#fff;
+}
+#footer{
+	height:290px;
+	text-align:left;
+}
+#footer h1{font-weight:bold;}
+#footer li{
+	line-height:18px;
+}
+#footerFooter p{ 
+	width:420px;
+	padding-left:30px;
+} 
+.cmm{
+	width:151px;
+	height:28px;
+	padding-top:8px;
+	padding-left:8px;
+	background:url("../img/social.gif") no-repeat;
+}
+#banner-nav{
+	height:130px;
+	width:100%;
+}
+#banner-nav .capa{
+	position:absolute;
+	z-index:1;
+	height:130px;
+	overflow:hidden;
+}
+#banner-nav .banner-conteudo{
+	position:absolute;
+	z-index:2;
+	height:130px;
+	width:100%;
+}
+.titulo-pagina{
+	color:#fff;
+	padding-left: 120px;
+}
+.sign-conteudo{
+	padding-top: 20px;
+}
+.busca{
+	padding-top:94px;
+}
+.busca-recipient{
+	padding:8px 8px 8px 15px;
+	background-color:#538aca;
+}
+.busca input[type="text"]{
+	width:200px;
+}
+.sidebar{
+	padding:5px;
+	width:250px;
+}
+.ads2{
+	margin-top: -228px;
+}
+.conteudo{
+		background-color:#f6f6f6;
+		min-height:768px;
+}
+.conteudo-holder{
+	width:754px;
+	min-height:768px;
+	background-color:#fbfbfb;
+	}

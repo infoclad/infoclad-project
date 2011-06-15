@@ -42,7 +42,6 @@
 					<span class="b l p10"><!--  --></span>
 					<ul class="b l">
 						<li><a href="?page=social">redes sociais</a></li>
-						<li><a href="?page=dominio">registre seu domínio</a></li>
 						<li><a href="?page=fale">contate-nos</a></li>
 					</ul>
 					<div class="c"><!--  --></div>
