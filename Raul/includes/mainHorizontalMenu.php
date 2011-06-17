@@ -11,6 +11,8 @@
                     <ul class="subMainMenu inline">
                         <li><a href="?page=institucional">institucional</a></li>
                         <li><a href="?page=proposta">proposta</a></li>
+                        <li><a href="?page=representante">seja um representante</a></li>
+                        <li><a href="?page=banca">banca</a></li>
                     </ul>
                 </li>
                 <li id="linhas" class="aSub">
