@@ -19,6 +19,7 @@ htm,body{
     font:12px Verdana, Geneva, Arial, Helvetica, sans-serif;
     height:100%;
 	width:100%;
+	background:#4578a2;
 }
 .wrapper{
     width:1024px;
@@ -84,7 +85,11 @@ h3{font:normal 22px Verdana, Geneva, Arial, Helvetica, sans-serif;}
 .vimeo{background-position:-0 -77px;}
 .youtube{background-position:-0 -102px;}
 .wp{background-position:-0 -51px;}
-.menuseta{background-position:-130px -222px;width:20px;height:10px;}
+.menuseta{
+	background-position:-130px -222px;width:20px;height:10px;
+	z-index: 3; position: absolute; margin-top:-1px; margin-left: 140px;
+	
+	}
 .breadcrumb{background-position:-128px -252px;width:10px;height:10px;}
 .pt{background-position:-95px -180px;width:17px;height:17px;}
 .en{background-position:-95px -221px;width:17px;height:17px;}

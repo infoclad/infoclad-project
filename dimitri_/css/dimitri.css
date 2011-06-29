@@ -15,15 +15,14 @@
 }
 #menu{
 	margin-left:-170px;
-	min-height:768px;
 	background-color:#0097da;
+	min-height:768px;
 }
 .mborda{margin-top:-11px;}
 .menu{
 	background-color:#0097da;
 	text-align:right;
 	padding-top:20px;
-	min-height:1280px;
 	padding-bottom:30px;
 }
 .menu a{
@@ -107,10 +106,15 @@ h2.ensfundamental2{
 
 #conteudo{
 	width:100%;
+	background-color:#0097da;
 }
 .conteudo{
-	max-width:690px;
+	width:731px;
 	padding-left:35px;
+	background-color:#fff;
+	/*min-height:768px;*/
+	min-height:1280px;
+	padding-bottom:50px;
 }
 #footer{
 	background-color:#067db2;
@@ -172,7 +176,7 @@ h2.ensfundamental2{
 	width:230px;
 }
 .dotted{border-bottom:1px #ccc dotted;padding-bottom:30px;}
-.nav-banner,.nav-banner img{width: 690px;}
+.nav-banner,.nav-banner img{width: 731px;}
 p.paragrafo-conteudo{text-align:justify;}
 .miniTable{width:350px;}
 .miniTable tr td{padding:5px;color:#fff;}
@@ -204,6 +208,10 @@ p.paragrafo-conteudo{text-align:justify;}
 	border:1px #ccc solid;
 	padding:0;
 	width:100px;
+}
+.webmail-caixa input[type="password"]:focus,.webmail-caixa input[type="text"]:focus{
+	background-color:#fef8ce;
+	color:#666;
 }
 .powered{
 	padding-top:25px;

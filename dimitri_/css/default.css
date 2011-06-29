@@ -3,8 +3,9 @@
 
 /* includes */
 
-@import url(reset.css);
-@import url(dimitri.css);
+@import url("reset.css");
+@import url("dimitri.css");
+@import url("galleria.classic.css");
 
 /* global */
 
@@ -98,8 +99,9 @@ h3{font:normal 22px Verdana, Geneva, Arial, Helvetica, sans-serif;}
 	line-height:45px;    
 	text-align:center;    
 	width:300px;    
-	height:55px;
+	height:44px;
 	color:#fff;
+	padding-top:12px;
 	}
 .balao4{
 	background-position:-301px -130px;    

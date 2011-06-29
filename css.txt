@@ -1,0 +1,23 @@
+.sprite_cam{
+	height:210px;
+	width:455px;
+	background:url("../img/sprites/sprite_cam.gif") no-repeat;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+.cam01{background-position:0 0;}
+.cam02{background-position:0 -218px;}
+.cam03{background-position:0 -430px;}
+.cam04{background-position:0 -642px;}
+.cam05{background-position:0 -855px;}
+.cam06{background-position:0 -1070px;}
+.cam07{background-position:0 -1280px;}
+.cam08{background-position:0 -1496px;}
+
+HTML
+
+<span class="b sprite_cam camXX"><!-- --></span>
+
+README
+
+*Se o 0 não funfar tenta 0px que vai anyways..
