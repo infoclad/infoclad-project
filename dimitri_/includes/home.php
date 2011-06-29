@@ -45,33 +45,94 @@
 	</div>
 	<div class="b p5"><!--  --></div>
 	<div class="b ">
-		<span class="b"><h2 class="grayText">Notícias do Dia-a-Dia Dimitri Marques</h2></span>
+		<span class="b"><h2 class="greenText">Notícias do Dia-a-Dia Dimitri Marques</h2></span>
 		<span class="b dotted">
 			<span class="b p5"><!--  --></span>
 			<span class="b chamada-flutuante">			
 				<span class="b">
-					<p class="paragrafo-conteudo"><a href="?page=noticias#noticia00">Comunicamos que em virtude do feriado e recesso e também da aula-passeio para as turmas do 5º ano, o calendário da P4 sofre alterações.</a></p>
+					<p class="paragrafo-conteudo"><a href="?page=noticia07">Atenção às informações / alterações do mês de Julho/2011.</a></p>
 				</span>
 				<div class="c"><!--  --></div>
 				<span class="b p5"><!--  --></span>
-				<span class="b grayText">quarta feira, 08/05/2011 às 19:58</span>
+				<span class="b grayText">terça feira, 21/06/2011 às 16:59</span>
 			</span>
 		</span>
 		<span class="b dotted">
 			<span class="b p5"><!--  --></span>
 			<span class="b chamada-flutuante">			
 				<span class="b">
-					<p class="paragrafo-conteudo"><a href="?page=noticias#noticia01">Alterações no quadro de aulas de MONITORIA.</a></p>
+					<p class="paragrafo-conteudo"><a href="?page=noticia06">Reforçamos que não haverá aula no dia 22/06 (4ª feira) em razão da aula-passeio com as turmas do 5º ano.</a></p>
 				</span>
 				<div class="c"><!--  --></div>
 				<span class="b p5"><!--  --></span>
-				<span class="b grayText">quarta feira, 08/05/2011 às 20:00</span>
+				<span class="b grayText">terça, 21/06/2011 às 16:59</span>
+			</span>
+		</span>
+		<span class="b dotted">
+			<span class="b p5"><!--  --></span>
+			<span class="b chamada-flutuante">			
+				<span class="b">
+					<p class="paragrafo-conteudo"><a href="?page=noticia05">INFORMATIVO 6º Ano do Ensino Fundamental ll ao 3º Ano do Ensino Médio.</a></p>
+				</span>
+				<div class="c"><!--  --></div>
+				<span class="b p5"><!--  --></span>
+				<span class="b grayText">quarta feira, 16/06/2011 às 14:15</span>
+			</span>
+		</span>
+		<span class="b dotted">
+			<span class="b p5"><!--  --></span>
+			<span class="b chamada-flutuante">			
+				<span class="b">
+					<p class="paragrafo-conteudo"><a href="?page=noticia04">Aula complementar de Português I à turma 901.</a></p>
+				</span>
+				<div class="c"><!--  --></div>
+				<span class="b p5"><!--  --></span>
+				<span class="b grayText">quarta feira, 16/06/2011 às 14:20</span>
+			</span>
+		</span>
+		<span class="b dotted">
+			<span class="b p5"><!--  --></span>
+			<span class="b chamada-flutuante">			
+				<span class="b">
+					<p class="paragrafo-conteudo"><a href="?page=noticia03">Professores que estão substituindo a professora Solange.</a></p>
+				</span>
+				<div class="c"><!--  --></div>
+				<span class="b p5"><!--  --></span>
+				<span class="b grayText">quarta feira, 16/06/2011 às 14:20</span>
+			</span>
+		</span>
+		<span class="b dotted">
+			<span class="b p5"><!--  --></span>
+			<span class="b chamada-flutuante">			
+				<span class="b">
+					<p class="paragrafo-conteudo"><a href="?page=noticia02">Comunicamos que em virtude do feriado e recesso e também da aula-passeio para as turmas do 5º ano, o calendário da P4 sofre alterações.</a></p>
+				</span>
+				<div class="c"><!--  --></div>
+				<span class="b p5"><!--  --></span>
+				<span class="b grayText">quinta feira, 09/05/2011 às 19:58</span>
+			</span>
+		</span>
+		<span class="b dotted">
+			<span class="b p5"><!--  --></span>
+			<span class="b chamada-flutuante">			
+				<span class="b">
+					<p class="paragrafo-conteudo"><a href="?page=noticia01">Alterações no quadro de aulas de MONITORIA.</a></p>
+				</span>
+				<div class="c"><!--  --></div>
+				<span class="b p5"><!--  --></span>
+				<span class="b grayText">quinta feira, 09/05/2011 às 20:00</span>
+			</span>
+		</span>
+		<span class="b">
+			<span class="b p5"><!--  --></span>
+			<span class="b chamada-flutuante">			
+				<h1><a href="?page=noticias">Ver todas as notícias</a></h1>
 			</span>
 		</span>
 	</div>
 	<div class="b p5"><!--  --></div>
 	<div class="b ">
-		<span class="b"><h2 class="grayText">Galeria Multimídia</h2></span>
+		<span class="b"><h2 class="grayText">Eventos</h2></span>
 		<span class="b dotted">
 			<span class="b p5"><!--  --></span>
 			<span class="b chamada-flutuante">			
@@ -90,8 +151,120 @@
 	</div>
 	<div class="b p"><!--  --></div>
 	<div class="b">
+		<span class="b sprite balao balao3"><h2>Galeria de Fotos</h2></span>
+		<span class="b p"><!--  --></span>
+		<span class="b p"><!--  --></span>
+        <div id="galleria" class="b">
+            <a href="files/fotos/100_0006.JPG">
+            	<img title="Colégio Dimitri Marques"
+            	     alt="Colégio Dimitri Marques" 
+            	     src="files/fotos/100_0006.JPG">
+        	</a>
+            <a href="files/fotos/100_0015.JPG">
+            	<img title="Colégio Dimitri Marques"
+            	     alt="Colégio Dimitri Marques" 
+            	     src="files/fotos/100_0015.JPG">
+        	</a>
+            <a href="files/fotos/100_0021.JPG">
+            	<img title="Colégio Dimitri Marques"
+            	     alt="Colégio Dimitri Marques" 
+            	     src="files/fotos/100_0021.JPG">
+        	</a>
+            <a href="files/fotos/100_0037.JPG">
+            	<img title="Colégio Dimitri Marques"
+            	     alt="Colégio Dimitri Marques" 
+            	     src="files/fotos/100_0037.JPG">
+        	</a>
+            <a href="files/fotos/100_0062.JPG">
+            	<img title="Colégio Dimitri Marques"
+            	     alt="Colégio Dimitri Marques" 
+            	     src="files/fotos/100_0062.JPG">
+        	</a>
+            <a href="files/fotos/100_0079.JPG">
+            	<img title="Colégio Dimitri Marques"
+            	     alt="Colégio Dimitri Marques" 
+            	     src="files/fotos/100_0079.JPG">
+        	</a>
+            <a href="files/fotos/100_0084.JPG">
+            	<img title="Colégio Dimitri Marques"
+            	     alt="Colégio Dimitri Marques" 
+            	     src="files/fotos/100_0084.JPG">
+        	</a>
+            <a href="files/fotos/100_0085.JPG">
+            	<img title="Colégio Dimitri Marques"
+            	     alt="Colégio Dimitri Marques" 
+            	     src="files/fotos/100_0085.JPG">
+        	</a>
+            <a href="files/fotos/100_0087.JPG">
+            	<img title="Colégio Dimitri Marques"
+            	     alt="Colégio Dimitri Marques" 
+            	     src="files/fotos/100_0087.JPG">
+        	</a>
+            <a href="files/fotos/100_0090.JPG">
+            	<img title="Colégio Dimitri Marques"
+            	     alt="Colégio Dimitri Marques" 
+            	     src="files/fotos/100_0090.JPG">
+        	</a>
+            <a href="files/fotos/100_0100.JPG">
+            	<img title="Colégio Dimitri Marques"
+            	     alt="Colégio Dimitri Marques" 
+            	     src="files/fotos/100_0100.JPG">
+        	</a>
+            <a href="files/fotos/100_0110.JPG">
+            	<img title="Colégio Dimitri Marques"
+            	     alt="Colégio Dimitri Marques" 
+            	     src="files/fotos/100_0110.JPG">
+        	</a>
+            <a href="files/fotos/100_0112.JPG">
+            	<img title="Colégio Dimitri Marques"
+            	     alt="Colégio Dimitri Marques" 
+            	     src="files/fotos/100_0112.JPG">
+        	</a>
+            <a href="files/fotos/100_0117.JPG">
+            	<img title="Colégio Dimitri Marques"
+            	     alt="Colégio Dimitri Marques" 
+            	     src="files/fotos/100_0117.JPG">
+        	</a>
+            <a href="files/fotos/100_0126.JPG">
+            	<img title="Colégio Dimitri Marques"
+            	     alt="Colégio Dimitri Marques" 
+            	     src="files/fotos/100_0126.JPG">
+        	</a>
+            <a href="files/fotos/100_0127.JPG">
+            	<img title="Colégio Dimitri Marques"
+            	     alt="Colégio Dimitri Marques" 
+            	     src="files/fotos/100_0127.JPG">
+        	</a>
+            <a href="files/fotos/100_0130.JPG">
+            	<img title="Colégio Dimitri Marques"
+            	     alt="Colégio Dimitri Marques" 
+            	     src="files/fotos/100_0130.JPG">
+        	</a>
+            <a href="files/fotos/100_0131.JPG">
+            	<img title="Colégio Dimitri Marques"
+            	     alt="Colégio Dimitri Marques" 
+            	     src="files/fotos/100_0131.JPG">
+        	</a>
+            <a href="files/fotos/100_0132.JPG">
+            	<img title="Colégio Dimitri Marques"
+            	     alt="Colégio Dimitri Marques" 
+            	     src="files/fotos/100_0132.JPG">
+        	</a>
+		</div>
+    
+    <script>
+    // Load the classic theme
+    Galleria.loadTheme('js/galleria.classic.min.js');
+    
+    // Initialize Galleria
+    $('#galleria').galleria();
+
+    </script>
+    </div>
+	<div class="b p"><!--  --></div>
+	<div class="b">
 		<div class="b l">
-	    	<span class="b sprite balao balao2"><h2>Vídeos</h3></span>
+	    	<span class="b sprite balao balao2"><h2>Vídeos</h2></span>
 	    	<span class="b chamada-conteudo-video"><iframe width="249" height="149" src="http://www.youtube.com/embed/zyldlYWsPFY" frameborder="0" allowfullscreen></iframe></span>
 		</div>
 		<div class="b l p"><!--  --></div>

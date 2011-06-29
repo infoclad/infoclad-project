@@ -199,6 +199,11 @@
                 </a>
               </div>
               <div class="SemNivel">
+          	    <a href="?page=noticias" id="#" >
+                	<h2>Últimas Notícias</h2>
+                </a>
+              </div>
+              <div class="SemNivel">
           	    <a href="?page=envie" id="#" >
                 	<h2>Trabalhe Conosco</h2>
                 </a>
