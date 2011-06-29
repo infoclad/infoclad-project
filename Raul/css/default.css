@@ -30,6 +30,7 @@ htm,body{
 }
 a{text-decoration:none;}
 button{cursor:pointer;border:0;}
+.inline{display:inline;}
 .inline li{display:inline;padding-bottom:5px;}
 .b{display:block;}
 .c{clear:both;}
@@ -52,6 +53,7 @@ p{
 .blueText{color:#0a8fe8;}
 .whiteText{color:#fff;}
 .orangeText{color:#f78b15;}
+.goldText{color:#7d5303;}
 .maxSize{font-size:18px;}
 .subTitle{
     font-size:16px;
@@ -493,8 +495,8 @@ p.headerSubtitulo{
 	z-index:1;
 }
 .prodPic img{
-	max-width:205px;
-	max-height:250px;
+	width:195px;
+	height:250px;
 	border:1px #fff solid;
 }
 .prodDetail{
@@ -1006,8 +1008,12 @@ iframe.fb_ltr{
 	border:2px #fff solid;
 	font:normal 16px "Arial Black";
 	color:#fff;
-	padding:3px;
-	width:180px;
+	padding:1px;
+	max-width:250px;
+	padding-left:3px;
+	padding-right:3px;
+	padding-top: 2px; padding-bottom: 2px;
+	text-align:center;
 }
 .tamanChoose a {
 	background-color:#fff;

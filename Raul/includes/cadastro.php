@@ -47,8 +47,11 @@
 					<tr><td>E-mail:</td><td colspan="3"><input class="" type="text"/></td></tr>
 					<tr><td>Senha:</td><td colspan="3"><input class="" type="password"/></td></tr>
 					<tr><td>Confirme sua Senha:</td><td colspan="3"><input class="" type="password"/></td></tr>
-					<tr><td colspan="4" align="center"><input type="submit" class="laranjaBtn" value="Cadastrar"/></td></tr>
 				</table>
+				<span class="b p5"><!-- --></span>
+				<span class="b">
+					<center><ul class="inline"><a href="?page=regulamento"><span class="laranjaBtn">Cadastrar</span></a></li></ul></center>
+				</span>
 			</span>
 					<?php include("includes/like.php");?>
 		</div>
