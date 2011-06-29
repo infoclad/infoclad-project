@@ -3,7 +3,7 @@
 		<div class="wrapper">
 			<div class="b l sign-conteudo">
 				<div class="b"><img src="img/sign.gif"/></div>
-				<div class="b titulo-pagina"><h3>Biografia</h3></div>
+				<div class="b titulo-pagina"><h3>Título da Página</h3></div>
 			</div>
 			<div class="b r busca">
 				<div class="b busca-recipient">

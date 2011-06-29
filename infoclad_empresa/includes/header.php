@@ -36,12 +36,23 @@
 					</ul>
 					<span class="b l p10"><!--  --></span>
 					<ul class="b l">
-						<li><a href="?page=servicos">serviços</a></li>
-						<li><a href="?page=solucoes">soluções</a></li>
+						<li><a href="http://www.infocladhost.com.br/">Hospedagem de Websites</a></li>
+						<li><a href="?page=sistemas">Desenvolvimento de Sistemas</a></li>
+						<li><a href="?page=redes">Instalação de Redes</a></li>
 					</ul>
 					<span class="b l p10"><!--  --></span>
 					<ul class="b l">
-						<li><a href="?page=social">redes sociais</a></li>
+						<li><a href="?page=websites">Criação de Websites</a></li>
+						<li><a href="?page=seguranca">Segurança de Dados</a></li>
+					</ul>
+					<span class="b l p10"><!--  --></span>
+					<ul class="b l">
+						<li><a href="?page=cpweb">Sistema de Advocacia CPWEB</a></li>
+						<li><a href="?page=hotelaria">Sistema de Hotelaria</a></li>
+						<li><a href="?page=manager">Sistema de controle de estoque</a></li>
+					</ul>
+					<span class="b l p10"><!--  --></span>
+					<ul class="b l">
 						<li><a href="?page=fale">contate-nos</a></li>
 					</ul>
 					<div class="c"><!--  --></div>
