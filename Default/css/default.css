@@ -25,7 +25,7 @@ htm,body{
 
 .wrapper{
     width:1024px;
-    margin:0px 0px;
+    margin:0px auto;
     text-align:left;
 }
 a{text-decoration:none;}

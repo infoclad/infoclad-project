@@ -1,0 +1,434 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Qual é a Boa Ofertas - Página Inicial</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link type="image/x-icon" href="images/favicon.ico" rel="shortcut icon" />
+        <link type="text/css" href="css/main.css" rel="Stylesheet" media="all" />
+        <!--[if lt IE 7]>
+        <script type="text/javascript" src="js/unitpngfix.js"></script>
+        <![endif]-->
+
+        <script type="text/javascript">
+
+            var numTicks = 0;
+            var secondsTil = 336428;
+
+            var intervalid = startTimer();
+
+            function startTimer() {
+                return setInterval(timer, 1000);
+            }
+
+            function timer() {
+                var seconds = secondsTil--;
+                if (seconds < 0) {
+                    seconds = 0;
+                }
+                var hours = Math.floor(seconds / 3600);
+                seconds -= hours * 3600;
+                var minutes = Math.floor(seconds / 60);
+                seconds -= minutes * 60;
+
+                // Add 0 if x < 10;
+                hours = hours < 10 ? '0'+hours : hours;
+                minutes = minutes < 10 ? '0'+minutes : minutes;
+                seconds = seconds < 10 ? '0'+seconds : seconds;
+                
+                document.getElementById("timer_h").innerHTML = hours >= 0 ? hours : 0;
+                document.getElementById("timer_m").innerHTML = minutes >= 0 ? minutes : 0;
+                document.getElementById("timer_s").innerHTML = seconds >= 0 ? seconds : 0;
+                
+                if (numTicks++ > 500 || secondsTil == 0) {
+                    if (window.location.href.lastIndexOf('?') > -1) {
+                        window.location.href = window.location.href;
+                        clearInterval(intervalid);
+                    } else {
+                        window.location.href = window.location.href;
+                        clearInterval(intervalid);
+                    }
+                }
+            }
+        </script>
+
+    </head>
+    <body>
+        <div id="topo">
+            <div id="barra_atalho">
+                <div class="wrapper">
+                    <div class="conteudo_estatico whitetext tinytext">Seja Bem Vindo(a), Usuário. (<a href="#" class="whitetext tinytext">Clique aqui</a> para efetuar login.)</div>
+                    <a href="#"><img class="fundo_estatico" src="images/barra_topo.png"/></a>
+                </div>
+            </div>
+            <div id="barra_conteudo">
+                <div class="wrapper">
+                    <div class="conteudo_estatico">
+                        <table id="logo"><tr><td><img src="images/logo_grande.png"/></td></tr><tr><td class="tinytext darkbluetext">As melhores ofertas da sua região!</td></tr></table>
+                        <table id="busca">
+                            <tr class="mediumtext darkbluetext boldertext"><td>As melhores ofertas em:</td><td>&nbsp;</td><td>&nbsp;</td><td>Receba nossas ofertas por e-mail:</td></tr>
+                            <tr><td></td><td>&nbsp;</td><td>&nbsp;</td><td>
+                                    <div class="conteudo_estatico">
+                                        <table id="newsletter">
+                                            <tr><td><img src="images/icone_carta.png"/></td><td><input type="text" value="Insira seu e-mail"/></td><td><input type="submit"  value=""/></td></tr>
+                                        </table>
+                                    </div>
+                                    <img class="fundo_estatico" src="images/input_topo_fundo.png"/>
+                                </td></tr>
+                            <tr class="tinytext darkbluetext"><td><input type="radio"/> Quero filtar por bairros. <input type="radio"/> Quero filtar por cidades.</td></tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div id="menu">
+                <div class="wrapper">
+                    <table>
+                        <tr><td class="menuLinks"><a href="#" class="boldertext tinytext whitetext">Ofertas do dia</a></td><td class="menuLinks"><a href="#" class="boldertext tinytext whitetext">Como Funciona?</a></td><td class="menuLinks"><a href="#" class="boldertext tinytext whitetext">Cadastre-se</a></td><td class="menuLinks tinytext yellowtext">Login: <input type="text" /> Senha: <input type="password" /></td><td><ul><li><a class="tinytext yellowtext" href="#">Esqueci minha senha.</a></li><li><a class="tinytext yellowtext" href="#">Não consigo me conectar.</a></li></ul></td><td class="menuLinks"><input type="submit" value=""/></td></tr></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div id="conteudo">
+            <div class="wrapper">
+                <div class="clearfix">
+                    <!-- inserção aqui -->
+
+
+                    <div class="floatingbox">
+                        <div class="clearfix">
+                            <div class="column">
+                                <div id="chamadaprincipal">
+                                    <h1 class="whitetext">Os melhores descontos</h1>
+                                    <h2 class="yellowtext">ATE 70% OFF</h2>
+                                    <h1 class="whitetext">você encontra no qualeaboa.com.br</h1>
+                                    <p class="tinytext whitetext">Lorem ipsum eu ridens impetus vim. Qui at sententiae dissentiunt. Ex omittantur conclusionemque has, an sit
+                                        eloquentiam theophrastus consequuntur. Prima iusto quidam per ne, audire persequeris in qui.</p>
+                                </div>
+                                <div id="flashbanner">
+                                    <img src="images/banner_principal.png"/>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div id="associar">
+                                    <p>
+                                        <img style="position:relative;padding-bottom:20px;padding-top:10px;" src="images/titulo_associar.png"/>
+                                        <table>
+                                            <tr class="tinytext"><td>Nome</td><td>Sobrenome</td></tr>
+                                            <tr class="tinytext"><td><input type="text" /></td><td><input type="text" /></td></tr>
+                                            <tr class="tinytext"><td colspan="2">E-mail</td></tr>
+                                            <tr class="tinytext"><td colspan="2"><input type="text" style="width:224px;" /></td></tr>
+                                            <tr class="tinytext"><td colspan="2">Senha</td></tr>
+                                            <tr class="tinytext"><td colspan="2"><input type="text" style="width:224px;" /></td></tr>
+                                            <tr class="tinytext"><td colspan="2"><input type="checkbox" /> Aceito as condições de uso e a Política de <br/> privacidade.</td></tr>
+                                            <tr><td colspan="2" style="padding-top:10px;text-align:center;"><input type="submit" value="" /></td></tr>
+                                        </table>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="floatingbox">
+                        <div class="clearfix">
+                            <div class="column">
+                                <div class="ofertaprincipal">
+                                    <img src="images/oferta_top.png"/>
+                                    <div class="ofertaconteudo">
+                                        <div class="clearfix">
+                                            <div class="column">
+                                                <div id="flashpreco">
+                                                    <div class="conteudo_estatico">
+                                                        <table>
+                                                            <tr><td style="font:20px verdana;color:#fff;text-indent:20px;">de</td></tr>
+                                                            <tr><td style="font:30px verdana;color:#fff;text-indent:40px;">R$99</td></tr>
+                                                            <tr><td style="font:30px verdana;color:#fdde02;text-indent:20px;">por</td></tr>
+                                                            <tr><td style="font:40px verdana;color:#fdde02;text-indent:30px;">R$49</td></tr>
+                                                            <tr><td style="text-indent:2px;"><img src="images/comprar.png"/></td></tr>
+                                                            <tr><td>&nbsp;</td></tr>
+                                                            <tr><td><a href=""><img src="images/presenteie.png"/></a></td></tr>
+                                                        </table>
+                                                    </div>
+                                                    <img class="fundo_estatico" src="images/fundo_flash.png"/>
+                                                </div>
+                                                <div id="contador">
+                                                    <div class="conteudo_estatico tinytext whitetext">
+                                                        <span id="contador_box">
+                                                            <table>
+                                                                <tr class="boldertext hugetext">
+                                                                    <td><span id="timer_h">00</span></td>
+                                                                    <td>:</td>
+                                                                    <td><span id="timer_m">00</span></td>
+                                                                    <td>:</td>
+                                                                    <td><span id="timer_s">00</span></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>horas</td>
+                                                                    <td>&nbsp;</td>
+                                                                    <td>min</td>
+                                                                    <td>&nbsp;</td>
+                                                                    <td>seg</td>
+                                                                </tr>
+                                                            </table>
+                                                        </span>
+                                                        <span id="contador_conteudo"><span class="boldertext mediumtext">900 Vendidos </span> <br/> Mínimo de 00 atingido.</span>                                   </div>
+                                                    <img class="fundo_estatico" src="images/contador_fundo.png"/>
+                                                </div>
+                                            </div>
+                                            <div class="column">
+                                                <h1 class="ofertaprincipal_titulo"><span class="darkbluetext">Oferta do dia: </span> Lorem ipsum eu impetus vim.
+                                                    Qui at sententiae dissenti
+                                                    unt. Ex omittantur conclusionemque
+                                                    has, an sit eloquen tiam theophrastus.
+                                                </h1>
+                                                <img class="ofertaprincipal_imagem" src="images/oferta1.png"/>
+                                                <h1 class="normaltext tinytext ofertaprincipal_descr">Sed hinc legimus ullamcorper ea, eum ad vidit forensibus. Quas modus
+                                                    dissentiet eum in. Qui ad eripuit accusamus, ea nec utinam voluptua eloq
+                                                    uentiam. Meliore abhorreant ei est, sed stet sententiae et. Delectus
+                                                    philosophia vix ut, voluptua aliquyam ex pro.
+                                                    <br/><br/>
+                                                    No dicit laudem nominati mel, no partem discere qualisque eum. Eos etia
+                                                    m petentium et. Ad duo pertinacia reprimique. Id oratio deserunt expetendis
+                                                    pro. Pro ad tritani urbanitas, vim fugit commune id.
+                                                    <br/><br/>
+                                                    (<strong>99999</strong>) Comentários nesta oferta.  <a class="darkbluetext" href="#">Deixe um comentário</a> | <a class="darkbluetext"  href="#">Ver todos os comentários</a>
+                                                    <span style="float:right;position:relative;top:10px;"><a href=""><img src="images/fbshare.png"/></a> <a href=""><img src="images/twittershare.png"/></a></span>
+                                                </h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <img src="images/oferta_bottom.png"/>
+                                </div>
+                                <div class="ofertaprincipal">
+                                    <img src="images/infoOferta_top.png"/>
+                                    <div class="infoconteudo">
+                                        <div class="clearfix">
+                                            <div class="column">
+                                                <p class="darkbluetext tinytext">Sed hinc legimus ullamcorper ea, eum ad vidit forensibus. Quas
+                                                    modus dissentiet eum in. Qui ad eripuit accusamus, ea nec utinam
+                                                    voluptua eloquentiam. Meliore abhorreant ei est, sed stet sententiae
+                                                    et. Delectus philosophia vix ut, voluptua aliquyam ex pro.</p>
+                                                <p class="tinytext">
+                                                    <br/><br/>
+                                                    No dicit laudem nominati mel, no partem discere qualisque eum. Eos etiam
+                                                    petentium et. Ad duo pertinacia reprimique. Id oratio deserunt expetendis pro.
+                                                    Pro ad tritani urbanitas, vim fugit commune id.
+                                                    <br/><br/>
+                                                    Labore explicari theophrastus pro te, pri id quot utroque gubergren. No mutat
+                                                    facilisi scribentur qui. Ne reque idque doctus mel, ea quod liber nam. Vim peric
+                                                    ulis urbanitas conclusionemque an. Copiosae intellegebat et vis. Novum putant
+                                                    partiendo in est. Te ornatus perfecto qui, ex sit mollis omnesque invidunt,
+                                                    natum utinam mea an.
+                                                    <br/><br/>
+                                                    Ius dolore suscipit ad, simul dolorem oporteat te duo. Per te legere ignota. Duo
+                                                    dicit dictas partiendo no, has nibh eleifend adolescens et. Ex mei recteque
+                                                    intellegebat, tritani prodesset dissentias at per. Ex qui habeo populo, ex ridens
+                                                    habemus mei, te diceret singulis usu. Ei mei dicat dicunt, falli petentium ei eam.
+                                                    <br/><br/>
+                                                    Ut sit consequat adolescens, cum no vero mandamus reformidans. Ea
+                                                    partiendo ocurreret neglegentur vis, sonet necessitatibus est ex, mutat populo
+                                                    maiorum qui at. Per probo copiosae ea. Augue patrioque dissentiet usu ea.
+                                                    Id omnesque repudiandae eos. Utroque quaestio persecuti ex est.
+                                                    <br/><br/>
+                                                    Nam etiam labore officiis ut, omnium maiorum concludaturque duo ad. Cum cu
+                                                    zzril facilis consetetur, postea aperiam adolescens mei id. An timeam molestiae
+                                                    ius, per eu autem persecuti. Nam ex malis menandri suscipiantur, mucius volumus
+                                                    id mei. Nam solum eirmod saperet ei, verear impedit nam no.
+                                                </p>
+                                                <p class="darkbluetext tinytext">
+                                                    <br/><br/>
+                                                    Sed hinc legimus ullamcorper ea, eum ad vidit forensibus. Quas
+                                                    modus dissentiet eum in. Qui ad eripuit accusamus, ea nec utinam
+                                                    voluptua eloquentiam. Meliore abhorreant ei est, sed stet sententiae
+                                                    et. Delectus philosophia vix ut, voluptua aliquyam ex pro.</p>
+                                            </div>
+                                            <div class="column">
+                                                <h1 class="darkbluetext">Lorem Ipsum</h1>
+                                                <h1 class="normaltext tinytext darkbluetext">http://www.lorem-ipsum.info</h1>
+                                                <h1 class="normaltext tinytext darkbluetext">
+                                                    <br/><br/>
+                                                    Estr. Rio São Paulo,n°283 sala 101<br/>
+                                                    Campo Grande<br/>
+                                                    Rio de Janeiro - RJ, 23087-005<br/>
+                                                    TEL (21) 3248-3248
+                                                </h1>
+                                                <table class="googlemaps"><tr><td><img src="images/mapa.png"/></td></tr><tr><td class="tinytext darkbluetext">Ampliar Mapa</td></tr></table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <img src="images/infoOferta_bottom.png"/>
+                                </div>
+                                <div id="adbanners">
+                                    <table><tr><td><img src="images/minipromobanner1.png" /></td><td><img src="images/minipromobanner2.png" /></td></tr></table>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="minioferta">
+                                    <img src="images/titulo_nacional.png"/>
+                                    <div class="minioferta_conteudo">
+                                        <img src="images/ofertaNacional.png"/>
+                                        <h1 class="normaltext tinytext darkgraytext">Lorem ipsum sea esse malis novum te. Nam ut
+                                            veri ludus, menandri corrumpit vituperatoribus
+                                            ut his. In quo ferri omnis singulis. Numquam
+                                            prodesset ei mei, has unum modus dicam ei,
+                                            has an persius saperet omnesque.
+                                        </h1>
+                                        <span class="preco darkbluetext">R$200</span> <img class="btncomprar" src="images/comprar.png"/>
+                                    </div>
+                                    <img src="images/minioferta_bottom.png"/>
+                                </div>
+                                <div class="minioferta">
+                                    <img src="images/titulo_maisofertas.png"/>
+                                    <div class="minioferta_conteudo">
+                                        <table>
+                                            <tr>
+                                                <td colspan="3" class="tinytext darkgraytext">Lorem ipsum sea esse malis novum te. Nam ut
+                                                    veri ludus, menandri corrumpit vituperatoribus
+                                                    ut his. In quo ferri omnis singulis.
+                                                </td>
+                                            </tr>
+                                            <tr class="dotted">
+                                                <td><img src="images/miniOfertas.png" /></td>
+                                                <td>&nbsp;</td>
+                                                <td class="boldertext tinytext darkbluetext">por Apenas <h1>R$278</h1> <img src="images/comprar_pequeno.png" /></td>
+                                            </tr>
+                                        </table>
+                                        <table>
+                                            <tr>
+                                                <td colspan="3" class="tinytext darkgraytext">Lorem ipsum sea esse malis novum te. Nam ut
+                                                    veri ludus, menandri corrumpit vituperatoribus
+                                                    ut his. In quo ferri omnis singulis.
+                                                </td>
+                                            </tr>
+                                            <tr class="dotted">
+                                                <td><img src="images/miniOfertas.png" /></td>
+                                                <td>&nbsp;</td>
+                                                <td class="boldertext tinytext darkbluetext">por Apenas <h1>R$278</h1> <img src="images/comprar_pequeno.png" /></td>
+                                            </tr>
+                                        </table>
+                                        <table>
+                                            <tr>
+                                                <td colspan="3" class="tinytext darkgraytext">Lorem ipsum sea esse malis novum te. Nam ut
+                                                    veri ludus, menandri corrumpit vituperatoribus
+                                                    ut his. In quo ferri omnis singulis.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><img src="images/miniOfertas.png" /></td>
+                                                <td>&nbsp;</td>
+                                                <td class="boldertext tinytext darkbluetext">por Apenas <h1>R$278</h1> <img src="images/comprar_pequeno.png" /></td>
+                                            </tr>
+                                        </table>
+
+                                    </div>
+                                    <img src="images/minioferta_bottom.png"/>
+                                </div>
+                                <div class="minioferta">
+                                    <div class="clearfix">
+                                        <!-- Facebook Like Badge START -->
+                                        <div style="width: 100%;"><div style="background: #3B5998;padding: 5px;"><img src=																										"http://www.facebook.com/images/fb_logo_small.png" alt="Facebook"/><img src="http://badge.facebook.com/badge/259007827634.100000015240682.356984001.png" alt="" width="0" height="0"/></div><div style="background: #EDEFF4;display: block;border-right: 1px solid #D8DFEA;border-bottom: 1px solid #D8DFEA;border-left: 1px solid #D8DFEA;margin: 0px;padding: 0px 0px 5px 0px;"><div style="background: #EDEFF4;display: block;padding: 5px;"><table cellspacing="0" cellpadding="0" border="0"><tr><td valign="top"><img src="http://www.facebook.com/images/icons/fbpage.gif" alt=""/></td><td valign="top"><p style="color: #808080;font-family: verdana;font-size: 11px;margin: 0px 0px 0px 0px;padding: 0px 8px 0px 8px;"><a href="http://www.facebook.com/people/Wesley-Andrade/100000015240682" target="_TOP" style="color: #3B5998;font-family: verdana;font-size: 11px;font-weight: normal;margin: 0px;padding: 0px 0px 0px 0px;text-decoration: none;" title="Wesley Andrade">Wesley Andrade</a> likes</p></td></tr></table></div><div style="background: #FFFFFF;clear: both;display: block;margin: 0px;overflow: hidden;padding: 5px;"><table cellspacing="0" cellpadding="0" border="0"><tr><td valign="middle"><a href="http://www.facebook.com/PeixeUrbano" target="_TOP" style="border: 0px;color: #3B5998;font-family: verdana;font-size: 12px;font-weight: bold;margin: 0px;padding: 0px;text-decoration: none;" title="Peixe Urbano"><img src="http://www.facebook.com/profile/pic.php?oid=AQDz1iPru90ySi7Y7RygyeT7u-OTYdGW-NjuLX_nPJjAA3WzjAc3YNzQiZpgqlqWEWE&size=square" style="border: 0px;margin: 0px;padding: 0px;" alt="Peixe Urbano"/></a></td><td valign="middle" style="padding: 0px 8px 0px 8px;"><a href="http://www.facebook.com/PeixeUrbano" target="_TOP" style="border: 0px;color: #3B5998;font-family: verdana;font-size: 12px;font-weight: bold;margin: 0px;padding: 0px;text-decoration: none;" title="Peixe Urbano">Peixe Urbano</a></td></tr></table></div></div>
+                                        </div>
+                                        <!-- Facebook Like Badge END -->
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- inserção aqui -->
+                </div>
+            </div>
+        </div>
+        <div id="rodape">
+            <div class="wrapper">
+                <div class="clearfix">
+                    <div class="floatingbox">
+                        <div class="column">
+                            <ul>
+                                <li class="boldertext lightbluetext" style="padding-bottom:10px;">Empresa</li>
+                                <li><a href="" class="tinytext whitetext">Imprensa</a></li>
+                                <li><a href="" class="tinytext whitetext">Contato</a></li>
+                                <li><a href="" class="tinytext whitetext">Sobre</a></li>
+                                <li><a href="" class="tinytext whitetext">Privacidade</a></li>
+                                <li><a href="" class="tinytext whitetext">Termos e Condições</a></li>
+                            </ul>
+                            <ul>
+                                <li class="boldertext lightbluetext" style="padding-bottom:10px;">Saiba Mais</li>
+                                <li><a href="" class="tinytext whitetext">Perguntas Frequentes</a></li>
+                                <li><a href="" class="tinytext whitetext">Trabalhe Conosco</a></li>
+                                <li><a href="" class="tinytext whitetext">Programas de Afiliados</a></li>
+                                <li><a href="" class="tinytext whitetext">Como Funciona</a></li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <ul style="float:right;">
+                                <li class="boldertext lightbluetext" style="padding-bottom:10px;">Qualeaboa Cidades</li>
+                                <li>
+                                    <ul>
+                                        <li class="tinytext whitetext">Oferta Nacional</li>
+                                        <li class="tinytext whitetext">Lorem Ipsum</li>
+                                        <li class="tinytext whitetext">Lorem Ipsum</li>
+                                        <li class="tinytext whitetext">Lorem Ipsum</li>
+                                        <li class="tinytext whitetext">Lorem Ipsum</li>
+                                        <li class="tinytext whitetext">Lorem Ipsum</li>
+                                        <li class="tinytext whitetext">Lorem Ipsum</li>
+                                        <li class="tinytext whitetext">Lorem Ipsum</li>
+                                        <li class="tinytext whitetext">Lorem Ipsum</li>
+                                        <li class="tinytext whitetext">Lorem Ipsum</li>
+                                        <li class="tinytext whitetext">Lorem Ipsum</li>
+                                    </ul>
+                                    <ul>
+                                        <li class="tinytext whitetext">Lorem Ipsum</li>
+                                        <li class="tinytext whitetext">Lorem Ipsum</li>
+                                        <li class="tinytext whitetext">Lorem Ipsum</li>
+                                        <li class="tinytext whitetext">Lorem Ipsum</li>
+                                        <li class="tinytext whitetext">Lorem Ipsum</li>
+                                        <li class="tinytext whitetext">Lorem Ipsum</li>
+                                        <li class="tinytext whitetext">Lorem Ipsum</li>
+                                        <li class="tinytext whitetext">Lorem Ipsum</li>
+                                        <li class="tinytext whitetext">Lorem Ipsum</li>
+                                        <li class="tinytext whitetext">Lorem Ipsum</li>
+                                        <li class="tinytext whitetext">Lorem Ipsum</li>
+                                    </ul>
+                                    <ul>
+                                        <li class="tinytext whitetext">Lorem Ipsum</li>
+                                        <li class="tinytext whitetext">Lorem Ipsum</li>
+                                        <li class="tinytext whitetext">Lorem Ipsum</li>
+                                        <li class="tinytext whitetext">Lorem Ipsum</li>
+                                        <li class="tinytext whitetext">Lorem Ipsum</li>
+                                        <li class="tinytext whitetext">Lorem Ipsum</li>
+                                        <li class="tinytext whitetext">Lorem Ipsum</li>
+                                        <li class="tinytext whitetext">Lorem Ipsum</li>
+                                        <li class="tinytext whitetext">Lorem Ipsum</li>
+                                        <li class="tinytext whitetext">Lorem Ipsum</li>
+                                        <li class="tinytext whitetext">Lorem Ipsum</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="floatingbox">
+                        <div class="column">
+                            <p class="tinytext whitetext" style="float:left;"><strong>Lorem ipsum mea ut</strong> novum clita scaevola. Et mei debet eruditi.
+                                Complectitur mediocritatem vim te. Ne posse consequat usu.
+                                In has alterum omnesque, et nobis soluta detracto pro, est posse
+                                iudico te. Dico diam soleat sit et, ludus aperiam mei no.
+                                Vel cu idque cotidie que, autem omnesque convenire et usu.
+                                Quo esse mentitum appe llantur ut, veritus assentior theophrastu
+                                s est no, an mea alii hend rerit. Ne voluptatum intellegebat mel. </p>
+                        </div>
+                        <div class="column" style="float:right;">
+                            <table>
+                                <tr><td id="seguir"><span class="boldertext tinytext whitetext">Siga-nos: <a href="#"><img src="images/twittersiga.png" /></a> <a href="#"><img src="images/fbsiga.png" /></a></span></td></tr>
+                                <tr><td><img src="images/cartoes.png" /></td></tr>
+                            </table>
+                        </div>
+                        <div class="rodapefooter">
+                            <ul class="footermenu"><li><img src="images/logo_pequeno.png" /></li></ul>
+                            <ul class="tinytext darkbluetext"><li><a href=""  class="tinytext darkbluetext">oferta do dia</a> | <a href=""  class="tinytext darkbluetext">ofertas recentes</a> | <a href=""  class="tinytext darkbluetext">receba e-mail diário</a> | <a href=""  class="tinytext darkbluetext">como funciona</a> | <a href=""  class="boldertext tinytext darkbluetext">convide um amigo e ganhe R$00</a></li><li>© 2011 Qualéaboa Ofertas. Todos os direitos reservados.</li></ul>
+                            <ul><li><img src="images/pagseguro.png" /></li></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
