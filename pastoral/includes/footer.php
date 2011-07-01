@@ -16,17 +16,11 @@ desenvolvido por <strong>INFOCLAD</strong>
 <div class="b r">
 	<span class="b l">
 		<ul class="inline" style="padding-top: 13px;">
-			<li><a href="?page=sobre">sobre nós</a></li>
-			<li>|</li>
-			<li><a href="?page=cadastro">cadastre sua comunidade</a></li>
-			<li>|</li>
-			<li><a href="?page=testemunhos">testemunhos</a></li>
-			<li>|</li>
-			<li><a href="?page=fale">fale conosco</a></li>
+			<li><a href="?page=sobre">publicidade:</a></li>
 		</ul>
 	</span>
 	<span class="b l p5"><!--  --></span>
-	<a class="b r" href="#"><img src="img/mmkt.gif"/></a>
+	<a class="b r" href="#"><img src="img/footer_publicidade.gif"/></a>
 </div>
 <div class="c"><!--  --></div>
 </div>
