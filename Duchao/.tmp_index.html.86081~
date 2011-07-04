@@ -1,0 +1,555 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+        <title>DUCHÃO Distribuidora Ltda.</title>
+        <link rel="stylesheet" href="css/main.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+        <script type="text/javascript" src="js/jquery-1.4.4.min.js.js"></script>
+
+        <script type="text/javascript" src="js/functions.js"></script>
+        <script type="text/javascript" src="js/unitpngfix.js"></script>
+        <script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+        <script type="text/javascript" src="fancybox/jquery.easing-1.4.pack.js"></script>
+        <script type="text/javascript" src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {		
+                $("a.box").fancybox({
+                    'height'		: '55%',
+                    'width'		: '30%',
+                    'speedIn'		: 600, 
+                    'speedOut'		: 200, 
+                    'overlayShow'	: false,
+                    'hideOnContentClick': false,
+                    'type'		: 'iframe'
+
+                });	
+            });
+        </script>
+
+    </head>
+    <body>
+        <div id="wrapper" class="c">
+            <div id="main-header">
+                <div id="main-header-shortcuts">
+                    <div class="b r">
+                        <div class="campo-busca b r">
+                            <div class="l">
+                                <input class="sprite_duchao" type="text">
+
+                            </div>
+                            <div class="l">
+                                <button class="sprite_duchao" type="button"></button>
+                            </div>
+                            <div class="c"><!-- --></div>
+                        </div>
+                        <ul class="shortcuts-menu l">
+                            <li><a class="box" href="ajax/contato.html">fale conosco</a></li>
+
+                            <li>|</li>
+                            <li><a class="box" href="ajax/cadastro-representante.html">seja um representante</a></li>
+                            <li>|</li>
+                            <li><a class="box" href="ajax/cadastro.html">cadastro de cliente</a></li>
+                        </ul>
+                        <div class="c"><!-- --></div>
+                    </div>
+
+                    <div class="c"><!-- --></div>
+                </div>
+                <div id="main-header-content">
+                    <div class="b logo-holder"><a href="index.html"><img id="logo" src="img/duchao_logo.png" alt="" /></a></div>
+                    <div id="main-header-menu" class="b">
+                        <ul>                 
+                            <li><a href="index.html" id="a-duchao">Início</a></li>
+                            <li><span class="sprite_duchao marcador-menu"><!-- --></span></li>
+                            <li><a href="sobre.html" id="a-duchao">Quem Somos</a></li>
+
+                            <li><span class="sprite_duchao marcador-menu"><!-- --></span></li>
+                            <li><a href="catalogo" id="seja">Nossos Produtos</a></li>
+                            <li><span class="sprite_duchao marcador-menu"><!-- --></span></li>
+                            <li><a href="representantes.html" id="rep">nossos representantes</a></li>
+                            <li><span class="sprite_duchao marcador-menu"><!-- --></span></li>
+                            <li><a class="box"  href="ajax/contato.html" id="fale">fale conosco</a></li>
+                            <li><span class="sprite_duchao marcador-menu"><!-- --></span></li>
+
+                        </ul>
+                    </div>
+                </div>	
+            </div>
+            <div id="main-content">
+
+
+                <div id="main-content-header" class="b">
+                    <div class="main-content-capa" style="height: 257px;">
+                        <img src="img/duchao_capa.png" alt="" style="height: 257px; width: 634px;" />
+                    </div>
+
+                    <div class="main-content-search" style="height: 256px">
+                        <div class="b p">
+                            <div class="b l"><img id="logo-mini" src="img/duchao_logo.png" /></div>
+                            <div class="b r main-content-search-text">
+                                <h3 class="b">Distribuidor &nbsp; Atacadista</h3>
+                                <h2 class="b">Encomende agora mesmo!</h2>
+                            </div>
+
+                            <div class="c"><!-- --></div>
+                        </div>
+                        <div class="innerbox p5" style="height: 101px;">
+                            <form action="" method="">
+                                <div class="b">
+                                    <div class="b l"><span class="sprite_duchao dot"><!-- --></span></div>
+                                    <div class="b l innerbox-text">
+                                        <h3>Catálogo de Produtos</h3>
+
+                                        <p>Encomende agora mesmo seu lubrificante automotivo dos melhores e mais conhecidos fabricantes do mundo.</p>
+                                    </div>
+                                    <div class="c"><!-- --></div>
+                                </div>
+                                <div class="b p5"><!-- --></div>
+                                <div class="b">
+                                    <div class="b p5 l"><!-- --></div>
+                                    <select class="encomenda-front l qt-select">
+
+                                        <option>Fabricante</option>
+                                        <option>Selenia</option>
+                                        <option>Texaco</option>
+                                        <option>Castrol</option>
+                                        <option>Shell</option>
+                                        <option>Ipiranga </option>
+
+                                        <option>BR</option>
+                                        <option>Petronas</option>
+                                        <option>Varga</option>
+                                        <option>Tecfil</option>
+                                    </select>
+                                    <select class="encomenda-front l">
+                                        <option>Categoria</option>
+
+                                        <option>Lorem Ipsum</option>
+                                    </select>
+                                    <button id="encomenda-fisica" class="sprite_duchao ok l" type="button"><a href="#pessoafis-form">&nbsp;</a></button>
+                                    <div class="c"><!-- --></div>
+                                </div>	
+                                <div id="comerciante-form" class="encomenda-form">
+                                    <div class="p5">
+                                        <ul class="paginacao l">
+                                            <li><a href="#" class="close-window">Encomendas</a></li>
+
+                                            <li>&#x2192;</li>
+                                            <li><a href="#" class="active">Comerciante</a></li>
+                                        </ul>
+                                        <span class="b r"><a href="#" class="close-window">x</a></span>
+                                        <div class="c"><!-- --></div>
+                                    </div>
+                                    <div id="comerciantes-form-holder" class="b">
+                                        <!-- steps -->
+
+                                        <div class="steps">
+                                            <div class="b condicoes condicoes-pessfis">
+											1)- FORMAS DE PGTO À VISTA:<br>
+											A)- EM ESPÉCIE<br>
+											B)- CHEQUE PRÉ DATADO 07DD<br>
+											C)-BOLETO BANCÁRIO 07DD<br>
+											D)- CARTÕES DE DÉBITO<br>
+
+                                                <br>
+											2)- FORMAS DE PGTO A PRAZO:<br>
+											A)- CHEQUES PRÉ DATADO 28/35/42 DD<br>
+											B)- BOLETOS BANCÁRIO 28/35/42 DD<br>
+											C)- CARTÕES DE CRÉDITO<br>
+											D)- A  NEGOCIAR<br>
+
+                                                <br>
+											OBS:
+                                                <br>
+											 A)-PREÇO SUJEITO À INCLUSÃO DE FRETE, CONFORME LOCAL DE ENTREGA FORA DO MUNICÍPIO DO RIO DE JANEIRO.
+                                                <br><br>
+											B)- PREÇO SUJEITO À ALTERAÇÕES SEM PRÉVIO AVISO
+                                                <br><br>										 
+											C)- PRAZO DE ENTREGA: MÁXIMO DE 03 DIAS ÚTEIS NO RIO E GRANDE RIO DE JANEIRO - RJ. (CONFORME DISPONIBILIDADE NO ESTOQUE) 
+                                                <br><br>
+											OBS: CASO O CLIENTE DESEJE RETIRAR AS MERCADORIAS NO ESTOQUE,  LOCALIZADO À ESTRADA DO CAMPINHO, N.º 1.213 - CAMPO GRANDE-RIO DE JANEIRO - RJ - CEP: 23.070-220; DESCONTO DE 2%.  
+                                                <span class="b p5"><!-- --></span>
+                                                <span class="b">
+
+                                                    <input type="checkbox"> Li e Aceito as condições. 
+                                                </span>
+                                                <span class="b"><a class="encomendar-link encomendar-link-pessfis" href="#">&#x2192; Encomendar</a></span>
+                                            </div>
+                                            <div class="form-content form-content-pessfis">
+                                                <table class="b">
+                                                    <tr>
+                                                        <td>Nome Completo:(*)</td>
+
+                                                        <td colspan="2"><input type="text" value="José A. S."></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>CPF:(*)</td>
+                                                        <td colspan="2"><input type="text" value="120.669.520-85"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>RG:(*)</td>
+
+                                                        <td colspan="2"><input type="text" value="94.297.552-7"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="3">Forma de Pagamento:(*)</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><input type="radio" class="cartao-pagto-radio" name="pagto">Cartão de Crédito</td>
+                                                        <td><input type="radio" class="boleto-pagto-radio" name="pagto">Boleto Bancário</td>
+
+                                                        <td><input type="radio" class="dinheiro-pagto-radio" name="pagto">Dinheiro</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="3">
+                                                            <div class="cartao-pagto" class="b" style="display:none;">												
+                                                                <div class="b form-card">
+                                                                    <span class="b l nomes">Nome no Cartão:(*)</span>
+                                                                    <span class="b l"><input type="text" value="José S. Silva"></span>
+
+                                                                    <div class="c"><!-- --></div>
+                                                                </div>
+                                                                <div class="b form-card">
+                                                                    <span class="b l nomes">Número do Cartão:(*)</span>
+                                                                    <span class="b l"><input type="text" value="4984 4212 0947 0251"></span>
+                                                                    <div class="c"><!-- --></div>
+                                                                </div>
+                                                                <div class="b form-card">
+
+                                                                    <span class="b l nomes">Validade do Cartão:(*)</span>
+                                                                    <span class="b l">
+                                                                        <select><option>DD</option></select>
+                                                                        <select><option>MM</option></select>
+                                                                        <select><option>AA</option></select>
+                                                                    </span>
+                                                                    <div class="c"><!-- --></div>
+
+                                                                </div>
+                                                                <div class="b form-card">
+                                                                    <span class="b l nomes">CVC(*)</span>
+                                                                    <span class="b l"><input type="text" value="057"></span>
+                                                                    <div class="c"><!-- --></div>
+                                                                </div>													
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td colspan="4">Tipo de Frete(*)</td>
+                                                    </tr>
+                                                    <tr>													
+                                                        <td><input id="local" name="frete" type="radio"> Retirada no Local</td>
+                                                        <td><input id="transportadora" name="frete" type="radio"> Transportadora</td>
+                                                        <td><input id="sedex" name="frete" type="radio"> Sedex</td>
+
+                                                    </tr>
+                                                    <tr>
+                                                        <td rowspan="2">Telefone(*)</td><td colspan="3"><input type="text" value="(021) 3335-5522"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="3"><input type="text" value="(021) 9953-6622"></td>
+                                                    </tr>
+                                                    <tr>
+
+                                                        <td colspan="4">Observações(*)</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="4">
+                                                            <textarea>Digite sua mensagem...</textarea>
+                                                        </td>
+                                                    </tr>
+                                                    <tr><td colspan="4">
+
+                                                            <button id="" class="sprite_duchao ok l close-window" type="button"><a href="#">&nbsp;</a></button>
+                                                        </td></tr>
+                                                </table>
+                                            </div>
+                                        </div>					
+                                        <!-- steps -->
+                                    </div>	
+                                </div>
+                                <div id="pessoafis-form" class="encomenda-form">
+                                    <div class="b p5">
+
+                                        <ul class="paginacao l">
+                                            <li><a href="#" class="close-window">Encomendas</a></li>
+                                            <li>&#x2192;</li>
+                                            <li><a href="#" class="active">Pessoa Física</a></li>
+                                        </ul>
+                                        <span class="b r"><a href="#" class="close-window">x</a></span>
+                                        <div class="c"><!-- --></div>
+
+                                    </div>
+                                    <div id="pessoafis-form-holder" class="b">
+                                        <!-- steps -->
+                                        <div class="steps">
+                                            <div class="b condicoes condicoes-pessfis">
+											1)- FORMAS DE PGTO À VISTA:<br>
+											A)- EM ESPÉCIE<br>
+											B)- CHEQUE PRÉ DATADO 07DD<br>
+
+											C)-BOLETO BANCÁRIO 07DD<br>
+											D)- CARTÕES DE DÉBITO<br>
+                                                <br>
+											2)- FORMAS DE PGTO A PRAZO:<br>
+											A)- CHEQUES PRÉ DATADO 28/35/42 DD<br>
+											B)- BOLETOS BANCÁRIO 28/35/42 DD<br>
+
+											C)- CARTÕES DE CRÉDITO<br>
+											D)- A  NEGOCIAR<br>
+                                                <br>
+											OBS:
+                                                <br>
+											 A)-PREÇO SUJEITO À INCLUSÃO DE FRETE, CONFORME LOCAL DE ENTREGA FORA DO MUNICÍPIO DO RIO DE JANEIRO.
+                                                <br><br>
+											B)- PREÇO SUJEITO À ALTERAÇÕES SEM PRÉVIO AVISO
+                                                <br><br>										 
+											C)- PRAZO DE ENTREGA: MÁXIMO DE 03 DIAS ÚTEIS NO RIO E GRANDE RIO DE JANEIRO - RJ. (CONFORME DISPONIBILIDADE NO ESTOQUE) 
+                                                <br><br>
+
+											OBS: CASO O CLIENTE DESEJE RETIRAR AS MERCADORIAS NO ESTOQUE,  LOCALIZADO À ESTRADA DO CAMPINHO, N.º 1.213 - CAMPO GRANDE-RIO DE JANEIRO - RJ - CEP: 23.070-220; DESCONTO DE 2%.  
+                                                <span class="b p5"><!-- --></span>
+                                                <span class="b">
+                                                    <input type="checkbox"> Li e Aceito as condições. 
+                                                </span>
+                                                <span class="b"><a class="encomendar-link encomendar-link-pessfis" href="#">&#x2192; Encomendar</a></span>
+                                            </div>
+                                            <div class="form-content form-content-pessfis">
+
+                                                <table class="b">
+                                                    <tr>
+                                                        <td>Nome Completo:(*)</td>
+                                                        <td colspan="2"><input type="text" value="José A. S."></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>CPF:(*)</td>
+                                                        <td colspan="2"><input type="text" value="120.669.520-85"></td>
+
+                                                    </tr>
+                                                    <tr>
+                                                        <td>RG:(*)</td>
+                                                        <td colspan="2"><input type="text" value="94.297.552-7"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="3">Forma de Pagamento:(*)</td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td><input type="radio" class="cartao-pagto-radio" name="pagto">Cartão de Crédito</td>
+                                                        <td><input type="radio" class="boleto-pagto-radio" name="pagto">Boleto Bancário</td>
+                                                        <td><input type="radio" class="dinheiro-pagto-radio" name="pagto">Dinheiro</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="3">
+
+                                                            <div class="cartao-pagto" class="b" style="display:none;">												
+                                                                <div class="b form-card">
+                                                                    <span class="b l nomes">Nome no Cartão:(*)</span>
+                                                                    <span class="b l"><input type="text" value="José S. Silva"></span>
+                                                                    <div class="c"><!-- --></div>
+                                                                </div>
+                                                                <div class="b form-card">
+                                                                    <span class="b l nomes">Número do Cartão:(*)</span>
+
+                                                                    <span class="b l"><input type="text" value="4984 4212 0947 0251"></span>
+                                                                    <div class="c"><!-- --></div>
+                                                                </div>
+                                                                <div class="b form-card">
+                                                                    <span class="b l nomes">Validade do Cartão:(*)</span>
+                                                                    <span class="b l">
+                                                                        <select><option>DD</option></select>
+                                                                        <select><option>MM</option></select>
+
+                                                                        <select><option>AA</option></select>
+                                                                    </span>
+                                                                    <div class="c"><!-- --></div>
+                                                                </div>
+                                                                <div class="b form-card">
+                                                                    <span class="b l nomes">CVC(*)</span>
+                                                                    <span class="b l"><input type="text" value="057"></span>
+                                                                    <div class="c"><!-- --></div>
+
+                                                                </div>													
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="4">Tipo de Frete(*)</td>
+                                                    </tr>
+                                                    <tr>													
+                                                        <td><input id="local" name="frete" type="radio" /> Retirada no Local</td>
+
+                                                        <td><input id="transportadora" name="frete" type="radio" /> Transportadora</td>
+                                                        <td><input id="sedex" name="frete" type="radio" /> Sedex</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td rowspan="2">Telefone(*)</td><td colspan="3"><input type="text" value="(021) 3335-5522"></td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td colspan="3"><input type="text" value="(021) 9953-6622"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="4">Observações(*)</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="4">
+
+                                                            <textarea>Digite sua mensagem...</textarea>
+                                                        </td>
+                                                    </tr>
+                                                    <tr><td colspan="4">
+                                                            <button id="" class="sprite_duchao ok l close-window" type="button"><a href="#">&nbsp;</a></button>
+                                                        </td></tr>
+                                                </table>
+                                            </div>
+
+                                        </div>					
+                                        <!-- steps -->
+                                    </div>	
+                                </div>
+                                <script src="js/functions.js"></script>
+                            </form>
+                            <div class="b p5"><!-- --></div>	
+                        </div>	
+                        <div class="b facebook-app1" style="padding-left: 12px; margin-top: -5px;">
+                            <iframe src="http://www.facebook.com/plugins/like.php?href=www.duchao.com.br"
+                                    scrolling="no" frameborder="0"></iframe>
+
+                        </div>					
+                    </div>
+                    <div class="c"><!-- --></div>
+                </div>
+                <div id="main-content-content">
+                    <div id="destaques" class="b l">
+                        <div id="destaque1" class="destaque-cap b">
+                            <img class="hover" src="img/destaque1_hover.png">
+                            <img src="img/destaque1.png">
+                        </div>
+
+                        <div id="destaque2" class="destaque-cap b">
+                            <img class="hover" src="img/destaque2_hover.png">
+                            <img src="img/destaque2.png">
+                        </div>
+                    </div>
+                    <div class="content-holder b l">
+                        <div class="b">
+                            <div class="b l">
+                                <div class="b sprite_duchao banner-titulo">
+
+                                    <h2 class="titulos">duchão para</h2>
+                                </div>
+                                <div class="b p5">
+                                    <div class="b l">
+                                        <span class="sprite_duchao seta"><!-- --></span>
+                                        <span><a href="#">Lorem Ipsum</a></span>
+                                        <div class="c"><!-- --></div>
+                                    </div>
+
+                                    <div class="b r">
+                                        <span class="sprite_duchao seta"><!-- --></span>
+                                        <span><a href="#">Lorem Ipsum</a></span>
+                                        <div class="c"><!-- --></div>
+                                    </div>
+                                    <div class="c"><!-- --></div>
+                                    <div class="b">
+                                        <span class="sprite_duchao seta"><!-- --></span>
+
+                                        <span><a href="#">Lorem Ipsum</a></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="b r">
+                                <div class="b sprite_duchao banner-titulo">
+                                    <h2 class="titulos">duchão tags</h2>
+                                </div>
+
+                                <div id="tags-holder" class="b p5">
+                                    <div class="b p5">
+                                        <span class="b l"><a href="#" class="tag-estilo-1">oportunidades e empregos</a></span>
+                                        <span class="b l"><a href="#" class="tag-estilo-2">fale conosco</a></span>
+                                        <span class="b l"><a href="#" class="tag-estilo-2">shell v-power</a></span>
+                                        <span class="b l"><a href="#" class="tag-estilo-3">revendedores</a></span>
+                                        <span class="b l"><a href="#" class="tag-estilo-1">lubrificantes</a></span>
+
+                                        <div class="c"><!-- --></div>
+                                    </div>
+                                    <div class="c"><!-- --></div>
+                                </div>
+                            </div>
+                            <div class="c"><!-- --></div>
+                            <div class="b l">
+                                <div class="b sprite_duchao banner-titulo">
+                                    <h2 class="titulos">duchão novidades</h2>
+
+                                </div>
+                                <div id="noticias-holder" class="b p5">
+                                    <div class="b"><a href="#">02/02/2011</a></div>
+                                    <div class="b">
+                                        <span class="sprite_duchao seta"><!-- --></span>
+                                        <span><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></span> 
+                                        <div class="c"><!-- --></div>	
+                                    </div>
+                                    <div id="headline" class="b">
+
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lobortis, nisl et vulputate imperdiet, metus odio semper arcu, sed viverra quam nisi sit amet ante. </p>
+                                    </div>
+                                    <div class="b">
+                                        <ul class="paginacao paginacao-headline">
+                                            <li><a href="#">1</a></li>
+                                            <li><a href="#">à</a></li>
+                                            <li><a href="#">5</a></li>
+
+                                            <li><span class="sprite_duchao seta"><a href="#">&nbsp;</a></span></li>
+                                            <li>|</li>
+                                            <li><a href="#">leia todas as headlines +</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="propagandas-holder"  class="b r">
+
+                                <span class="b"><img src="img/propaganda1.png" alt="" /></span>
+                                <span class="b"><img src="img/propaganda1.png" alt="" /></span>					
+                            </div>
+                            <div class="c"><!-- --></div>
+                        </div>
+                    </div>
+                    <div class="c"><!-- --></div>	
+                </div>
+            </div>
+            <div id="footer">
+
+                <div class="b paginacao-footer">
+                    <ul>
+                        <li><a href="index.html" class="copyright">Duchão Lubrificantes © 2011 Todos os direitos reservados.</a></li>
+                        <li>&nbsp;</li>
+                        <li><a class="box" href="ajax/contato.html">Fale conosco</a></li>
+                        <li>|</li>
+                        <li><a class="box" href="ajax/cadastro-representante.html">Seja um representante</a></li>
+
+                        <li>|</li>
+                        <li><a class="box" href="ajax/cadastro.html">Cadastro de clientes</a></li>
+                        <li><a href="politica.html">Política de privacidade</a></li>
+                    </ul>
+                </div>
+                <div class="b paginacao-footer">
+                    <ul>
+
+                        <li><a href="#"><img src="img/castrol_logo.png" alt="" /></a></li>
+                        <li><a href="#"><img src="img/lubrax_logo.png" alt="" /></a></li>
+                        <li><a href="#"><img src="img/petrobras_logo.png" alt="" /></a></li>
+                        <li><a href="#"><img src="img/shell_logo.png" alt="" /></a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>	
+        <div class="c"><!-- --></div>
+
+        <div class="b" id="copyright">
+            <a href="#">powered by Wesley Andrade</a> 
+        </div>
+    </body>
+</html>

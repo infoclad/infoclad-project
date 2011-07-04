@@ -1,0 +1,1 @@
+<span class="b box-count"><div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like href="#produto00" send="true" layout="box_count" width="50" show_faces="false" font=""></fb:like></span>
