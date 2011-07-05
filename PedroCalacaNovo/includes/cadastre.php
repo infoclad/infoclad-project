@@ -26,23 +26,22 @@
 									<table>
 										<tr><td>nome:</td></tr>
 										<tr><td><input type="text"/></td></tr>
+										<tr><td>empresa</td></tr>
+										<tr><td><input type="text"/></td></tr>
+										<tr><td>cnpj:</td></tr>
+										<tr><td><input type="text"/></td></tr>
+										<tr><td>website:</td></tr>
+										<tr><td><input type="text"/></td></tr>
 										<tr><td>e-mail:</td></tr>
 										<tr><td><input type="text"/></td></tr>
 										<tr><td>telefone:</td></tr>
 										<tr><td><input type="text"/></td></tr>
 										<tr><td>cidade:</td></tr>
 										<tr><td><select><option>rio de janeiro</option></select></td></tr>
-										<tr><td>assunto:</td></tr>
-										<tr><td><select><option>dúvidas</option></select></td></tr>
 										<tr><td>deixe sua mensagem:</td></tr>
 										<tr><td><textarea>escreva sua mensagem...</textarea></td></tr>
 										<tr><td><input type="submit"/></td></tr>
 									</table>
-								</span>
-								<span class="b">
-									<h1>contato@pedrocalaca.com.br</h1>
-									<p><strong>+55 21 9123 4567</strong> / <strong>+55 21 3123 4567</p></strong>
-									<p>Rua Lorem Lipsum, 22, Lorem Ipsum <br/> 12345-678 - Rio de Janeiro, RJ</p>
 								</span>
 							</span>
 							<span class="b r">
