@@ -12,47 +12,56 @@
 						<div class="b">
 						<!-- conteudo -->
 								<div class="b l p5" style="padding-left:0;">
-									<div class="p5 blackbox floatcell">
+									<div class="p5 floatcell">
 										<span class="b"><a href="?page=view"><img width="150" src="img/publica.jpg"/></a></span>
 										<span class="b">
 											<p><i>NEWS Magazine<br/>Lorem 2011</i></p>
-											<p><a class="whiteText" href="?page=view">Traduction conferentias nos lo. Regno international per es. Terra magazines duo lo, e uso libro anteriormente, al pro basate esseva association. Ma celo abstracte via, su germano giuseppe excellente sed.</a></p>
+											<p><a class="grayText" href="?page=view">Traduction conferentias nos lo. Regno international per es.</a></p>
 										</span>
 									</div>
 								</div>
 								<div class="b l p5" style="padding-left:0;">
-									<div class="p5 blackbox floatcell">
+									<div class="p5 floatcell">
 										<span class="b"><a href="?page=view"><img width="150" src="img/publica.jpg"/></a></span>
 										<span class="b">
 											<p><i>NEWS Magazine<br/>Lorem 2011</i></p>
-											<p><a class="whiteText" href="?page=view">Traduction conferentias nos lo. Regno international per es. Terra magazines duo lo, e uso libro anteriormente, al pro basate esseva association. Ma celo abstracte via, su germano giuseppe excellente sed.</a></p>
+											<p><a class="grayText" href="?page=view">Traduction conferentias nos lo. Regno international per es.</a></p>
 										</span>
 									</div>
 								</div>
 								<div class="b l p5" style="padding-left:0;">
-									<div class="p5 blackbox floatcell">
+									<div class="p5 floatcell">
 										<span class="b"><a href="?page=view"><img width="150" src="img/publica.jpg"/></a></span>
 										<span class="b">
 											<p><i>NEWS Magazine<br/>Lorem 2011</i></p>
-											<p><a class="whiteText" href="?page=view">Traduction conferentias nos lo. Regno international per es. Terra magazines duo lo, e uso libro anteriormente, al pro basate esseva association. Ma celo abstracte via, su germano giuseppe excellente sed.</a></p>
+											<p><a class="grayText" href="?page=view">Traduction conferentias nos lo. Regno international per es.</a></p>
 										</span>
 									</div>
 								</div>
 								<div class="b l p5" style="padding-left:0;">
-									<div class="p5 blackbox floatcell">
+									<div class="p5 floatcell">
 										<span class="b"><a href="?page=view"><img width="150" src="img/publica.jpg"/></a></span>
 										<span class="b">
 											<p><i>NEWS Magazine<br/>Lorem 2011</i></p>
-											<p><a class="whiteText" href="?page=view">Traduction conferentias nos lo. Regno international per es. Terra magazines duo lo, e uso libro anteriormente, al pro basate esseva association. Ma celo abstracte via, su germano giuseppe excellente sed.</a></p>
+											<p><a class="grayText" href="?page=view">Traduction conferentias nos lo. Regno international per es.</a></p>
 										</span>
 									</div>
 								</div>
 								<div class="b l p5" style="padding-left:0;">
-									<div class="p5 blackbox floatcell">
+									<div class="p5 floatcell">
 										<span class="b"><a href="?page=view"><img width="150" src="img/publica.jpg"/></a></span>
 										<span class="b">
 											<p><i>NEWS Magazine<br/>Lorem 2011</i></p>
-											<p><a class="whiteText" href="?page=view">Traduction conferentias nos lo. Regno international per es. Terra magazines duo lo, e uso libro anteriormente, al pro basate esseva association. Ma celo abstracte via, su germano giuseppe excellente sed.</a></p>
+											<p><a class="grayText" href="?page=view">Traduction conferentias nos lo. Regno international per es.</a></p>
+										</span>
+									</div>
+								</div>
+								<div class="b l p5" style="padding-left:0;">
+									<div class="p5 floatcell">
+										<span class="b"><a href="?page=view"><img width="150" src="img/publica.jpg"/></a></span>
+										<span class="b">
+											<p><i>NEWS Magazine<br/>Lorem 2011</i></p>
+											<p><a class="grayText" href="?page=view">Traduction conferentias nos lo. Regno international per es.</a></p>
 										</span>
 									</div>
 								</div>

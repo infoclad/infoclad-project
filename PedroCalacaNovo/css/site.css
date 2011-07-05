@@ -108,8 +108,8 @@
 	width: 156px; 
 	padding-left: 11px;
 }
-.floatcell{width:150px;}
-.floatcell:hover{background-color:#181818;cursor:pointer;}
+.floatcell{width:150px;margin:0 5px 5px 0;}
+
 /* paginacao */
 
 .paginacao,.paginacao a{color:#666;}
@@ -127,3 +127,7 @@
 	text-transform:capitalize;
 }
 .formulario select{width:257px;}
+#fotos .floatcell,#fotos img,#videos img{
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}

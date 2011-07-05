@@ -14,6 +14,7 @@
 		<script src="js/mootools-1.2.1-core-yc.js" type="text/javascript"></script>
 		<script src="js/mootools-1.2-more.js" type="text/javascript"></script>
 		<script src="js/jd.gallery.js" type="text/javascript"></script>
+		<script type="text/javascript" src="http://gettopup.com/releases/latest/top_up-min.js"></script>
 		<script type="text/javascript">
 
 			// JAVASCRIPT VARS
@@ -71,6 +72,18 @@
 
 			
 		</script>
+	    <script type="text/javascript">
+	      TopUp.addPresets({
+	        "#images a": {
+	          fixed: 0,
+	          group: "fotos",
+	          modal: 0,
+	        },
+	        "#movies": {
+	          resizable: 0
+	        }
+	      });
+	    </script>
 	</head>
 	<body onload="letra();">
 		<div id="wrapper">

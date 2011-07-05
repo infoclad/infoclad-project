@@ -11,37 +11,49 @@
 						</div>
 						<div class="b">
 						<!-- conteudo -->
-								<div class="b l p5" style="padding-left:0;">
+								<div class="b l ">
 									<div class="p5 blackbox floatcell">
 										<span class="b"><a href="?page=book_view"><img width="150" src="img/book_cover.jpg"/></a></span>
 										<span class="b"><p><i>lorem ipsum dolor<br/>Lorem 2011</i></p></span>
 									</div>
 								</div>
-								<div class="b l p5" style="padding-left:0;">
+								<div class="b l ">
 									<div class="p5 blackbox floatcell">
 										<span class="b"><a href="?page=book_view"><img width="150" src="img/book_cover.jpg"/></a></span>
 										<span class="b"><p><i>lorem ipsum dolor<br/>Lorem 2011</i></p></span>
 									</div>
 								</div>
-								<div class="b l p5" style="padding-left:0;">
+								<div class="b l ">
 									<div class="p5 blackbox floatcell">
 										<span class="b"><a href="?page=book_view"><img width="150" src="img/book_cover.jpg"/></a></span>
 										<span class="b"><p><i>lorem ipsum dolor<br/>Lorem 2011</i></p></span>
 									</div>
 								</div>
-								<div class="b l p5" style="padding-left:0;">
+								<div class="b l ">
 									<div class="p5 blackbox floatcell">
 										<span class="b"><a href="?page=book_view"><img width="150" src="img/book_cover.jpg"/></a></span>
 										<span class="b"><p><i>lorem ipsum dolor<br/>Lorem 2011</i></p></span>
 									</div>
 								</div>
-								<div class="b l p5" style="padding-left:0;">
+								<div class="b l ">
 									<div class="p5 blackbox floatcell">
 										<span class="b"><a href="?page=book_view"><img width="150" src="img/book_cover.jpg"/></a></span>
 										<span class="b"><p><i>lorem ipsum dolor<br/>Lorem 2011</i></p></span>
 									</div>
 								</div>
-								<div class="b l p5" style="padding-left:0;">
+								<div class="b l ">
+									<div class="p5 blackbox floatcell">
+										<span class="b"><a href="?page=book_view"><img width="150" src="img/book_cover.jpg"/></a></span>
+										<span class="b"><p><i>lorem ipsum dolor<br/>Lorem 2011</i></p></span>
+									</div>
+								</div>
+								<div class="b l ">
+									<div class="p5 blackbox floatcell">
+										<span class="b"><a href="?page=book_view"><img width="150" src="img/book_cover.jpg"/></a></span>
+										<span class="b"><p><i>lorem ipsum dolor<br/>Lorem 2011</i></p></span>
+									</div>
+								</div>
+								<div class="b l ">
 									<div class="p5 blackbox floatcell">
 										<span class="b"><a href="?page=book_view"><img width="150" src="img/book_cover.jpg"/></a></span>
 										<span class="b"><p><i>lorem ipsum dolor<br/>Lorem 2011</i></p></span>
