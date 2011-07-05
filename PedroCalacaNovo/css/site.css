@@ -109,7 +109,21 @@
 	padding-left: 11px;
 }
 .floatcell{width:150px;}
+.floatcell:hover{background-color:#181818;cursor:pointer;}
 /* paginacao */
 
 .paginacao,.paginacao a{color:#666;}
 .paginacao .active,.paginacao a:hover{color:#e7595e;}
+
+/* formulario */
+
+.formulario input[type="text"],.formulario textarea{
+	width:250px;
+	border:1px #ccc solid;
+	padding:3px;
+}
+.formulario tr td{
+	padding:0 0 5px 0;
+	text-transform:capitalize;
+}
+.formulario select{width:257px;}

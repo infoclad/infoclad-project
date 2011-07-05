@@ -17,7 +17,7 @@
 							<span class="b"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eleifend, turpis at dignissim sagittis, magna augue adipiscing turpis, quis malesuada 
 	justo diam vitae enim. Vestibulum pulvinar, risus a fringilla facilisis, felis mi cursus nibh, at auctor lacus magna quis magna. Ut varius elementum elit ultrices bibendum. </p></span>
 							<span class="b p5"><!--  --></span>
-							<span class="b"><span class="pinkText">&#187;</span> <a href="?page=">Veja o artigo completo</a></span>
+							<span class="b"><span class="pinkText">&#187;</span> <a href="?page=view">Veja o artigo completo</a></span>
 						</div>
 						<div class="b p5"><!--  --></div>
 						<div class="b">
@@ -26,17 +26,17 @@
 							<div class="b dotted">
 								<span class="b"><p><h1>00.00.2011</h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eleifend, turpis at dignissim sagittis, magna augue adipiscing turpis. </p></span>
 								<span class="b p5"><!--  --></span>
-								<span class="b"><span class="pinkText">&#187;</span> <a href="?page=">Veja o artigo completo</a></span>
+								<span class="b"><span class="pinkText">&#187;</span> <a href="?page=view">Veja o artigo completo</a></span>
 							</div>
 							<div class="b dotted">
 								<span class="b"><p><h1>00.00.2011</h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eleifend, turpis at dignissim sagittis, magna augue adipiscing turpis. </p></span>
 								<span class="b p5"><!--  --></span>
-								<span class="b"><span class="pinkText">&#187;</span> <a href="?page=">Veja o artigo completo</a></span>
+								<span class="b"><span class="pinkText">&#187;</span> <a href="?page=view">Veja o artigo completo</a></span>
 							</div>
 							<div class="b dotted">
 								<span class="b"><p><h1>00.00.2011</h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eleifend, turpis at dignissim sagittis, magna augue adipiscing turpis. </p></span>
 								<span class="b p5"><!--  --></span>
-								<span class="b"><span class="pinkText">&#187;</span> <a href="?page=">Veja o artigo completo</a></span>
+								<span class="b"><span class="pinkText">&#187;</span> <a href="?page=view">Veja o artigo completo</a></span>
 							</div>
 						</div>
 						<?php include("includes/paginacao.php"); ?>
@@ -52,7 +52,7 @@
 									<h2>Lorem ipsum dolor sit amet</h2>
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eleifend, turpis at dignissim sagittis, magna augue adipis cing turpis, quis malesuada justo diam vitae enim.</p>
 									<br/>
-									<p><span class="pinkText">&#187;</span> <a href="?page=">Veja o artigo completo</a></p>
+									<p><span class="pinkText">&#187;</span> <a href="?page=view">Veja o artigo completo</a></p>
 								</span>
 								<div class="c p5"><!--  --></div>
 							</span>
@@ -70,14 +70,14 @@
 						<div class="b p5"><!--  --></div>
 						<div class="b">
 							<ul class="inline">
-								<li><a href="?page="><img src="img/sony.gif"/></a></li>
+								<li><a href="?page="><img src="img/wallmart.jpg"/></a></li>
 								<li>&nbsp;</li>
-								<li><a href="?page="><img src="img/texaco.gif"/></a></li>
+								<li><a href="?page="><img src="img/subway.jpg"/></a></li>
 								<li>&nbsp;</li>
-								<li><a href="?page="><img src="img/petrobras.gif"/></a></li>
+								<li><a href="?page="><img src="img/dell.jpg"/></a></li>
 							</ul>
 							<br/>
-							<p><span class="pinkText">&#187;</span> <a href="?page=">Conheça nossos parceiros</a></p>
+							<p><span class="pinkText">&#187;</span> <a href="?page=parceiros">Conheça nossos parceiros</a></p>
 						</div>
 					</div>
 					<div class="c"><!--  --></div>
