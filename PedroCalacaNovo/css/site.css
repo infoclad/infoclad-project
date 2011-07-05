@@ -108,7 +108,7 @@
 	width: 156px; 
 	padding-left: 11px;
 }
-
+.floatcell{width:150px;}
 /* paginacao */
 
 .paginacao,.paginacao a{color:#666;}
