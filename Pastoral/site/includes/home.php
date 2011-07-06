@@ -1,3 +1,82 @@
+<script type="text/javascript">
+jQury(document).ready(function () {
+
+    modalPublicidade = function () {
+        var maskHeight = jQury(document).height();
+        var maskWidth = jQury(window).width();
+
+        jQury('#mask').css({
+            'width':maskWidth,
+            'height':maskHeight
+        });
+
+        jQury('#mask').fadeIn(1000);
+        jQury('#mask').fadeTo("slow",0.8);
+
+        var winH = jQury(window).height();
+        var winW = jQury(window).width();
+
+        jQury('#dialog').css('top',  winH/2-jQury('#dialog').height()/2);
+        jQury('#dialog').css('left', winW/2-jQury('#dialog').width()/2);
+
+        jQury('#dialog').fadeIn(2000);
+        jQury('#dialog').show();
+    }
+
+    jQury('.window .close').click(function (e) {
+        e.preventDefault();
+
+        jQury('#mask').hide();
+        jQury('.window').hide();
+    });
+
+    jQury('#mask').click(function () {
+        jQury(this).hide();
+        jQury('.window').hide();
+    });
+
+	modalPublicidade();
+});
+</script>
+
+<style type="text/css">
+    #mask {
+        position:absolute;
+        left:0;
+        top:0;
+        z-index:9000;
+        background-color:#000;
+        display:none;
+    }
+
+    #boxes .window {
+        position:absolute;
+        left:0;
+        top:0;
+        width:500px;
+        height:500px;
+        display:none;
+        z-index:9999;
+        padding:20px;
+    }
+
+    #boxes #dialog {
+        width:500px;
+        height:500px;
+        padding:10px;
+    }
+</style>      
+
+
+ <div id="boxes">
+            <div id="dialog" class="window">
+                <a href="#" class="close" title="Clique para fechar !">
+                    <img src="img/publicidade.png" style="height: 600px; width: auto;" alt="" />
+                </a>
+            </div>
+            <div id="mask"></div>
+        </div>
+
 <div class="b">
 <div class="b l sidebar">
 <?include("includes/sidebar_l.php");?>

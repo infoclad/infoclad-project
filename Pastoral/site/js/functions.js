@@ -87,7 +87,6 @@ pngfix=function(){
 
 };
 
-
 function mascara(o,f){
     v_obj=o
     v_fun=f

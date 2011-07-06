@@ -208,3 +208,28 @@ border-radius: 5px;
 	background:#666;
 	color:#eaeaea;
 }
+#mask {
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:9000;
+    background-color:#000;
+    display:none;
+}
+
+#boxes .window {
+    position:absolute;
+    left:0;
+    top:0;
+    width:500px;
+    height:500px;
+    display:none;
+    z-index:9999;
+    padding:20px;
+}
+
+#boxes #dialog {
+    width:500px;
+    height:500px;
+    padding:10px;
+}

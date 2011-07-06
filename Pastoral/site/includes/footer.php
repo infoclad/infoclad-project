@@ -12,6 +12,5 @@ Pastoral do Esporte © Copyright 2011 Todos os direitos reservados.<br/>
 		<a href="#" class="b l sprite-y rss"><!--  --></a>
 <div class="c"><!--  --></div>
 </div>
-<div class="b r"></div>
 <div class="c p"><!--  --></div>
 </div>
