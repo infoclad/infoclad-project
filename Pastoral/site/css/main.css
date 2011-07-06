@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("reset.css");
+@import url("clearfix.css");
+@import url("slideshow.css");
+
+body{margin:0px auto;text-align:center;font:12px Verdana, Geneva, sans-serif;overflow-x:hidden;background-color:#c4def1;}
+body a{text-decoration:none;}
+.wrapper{position:relative;margin:0px auto;text-align:left;width:1048px;}
+#topo{position:relative;width:100%;height:360px;}
+#javascriptbanner{position:absolute;width:100%;height:360px;z-index:1;}
+.floatbox{position:relative;width:100%;height:auto;margin-bottom:10px;}
+.topo_conteudo{position:absolute;width:100%;}
+.inline li{display:inline;margin-right:2px;}
+#topo .submenu{float:right;margin-top:10px;}
+.submenu, .submenu a{font:11px Arial, Helvetica, sans-serif;color:#fff;}
+.menu_principal{float:right;}
+.menu_principal tr td{padding:3px;vertical-align:middle;}
+.menu_principal input[type="text"]{width:150px;padding:4px;font:11px Arial, Helvetica, sans-serif;color:#666;border:0px;}
+.menu_principal input[type="submit"]{width:34px;height:23px;background:url("../images/buscas.png") no-repeat;border:0px;}
+#conteudo{position:Relative;width:100%;height:auto;}
+.breadcrumb{padding: 10px 0px 2px 0px;}
+.breadcrumb a,.breadcrumb{font:11px Arial, Helvetica, sans-serif;color:#666;}
+.blue{color:#00b1ff;}
+.column{position:relative;float:left;margin-right:8px;}
+.enquete{width:180px;height:180px;background-color:#e8e8e8;padding:6px;}
+.taman3{font-size:22px;}
+.taman2{font-size:16px;}
+.enquete tr td{vertical-align:middle;padding-bottom:5px;}
+input[type="submit"].green,input[type="submit"].orange{width:85px;height:25px;border:0px;margin-right:5px;}
+input[type="submit"].green{background-color:#b7d801;color:#687400;}
+input[type="submit"].orange{background-color:#ffc200;color:#b77700;}
+.green{color:#b7d801;}
+.orange{color:#ffc200;}
+.publicidade{width:180px;heigh:auto;background-color:#fff;padding:6px;margin-top:5px;}
+.chamadas{position:relative;max-width:524px;height:auto;background-color:#fff;padding:0px 5px 0px 0px;}
+.chamadas_capsula{position:relative;float:left;width:164px;height:168px;margin:5px 5px 15px 5px;}
+.darkblue{color:#2170a3;}
+.aniversario{width:530px;}
+.aniversario tr td{padding-bottom:10px;vertical-align:middle;}
+.aniversario ul li{text-align:center;font:11px Arial, Helvetica, sans-serif;color:#568ab3;}
+.noticias{width:250px;position:relative;height:170px;font:12px Arial, Helvetica, sans-serif;margin-bottom:10px;}
+.dotted{border-bottom:1px dotted;padding-bottom:5px;padding-top:5px;}
+.informativo tr td{vertical-align:middle;}
+.informativo input[type="submit"]{background:url("../images/informativosub.png") no-repeat;width:80px;height:22px;border:0px;}
+#rodape{padding-bottom:20px;}
+#rodape tr td{vertical-align:middle;font:11px Arial, Helvetica, sans-serif;padding-right:15px;}
+#rodape .inline li{margin-right:4px;}
+#rodape, #rodape a{color:#666;}
