@@ -13,8 +13,6 @@
 			<span class="b l separador"><!--  --></span>
 			<a class="b l p3" href="?page=expedicoes">Expedições</a>
 			<span class="b l separador"><!--  --></span>
-			<a class="b l p3" href="?page=galeria">multimídia</a>
-			<span class="b l separador"><!--  --></span>
 			<a class="b l p3" href="?page=palestras">palestras</a>
 			<span class="b l separador"><!--  --></span>
 			<a class="b l p3" href="?page=livros">livros</a>
