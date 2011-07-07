@@ -15,6 +15,7 @@
 		<script src="js/mootools-1.2-more.js" type="text/javascript"></script>
 		<script src="js/jd.gallery.js" type="text/javascript"></script>
 		<script type="text/javascript" src="http://gettopup.com/releases/latest/top_up-min.js"></script>
+		<script type="text/javascript" src="js/fryplayer.js"></script>
 		<script type="text/javascript">
 
 			// JAVASCRIPT VARS
@@ -84,6 +85,16 @@
 	        }
 	      });
 	    </script>
+		<script>
+			$(document).ready(function() {
+				$('video').FryPlayer({
+					volume: 100,
+					width : 640,
+					height: 360,
+					skin  : 'dark'
+				});
+			});
+		</script>
 	</head>
 	<body onload="letra();">
 		<div id="wrapper">
