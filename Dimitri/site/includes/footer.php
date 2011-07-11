@@ -2,7 +2,6 @@
 	<span class="b copyright">
 		<ul>
 			<li>Colégio Dimitri Marques @ 2011 Todos os direitos reservados.</li>
-			<li>desenvolvido por <strong><a href="http://www.infoclad.com.br">INFOCLAD</a></strong></li>
 		</ul>
 	</span>
 <span class="b p5"><!-- --></span>

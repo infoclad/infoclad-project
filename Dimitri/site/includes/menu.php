@@ -179,7 +179,28 @@
 	                </div>
 	              </div>  
               <!-- livros paradidádicos -->
-              
+
+
+			  <!-- rec -->
+	             <div id="CollapsiblePane20" class="CollapsiblePanel">
+	                <div class="CollapsiblePanelTab" tabindex="0">
+	                    <span class="b l sprite headerMenuSeta"><!--  --></span><h2 class="mainLink">Matéria de Recuperação</h2>
+	                </div>
+	                <div class="CollapsiblePanelContent">	
+	                	<h2><a href="files/rec2ano.pdf">2° Ano</a></h2> 
+	                	<h2><a href="files/rec3ano.pdf">3° Ano</a></h2> 
+	                	<h2><a href="files/rec4ano.pdf">4° Ano</a></h2> 
+	                	<h2><a href="files/rec5ano.pdf">5° Ano</a></h2> 
+	                	<h2><a href="files/rec6ano.pdf">6° Ano</a></h2> 
+	                	<h2><a href="files/rec7ano.pdf">7° Ano</a></h2> 
+	                	<h2><a href="files/rec8ano.pdf">8° Ano</a></h2> 
+	                	<h2><a href="files/rec9ano.pdf">9° Ano</a></h2>
+	                	<h2><a href="files/recmedio1.pdf">Ens. Médio 1° Ano</a></h2>  
+	                	<h2><a href="files/recmedio2.pdf">Ens. Médio 2° Ano</a></h2>  
+	                	<h2><a href="files/recmedio3.pdf">Ens. Médio 3° Ano</a></h2>  
+	                </div>
+	              </div>  
+              <!-- rec -->
 
               <!-- educadores -->
 
@@ -234,6 +255,8 @@
 			var CollapsiblePanel4 = new Spry.Widget.CollapsiblePanel("CollapsiblePanel4", { contentIsOpen: false, enableAnimation: false });
 
 			var CollapsiblePanel9 = new Spry.Widget.CollapsiblePanel("CollapsiblePanel9", { contentIsOpen: false, enableAnimation: false });
+
+			var CollapsiblePane20 = new Spry.Widget.CollapsiblePanel("CollapsiblePane20", { contentIsOpen: false, enableAnimation: false });
 
 			var ensFundamental = new Spry.Widget.CollapsiblePanel("ensFundamental", { contentIsOpen: false, enableAnimation: false });
 

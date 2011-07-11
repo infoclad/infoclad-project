@@ -2,6 +2,7 @@
 <div class="b l"><img src="img/ultimas.gif"/></div>
 <div class="b l" style="padding-top: 4px; padding-left: 10px;">
  <div id="scrollup">
+<div class="headline"> <a href="?page=noticia10">Classificados para a Segunda Etapa das Olimpíadas de Matemática</a> <strong><a href="?page=noticia10">Leia Mais</a></strong> </div>	
 <div class="headline"> <a href="?page=noticia09">Como o fim do semestre se aproxima, faz-se necessário reforçar algumas datas de eventos.</a> <strong><a href="?page=noticia09">Leia Mais</a></strong> </div>	
 <div class="headline"> <a href="?page=noticia08">A abertura dos XI Jogos Olímpicos CDM acontecerá na próxima sexta-feira, dia 01 de julho, às 17 horas.</a> <strong><a href="?page=noticia08">Leia Mais</a></strong> </div>
    <div class="headline"> <a href="?page=noticia07">Atenção às informações / alterações do mês de Julho/2011.</a> <strong><a href="?page=noticia07">Leia Mais</a></strong> </div> 

@@ -1,5 +1,6 @@
 <div class="b">
     <div id="imageContainer" class="b l"> 
+	    <img src="banner/content/images/uerj.jpg" alt="Parabéns Desirée!" />
             <img src="banner/content/images/capa1.gif" alt="" />
             <img src="banner/content/images/capa2.gif" alt="" />
             <img src="banner/content/images/capa3.gif" alt="" />
@@ -54,7 +55,7 @@
 				</span>
 				<span class="b p5"><!--  --></span>
 				<span class="b">
-					<p class="paragrafo-conteudo"> <a href="?page=inscricao"><img class="b l p5" src="img/noticia3.gif"/>O Colégio Dimitri Marques, em parceria com a empresa INFOCLAD está implementando no seu novo site, uma tecnologia para que os pais possam ver o dia-a-dia de seus filhos no colégio, por meio de oito câmeras localizadas em todo perímetro escolar, onde os responsáveis poderam ter acesso através da Secretaria Online.</a></p>
+					<p class="paragrafo-conteudo"> <a href="?page=inscricao"><img class="b l p5" src="img/noticia3.gif"/>O Colégio Dimitri Marques está realizando sua Olimpiada de Matemática, nossos alunos já estão participando! <br/><br/> <a href="?page=noticia10"><strong>Confira os classificados para a segunda etapa!</strong></a></p>
 				</span>
 				<div class="c"><!--  --></div>
 				<span class="b p5"><!--  --></span>
