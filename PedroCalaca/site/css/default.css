@@ -21,8 +21,6 @@ htm,body{
     text-align:center;
     overflow-x:hidden;
     font:12px Verdana, Geneva, Arial, Helvetica, sans-serif;
-    height:100%;
-	width:100%;
 	background:#fafafa;
 }
 #wrapper{

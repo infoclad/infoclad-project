@@ -14,7 +14,9 @@
 	<body onload="letra();">
 		<div id="wrapper">
 			<div id="header" class="b"><?php include("includes/header.php"); ?></div>
-			<div id="conteudo" class="b">
+			<div id="conteudo" class="b p5">
+			<div class="b breadcrumb"><?php include("includes/breadcrumb.php"); ?></div>
+			<div class="b">
 						<?php
 						$page = isset($_GET['page']) ? $_GET['page'] : 'home';
 						
@@ -25,9 +27,12 @@
 						}
 						?>
 			</div>
+			</div>
+		
 		</div>
 		<div id="footer" class="b">
 			<?php include("includes/footer.php"); ?>
 		</div>
+		
 	</body>
 </html>
