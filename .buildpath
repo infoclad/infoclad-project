@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildpath>
+	<buildpathentry kind="src" path="Academia/site"/>
+	<buildpathentry kind="src" path="Anima/site"/>
+	<buildpathentry kind="src" path="CustomLimited/site"/>
+	<buildpathentry kind="src" path="Default"/>
+	<buildpathentry kind="src" path="Dimitri/site"/>
+	<buildpathentry kind="src" path="Infoclad Host/Site"/>
+	<buildpathentry kind="src" path="Infoclad/site"/>
+	<buildpathentry kind="src" path="Infoclad/site2"/>
+	<buildpathentry kind="src" path="minishowcase"/>
+	<buildpathentry kind="src" path="PainelSistemas/site"/>
+	<buildpathentry kind="src" path="Pastoral/site"/>
+	<buildpathentry kind="src" path="Pastoral/site_antigo"/>
+	<buildpathentry kind="src" path="PedroCalaca/site"/>
+	<buildpathentry kind="src" path="PedroCalaca/site_antigo"/>
+	<buildpathentry kind="src" path="UMF Contabilidade/UFM"/>
+	<buildpathentry kind="con" path="org.eclipse.php.core.LANGUAGE"/>
+</buildpath>
