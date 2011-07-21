@@ -12,9 +12,8 @@
 		<script type="text/javascript" src="js/xfade2.js"></script>
 	</head>
 	<body onload="letra();">
-		<div id="wrapper">
-			<div id="header" class="b"><?php include("includes/header.php"); ?></div>
-			<div id="conteudo" class="b">
+			<div id="header" class="b wrapper"><?php include("includes/header.php"); ?></div>
+			<div id="conteudo" class="b wrapper">
 						<?php
 						$page = isset($_GET['page']) ? $_GET['page'] : 'home';
 						
@@ -25,9 +24,7 @@
 						}
 						?>
 			</div>
-		</div>
-		<div id="footer" class="b">
-			<?php include("includes/footer.php"); ?>
-		</div>
+			<div class="b p5"><!--  --></div>
+			<div id="footer" class="b wrapper"><?php include("includes/footer.php"); ?></div>
 	</body>
 </html>
