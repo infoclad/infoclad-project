@@ -1,2 +1,82 @@
 @CHARSET "ISO-8859-1";
 
+.logo{
+	background:url("../img/logo.gif") no-repeat;
+	width:261px;
+	height:72px;
+}
+.header{
+	padding:10px 0 0 0;
+	text-align:right;
+}
+.headerTitulo{margin-top: -18px; padding-left: 75px;}
+.header input[type="text"],.header input[type="password"], .header select{
+	font:normal 10px Arial, Helvetica, sans-serif;
+	width:130px;
+}
+.header select{border:1px #666 solid;}
+.header input[type="text"],.header input[type="password"]{border:0;}
+.login{border:1px #666 solid;height:15px;}
+.menu_content{
+	background:url("../img/menu.gif") repeat-x;
+	line-height:40px;
+	padding:0px 5px 0px 5px;
+}
+.home_ico{padding-top: 11px; padding-bottom: 4px;}
+.busca{padding-top: 10px; padding-bottom: 9px;}
+.busca input[type="text"]{padding:3px;}
+.banner,.banner img,.banner_mini,.banner_mini img{width:949px;}
+.chamada{width:290px;padding:0 0 8px 0;}
+.chamada h1{padding:0 0 5px 0;font-weight:bold;}
+.icon{background:url("../img/sprites/icones.gif") no-repeat;height:60px;width:60px;margin-top:30px;}
+.pc{background-position:-119px 0;}
+.lapis{background-position:-24px 0;}
+.server{background-position:-208px 0;}
+.chamada p{width:230px;text-align:justify;}
+.blueBox{background:#0070af;color:#fff;padding:5px;}
+.redBox{background:#cb2920;color:#fff;padding:5px;width:auto;}
+.noticias{width:250px;}
+.noticias p{text-align:justify;}
+.twitter{padding:0 10px 0 10px;}
+.destaque{width:270px;}
+.destaque p{text-align:justify;font:normal 11px Arial, Helvetica, sans-serif;}
+.destaque_mid{padding-left: 69px; padding-right: 69px;}
+.footer p{text-align:justify;}
+.footer p, .footer h1{font:normal 11px Arial, Helvetica, sans-serif;}
+.footer_shortcut{
+	border-bottom:1px #ccc solid;
+	padding-bottom:5px;
+	width:100%;
+	text-align:right;
+}
+.footer{padding-bottom:10px;}
+.sidebar{
+	width:220px;
+	font-size:11px;
+}
+.sidebar ul li{
+	line-height:20px;
+}
+.conteudo{width:470px;padding:0 10px 0 10px;}
+.breadcrumb,.breadcrumb a{font:normal 11px Arial, Helvetica, sans-serif;}
+.breadcrumb a{color:#666;}
+.breadcrumb{color:#fa5420;}
+.sidebar p{width:190px;text-align:justify;padding-left:5px;}
+.sidebar .redBox{width:120px;}
+.banner_page{background:url("../img/sprites/banner.gif") no-repeat;width:468px;height:138px;}
+.contato_banner{background-position:0 -10px;}
+.servicos_banner{background-position:0 -150px;}
+.quem_banner{background-position:0 -327px;}
+.cliente{padding:0 20px 8px 0;}
+.cliente img,.cliente{width:215px;}
+.cliente a{color:#0070af;}
+.formulario tr td{padding:0 8px 5px 0;vertical-align:top;}
+.formulario input[type="text"],.formulario textarea{width:380px;border:1px #666 solid;}
+.formulario textarea{height:120px;}
+.clientes{max-width:186px;text-align:center;}
+.clientes img{width:186px;}
+.clientes a{color:#666;}
+#slideshow {float:left; width:950px; height:220px;margin-top:-5px;background:#fff;}
+#slides {position:relative; width:950px; height:202px; list-style:none; overflow:hidden;background:#fff;}
+#slides li {width:950px; height:202px;background:#fff;}
+#pagination{display:none;}

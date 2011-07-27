@@ -1,0 +1,24 @@
+Options +FollowSymlinks
+RewriteEngine On
+
+## Remove listagem de arquivos dos diretórios
+IndexIgnore *
+
+# Loader de modulos
+RewriteRule ^module-(.*)$ module.php?module=$1 [QSA]
+
+ErrorDocument 404 index.php?page=e404
+
+## URLs Amigaveis
+RewriteCond %{SCRIPT_FILENAME} !-f [OR]
+RewriteCond %{SCRIPT_FILENAME} !-d [OR]
+RewriteCond %{SCRIPT_FILENAME} !-s [OR]
+
+RewriteRule ^([a-zA-Z0-9\-_]+).html$ index.php?page=$1
+RewriteRule ^([a-zA-Z0-9\-_]+)(\/)?$ index.php?section=$1
+RewriteRule ^([a-zA-Z]+)-([0-9]+)$ index.php?page=$1&id=$2
+RewriteRule ^([a-zA-Z0-9]+)\/([a-zA-Z0-9\-_]+).html$ index.php?section=$1&page=$2 [L]
+
+
+
+

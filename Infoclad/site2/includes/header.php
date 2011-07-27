@@ -1,44 +1,54 @@
-<div class="b wrapper header">
-	<a class="b l logo" href="?page=home"><!-- --></a>
+<div class="header">
+	<span class="b l">
+		<a class="logo b" href="?page=home"><!--  --></a>
+		<h1 class="headerTitulo">Integrando tecnologia à seu negócio!</h1>
+	</span>
 	<div class="b r">
 		<span class="b">
-			<ul class="inline">
-				<li><a href="?page=fale">Contate-nos</a></li>
+			<ul class="inline grayText">
+				<li><a class="grayText" href="?page=fale">Contate-nos</a></li>
 				<li>|</li>
-				<li><a href="?page=fale">Infoclad Host</a></li>
+				<li><a class="grayText" href="http://www.infocladhost.com.br">Infoclad Hosting Service</a></li>
 				<li>|</li>
-				<li><a href="?page=fale">Academia Infoclad</a></li>
-			</ul>			
+				<li><a class="grayText" href="http://www.academiainfoclad.com.br">Academia Infoclad</a></li>
+			</ul>
 		</span>
-		<span class="b">
-			<span class="b l"><select><option>ServiÃ§os</option></select></span>
-			<span class="b l p5"><!-- --></span>
-			<span class="b l login">
-				<span class="b l"><input type="text"/></span>
-				<span class="b l"><input type="text"/></span>
-				<a href="#" class="b l sprite ok_login"><!-- --></a>
-				<div class="c"><!-- --></div>
-			</span>
-			<div class="c"><!-- --></div>
-		</span>
-		<span class="b p5"><!-- --></span>
-		<div class="b menu">
-			<a href="?page=home"  class="b l sprite home_icon"><!-- --></a>
-			<span class="b l p5"><!-- --></span>
-			<a class="b l" href="?page=infoclad">A Infoclad</a>
-			<span class="b l p5"><!-- --></span>
-			<a class="b l" href="?page=solucoes">SoluÃ§Ãµes</a>
-			<span class="b l p5"><!-- --></span>
-			<a class="b l" href="?page=clientes">Clientes</a>
-			<span class="b l p5"><!-- --></span>
-			<a class="b l" href="?page=fale">Contate-nos</a>
-			<div class="b r">
-				<span class="b l"><input type="text"/></span>
-				<a href="#" class="b sprite ok_busca"><!-- --></a>
-				<div class="c"><!-- --></div>
+		<span class="b p5"><!--  --></span>
+		<div class="b">
+			<div class="b r login">
+				<span class="b l p5"><!--  --></span>
+				<span class="b l"><input type="text" value="webmail@infoclad.com.br"/></span>
+				<span class="b l p5"><!--  --></span>
+				<span class="b l"><input type="password" value="123456"/></span>
+				<span class="b l p5"><!--  --></span>
+				<a class="b l sprite ok_login"><!--  --></a>
+				<div class="c"><!--  --></div>
 			</div>
-			<div class="c"><!-- --></div>
+			<span class="b r p5"><!--  --></span>
+			<span class="b r">
+				<select><option>Serviços</option></select>
+			</span>
+			<div class="c"><!--  --></div>
+		</div>
+		<span class="b p5"><!--  --></span>
+		<div class="b menu">
+			<span class="r">
+				<span class="b l"><img src="img/menu_left.gif"/></span>
+				<span class="b l menu_content home_ico"><a href="?page=home" class="b sprite home"><!--  --></a></span>
+				<span class="b l menu_content"><a class="grayText" href="?page=infoclad">A Infoclad</a></span>
+				<span class="b l menu_content"><a class="grayText" href="?page=solucoes_servicos">Soluções e Serviços</a></span>
+				<span class="b l menu_content"><a class="grayText" href="?page=clientes">Clientes</a></span>
+				<span class="b l menu_content"><a class="grayText" href="?page=fale">Contate-nos</a></span>
+				<div class="b l busca menu_content">
+					<span class="b l"><input type="text" /></span>
+					<a class="b l sprite ok_busca" href="#"><!--  --></a>
+					<div class="c"><!--  --></div>
+				</div>
+				<span class="b l"><img src="img/menu_right.gif"/></span>
+				<div class="c"><!--  --></div>
+			</span>
+			<div class="c"><!--  --></div>
 		</div>
 	</div>
-	<div class="c"><!-- --></div>
+	<div class="c"><!--  --></div>
 </div>

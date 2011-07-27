@@ -85,31 +85,30 @@ jQury(document).ready(function () {
 	<div class="b l noticias-home-row">
 		<div class="b l noticias-home">
 			<div class="b p5">
-				<span class="b"><img class="noticia" src="img/nop.gif"/></span>
-				<span class="b"><h2>Lorem Ipsum</h2></span>
-				<span class="b"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel facilisis ante.</p></span>
-				<span class="b"><p><a href="?page=noticia">Ler Artigo</a></p></span>
+				<span class="b"><img class="noticia" src="img/fotos/Imagem18.jpg"/></span>
+				<span class="b"><h2>Formação sócio-esportiva</h2></span>
+				<span class="b"><p>
+					Implantação de núcleos de esporte e de lazer nas paróquias, organizando eventos esportivos e de lazer.
+					</p></span>
 			</div>
 		</div>
 		<div class="b l noticias-home">
 			<div class="b p5">
-				<span class="b"><img class="noticia" src="img/nop.gif"/></span>
-				<span class="b"><h2>Lorem Ipsum</h2></span>
-				<span class="b"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel facilisis ante.</p></span>
-				<span class="b"><p><a href="?page=noticia">Ler Artigo</a></p></span>
+				<span class="b"><img class="noticia" src="img/fotos/Imagem12.jpg"/></span>
+				<span class="b"><h2>A Pastoral do Esporte</h2></span>
+				<span class="b"><p>É uma iniciativa social e evangelizadora da igreja católica...</p></span>
 			</div>
 		</div>
 		<div class="b l noticias-home">
 			<div class="b p5">
-				<span class="b"><img class="noticia" src="img/nop.gif"/></span>
-				<span class="b"><h2>Lorem Ipsum</h2></span>
-				<span class="b"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel facilisis ante.</p></span>
-				<span class="b"><p><a href="?page=noticia">Ler Artigo</a></p></span>
+				<span class="b"><img class="noticia" src="img/fotos/Imagem15.jpg"/></span>
+				<span class="b"><h2>Pastoral do Rio de Janeiro</h2></span>
+				<span class="b"><p>Em sua essência, a  Pastoral do Esporte no Estado do Rio de Janeiro já  acontecia  a mais de 20 anos...</p></span>
 			</div>
 		</div>
 		<div class="c p5"><!--  --></div>
 		<div class="b">
-			<span class="b"><h2 class="blueText">Aniversariantes do mês</h2></span>
+			<span class="b"><h2 class="blueText">Aniversariantes do mï¿½s</h2></span>
 			<span class="b p5"><!--  --></span>
 					<div id="carouselHolder">
 						<!-- carousel -->
@@ -146,7 +145,7 @@ jQury(document).ready(function () {
 <div class="b l p5"><!--  --></div>
 <div class="b r sidebar">
 	<div class="b">
-		<span class="b"><h3 class="blueText">Últimas Notícias</h3></span>
+		<span class="b"><h3 class="blueText">ï¿½ltimas Notï¿½cias</h3></span>
 		<span class="b">
 			<ul class="b headlines">
 				<li><a href="#">Lorem ipsum ad option scriptorem sea.</a></li>

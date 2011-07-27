@@ -9,12 +9,69 @@
 		<![endif]-->
 		<script type="text/javascript" src="js/functions.js"></script>
 		<script type="text/javascript" src="js/jquery-1.4.3.min.js"></script>
-		<script type="text/javascript" src="js/xfade2.js"></script>
+		<script type="text/javascript" src="js/tinyfader.js"></script>
+		<script type="text/javascript" src="js/swfobject.js"></script>
+		<script type="text/javascript">
+
+			// JAVASCRIPT VARS
+			// cache buster
+			var cacheBuster = "?t=" + Date.parse(new Date());		
+			
+			// stage dimensions
+			var stageW = 949;//"100%";
+			var stageH = 243;//"100%";
+			var stageH2 = 190;
+
+			
+			// ATTRIBUTES
+		    var attributes = {};
+		    attributes.id = 'FlabellComponent';
+		    attributes.name = attributes.id;
+
+		    // NAVIGATION
+		    
+			var navigation = {};
+			navigation.id = 'FlabellComponent2';
+			navigation.name = navigation.id
+
+		    
+			// PARAMS
+			var params = {};
+			params.bgcolor = "#ffffff";
+			
+
+		    /* FLASH VARS */
+			var flashvars = {};	
+			var navVars = {};
+	
+			
+			/// if commented / delete these lines, the component will take the stage dimensions defined 
+			/// above in "JAVASCRIPT SECTIONS" section or those defined in the settings xml			
+			flashvars.componentWidth = stageW;
+			flashvars.componentHeight = stageH;
+			navVars.componentHeight = stageH2;
+
+
+			
+			/// path to the content folder(where the xml files, images or video are nested)
+			/// if you want to use absolute paths(like "http://domain.com/images/....") then leave it empty("")
+			flashvars.pathToFiles = "banner/";
+			flashvars.xmlPath = "xml/banner.xml";
+
+			navVars.pathToFiles = "banner/";
+			navVars.xmlPath = "xml/banner.xml";
+						
+			
+			/** EMBED THE SWF**/
+			swfobject.embedSWF("preview.swf"+cacheBuster, attributes.id, stageW, stageH, "9.0.124", "js/expressInstall.swf", flashvars, params);
+			swfobject.embedSWF("preview.swf"+cacheBuster, navigation.id, stageW, stageH2, "9.0.124", "js/expressInstall.swf", navVars, params);
+
+			
+		</script>
 	</head>
 	<body onload="letra();">
-		<div id="wrapper">
-			<div id="header" class="b"><?php include("includes/header.php"); ?></div>
-			<div id="conteudo" class="b">
+			<div id="header" class="b wrapper"><?php include("includes/header.php"); ?></div>
+			<div id="conteudo" class="b wrapper">
 						<?php
 						$page = isset($_GET['page']) ? $_GET['page'] : 'home';
 						
@@ -25,9 +82,7 @@
 						}
 						?>
 			</div>
-		</div>
-		<div id="footer" class="b">
-			<?php include("includes/footer.php"); ?>
-		</div>
+			<div class="b p5"><!--  --></div>
+			<div id="footer" class="b wrapper"><?php include("includes/footer.php"); ?></div>
 	</body>
 </html>

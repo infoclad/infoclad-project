@@ -1,0 +1,78 @@
+@CHARSET "ISO-8859-1";
+
+#logo{
+	padding-top: 20px; 
+	padding-left: 60px;
+}
+#topBar{
+	height:17px;
+	width:100%;
+	background-color:#0094cf;
+	color:#fff;
+}
+#topBar a{
+	color:#fff;
+}
+#logoMensagem{
+	margin-top: -30px; 
+	margin-left: 0px; 
+	padding-left: 122px;
+}
+#loginBox{
+	padding-top: 60px; padding-right: 50px;
+}
+.loginBox{
+	width: 243px; height: 28px;
+	background:url("../img/loginFundo.gif") no-repeat;
+	color:#fff;
+	padding-top: 6px; padding-left: 8px;
+}
+.loginBox a{
+	color:#fff;
+}
+#loginBox input[type="text"],#loginBox input[type="password"]{
+	width:90px;
+	padding:4px;
+	border:0;
+	background:transparent;
+	color:#fff;
+	font:normal 10px Arial, Helvetica, sans-serif;
+	cursor:pointer;
+}
+#loginBox input[type="text"]:focus,#loginBox input[type="password"]:focus{background-color:#148cbc;}
+#imageContainer{
+	position:relative;
+	margin:auto;
+	width:1024px;
+	height:250px;
+}
+#imageContainer img{
+	display:none;
+	position:absolute;
+	top:0; left:0;
+	width:1024px;
+	height:250px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#headlines{
+	width:935px;
+	height:210px;
+	padding:8px 45px 3px 45px;
+	background-color:#6c7d9d;
+	color:#fff;
+	
+}
+#headlines a{
+	color:#fff;
+}
+.headlines{
+	width:460px;
+	min-height:60px;
+}
+.headline-content{
+	width: 350px; padding-left: 10px;
+	text-transform:capitalize;
+	text-align:justify;
+	
+}

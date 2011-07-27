@@ -1,0 +1,51 @@
+
+body{
+    font-family: Arial, "MS Trebuchet", sans-serif;
+}
+div#slideShowItems{
+    height:279px;
+    overflow:hidden;
+    position:relative;
+}
+div#slideShowItems div{
+    width:668px;
+}
+div#slideShowItems img {
+    margin-right:13px;
+    float:left;
+    z-index: 1;
+}
+ul#slideShowCount{
+    margin:0px;
+    padding:0px;
+    width:668px;
+    position: absolute;
+    top: 253px;
+    z-index: 9999;
+}
+ul#slideShowCount li.slide{
+    float:right;
+    cursor:pointer;
+    width:26px;
+    display:block;
+    margin-right: 10px;
+    padding: 4px;
+    background: #0a6098 scroll left top;
+}
+ul#slideShowCount li.slide span{
+    padding-left:10px;
+    color: #fff;
+    font-weight:bold;
+    font-size:12px;
+}
+ul#slideShowCount li.slide:hover{
+    background-position:left -18px;
+    background-color: #96bcea;
+}
+ul#slideShowCount li.slide.selectedTab{
+    background-position:left -18px;
+    background-color: #96bcea;
+}
+div#slideShow{
+    width:668px;
+}
