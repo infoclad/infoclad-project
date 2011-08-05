@@ -31,6 +31,7 @@
 .icon{background:url("../img/sprites/icones.gif") no-repeat;height:60px;width:60px;margin-top:30px;}
 .pc{background-position:-119px 0;}
 .lapis{background-position:-24px 0;}
+.server{background-position:-208px 0;}
 .chamada p{width:230px;text-align:justify;}
 .blueBox{background:#0070af;color:#fff;padding:5px;}
 .redBox{background:#cb2920;color:#fff;padding:5px;width:auto;}
@@ -66,9 +67,16 @@
 .contato_banner{background-position:0 -10px;}
 .servicos_banner{background-position:0 -150px;}
 .quem_banner{background-position:0 -327px;}
-.cliente{padding:0 6px 6px 0;}
-.cliente img,.cliente{width:150px;}
-.cliente a{color:#666;}
+.cliente{padding:0 20px 8px 0;}
+.cliente img,.cliente{width:215px;}
+.cliente a{color:#0070af;}
 .formulario tr td{padding:0 8px 5px 0;vertical-align:top;}
 .formulario input[type="text"],.formulario textarea{width:380px;border:1px #666 solid;}
 .formulario textarea{height:120px;}
+.clientes{max-width:186px;text-align:center;}
+.clientes img{width:186px;}
+.clientes a{color:#666;}
+#slideshow {float:left; width:950px; height:220px;margin-top:-5px;background:#fff;}
+#slides {position:relative; width:950px; height:202px; list-style:none; overflow:hidden;background:#fff;}
+#slides li {width:950px; height:202px;background:#fff;}
+#pagination{display:none;}

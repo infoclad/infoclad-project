@@ -97,7 +97,25 @@ favorecer uma cultura do esporte que promova a atividade esportiva e de lazer co
 			Nº DE BENÉFICIADOS : 250<br/>
 			</span>
 			</span>
-			<div class="c"><!-- --></div>
+			<div class="c p5"><!-- --></div>
+			<div class="b">
+				<h2 class="blueText">Confira algumas fotos</h2>
+				<br/>
+				<span class="b l"><a href="img/fotos/Imagem1.jpg" rel="lightbox[fotos]"><img src="img/fotos/Imagem1.jpg" style="width:250px;"/></a></span>
+				<span class="b l p5"><!-- --></span>
+				<span class="b l"><a href="img/fotos/Imagem2.jpg" rel="lightbox[fotos]"><img src="img/fotos/Imagem2.jpg" style="width:250px;"/></a></span>
+				<span class="b l p5"><!-- --></span>
+				<span class="b l"><a href="img/fotos/Imagem3.jpg" rel="lightbox[fotos]"><img src="img/fotos/Imagem3.jpg" style="width:250px;"/></a></span>
+				<div class="c p5"><!-- --></div>
+				<span class="b l"><a href="img/fotos/Imagem6.jpg" rel="lightbox[fotos]"><img src="img/fotos/Imagem6.jpg" style="width:250px;"/></a></span>
+				<span class="b l p5"><!-- --></span>
+				<span class="b l"><a href="img/fotos/Imagem7.jpg" rel="lightbox[fotos]"><img src="img/fotos/Imagem7.jpg" style="width:250px;"/></a></span>
+				<span class="b l p5"><!-- --></span>
+				<span class="b l"><a href="img/fotos/Imagem8.jpg" rel="lightbox[fotos]"><img src="img/fotos/Imagem8.jpg" style="width:250px;"/></a></span>
+				<div class="c p5"><!-- --></div>
+				<span class="b"><a href="img/fotos/Imagem9.jpg" rel="lightbox[fotos]"><img src="img/fotos/Imagem9.jpg" style="width:250px;"/></a></span>
+			</div>
+			<div class="b p5"><!-- --></div>
 			<a class="b" href="#header">topo &#9650;</a>
 
 		</p>

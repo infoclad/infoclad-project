@@ -5,26 +5,62 @@
 		<div class="b l conteudo">
 			<div class="b"><?php include("includes/breadcrumb.php"); ?></div>
 			<div class="b p5"><!--  --></div>
-			<span class="b banner_page contato_banner"><!--  --></span>
-			<span class="b p5"><!--  --></span>
 			<span class="b">
-			<p align="justify">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pretium mauris ut urna mollis mollis porta mi porta. Integer eu commodo est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.		</p>
+				<h2 class="blueText">Nossos Clientes</h2>
+				<h1>Seja um você também <a class="grayText" href="?page=fale"><u>Clique aqui</u></a>.</h1>
 			</span>
 			<span class="b p5"><!--  --></span>
-			<span class="b l cliente">
-				<span class="b"><img src="img/clientes/dimitri.gif"/></span>
-				<span class="b"><p><a href="http://www.colegiodimitrimarques.com.br">Colégio Dimitri Marques</a></p></span>
-			</span>
-			<span class="b l cliente">
-				<span class="b"><img src="img/clientes/dimitri.gif"/></span>
-				<span class="b"><p><a href="http://www.colegiodimitrimarques.com.br">Colégio Dimitri Marques</a></p></span>
-			</span>
-			<span class="b l cliente">
-				<span class="b"><img src="img/clientes/dimitri.gif"/></span>
-				<span class="b"><p><a href="http://www.colegiodimitrimarques.com.br">Colégio Dimitri Marques</a></p></span>
-			</span>
-			<div class="c"><!--  --></div>
+			<div class="b">
+				<div class="b l clientes">
+					<span class="b"><img src="img/clientes/agr.gif"/></span>
+					<span class="b"><a href="http://">www.agr.go.gov.br/</a></span>
+				</div>
+				<div class="b l clientes">
+					<span class="b"><img src="img/clientes/alleq.gif"/></span>
+					<span class="b"><a href="http://www.medicohospitalar.com.br/">www.medicohospitalar.com.br/</a></span>
+				</div>
+				<div class="b l clientes">
+					<span class="b"><img src="img/clientes/alvorada.gif"/></span>
+					<span class="b"><a href="http://www.veterinariaalvorada.vet.br/">www.veterinariaalvorada.vet.br/</a></span>
+				</div>
+				<div class="b l clientes">
+					<span class="b"><img src="img/clientes/amoedo.gif"/></span>
+					<span class="b"><a href="http://">www.amoedo.com.br</a></span>
+				</div>
+				<div class="b l clientes">
+					<span class="b"><img src="img/clientes/carrefour.gif"/></span>
+					<span class="b"><a href="http://">www.carrefour.com.br</a></span>
+				</div>
+				<div class="b l clientes">
+					<span class="b"><img src="img/clientes/lytoranea.gif"/></span>
+					<span class="b"><a href="http://">www.lytoranea.com.br</a></span>
+				</div>
+				<div class="b l clientes">
+					<span class="b"><img src="img/clientes/paodequeijo.gif"/></span>
+					<span class="b"><a href="http://">www.casadopaodequeijo.com.br</a></span>
+				</div>
+				<div class="b l clientes">
+					<span class="b"><img src="img/clientes/paracambi.gif"/></span>
+					<span class="b"><a href="http://">www.paracambi.rj.gov.br</a></span>
+				</div>
+				<div class="b l clientes">
+					<span class="b"><img src="img/clientes/petrobras.gif"/></span>
+					<span class="b"><a href="http://">www.petrobras.com.br</a></span>
+				</div>
+				<div class="b l clientes">
+					<span class="b"><img src="img/clientes/premium.gif"/></span>
+					<span class="b"><a href="http://">www.premium.com.br</a></span>
+				</div>
+				<div class="b l clientes">
+					<span class="b"><img src="img/clientes/romanzza.gif"/></span>
+					<span class="b"><a href="http://">www.romanzza.com.br</a></span>
+				</div>
+				<div class="b l clientes">
+					<span class="b"><img src="img/clientes/ufrrj.gif"/></span>
+					<span class="b"><a href="http://">www.ufrrj.br</a></span>
+				</div>
+			<div class="c"><!-- --></div>
+			</div>
 		</div>
 		<div class="b r"><?php include("includes/sidebar_right.php");?></div>
 		<div class="c"><!--  --></div>

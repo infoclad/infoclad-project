@@ -5,18 +5,15 @@
 		<div class="b l conteudo">
 			<div class="b"><?php include("includes/breadcrumb.php"); ?></div>
 			<div class="b p5"><!--  --></div>
-			<span class="b banner_page contato_banner"><!--  --></span>
-			<span class="b p5"><!--  --></span>
 			<span class="b">
-			<p align="justify">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pretium mauris ut urna mollis mollis porta mi porta. Integer eu commodo est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.		</p>
+				<img src="img/fale.gif"/>
 			</span>
 			<span class="b p5"><!--  --></span>
 			<span class="b">
 					<span class="b l" style="width:220px;">
 						Campo Grande, Rio de Janeiro, RJ
 						<br/>
-						Est. Rio São Paulo, 381, Sl. 101,<br/>
+						Est. Rio S?o Paulo, 381, Sl. 101,<br/>
 						CEP 23087-005
 					</span>
 					<span class="b r" style="width:250px;">

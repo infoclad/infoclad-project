@@ -1,0 +1,177 @@
+.colortext{color:#3674bf;}
+
+.colortexto{color:#FFFFFF/*#9d3131*/;}
+
+
+
+.boxcidade {background:#4d0d0d; display:none;}
+
+.boxcidade table td {border-bottom:1px solid #581d1d;}
+
+.boxcidade table td a {color:#ffffff; font-size:14px; display:inline-block; padding:6px 10px }
+
+.boxcidade table td a:hover {background:#ef7f01; text-decoration:none;}
+
+.boxcidade table td a.active {background:#ef7f01; text-decoration:none;}
+
+
+
+.menu_cidade { height: auto;float:left; width: 100%;}
+
+.menu_cidade ul li {border-bottom:1px solid #581d1d;}
+
+.menu_cidade ul li a {color:#ffffff; font-size:14px; display:inline-block; padding:6px 10px }
+
+.menu_cidade ul li a:hover {background:#ef7f01; text-decoration:none;}
+
+.menu_cidade ul li a.active {background:#ef7f01; text-decoration:none;}
+
+
+
+
+
+.menu_cidades strong {color:#ff6c00; font-size:16px; display:block; padding:0px 0 7px 30px}
+
+.menu_cidades ul {padding:0 23px; float:left;}
+
+.menu_cidades ul li {display:block; float:left; padding:0 7px; border-right:1px solid #fff; margin:0 0 10px 0; height:11px;}
+
+.menu_cidades ul li a {color:#fff; font-size:13px; display:block; margin:-4px 0 0 0; white-space:nowrap;}
+
+
+
+.btn_cidade { cursor: pointer}
+
+
+
+/* Forms */
+
+label.error {
+
+    display: block;
+
+    color: red;
+
+    font-size: 10px;
+
+    font-weight: normal;
+
+}
+
+form input.error, select.error {
+
+    background-color: #f8efed;
+
+}
+
+div.error {
+
+    background: #f9e0d3;
+
+    min-height: 20px;
+
+    width: 965px;
+
+    padding: 20px 0 20px 0;
+
+    border: 1px solid #e19e7a;
+
+}
+
+div.error img {
+
+    padding-left: 10px;
+
+}
+
+div.error span {
+
+    margin: 5px;
+
+    font-family: Arial;
+
+    font-size: 10px;
+
+    color: red;
+
+}
+
+
+
+div.success {
+
+    background: #d2ffa1;
+
+    min-height: 20px;
+
+    width: 965px;
+
+    padding: 20px 0 20px 0;
+
+    border: 1px solid #9cc76d;
+
+}
+
+div.success span {
+
+    margin: 5px;
+
+    font-family: Arial;
+
+    font-size: 10px;
+
+    color: #9ad35c;
+
+}
+
+
+
+
+
+ul.social {
+
+    overflow: hidden;
+
+    margin: 5px 15px;
+
+}
+
+ul.social li {
+
+    float: left;
+
+}
+
+ul.social li.orkut {
+
+    margin-right: 10px;
+
+    width: 32px;
+
+    height: 32px;
+
+}
+
+ul.social li.twitter {
+
+    width: 100px;
+
+}
+
+ul.social li.dignow {
+
+    width: 80px;
+
+}
+
+ul.social li.facebook iframe {
+
+    border: none;
+
+    max-width: 120px; 
+
+    height: 20px;
+
+    overflow: hidden; 
+
+}

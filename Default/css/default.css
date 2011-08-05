@@ -22,19 +22,10 @@ htm,body{
     height:100%;
 
 }
-#wrapper{
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
-}
 .wrapper{
-    width:1024px;
+    width:1000px;
     margin:0px auto;
     text-align:left;
-}
-.footer, .push {
-	height: 4em;
-	clear: both;
 }
 a{text-decoration:none;}
 .inline li{display:inline;padding-bottom:5px;}
@@ -66,16 +57,11 @@ h3{font:normal 22px Verdana, Geneva, Arial, Helvetica, sans-serif;}
 /* sprites */
 
 .sprite{background:url("../img/sprites/sprite.gif") no-repeat;}
-.sprite-y{
-	background:url("../img/sprites/sprite-y.gif") no-repeat;
+.social{
+	background:url("../img/sprites/social.gif") no-repeat;
 	width:28px;
+	height:28px;
 }
-
-
-
-
-
-
 .twitter{background-position:-0 -25px;}
 .rss{background-position:-0 -127px;}
 .vimeo{background-position:-0 -77px;}

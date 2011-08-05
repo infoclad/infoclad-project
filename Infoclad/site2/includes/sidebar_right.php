@@ -27,7 +27,7 @@
 	<a href="?page=fale" class="b redBox">&#9658; Contate-nos</a>
 	<span class="b p5"><!--  --></span>
 	<span class="b">
-		<a class="b redText" href="?page=contrate"><u>Contrate nossos serviços</u></a>
+		<a class="b redText" href="?page=fale"><u>Contrate nossos serviços</u></a>
 		<span class="redText">Nos siga em nossas redes sociais</span>
 		<span class="b p5"><!--  --></span>
 		<div class="b">

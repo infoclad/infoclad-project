@@ -6,7 +6,7 @@
 </div>
 <div class="b p5"><!--  --></div>
 <div class="b">
-<h2 class="blueText">Educadores</h2>
+<h2 class="blueText">Professores</h2>
 <h1>Ensino Fundamental II</h1>
 <span class="b p5"><!--  --></span>
 <span class="b">
@@ -94,6 +94,10 @@
 		<li>&nbsp;</li>
 		<li><h1>Alexander Pires</h1></li>
 		<li><i><a class="blueText" href="mailto:alex.pires@colegiodimitrimarques.com.br">alex.pires@colegiodimitrimarques.com.br</a></i></li>
+		<li><h2 class="blueText">Coordenador</h1></li>
+		<li>&nbsp;</li>
+		<li>Ione Maxinio <i><a class="blueText" href="mailto:ione.maxinio@colegiodimitrimarques.com.br">ione.maxinio@colegiodimitrimarques.com.br</a></i></li>
+		<li>&nbsp;</li>
 	</ul>
 </span>
 <span class="b p5"><!--  --></span>

@@ -464,6 +464,22 @@ p{
 	text-align:center;
 	margin-left:-13px;
 }
+/* header titulos */
+.headertitulo{
+	width:170px;
+	height:53px;
+	color:#fff;
+	font:italic 22px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-align:center;
+	margin-left:-13px;
+}
+.headertituloblack{
+	background:url("../img/divblack.gif") no-repeat;
+}
+.headertitulopurple{
+	background:url("../img/divpurple.gif") no-repeat;
+}
+
 p.headerSubtitulo{
 	width: 454px;
 }

@@ -3,7 +3,6 @@
 	    <img src="banner/content/images/uerj.jpg" alt="Parabéns Desirée!" />
             <img src="banner/content/images/capa1.gif" alt="" />
             <img src="banner/content/images/capa2.gif" alt="" />
-            <img src="banner/content/images/capa3.gif" alt="" />
     </div> 
     <div class="b r chamada-flutuante">
     	<span class="b sprite balao balao1"><h2>Eventos</h3></span>

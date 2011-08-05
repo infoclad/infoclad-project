@@ -5,12 +5,15 @@
 		<div class="b l conteudo">
 			<div class="b"><?php include("includes/breadcrumb.php"); ?></div>
 			<div class="b p5"><!--  --></div>
-			<span class="b banner_page servicos_banner"><!--  --></span>
+			<span class="b">
+				<img src="img/solucoes.gif"/>
+			</span>
 			<span class="b p5"><!--  --></span>
 			<span class="b">
 			<p align="justify">
-				Aliquam erat volutpat. Aenean facilisis lectus porta dui hendrerit pulvinar. Quisque enim elit, rutrum a lobortis gravida, lobortis at erat. Fusce a nulla ut diam aliquam scelerisque eleifend ac sapien. Aenean in quam lorem, ac facilisis tortor. Donec id ipsum ut justo facilisis cursus. Fusce faucibus, justo at suscipit molestie, felis est lacinia nibh, non egestas mi purus vitae tortor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent sit amet elit a enim semper hendrerit. Donec dapibus cursus orci, in iaculis eros ultrices non. Nam quis massa et mauris eleifend ultricies et ut nibh. Vivamus hendrerit lectus mauris, eget hendrerit nulla. Nam quis arcu velit, in facilisis urna.
-			</p>
+A Infoclad oferece as soluções necessárias para a área de tecnologia se adequando à sua necessidade e atendendo da melhor forma possível aos pedidos dos clientes.
+Oferecendo todos os serviços com a maior qualidade, a Infoclad procura atender de maneira satisfatória todos os clientes com o melhor suporte e atendimento possível.
+		</p>
 			</span>
 		</div>
 		<div class="b r"><?php include("includes/sidebar_right.php");?></div>

@@ -187,6 +187,7 @@
 	                    <span class="b l sprite headerMenuSeta"><!--  --></span><h2 class="mainLink">Matéria de Recuperação</h2>
 	                </div>
 	                <div class="CollapsiblePanelContent">	
+	                	<h2><a href="files/rec1ano.pdf">1° Ano</a></h2> 
 	                	<h2><a href="files/rec2ano.pdf">2° Ano</a></h2> 
 	                	<h2><a href="files/rec3ano.pdf">3° Ano</a></h2> 
 	                	<h2><a href="files/rec4ano.pdf">4° Ano</a></h2> 

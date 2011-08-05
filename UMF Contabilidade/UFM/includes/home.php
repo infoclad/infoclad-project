@@ -126,32 +126,6 @@ O bom conhecimento, aliado a métodos adequados de trabalho, são elementos essenc
 							</ul>
 						</span>
 					</div>	
-					<div class="b p5"><!--  --></div>
-					<div class="b noticiabox">
-						<h2 class="grayText">Novidades</h2>
-						<span class="b p5"><!--  --></span>
-						<div class="b">
-							<span class="b"> 
-								<h1 class="grayText"><strong>Com uma visão de integração de conhecimentos</strong></h1>
-								<p class="grayText">Com uma visão de integração de conhecimentos, a UFM CONTABILIDADE 
-	busca fundir os conhecimentos científicos da Contabilidade e isto só é possível agregando-se valores aos produtos. <br/> <br/> <a class="grayText">[Saiba mais]</a></p>
-							</span>
-							<span class="b p5"><!--  --></span>
-							<span class="b"> 
-								<h1 class="grayText"><strong>Com uma visão de integração de conhecimentos</strong></h1>
-								<p class="grayText">Com uma visão de integração de conhecimentos, a UFM CONTABILIDADE 
-	busca fundir os conhecimentos científicos da Contabilidade e isto só é possível agregando-se valores aos produtos. <br/> <br/> <a class="grayText">[Saiba mais]</a></p>
-							</span>
-							<span class="b p5"><!--  --></span>
-							<span class="b"> 
-								<h1 class="grayText"><strong>Com uma visão de integração de conhecimentos</strong></h1>
-								<p class="grayText">Com uma visão de integração de conhecimentos, a UFM CONTABILIDADE 
-	busca fundir os conhecimentos científicos da Contabilidade e isto só é possível agregando-se valores aos produtos. <br/> <br/> <a class="grayText">[Saiba mais]</a></p>
-							</span>
-						</div>
-					</div>	
-					<div class="b p5"><!--  --></div>
-					<span class="b"><img src="img/carreira.jpg"/></span>
 				</div>
 				<div class="c"><!--  --></div>
 			</div>

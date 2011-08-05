@@ -6,7 +6,7 @@
 </div>
 <div class="b p5"><!--  --></div>
 <div class="b">
-<h2 class="blueText">Educadores</h2>
+<h2 class="blueText">Professores</h2>
 <h1>Ed.Infantil</h1>
 <span class="b p5"><!--  --></span>
 <span class="b">
@@ -31,6 +31,10 @@
 		<li>&nbsp;</li>
 		<li><h1>Milena Castellano</h1></li>
 		<li><i><a class="blueText" href="mailto:milena.castellano@colegiodimitrimarques.com.br">milena.castellano@colegiodimitrimarques.com.br</a></i></li>
+		<li>&nbsp;</li>
+		<li><h2 class="blueText">Coordenador</h1></li>
+		<li>&nbsp;</li>
+		<li>Renata Diniz <i><a class="blueText" href="mailto:renata.diniz@colegiodimitrimarques.com.br">renata.diniz@colegiodimitrimarques.com.br</a></i></li>
 		<li>&nbsp;</li>
 	</ul>
 </span>

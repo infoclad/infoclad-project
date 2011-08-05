@@ -1,0 +1,51 @@
+<p>{$form.Alerta}</p>
+
+<br />
+
+
+{if $form.Action == false}
+<form id="contato" action="contato.html" method="post">
+    <p>
+        <label>Nome:<br />
+            <input type="text" name="nome" value="{$form.Nome}" />
+        </label>
+    </p>
+
+    <br />
+
+    <p>
+        <label>Email:<br />
+            <input type="text" name="email" value="{$form.Email}" />
+        </label>
+    </p>
+
+    <br />
+
+    <p>
+        <label>Assunto:<br />
+            <input type="text" name="assunto" value="{$form.Assunto}" />
+        </label>
+    </p>
+
+    <br />
+
+    <p>
+        <label>Digite o código abaixo:
+            <br />
+            <img src="module-captcha" alt="captcha" />
+            <br />
+            <input type="text" name="captcha" value="" />
+        </label>
+    </p>
+
+    <br />
+
+    <p>
+        <label>Mensagem:<br />
+            <textarea cols="50" rows="10" name="mensagem">{$form.Mensagem}</textarea>
+        </label>
+        <span class="quote"><br/>Preencha todos os campos atentamente. Todos os campos são <br/> de preenchimento obrigatório*</span>
+    </p>
+    <p><input class="submit" type="submit" name="action" value="" /></p>
+</form>
+{/if}
