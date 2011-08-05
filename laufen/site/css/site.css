@@ -80,7 +80,7 @@
 }
 .header{
 	height:85px;
-	background: -moz-linear-gradient(0% 50% 90deg, #f4f5f6, #f0f1f2); 
+	background: #f4f5f6; 
 }
 .logo_header{
 	width:170px;
@@ -88,6 +88,52 @@
 	background:url("../img/logo_head.gif") no-repeat;
 	margin:13px 0 0 0;
 }
+
+/* greenbox */
+
+.greenbox{
+	background:#a1de40;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border:0;
+	-moz-box-shadow: 0 -2px 0 #8fc43c;
+	-webkit-box-shadow: 0 -2px 0 #8fc43c;
+	box-shadow: 0 -2px 0 #8fc43c;
+	padding:5px;
+	color:#fff;
+}
+a.greenbox:hover{background:#8fc43c;}
+
+/* bluebox */
+
+.bluebox{
+	background:#9cbdd3;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border:0;
+	-moz-box-shadow: 0 -2px 0 #98b9cf;
+	-webkit-box-shadow: 0 -2px 0 #98b9cf;
+	box-shadow: 0 -2px 0 #98b9cf;
+	padding:5px;
+	color:#fff;
+}
+a.bluebox:hover{background:#98b9cf;}
+
+/* redbox */
+
+.redbox{
+	background:#b55c59;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border:0;
+	-moz-box-shadow: 0 -2px 0 #9e4c49;
+	-webkit-box-shadow: 0 -2px 0 #9e4c49;
+	box-shadow: 0 -2px 0 #9e4c49;
+	padding:5px;
+	color:#fff;
+}
+a.redbox{color:#fff;}
+a.redbox:hover{background:#9e4c49;}
 
 /* blackbox */
 
@@ -97,27 +143,41 @@
 	padding:0;
 	-moz-border-radius: 6px;
 	border-radius: 6px;
+	-moz-box-shadow: 0 2px 0 #3d484e;
+	-webkit-box-shadow: 0 2px 0 #3d484e;
+	box-shadow: 0 2px 0 #3d484e;
 }
 .blackbox a{
 	color:#fff;
 }
-.blackbox:hover{
+.header .blackbox:hover{
 	background:#b55c59;
+	-moz-box-shadow: 0 2px 0 #9e4c49;
+	-webkit-box-shadow: 0 2px 0 #9e4c49;
+	box-shadow: 0 2px 0 #9e4c49;
 }
 .header .blackbox{
 	padding:6px 6px 6px 6px;
 	margin:25px 0 0 0;
+	-moz-box-shadow: 0 2px 0 #3d484e;
+	-webkit-box-shadow: 0 2px 0 #3d484e;
+	box-shadow: 0 2px 0 #3d484e;
 }
-#menu .blackbox{
+.sidebar .blackbox{
 	padding-left:6px;
+	padding-top: 5px; 
+	padding-bottom: 3px;
 	line-height:25px;
 }
 .titulo-principal{
 	width: 800px; 
-	padding:2px 0 3px 6px;
+	padding:6px 0 7px 6px;
 }
-.titulo-principal:hover{
+.sidebar .blackbox:hover,.titulo-principal:hover{
 	background:#4b4b4f;
+}
+a.blackbox{
+	padding:3px;
 }
 
 /* menu */
@@ -163,17 +223,198 @@
 }
 .conteudo{
 	background:#f4f5f6;
+	color:#666;
 	-moz-box-shadow: 0 -2px 0 #efefef;
 	-webkit-box-shadow: 0 -2px 0 #efefef;
 	box-shadow: 0 -2px 0 #efefef;
 	-moz-border-radius: 6px;
 	border-radius: 6px;
+	padding:10px 0 5px 0;
+}
+.conteudo a{
+
 }
 #footer{
+	/*
 	background:#f4f5f6;
 	-moz-box-shadow: 0 -2px 0 #efefef;
 	-webkit-box-shadow: 0 -2px 0 #efefef;
 	box-shadow: 0 -2px 0 #efefef;
+	*/
+	border-top:1px #efefef solid;
 	line-height:28px;
 	color:#666;
+}
+.footer{
+	width:525px;
+	margin:0px auto;
+}
+/* listas */
+
+.delete-link{
+	line-height:25px;
+}
+.lista{
+	width:806px;
+	color:#666;
+
+}
+.lista a{color:#666;}
+.lista tr td{
+	padding:6px;
+	vertical-align:middle;
+	text-align:center;
+	}
+.lista tr.cor1{background:#eeeeee;}
+.lista tr.cor2{background:#f5f5f5;}
+.lista .delete{padding-left: 8px;}
+.lista .inline{
+	line-height:20px;
+}
+.nav-column{
+	width:400px;
+}
+#mensagens{
+	width:805px;
+}
+#mensagens h2,.mensagens h2{
+	font:normal 12px Arial, Helvetica, sans-serif;
+	padding:5px 0 15px 15px;
+	border-bottom:1px #eaeaea solid; 
+	line-height:0;
+}
+#mensagens table tr td{
+	vertical-align:middle;
+	padding-right:5px;
+}
+.cadItem a{color:#666;}
+.cadItem a.blackbox,.cadItem a.bluebox{color:#fff;font:normal 11px Arial, Helvetica, sans-serif;}
+.interrogation{font-size:9px;}
+.accordionItem .titulo{min-width:160px;}
+.accordionItem {font-family:Arial, Helvetica, sans-serif;}
+.accordionItem h2,h2.cadItem { 
+	padding:5px 0 15px 15px;
+	background:#f4f5f6;
+	border-bottom:1px #eaeaea solid; 
+	font-family:Arial, Helvetica, sans-serif;
+	}
+.accordionItem h2:hover { cursor: pointer; }
+.accordionItem div { 
+	border-top:1px #f4f5f6 solid; 
+	background:#f4f5f6; 
+	padding:5px 0 15px 15px; 
+	border-bottom:1px #eaeaea solid; 
+	margin-top:-1px; 
+	margin-bottom:10px;
+	}
+.accordionItem.hide h2 { margin-bottom:10px; }
+.accordionItem.hide div { display: none;margin-bottom:10px; }
+.accordionItem .pq,.cadItem .pq{font-size:12px;}
+.accordionItem .blackbox,.cadItem .blackbox{
+	padding:5px;
+	width:auto;
+	margin-top:-2px;
+}
+.accordionItem .blackbox:hover{
+	background:#b55c59;
+	-moz-box-shadow: 0 2px 0 #9e4c49;
+	-webkit-box-shadow: 0 2px 0 #9e4c49;
+	box-shadow: 0 2px 0 #9e4c49;
+}
+.accordionItem .blackbox{
+	background:#b55c59;
+	-moz-box-shadow: 0 2px 0 #9e4c49;
+	-webkit-box-shadow: 0 2px 0 #9e4c49;
+	box-shadow: 0 2px 0 #9e4c49;
+}
+.accordionItem .etapa{
+	border-top: 1px solid rgb(234, 234, 234); 
+	padding-top: 15px; 
+	margin-left: -14px; 
+	padding-left: 13px;
+}
+.hide .blackbox{
+	background:#4b4b4f;
+	-moz-box-shadow: 0 2px 0 #3d484e;
+	-webkit-box-shadow: 0 2px 0 #3d484e;
+	box-shadow: 0 2px 0 #3d484e;
+}
+.formulario{padding-left:15px;}
+.formulario_cadastro td{padding:5px 10px 10px 0;/*border:1px #000 solid;*/}
+.important{color:red;}
+.formulario_cadastro td{
+	vertical-align:middle;
+}
+.formulario_cadastro select{width:159px;}
+.formulario_cadastro input[type="text"],.formulario_cadastro input[type="password"],.formulario_cadastro textarea ,.formulario_cadastro #icpf,.formulario_cadastro #icnpj,.formulario_cadastro #icep,.formulario_cadastro #itelefone,.formulario_cadastro #irg{
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border:0;
+	-moz-box-shadow: 0 -1px 0 #e4e8ea;
+	-webkit-box-shadow: 0 -1px 0 #e4e8ea;
+	box-shadow: 0 -1px 0 #e4e8ea;
+	padding:4px 8px 4px 8px;
+	color:#666;
+	cursor:pointer;
+}
+.formulario_cadastro input[type="text"]:focus,.formulario_cadastro input[type="password"]:focus{
+	background:#f8f7f7;
+	color:#666;
+}
+.formulario_cadastro .label{
+	text-align:right;
+}
+.formulario_cadastro .pq{font-size:13px;width: 65px;}
+.formulario_cadastro textarea {
+	width:142px;
+}
+/* sprites signos */
+
+.signos{
+	background:url("../img/sprites/signos.gif") no-repeat;
+	width:28px;
+	height:28px;
+}
+.aries{
+	background-position: 0px 0px;
+}
+.leao{
+	background-position: 0px -50px;
+}
+.sagitario{
+	background-position: 0px -100px;
+}
+.touro{
+	background-position: 0px -150px;
+}
+.virgem{
+	background-position: 0px -200px;
+}
+.capricornio{
+	background-position: 0px -250px;
+}
+.gemeos{
+	background-position: 0px -300px;
+}
+.libra{
+	background-position: 0px -350px;
+}
+.aquario{
+	background-position: 0px -403px;
+}
+.cancer{
+	background-position: 0px -445px;
+}
+.escorpiao{
+	background-position: 0px -500px;
+}
+.peixes{
+	background-position: 0px -550px;
+}
+.signo-nome{
+	line-height:25px;
+}
+.signo-nome a{
+	color:#19a5c0;
+	text-decoration:underline;
 }

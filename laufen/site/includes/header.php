@@ -9,11 +9,11 @@
 			<div id="mensagensTool" class="b l mensagensTool">
 				<div class="none l">
 					<span class="b l sprite mensagemNew"><!--  --></span>
-					<span class="b l"><a href="#"><strong>1 Nova Mensagem</strong></a></span>
+					<span class="b l"><a href="?page=mensagens"><strong>1 Nova Mensagem</strong></a></span>
 				</div>
 				<div class="l b">
 					<span class="b l sprite mensagem"><!--  --></span>
-					<span class="b l"><a href="#">99 Mensagens</a></span>
+					<span class="b l"><a href="?page=mensagens">99 Mensagens</a></span>
 				</div>
 				<div class="c"><!--  --></div>
 			</div>

@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* includes */
+
+
+@import url(reset.css);
+@import url(site.css);
+
+
+/* global */
+
+*{
+    margin:0px;
+    padding:0px;
+}
+htm,body{
+    margin:0px auto;
+    text-align:center;
+    overflow-x:hidden;
+    font:12px Arial, Helvetica, sans-serif;
+    height:100%;
+
+}
+.wrapper{
+    width:1000px;
+    margin:0px auto;
+    text-align:left;
+}
+a{text-decoration:none;}
+.inline li{display:inline;padding-bottom:5px;}
+.b{display:block;}
+.c{clear:both;}
+.l{float:left;}
+.r{float:right;}
+.p5{padding:5px;}
+
+
+/* text */
+
+
+
+h1{font:normal 15px Arial, Helvetica, sans-serif;}
+h2{font:normal 20px Arial, Helvetica, sans-serif;}
+h3{font:normal 30px Arial, Helvetica, sans-serif;}
+
+
+
+/* sprites */
+
+.sprite{background:url("../img/sprites/sprite.gif") no-repeat;}
+.social{
+	background:url("../img/sprites/social.gif") no-repeat;
+	width:28px;
+	height:28px;
+}
+.twitter{background-position:-0 -25px;}
+.rss{background-position:-0 -127px;}
+.vimeo{background-position:-0 -77px;}
+.youtube{background-position:-0 -102px;}
+.wp{background-position:-0 -51px;}
+
+

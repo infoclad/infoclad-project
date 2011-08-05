@@ -4,8 +4,8 @@
 /* includes */
 
 
-@import url(reset.css);
-@import url(site.css);
+@import url("reset.css");
+@import url("site.css");
 
 
 /* global */
@@ -20,7 +20,8 @@ htm,body{
     overflow-x:hidden;
     font:12px Verdana, Geneva, Arial, Helvetica, sans-serif;
     height:100%;
-	background:#f4f5f6;
+	/* background:#f4f5f6; */
+	background:#fff;
 }
 .wrapper{
     width:990px;
@@ -61,13 +62,22 @@ h3{font:normal 22px Verdana, Geneva, Arial, Helvetica, sans-serif;}
 .configConta{background-position:0px -0px;}
 .mensagemNew{background-position:0px -53px;}
 .mensagem{background-position:0px -82px;}
-.admin{background-position:0px -138px;}
+.admin{background-position:0px -136px;}
 .config{background-position:0px -166px;}
 .usr{background-position:0px -195px;}
 .grupo{background-position:0px -221px;}
 .cadastro{background-position:0px -249px;}
 .gestao{background-position:0px -282px;}
-.logout{background-position:0px -24px;}
+.logout{background-position:0px -25px;}
+.fidelidade{background-position:0px -312px;}
+.resgate{background-position:0px -435px;}
+.agenda{background-position:0px -372px;}
+.enquete{background-position:0px -402px;}
+.produto{background-position:0px -340px;}
+.financeiro{background-position:0px -466px;}
+.delete{background-position:0px -498px;}
+.seguranca{background-position:0px -566px;}
+.site{background-position:0px -532px;}
 .twitter{background-position:-0 -25px;}
 .rss{background-position:-0 -127px;}
 .vimeo{background-position:-0 -77px;}

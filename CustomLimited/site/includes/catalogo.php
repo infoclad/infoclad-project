@@ -5,7 +5,7 @@
     <div class="wrapper">
 		<div class="contentBox b wrapper">
 			<span class="b p5"><!--  --></span>
-			<div class="headerTituloRed b">
+			<div class="headertitulo headertituloblack b">
 				Catálogo
 			</div>
 			<div class="b novidadesHeaderFooter">
