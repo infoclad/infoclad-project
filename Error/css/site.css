@@ -1,7 +1,7 @@
 @CHARSET "ISO-8859-1";
 
 #conteudo{
-    background: url("../img/fundo.gif") #1C8FC9 0 0 no-repeat;;
+    background: url("../img/fundo.gif") #1C8FC9 0px 0 no-repeat;;
     border-radius: 10px 10px;
     box-shadow: 0 -3px 0 #1B85BB;
     height: 587px;
