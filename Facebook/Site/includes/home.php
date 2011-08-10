@@ -4,7 +4,7 @@
 						<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player"/>
 					</a>
 				</div>
-				<div class="b p5"><!-- --></div>
+				<div class="b p3"><!-- --></div>
 				<div class="b">
 					<div class="b l">
 						<div class="b blbox enqt">
@@ -20,7 +20,7 @@
 								</div>
 							</span>
 						</div>
-						<div class="b p5"><!-- --></div>
+						<div class="b p3"><!-- --></div>
 						<div class="b">
 							<div style="width:300px;height:250px;">
 								<object width="300" height="250" codebase="http://fpdownloadocument.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000">
@@ -30,9 +30,25 @@
 								</object>
 							</div>
 						</div>
+						<div class="b p3"><!-- --></div>
+						<div class="b">
+							<script type="text/javascript">
+							document.write("&lt;div id=" + oas_div + "&gt;");
+							var oasObj = {};
+							oasObj.tipo = "oas_flash";
+							oasObj.div = oas_div;
+							oasObj.width = 300;
+							oasObj.height = 100;
+							oasObj.wmode = "transparent";
+							//oasObj.pixelContador = "http://insira aqui o pixel contador";
+							oasObj.lnk = "http://ads.globo.com/RealMedia/ads/click_lx.ads/globo.com/globo.com/home/L24/1866578578/Bottom1/globocom/gmveicl_698_126_agile_110802/globo_gmnacional_midbanner_110810.htm/753334504955354339324d41426a3741";
+							oasObj.flash = "http://ads.img.globo.com/RealMedia/ads/Creatives/globocom/gmveicl_698_126_agile_110802/globo_gmnacional_midbanner_110810.swf/1312988456";
+							</script><div id="bannerOAS_131301156909111"><div style=";width:300px;height:100px;"><object width="300" height="100" codebase="http://fpdownloadocument.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"><param value="http://ads.img.globo.com/RealMedia/ads/Creatives/globocom/gmveicl_698_126_agile_110802/globo_gmnacional_midbanner_110810.swf/1312988456" name="movie"><param value="high" name="quality"><param value="lnk=http://ads.globo.com/RealMedia/ads/click_lx.ads/globo.com/globo.com/home/L24/1866578578/Bottom1/globocom/gmveicl_698_126_agile_110802/globo_gmnacional_midbanner_110810.htm/753334504955354339324d41426a3741&amp;url=http://ads.globo.com/RealMedia/ads/click_lx.ads/globo.com/globo.com/home/L24/1866578578/Bottom1/globocom/gmveicl_698_126_agile_110802/globo_gmnacional_midbanner_110810.htm/753334504955354339324d41426a3741" name="flashvars"><param value="always" name="AllowScriptAccess"><param value="transparent" name="wmode"><embed width="300" height="100" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" quality="high" allowscriptaccess="always" flashvars="lnk=http://ads.globo.com/RealMedia/ads/click_lx.ads/globo.com/globo.com/home/L24/1866578578/Bottom1/globocom/gmveicl_698_126_agile_110802/globo_gmnacional_midbanner_110810.htm/753334504955354339324d41426a3741&amp;url=http://ads.globo.com/RealMedia/ads/click_lx.ads/globo.com/globo.com/home/L24/1866578578/Bottom1/globocom/gmveicl_698_126_agile_110802/globo_gmnacional_midbanner_110810.htm/753334504955354339324d41426a3741" src="http://ads.img.globo.com/RealMedia/ads/Creatives/globocom/gmveicl_698_126_agile_110802/globo_gmnacional_midbanner_110810.swf/1312988456" wmode="transparent"></object></div>
+							</div>
+						</div>
 					</div>
 					<div class="b r comment">
-						<div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:comments href="example.com" num_posts="2" width="654" colorscheme="dark"></fb:comments>
+						<div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:comments href="example.com" num_posts="2" width="656" colorscheme="dark"></fb:comments>
 					</div>
 					<div class="c"><!-- --></div>
 				</div>
