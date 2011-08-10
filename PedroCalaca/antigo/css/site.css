@@ -1,0 +1,110 @@
+@CHARSET "ISO-8859-1";
+/*topbar*/
+.topbar{
+	background:#627aad;
+	color:#fff;
+	width:100%;
+	height:23px;
+	padding:1px 0 1px 0;
+	overflow:hidden;
+}
+.topbar a{
+	color:#fff;
+}
+/*caixas*/
+.caixa-azul{
+	background:#627aad;
+	-moz-box-shadow: 1px -1px 0 #4E679C;
+	-webkit-box-shadow: 1px -1px 0 #4E679C;
+	box-shadow: 1px -1px 0 #4E679C;
+}
+.caixa-branca{
+	background:#fff;
+	-moz-box-shadow: 1px -1px 0 #eaeaea;
+	-webkit-box-shadow: 1px -1px 0 #eaeaea;
+	box-shadow: 1px -1px 0 #eaeaea;
+}
+.conteudo-caixa{
+	width:735px;
+	min-height:740px;
+}
+/* menu */
+.menu{
+	z-index:1000;
+}
+.link-principal{
+	cursor:pointer;
+	color:#fff;
+	padding:5px 15px 5px 15px;
+	text-align:left;
+}
+.menu .sub{
+	position:absolute;
+	width:150px;
+	text-align:center;
+	/*display:block;*/
+	background:#627aad;
+	display:none;
+}
+.menu .sub ul li{
+	display:block;
+	border-top:1px #4E679C solid;
+	padding:6px 12px 6px 12px;
+	text-transform: capitalize;
+}
+.menu .sub ul li:hover{
+	background:#6d86b7;
+}
+.menu:hover .sub{
+	display:block;
+}
+.menu .sub a{color:#fff;}
+/* busca */
+.busca{
+	height:15px;
+	padding:3px 7px 3px 7px;
+	background:#fff;
+	margin:3px 0 0 0;
+}
+.busca input[type="text"]{
+	border:0;
+	cursor:pointer;
+}
+/*textos*/
+.texto-menor{font-size:9px;}
+.azul{color:#2a4280;}
+#footer{
+	background:#4578a2;
+	color:#fff;
+}
+#footer a{color:#fff;}
+.footerheader{
+	background:#508bbb;
+	padding:10px 0 10px 0;
+}
+.footerfooter{
+	padding:10px 0 10px 0;
+}
+#footer ul li{
+	line-height:18px;
+}
+#footer .descr,#footer .descr p{width:400px;}
+.logo{height:82px;width:104px;background:url("../img/logo.gif") no-repeat;}
+.social-media{
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding:5px;
+}
+.sidebar{
+	background:#eaeaea;
+	padding:5px 5px 15px 5px;
+	min-height:740px;
+}
+.nbanner{
+	width:1000px;
+	height:130px;
+	overflow:hidden;
+	margin:0px auto;
+	background:url("../banner/nav.gif") repeat;
+}
+
