@@ -1,0 +1,132 @@
+@CHARSET "ISO-8859-1";
+
+#header{
+	height:74px;
+	width:100%;
+	border-bottom:2px #32d2d2 solid;
+}
+.header{
+	height:68px;
+	border-left:1px #eaeaea solid;
+	border-right:1px #eaeaea solid;
+}
+.logo_grande{
+	width:214px;
+	height:50px;
+	background:url("../img/logo.gif") no-repeat;
+}
+.logo_footer{
+	width:86px;
+	height:86px;
+	background:url("../img/logo_footer.gif") no-repeat;
+}
+.contato{
+	background:url("../img/sprites/sprite.gif") no-repeat;
+	background-position:-13px -93px;
+	width:18px;
+	height:20px;
+	}
+.separador{
+	background:url("../img/sprites/sprite.gif") no-repeat;
+	background-position:-102px -92px;
+	width:3px;
+	height:20px;
+	}
+.header, .header a{
+	color:#666;
+}
+.menu {
+	padding:17px 0 0 55px;
+	text-transform:uppercase;
+	font-size:9px;
+}
+.menu a:hover{
+	border-bottom:1px #32d2d2 solid;
+	color:#ccc;
+}
+.contato-link{
+	padding:15px 0 0 0;
+}
+#conteudo{
+	width:1005px;
+	text-align:left;
+	margin:0px auto;
+	background:#fff;
+	padding-bottom:20px;
+}
+.conteudo{
+	width:70%;
+}
+#FlabellComponent{
+	height:333px;
+	width:1005px;
+}
+#FlabellComponent2{
+	height:173px;
+	width:1005px;
+}
+.breadcrumb{color:#e7595e;}
+.breadcrumb a{
+	color:#666;
+}
+.box{
+	width:460px;
+	height:auto;
+	color:#666;
+}
+.box a{
+	color:#666;
+}
+.dotted{
+	border-bottom:1px #666 dotted;
+	padding-bottom:10px;
+	padding-top:8px;
+}
+#footer{
+	/* background:#e3ebeb; */
+	height:140px;
+	line-height:98px;
+	color:#666;
+}
+#footer a {
+	color:#666;
+}
+.sidebar{
+	width:280px;
+}
+.page-descr{
+	padding:7px 5px 5px 5px;
+}
+.blackbox{
+	background:#000;
+	color:#fff;
+}
+.social{
+	height:36px;
+	background:url("../img/social.gif") 2px 0px no-repeat;
+	margin:30px 0 0 45px;
+	width: 156px; 
+	padding-left: 11px;
+}
+.floatcell{max-width:150px;margin:0 5px 5px 0;}
+
+/* paginacao */
+
+.paginacao,.paginacao a{color:#666;}
+.paginacao .active,.paginacao a:hover{color:#e7595e;}
+
+/* formulario */
+
+.formulario input[type="text"],.formulario textarea{
+	width:250px;
+	border:1px #ccc solid;
+	padding:3px;
+}
+.formulario tr td{
+	padding:0 0 5px 0;
+	text-transform:capitalize;
+}
+.formulario select{width:257px;}
+#fotos img,#videos img{
+	width:70px;
+}

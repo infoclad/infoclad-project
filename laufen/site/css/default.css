@@ -6,6 +6,7 @@
 
 @import url("reset.css");
 @import url("site.css");
+@import url("calendar.css");
 
 
 /* global */
@@ -39,7 +40,8 @@ a{text-decoration:none;}
 
 /* text */
 
-
+.white{color:#fff;}
+.gray{color:#666;}
 h1{font:normal 12px Verdana, Geneva, Arial, Helvetica, sans-serif;}
 h2{font:normal 18px Verdana, Geneva, Arial, Helvetica, sans-serif;}
 h3{font:normal 22px Verdana, Geneva, Arial, Helvetica, sans-serif;}
@@ -75,9 +77,15 @@ h3{font:normal 22px Verdana, Geneva, Arial, Helvetica, sans-serif;}
 .enquete{background-position:0px -402px;}
 .produto{background-position:0px -340px;}
 .financeiro{background-position:0px -466px;}
-.delete{background-position:0px -498px;}
+.delete{background-position:0px -501px;}
 .seguranca{background-position:0px -566px;}
+.reenviar{background-position:2px -599px;}
+.imprimir{background-position:0px -630px;}
+.aprovado{background-position:0px -662px;}
+.reprovado{background-position:0px -694px;}
+.calc{background-position:0px -726px;}
 .site{background-position:0px -532px;}
+.calendario{background-position:0px -760px;}
 .twitter{background-position:-0 -25px;}
 .rss{background-position:-0 -127px;}
 .vimeo{background-position:-0 -77px;}

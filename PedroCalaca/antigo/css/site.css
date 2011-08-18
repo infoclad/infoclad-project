@@ -5,7 +5,6 @@
 	color:#fff;
 	width:100%;
 	height:23px;
-	padding:1px 0 1px 0;
 	overflow:hidden;
 }
 .topbar a{
@@ -98,7 +97,7 @@
 .sidebar{
 	background:#eaeaea;
 	padding:5px 5px 15px 5px;
-	min-height:740px;
+	min-height:1440px;
 }
 .nbanner{
 	width:1000px;
@@ -107,4 +106,137 @@
 	margin:0px auto;
 	background:url("../banner/nav.gif") repeat;
 }
+.home{
+	background:url("../img/fundo.jpg") #eaeaea top center no-repeat;
+	height:700px;
+	overflow:hidden;
+}
+.home .video{padding-top:180px;}
+.breadcrumb,.breadcrumb a{color:#666;}
+.dotted{border-bottom:1px #000 dotted;padding-bottom:5px;margin-bottom:5px;}
+.gray{color:#666;}
+.floatbox{
+	background:#000;
+	margin-right:6px;
+	margin-bottom:6px;
+	width:165px;
+	color:#fff;
+}
+.floatbox img,img.patrocinador{
+	width:165px;
+}
+.formulario tr td{
+	vertical-align:top;
+	padding-right:8px;
+	padding-bottom:20px;
+}
+.formulario input[type="text"],.formulario textarea{
+	-moz-border-radius:5px 5px;
+	border-radius:5px 5px;
+	width:250px;
+	padding:8px;
+	border:0;
+	box-shadow:inset 1px 2px 2px #eaeaea;
+}
+a.caixa-azul{
+	color:#fff;
+}
+.formulario a.caixa-azul{
+	padding:5px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+}
+.formulario .label{
+	text-align:right;
+}
+.like{
+	margin-top:-5px;
+}
+.descr-event{
+	width:340px;
+}
+.infiniteCarousel {
+  width: 340px;
+  position: relative;
+}
+ 
+.infiniteCarousel .wrapper {
+ /* .infiniteCarousel width - (.wrapper margin-left + .wrapper margin-right) */
+  overflow: auto;
+  margin: 0 38px;
+  position: absolute;
+  top: 0;
+  width: 265px; 
+  height: 160px;
+  
+  }
+ 
 
+ 
+.infiniteCarousel .wrapper ul {
+  width: 9999px;
+  list-style-image:none;
+  list-style-position:outside;
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  position: absolute;
+  top: 0;
+}
+ 
+.infiniteCarousel ul li {
+  display:block;
+  float:left;
+  height: 77px;
+  width: 94px;
+  padding-top:25px;
+  
+}
+ 
+.infiniteCarousel ul li a img {
+  display:block;
+  height: 77px;
+  width: 77px;
+}
+ 
+.infiniteCarousel .arrow {
+  display: block;
+	width:22px;
+	height:40px;
+  background: url(../img/sprites/sprite_default.gif) no-repeat 0 0;
+  text-indent: -999px;
+  position: absolute;
+  top: 37px;
+  cursor: pointer;
+  margin-top:10px;
+}
+ 
+.infiniteCarousel .forward {
+  background-position:-176px -124px;
+  right: 0;
+}
+ 
+.infiniteCarousel .back {
+  background-position:-173px -165px;
+  left: 0;
+}
+ 
+.infiniteCarousel .forward:hover {
+ background-position:-176px -124px;
+}
+ 
+.infiniteCarousel .back:hover {
+  background-position:-173px -165px;	
+}
+#carouselHolder{
+	width:340px;
+	height:160px;
+	margin:0px auto;
+	overflow:hidden;
+}
+.carousel{
+	height:77px;
+}
+.carousel .picCell{
+	padding-right:10px;
+}

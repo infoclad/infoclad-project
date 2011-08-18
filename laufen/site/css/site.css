@@ -132,8 +132,8 @@ a.bluebox:hover{background:#98b9cf;}
 	padding:5px;
 	color:#fff;
 }
-a.redbox{color:#fff;}
-a.redbox:hover{background:#9e4c49;}
+.redbox{color:#fff;}
+.redbox:hover{background:#9e4c49;}
 
 /* blackbox */
 
@@ -251,9 +251,6 @@ a.blackbox{
 }
 /* listas */
 
-.delete-link{
-	line-height:25px;
-}
 .lista{
 	width:806px;
 	color:#666;
@@ -263,13 +260,15 @@ a.blackbox{
 .lista tr td{
 	padding:6px;
 	vertical-align:middle;
-	text-align:center;
 	}
 .lista tr.cor1{background:#eeeeee;}
 .lista tr.cor2{background:#f5f5f5;}
-.lista .delete{padding-left: 8px;}
 .lista .inline{
 	line-height:20px;
+}
+.lista tr td.action-cell{
+	width:115px;
+	text-align:center;
 }
 .nav-column{
 	width:400px;
@@ -287,6 +286,9 @@ a.blackbox{
 	vertical-align:middle;
 	padding-right:5px;
 }
+#mensagens .msgshort{width:550px;overflow:hidden;}
+#mensagens .checkcol{width:46px;}
+#mensagens .remetente{width:160px;overflow:hidden;}
 .cadItem a{color:#666;}
 .cadItem a.blackbox,.cadItem a.bluebox{color:#fff;font:normal 11px Arial, Helvetica, sans-serif;}
 .interrogation{font-size:9px;}
@@ -417,4 +419,32 @@ a.blackbox{
 .signo-nome a{
 	color:#19a5c0;
 	text-decoration:underline;
+}
+table.fluxo_cx{
+
+}
+.fluxo_cx tr td{
+	color:#000;
+}
+.fluxo_cx tr td.filtro{
+	text-align:center;
+	vertical-align:middle;
+	padding:15px 0 15px 0;
+	background:#f5f5f5;
+	border-bottom:2px #dbd9d9 solid;
+	border-top:2px #eaeaea solid;
+}
+#fis_foto {
+    border: 0 none;
+    float: right;
+    padding: 5px 100px 5px 5px;
+    position: relative;
+    width: 100px;
+}
+#fis_foto img{
+	width:100px;
+}
+#fis_foto .foto-edit{
+	width:100px;
+	text-align:center;
 }

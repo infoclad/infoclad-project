@@ -7,14 +7,12 @@
 			<div class="c"><!-- --></div>
 		</div>
 		<div class="b p5"><!--  --></div>
+		<?php include("includes/menu_financeiro.php"); ?>
+		<div class="b p5"><!--  --></div>
 		<?php include("includes/menu.php"); ?>
 	</div>
 	<div class="b r">
-		<h2 class="b blackbox titulo-principal">Financeiro</h2>
-		<div class="b p5"><!-- --></div>
-		<div class="b conteudo">
-
-		</div>
+		<?php include("includes/fornecedores_list.php"); ?>
 	</div>
 	<div class="c"><!-- --></div>
 </div>

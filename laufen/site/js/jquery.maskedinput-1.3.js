@@ -18,6 +18,7 @@ $(function() {
 	$('.mask-cep').mask('99999-999'); //Cep
 	$('.mask-cnpj').mask('99.999.999/9999-99'); //Cnpj
 	$('.mask-clt').mask('99999 999aa'); //CLT
+	$('.mask-decimal').mask(''); //Decimal
 });
 })(jQuery);
 

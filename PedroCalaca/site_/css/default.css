@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* includes */
+
+
+@import url(reset.css);
+@import url(site.css);
+@import url(jd.gallery.css);
+
+
+
+/* global */
+
+*{
+    margin:0px;
+    padding:0px;
+}
+htm,body{
+    margin:0px auto;
+    text-align:center;
+    overflow-x:hidden;
+    font:12px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	background:#fafafa;
+}
+#wrapper{
+	height: 100% !important;
+	width:100%;
+}
+.wrapper{
+    width:1020px;
+    margin:0px auto;
+    text-align:left;
+}
+.footer, .push {
+	height: 4em;
+	clear: both;
+}
+a{text-decoration:none;}
+.inline li{display:inline;}
+.b{display:block;}
+.c{clear:both;}
+.l{float:left;}
+.r{float:right;}
+.p3{padding:3px;}
+.p5{padding:5px;}
+.p10{padding:10px;}
+
+
+/* text */
+
+
+.whiteText{color:#fff;}
+.redText{color:#f24444;}
+.blueText{color:#0a8fe8;}
+.whiteText{color:#fff;}
+.orangeText{color:#f78b15;}
+.grayText{color:#666;}
+.greenText{color:#8cc63f;}
+.pinkText{color:#e7595e;}
+h1{font:normal 12px Verdana, Geneva, Arial, Helvetica, sans-serif;}
+h2{font:normal 18px Verdana, Geneva, Arial, Helvetica, sans-serif;}
+h3{font:normal 22px Verdana, Geneva, Arial, Helvetica, sans-serif;}
+
+
+
+/* sprites */
+
+.sprite{background:url("../img/sprites/sprite.gif") no-repeat;width:20px;height:20px;}
+.sprite-y{background:url("../img/sprites/sprite-y.gif") no-repeat;width: 27px; height: 25px;}
+.fb{background-position:0 0;}
+.twitter{background-position:1px -25px;}
+.rss{background-position:0 -127px;}
+.vimeo{background-position:0 -77px;}
+.youtube{background-position:0 -102px;}
+.wp{background-position:0 -51px;}
+.flickr{background-position:1px -152px;}
+.orkut{background-position:1px -177px;}
+.copyright{
+	width:232px;
+	height:45px;
+	background:url("../img/copyright.gif") no-repeat;
+	margin:30px 0 0 0;
+}
+

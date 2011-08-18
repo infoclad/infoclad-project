@@ -10,14 +10,15 @@
 		<?php include("includes/menu.php"); ?>
 	</div>
 	<div class="b r">
-		<h2 class="b blackbox titulo-principal">Lista de Contratos</h2>
-		<div class="b p5"><!-- --></div>
-		<div class="b conteudo">
-			<table class="lista">
-
-				<tr><td colspan="9">Exibir <select><option>10</option><option>20</option><option>Tudo</option></select> de 200 Cadastros</td></tr>
-			</table>
-		</div>
+		<?php include("includes/relatorio_list_concluidos.php"); ?>
+		<div class="b p5"><!--  --></div>
+		<?php include("includes/relatorio_list_ativos.php"); ?>
+		<div class="b p5"><!--  --></div>
+		<?php include("includes/relatorio_list_inadimplentes.php"); ?>
+		<div class="b p5"><!--  --></div>
+		<?php include("includes/relatorio_list_quinquenal.php"); ?>
+		<div class="b p5"><!--  --></div>
+		<?php include("includes/relatorio_list_trimestral.php"); ?>
 	</div>
 	<div class="c"><!-- --></div>
 </div>

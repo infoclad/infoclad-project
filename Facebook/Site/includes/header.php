@@ -36,10 +36,10 @@
 					<div class="c"><!-- --></div>
 				</div>
 				<div class="b menu">
-					<span class="b l menu_item"><a href="?page=#">a festa</a></span>
-					<span class="b l menu_item"><a href="?page=#">transmissão ao vivo</a></span>
-					<span class="b l menu_item"><a href="?page=#">tire suas dúvidas</a></span>
-					<span class="b l menu_item" style="border:0;"><a href="?page=#">contate-nos</a></span>
+					<span class="b l menu_item"><a href="?page=festa">a festa</a></span>
+					<span class="b l menu_item"><a href="?page=transmissao">transmissão ao vivo</a></span>
+					<span class="b l menu_item"><a href="?page=ingressos">Ingressos</a></span>
+					<span class="b l menu_item" style="border:0;"><a href="?page=fale">contate-nos</a></span>
 					<div class="c"><!-- --></div>
 				</div>
 			</div>

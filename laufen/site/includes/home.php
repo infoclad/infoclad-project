@@ -15,6 +15,8 @@
 		<?php include("includes/group_list.php"); ?>
 		<span class="b p5"><!--  --></span>
 		<?php include("includes/funcionarios_list.php"); ?>
+		<span class="b p5"><!--  --></span>
+		<?php include("includes/proposta_list.php"); ?>
 	</div>
 	<div class="c"><!-- --></div>
 </div>

@@ -35,13 +35,13 @@ a{text-decoration:none;}
 .r{float:right;}
 .p5{padding:5px;}
 .p3{padding:3px;}
-
+.p10{padding:10px;}
 
 /* text */
 
 
 h1{font:normal 12px Verdana, Geneva, Arial, Helvetica, sans-serif;}
-h2{font:normal 18px Verdana, Geneva, Arial, Helvetica, sans-serif;}
+h2{font:normal 35px Verdana, Geneva, Arial, Helvetica, sans-serif;}
 h3{font:normal 50px Verdana, Geneva, Arial, Helvetica, sans-serif;}
 
 
@@ -58,10 +58,24 @@ h3{font:normal 50px Verdana, Geneva, Arial, Helvetica, sans-serif;}
 	width:28px;
 	height:28px;
 }
-.twitter{background-position:-0 -25px;}
-.rss{background-position:-0 -127px;}
-.vimeo{background-position:-0 -77px;}
-.youtube{background-position:-0 -102px;}
-.wp{background-position:-0 -51px;}
-
+.social_gd{
+	background:url("../img/sprites/social_grande.gif") no-repeat;
+	width:110px;
+	height:35px;
+}
+.skype{
+	background-position:0px 0px;
+}
+.blogger{
+	background-position:0px -55px;
+}
+.flickr{
+	background-position:0px -114px;
+}
+.facebook{
+	background-position:0px -170px;
+}
+.orkut{
+	background-position:0px -215px;
+}
 
