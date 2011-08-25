@@ -70,7 +70,7 @@
 		</script>
 	</head>
 	<body onload="letra();">
-			<div id="header" class="b"><?php include("includes/header.php"); ?></div>
+				<div id="header" class="b"><?php include("includes/header.php"); ?></div>
 				<div id="conteudo" class="b">
 					<div class="wrapper">
 							<?php
@@ -84,8 +84,11 @@
 							?>
 					</div>
 				</div>
-			<div id="footer" class="b">
-				<?php include("includes/footer.php"); ?>
-			</div>
+				<div id="footer" class="b">
+					<?php include("includes/footer.php"); ?>
+				</div>
+				<script type="text/javascript">
+				$(document).ready(function() { $('span.pds-links').hide(); });
+				</script>
 	</body>
 </html>

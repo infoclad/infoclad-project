@@ -12,17 +12,16 @@
 			<span class="sub">
 				<ul>
 					<li><a href="?page=projeto">o projeto</a></li>
-					<li><a href="?page=expedições">expedições</a></li>
+					<li><a href="?page=expedicoes">expedições</a></li>
 					<li><a href="?page=palestras">palestras</a></li>
 					<li><a href="?page=livros">livros</a></li>
 					<li><a href="?page=publicacoes">publicações</a></li>
 					<li><a href="?page=midia">saiu na mídia</a></li>
 					<li><a href="?page=parceiros">parceiros</a></li>
-					<li><a href="?page=contato">contato</a></li>
 				</ul>
 			</span>
 		</div>
-		<a href="?page=contato" class="b l link-principal">Contato</a>
+		<a href="?page=fale" class="b l link-principal">Contato</a>
 		<a href="?page=#" class="l link-principal" style="display:none;">Traduzir</a>
 		<a href="?page=#" class="b l link-principal">Translate</a>
 		<div class="c"><!-- --></div>

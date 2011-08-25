@@ -11,7 +11,7 @@
 				<div class="b p5">
 					<span class="b l sprite cadastro"><!-- --></span>
 					<span class="b l p5"><!-- --></span>
-					<a class="b l" href="?page=cad_vendedor">Cadastro de Funcionário</a>
+					<a class="b l" href="?page=cad_funcionario">Cadastro de Funcionário</a>
 					<div class="c"><!-- --></div>
 				</div>
 			</div>

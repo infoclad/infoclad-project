@@ -11,7 +11,23 @@
 				<div class="b p5">
 					<span class="b l sprite usr"><!-- --></span>
 					<span class="b l p5"><!-- --></span>
-					<a class="b l" href="?page=seguranca">Visita ao Cliente</a>
+					<a class="b l" href="?page=config_perfis">Configurar Perfis</a>
+					<div class="c"><!-- --></div>
+				</div>
+			</div>
+			<div class="b menu-item">
+				<div class="b p5">
+					<span class="b l sprite gestao"><!-- --></span>
+					<span class="b l p5"><!-- --></span>
+					<a class="b l" href="?page=config_proposta">Configurar Propostas</a>
+					<div class="c"><!-- --></div>
+				</div>
+			</div>
+			<div class="b menu-item">
+				<div class="b p5">
+					<span class="b l sprite financeiro"><!-- --></span>
+					<span class="b l p5"><!-- --></span>
+					<a class="b l" href="?page=config_financeiro">Financeiro</a>
 					<div class="c"><!-- --></div>
 				</div>
 			</div>
@@ -19,7 +35,7 @@
 				<div class="b p5">
 					<span class="b l sprite enquete"><!-- --></span>
 					<span class="b l p5"><!-- --></span>
-					<a class="b l" href="?page=site">Enquetes</a>
+					<a class="b l" href="?page=config_enquete">Enquetes</a>
 					<div class="c"><!-- --></div>
 				</div>
 			</div>

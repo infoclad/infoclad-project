@@ -16,6 +16,8 @@
 			Integer id pellentesque massa. Duis posuere fringilla erat, sit amet gravida enim feugiat nec. Vivamus blandit tincidunt lectus, vel interdum eros tincidunt nec. Nam in diam eget lectus interdum pulvinar. Vivamus sed mauris justo, in luctus tellus. Nunc eu neque id sem varius vestibulum. Morbi feugiat sagittis libero, sit amet imperdiet ante ullamcorper quis. Mauris cursus massa tincidunt sem congue volutpat. Nunc dignissim eros vel enim tempus volutpat. Maecenas sed nisi a nisi accumsan varius nec placerat leo. Maecenas pulvinar turpis ut erat aliquet eget pulvinar magna ultricies. 
 		</p>
 	</span>
+	<span class="b p5"><!-- --></span>
+	<div class="b"><div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:send href="example.com" font="" colorscheme="light"></fb:send></div>
 </div>
 <div class="c"><!-- --></div>
 </div>

@@ -16,11 +16,11 @@
 			<h2 class="b blackbox titulo-principal">Geral</h2>
 			<div class="b p5"><!-- --></div>
 			<div class="b conteudo">
-			      <h2 class="b cadItem">
-			      	<span class="titulo l">Dados Cadastrais</span>
-			     	<div class="c"><!-- --></div>
-			      </h2>
-			      <span class="b p5"><!-- --></span>
+					  <h2 class="b cadItem">
+						<span class="titulo l">Dados Cadastrais</span>
+						<div class="c"><!-- --></div>
+					  </h2>
+					  <span class="b p5"><!-- --></span>
 						<span class="b formulario">
 							<table class="formulario_cadastro">
 								<tr>
@@ -99,6 +99,15 @@
 									<td class="label"><span class="important">*</span> Bairro</td>
 									<td colspan="3"><input type="text" id="endbairrofis" name="endbairrofis"/></td>
 								</tr>
+							</table>
+						</span>
+							  <h2 class="b cadItem">
+								<span class="titulo l">Representante Legal</span>
+								<div class="c"><!-- --></div>
+							  </h2>
+							  <span class="b p5"><!-- --></span>
+							<span class="b formulario">
+								<table class="formulario_cadastro">
 								<tr>
 									<td class="label"><span class="important">*</span> Informe o CPF</td>
 									<td colspan="5">
@@ -131,45 +140,68 @@
 								</tr>
 							</table>
 						</span>
-			      <h2 class="b cadItem">
-			      	<a href="#" class="blackbox">&#9664; Limpar Formulário</a>
-			      	&nbsp;
-			      	<a href="#" class="blackbox">Salvar Alterações &#9654;</a>
-			      </h2>
-			      <span class="b p5"><!-- --></span>
-			      <h2 class="b cadItem">
-			      	<span class="titulo l">Premiação <span class="pq">(Medalhas)</span></span>
-			     	<div class="c"><!-- --></div>
-			      </h2>
-			      <span class="b p5"><!-- --></span>
+				      <h2 class="b cadItem">
+				      	<a href="#" class="blackbox">&#9664; Limpar Formulário</a>
+				      	&nbsp;
+				      	<a href="#" class="blackbox">Salvar Alterações &#9654;</a>
+				      </h2>
+			</div>
+		</div>
+		<div class="b p5"><!-- --></div>
+		<div class="b">
+			<h2 class="b blackbox titulo-principal">Premiação <span class="interrogation">(Medalhas)</span></h2>
+			<div class="b p5"><!-- --></div>
+			<div class="b conteudo">
 						<span class="b formulario">
 							<table class="formulario_cadastro">
 								<tr>
+									<td class="label"><span class="important">*</span> Adicionar Medalha</td>
+									<td><input type="text"/></td>
+									<td><a href="#" class="b l greenbox">Adicionar nova medalha</a></td>
+								</tr>
+								<tr>
+									<td>&nbsp;</td>
+									<td>
+										<ul>
+											<li>Medalha Ouro Adicionada!</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
 									<td class="label"><span class="important">*</span> Medalha</td>
 									<td><select><option>Aspirante</option><option>Prata</option><option>Ouro</option><option>Bronze</option></td>
-									<td><span class="important">*</span> Valor (R$)</td>
-									<td><input type="text"/>&nbsp;&nbsp;<input type="checkbox">&nbsp;&nbsp;Valor Mínimo (Apartir)&nbsp;&nbsp;<input type="checkbox">&nbsp;&nbsp;Valor Máximo (Até)</td>
+								</tr>
+								<tr>
+									<td class="label"><span class="important">*</span> Valor <span class="interrogation">(R$)</span></td>
+									<td><input type="text"/></td>
+								</tr>
+									<!-- <td><input type="text"/>&nbsp;&nbsp;<input type="checkbox">&nbsp;&nbsp;Valor Mínimo (Apartir)&nbsp;&nbsp;<input type="checkbox">&nbsp;&nbsp;Valor Máximo (Até)</td> -->
 								</tr>
 							</table>
 						</span>
 			      <h2 class="b cadItem">
 			      	<a href="#" class="blackbox">Salvar Alterações &#9654;</a>
 			      </h2>
-			      <span class="b p5"><!-- --></span>
-			      <h2 class="b cadItem">
-			      	<span class="titulo l">Cadastro de Testemunhas <span class="pq"><span class="important">*</span> Scannear e enviar pelos campos abaixo o que for pedido.</span></span>
-			     	<div class="c"><!-- --></div>
-			      </h2>
-			      <span class="b p5"><!-- --></span>
+			</div>
+		</div>
+		<div class="b p5"><!-- --></div>
+		<div class="b">
+			<h2 class="b blackbox titulo-principal">Cadastro de Testemunhas <span class="pq"><span class="interrogation"><span class="important">*</span>Scannear e enviar pelos campos abaixo o que for pedido.</span></span></h2>
+			<div class="b p5"><!-- --></div>
+			<div class="b conteudo">
 						<span class="b formulario">
 							<table class="formulario_cadastro">
 								<tr>
 									<td class="label"><span class="important">*</span> Nome</td>
-									<td colspan="3"><input type="file"/></td>
+									<td colspan="3"><input type="text"/></td>
 								</tr>
 								<tr>
 									<td class="label"><span class="important">*</span> RG</td>
-									<td colspan="3"><input type="file"/></td>
+									<td colspan="3"><input type="text"/></td>
+								</tr>
+								<tr>
+									<td class="label"><span class="important">*</span> CPF</td>
+									<td colspan="3"><input type="text" class="mask-cpf"/></td>
 								</tr>
 								<tr>
 									<td class="label"><span class="important">*</span> Assinatura</td>
@@ -177,65 +209,10 @@
 								</tr>
 							</table>
 						</span>
-			      <h2 class="b cadItem">
-			      	<a href="#" class="blackbox">Cadastrar Documentos &#9654;</a>
-			      </h2>
+				      <h2 class="b cadItem">
+				      	<a href="#" class="blackbox">Cadastrar Testemunhas &#9654;</a>
+				      </h2>
 			</div>
-		</div>
-		<div class="b p5"><!-- --></div>
-	<div class="b">
-		<h2 class="b blackbox titulo-principal">Propostas Comerciais</h2>
-		<div class="b p5"><!-- --></div>
-		<div class="b conteudo">
-			      <h2 class="b cadItem">
-			      	<span class="titulo l">Validade</span>
-			     	<div class="c"><!-- --></div>
-			      </h2>
-			      <span class="b p5"><!-- --></span>
-						<span class="b formulario">
-							<table class="formulario_cadastro">
-								<tr>
-									<td class="label"><span class="important">*</span> Tempo de Validade da Proposta</td>
-									<td><input type="text" maxlength="2" class="pq"/></td>
-									<td>Dias.</td>
-								</tr>
-							</table>
-						</span>
-			      <h2 class="b cadItem">
-			      	<span class="titulo l">Serviços</span>
-			     	<div class="c"><!-- --></div>
-			      </h2>
-			      <span class="b p5"><!-- --></span>
-						<span class="b formulario">
-							<table class="formulario_cadastro">
-								<tr>
-									<td class="label"><span class="important">*</span> Serviços Iniciais</td>
-									<td><select><option>Lorem Lipsum</option></select></td>
-									<td><a class="b greenbox" href="#">Adicionar</a></td>
-								</tr>
-								<tr><td class="label">1.</td><td style="width:117px;">Lorem Lipsum</td><td><a class="b redbox" href="#">Remover</a></td></tr>
-								<tr><td class="label">1.</td><td style="width:117px;">Lorem Lipsum</td><td><a class="b redbox" href="#">Remover</a></td></tr>
-								<tr><td class="label">1.</td><td style="width:117px;">Lorem Lipsum</td><td><a class="b redbox" href="#">Remover</a></td></tr>
-								<tr><td class="label">1.</td><td style="width:117px;">Lorem Lipsum</td><td><a class="b redbox" href="#">Remover</a></td></tr>
-								<tr><td class="label">1.</td><td style="width:117px;">Lorem Lipsum</td><td><a class="b redbox" href="#">Remover</a></td></tr>
-								<tr><td class="label">1.</td><td style="width:117px;">Lorem Lipsum</td><td><a class="b redbox" href="#">Remover</a></td></tr>
-								<tr>
-									<td class="label"><span class="important">*</span> Serviços Finais</td>
-									<td><select><option>Lorem Lipsum</option></select></td>
-									<td><a class="b greenbox" href="#">Adicionar</a></td>
-								</tr>
-								<tr><td class="label">1.</td><td style="width:117px;">Lorem Lipsum</td><td><a class="b redbox" href="#">Remover</a></td></tr>
-								<tr><td class="label">1.</td><td style="width:117px;">Lorem Lipsum</td><td><a class="b redbox" href="#">Remover</a></td></tr>
-								<tr><td class="label">1.</td><td style="width:117px;">Lorem Lipsum</td><td><a class="b redbox" href="#">Remover</a></td></tr>
-								<tr><td class="label">1.</td><td style="width:117px;">Lorem Lipsum</td><td><a class="b redbox" href="#">Remover</a></td></tr>
-								<tr><td class="label">1.</td><td style="width:117px;">Lorem Lipsum</td><td><a class="b redbox" href="#">Remover</a></td></tr>
-								<tr><td class="label">1.</td><td style="width:117px;">Lorem Lipsum</td><td><a class="b redbox" href="#">Remover</a></td></tr>
-							</table>
-						</span>
-			      <span class="b p5"><!-- --></span>
-			      <h2 class="b cadItem">
-			      	<a href="#" class="blackbox">Salvar Configurações &#9654;</a>
-			      </h2>
 		</div>
 	</div>
 	</div>

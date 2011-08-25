@@ -1,32 +1,57 @@
-				<?php include("includes/tiny_banner.php"); ?>
-				<div class="b p5"><!--  --></div>
-				<?php include("includes/breadcrumb.php"); ?>
-				<div class="b p5">
-					<?php include("includes/sidebar.php"); ?>
-					<div class="b l grayText conteudo">
-						<div class="b">
-							<h2 class="b l">Título da Página</h2>
-							<span class="b l page-descr"><span class="pinkText">&#187;</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
-							<div class="c p5"><!--  --></div>
-						</div>
-						<div class="b">
-						<!-- conteudo -->
-								<p>
-								<div class="b l p5" style="padding-left:0;">
-									<div class="p5 blackbox">
-										<span class="b"><img src="img/avatar.jpg"/></span>
-										<span class="b"><p><i>lorem ipsum dolor<br/>Lorem 2011</i></p></span>
-									</div>
-								</div>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse convallis volutpat libero, vel volutpat dolor eleifend ac. Cras tempor lobortis lorem sed gravida. Maecenas gravida blandit diam ut sodales. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce in lacus non ipsum volutpat ornare sit amet sed massa. Praesent facilisis sem eget nulla malesuada dignissim. In hac habitasse platea dictumst. Proin suscipit euismod tortor, scelerisque suscipit ante accumsan vitae. Etiam ut fringilla sem. Ut eleifend elit sit amet metus suscipit at volutpat arcu pretium. Proin venenatis magna eu leo dapibus egestas. Curabitur laoreet tellus nec sapien scelerisque lobortis. In libero leo, sodales in tristique vitae, convallis et ante. Proin pulvinar tortor nec sem mattis tempor. Aenean risus velit, sagittis at dignissim eu, posuere id urna. Nam porttitor, sapien eu luctus rutrum, ligula tortor pellentesque neque, et vulputate tellus libero quis justo. Proin justo est, dictum in aliquam vitae, feugiat at nunc.
-								Ut ultrices scelerisque lobortis. Proin nunc velit, iaculis eget ullamcorper quis, vestibulum vel elit. Mauris blandit ultricies vulputate. Fusce porta, arcu nec faucibus mollis, metus orci consequat tellus, a cursus enim nisl vitae turpis. Aliquam placerat, risus quis placerat consequat, orci leo iaculis mi, ac consequat orci nisl in lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi ligula orci, consectetur in lacinia sed, aliquet non nulla. Fusce eu viverra mauris. Nullam massa enim, bibendum et ornare non, adipiscing sed erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in lectus ut lectus tincidunt consectetur id et orci. Integer pulvinar ullamcorper odio, sed tincidunt nisi vulputate at.
-								Nullam vulputate accumsan ultrices. Proin non erat in lorem varius venenatis eu non justo. Vestibulum non nibh ac magna iaculis fringilla ac sit amet ipsum. Praesent eget orci at tortor mollis malesuada non sed ipsum. Vestibulum varius vehicula pulvinar. Phasellus quis nisi vel massa accumsan pulvinar. Fusce volutpat magna vel dui consectetur rutrum. Nunc at pellentesque sapien. Nam ac nisl eu nisi iaculis posuere. Integer id mi justo. Curabitur dignissim tortor in lacus elementum mollis. Nam sagittis nulla at lectus tempus luctus. 
-								<div class="c"><!--  --></div>
-								</p>
-								<br/>
-								<u><a class="grayText" href="?page=projeto">saiba mais sobre o projeto</a></u>
-						<!-- conteudo -->
-						</div>
-					</div>
-					<div class="c"><!--  --></div>
-				</div>
+<?php include("includes/banner.php"); ?>
+<div class="conteudo b wrapper">
+	<div class="b l"><?php include("includes/sidebar.php"); ?></div>
+	<div class="conteudo-holder b l p5">
+	<?php include("includes/breadcrumb.php"); ?>
+	<div class="b p5"><!--  --></div>
+		<!-- conteudo -->
+		<div class="b l galeria">
+			<div id="main_image"></div>
+			<ul class="gallery_demo">
+			 <li class="active"><img src="img/flowing-rock.jpg" alt="Rock"></li>
+			 <li><img src="img/stones.jpg" alt=""></li>
+			 <li><img src="img/grass-blades.jpg" alt="" ></li>
+			 <li><img src="img/ladybug.jpg" alt=""></li>
+			</ul>
+		</div>
+		<div class="b r boxchar lightgraybox">
+			<span class="b"><h1 class="blueText">Biografia</h1></span>
+			<span class="b p5"><!--  --></span>
+			<span class="b">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque mauris at purus 
+					euismod vel hendrerit sem consectetur. Ut pharetra nibh sit amet neque porttitor tristique. 
+					Nam ac nunc neque. Nunc rhoncus neque eu odio fermentum eu lacinia diam fermentum. 
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non libero erat. 
+					<br/><br/>
+					Phasellus nec porta diam. Vestibulum in sem eros. 
+					Duis pretium eros et ligula laoreet lobortis. Aenean aliquam ultricies congue. 
+					Duis tempor vulputate arcu, sit amet luctus lorem consectetur a. Donec nisi lorem, ultricies 
+					tempus varius sit amet, dictum vel arcu. Integer ut tellus velit, eu aliquam est. Sed venenatis 
+					suscipit ante, et volutpat metus consectetur a. Nulla vitae dolor turpis. Fusce quam odio, 
+					adipiscing non hendrerit varius, aliquet sed orci. Nunc nec egestas mauris.
+					<br/><br/>
+					In non diam ligula. In euismod dolor eget odio laoreet accumsan. Nullam urna nisi, luctus in pulvinar 
+					nec, eleifend a ligula. Donec sit amet ante eu massa tempor tincidunt. In placerat odio eget arcu 
+					varius ultrices. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec orci turpis, 
+					auctor condimentum lorem. Aliquam diam justo, congue rutrum sodales quis, varius ac sem. Nulla 
+					fermentum vestibulum massa. Sed lobortis, sapien id laoreet consequat, nisi lectus blandit arcu, 
+					ac auctor felis ligula in sapien. Integer ac dui congue sem tristique adipiscing vel ut lectus. 
+					<br/><br/>
+					Suspendisse potenti. Donec eleifend dolor at massa gravida et tempor ipsum elementum. 
+					Pellentesque viverra quam sit amet diam hendrerit ac ultricies metus ornare.
+					Cras hendrerit rhoncus felis, non placerat urna ornare vitae. Ut libero velit, posuere et porta vel, 
+					semper tristique libero. Nam magna tortor, euismod eget dictum ac, pulvinar eget lacus. Fusce 
+					vel elit magna. Nullam quis neque at urna vestibulum euismod et venenatis nisi. Curabitur lacinia 
+					facilisis dui nec ornare. Donec lobortis, velit sed ultricies ornare, nulla turpis volutpat arcu, a 
+					euismod sapien sapien pulvinar erat. Morbi non eros at felis malesuada elementum. Pellentesque 
+					habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis sit amet 
+					felis urna.
+				</p>
+			</span>
+		</div>
+		<div class="c"><!--  --></div>
+		<!-- conteudo -->
+	</div>
+	<div class="c"><!--  --></div>
+</div>

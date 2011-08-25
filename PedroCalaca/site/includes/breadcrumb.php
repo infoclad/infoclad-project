@@ -81,7 +81,7 @@ function breadcrumb(array $options = array()) {
     else $rm_path_info = false;
     
     if (isset($options['rm_query_string'])) $rm_query_string = $options['rm_query_string'];
-    else $rm_query_string = true;
+    else $rm_query_string = false;
     
     if (isset($options['format_callback'])) $format_callback = $options['format_callback'];
     else $format_callback = create_function('$s', 'return str_replace(array(\'-\', \'_\'),\' \',ucwords($s));');
@@ -136,33 +136,16 @@ function breadcrumb(array $options = array()) {
 }
 ?>
 
+<div id="breadcrumb" class="b">
+<span class="b l">
+<?php
+$format = create_function('$s', 'return $s;');
+echo breadcrumb(array('format_callback' => $format));
+?>
+</span>
+<span class="b r">
+	<a href="http://www.twitter.com/infoclad"><img src="img/twitter.gif"/></a>
+</span>
+<div class="c"><!--  --></div>
+</div>
 
-
-
-				<div class="b p5 breadcrumb">
-					<span class="b l">
-						<?php
-						$format = create_function('$s', 'return $s;');
-						echo breadcrumb(array('format_callback' => $format));
-						?>
-					</span>
-					<span class="b r">
-						<div class="b">
-							<object width="62" height="20" name="dewplayer" id="dewplayer" data="dewplayer.swf" type="application/x-shockwave-flash"> <param value="transparent" name="wmode"><param value="dewplayer.swf" name="movie"> <param value="mp3=files/musica.mp3&amp;autostart=1&volume=15&autoreplay=true" name="flashvars"> </object>
-						</div>
-						<div class="c"><!--  --></div>
-						<script type="text/javascript">
-							var flashvars = {
-								mp3: "files/musica.mp3"
-							};
-							var params = {
-							  wmode: "transparent"
-							};
-							var attributes = {
-							  id: "dewplayer"
-							};
-							swfobject.embedSWF("dewplayer.swf", "dewplayer_content", "200", "20", "9.0.0", false, flashvars, params, attributes);
-						</script>
-					</span>
-					<div class="c p5"><!--  --></div>
-				</div>
