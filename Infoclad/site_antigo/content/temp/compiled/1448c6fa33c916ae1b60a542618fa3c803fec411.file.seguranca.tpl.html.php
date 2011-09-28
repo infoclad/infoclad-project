@@ -1,19 +1,0 @@
-<?php /* Smarty version Smarty3-RC3, created on 2011-07-20 16:08:49
-         compiled from "content/template/pages/servicos/seguranca.tpl.html" */ ?>
-<?php /*%%SmartyHeaderCode:3404129604e2727c1191e99-84688919%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
-$_smarty_tpl->decodeProperties(array (
-  'file_dependency' => 
-  array (
-    '1448c6fa33c916ae1b60a542618fa3c803fec411' => 
-    array (
-      0 => 'content/template/pages/servicos/seguranca.tpl.html',
-      1 => 1291302328,
-    ),
-  ),
-  'nocache_hash' => '3404129604e2727c1191e99-84688919',
-  'function' => 
-  array (
-  ),
-  'has_nocache_code' => false,
-)); /*/%%SmartyHeaderCode%%*/?>
-<img src="content/template/images/banner_seguranca.jpg" alt="" /><br /><br /><p>    Segurança é fundamental em qualquer situação. E pior do que ter a certeza de não tê-la é a ter a falsa sensação de ter o seu negócio seguro. Isto acontece comumente nas empresas devido a falta de um plano estratégico global de segurança, e que insistem em implementar projetos isolados que são igualmente perigosos a não dar resultados esperados. A maior parte das quebras de segurança ocorre de pessoas de dentro da empresa e a grande maioria das corporações se preocupa apenas com ataques externos.    <br /><br />    Hoje a maioria das empresas estão sofrendo ataques no que tange a roubo e espionagem de dados. Toda a empresa que possue computador hoje pode sofrer qualquer tipo de ameaça, isso se dá devido a dois fatores, são estes: o fator interno e o fator externo. O fator interno é aquele que parte de dentro da empresa, ocasionado pelo próprio funcionário, seja por descuido ou até mesmo intencional. Esse fator externo podemos chamar de internet (rede mundial de computadores), a qual viabiliza o acesso por parte de terceiros aos dados da empresa, quando estes são encaminhados para fora, ou até mesmo, o aceso a base de dados da empresa por meio de qualquer situação. A implementação de uma Solução de Segurança demanda tempo, expertise e investimentos.    <br /><br />    Quando pensar em segurança, pergunte-se primeiro: Quanto vale a minha informação? Será que o produto que ofereço ao mercado está totalmente seguro? As informações que trafegam pela minha empresa estão totalmente confiáveis? De quanto meu negócio pode perder ou ate nunca mais funcionar se a minha informação não estiver totalmente segura? Na INFOCLAD desenvolvemos e implementamos soluções de segurança customizadas a cada cliente.    <br /><br />    Utilizamos ferramentas e estratégias avançadas, que contemplam confiabilidade, integridade, disponibilidade e o equilíbrio do custo em relação ao risco. Desta forma a INFOCLAD acredita levar os riscos de segurança das corporações próximos a zero.    <br /></p><br /><br /><br /><strong>Segurança de Dados :</strong><br /><br /><ul>    <li>Sistema de controle do Ambiente de Rede para Administradores de Redes;</li>    <li>Análise de Riscos e Vulnerabilidades;</li>    <li>Políticas de Segurança;</li>    <li>Projetos de Firewall e Proxy (avaliação, instalação e configuração);</li>    <li>Instalação e configuração em ambientes Windows, Linux e ambientes heterogêneos Windows/Linux;</li>    <li>Instalação e configuração de Sistemas de Anti-vírus;</li>    <li>Implementação de Serviços de Autenticação;</li>    <li>Implementação de políticas para segurança de acesso a internet;</li>    <li>Procedimentos para instalação e configuração de Backup de Dados.</li></ul>

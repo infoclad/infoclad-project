@@ -1,19 +1,0 @@
-<?php /* Smarty version Smarty3-RC3, created on 2011-07-20 14:10:32
-         compiled from "content/template/mods/rodape.html" */ ?>
-<?php /*%%SmartyHeaderCode:1669437654e270c0866b7d9-52910401%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
-$_smarty_tpl->decodeProperties(array (
-  'file_dependency' => 
-  array (
-    'ed406a2c04c6b786dbe2809727128a9c6ce36008' => 
-    array (
-      0 => 'content/template/mods/rodape.html',
-      1 => 1294166464,
-    ),
-  ),
-  'nocache_hash' => '1669437654e270c0866b7d9-52910401',
-  'function' => 
-  array (
-  ),
-  'has_nocache_code' => false,
-)); /*/%%SmartyHeaderCode%%*/?>
-            <div class="wrapper">                <div class="clearfix">                    <div class="columnLeft">                        <div id="sponsors"><a href="empresa/parcerias.html"><img src="content/template/images/sponsors.gif" alt=""/></a></div>                        <div class="rodape"><strong>INFOCLAD</strong> - Integrando Tecnologia ao seu Negócio</div>                        <div class="rodape"><a href="" title="INFOCLAD"><img src="content/template/images/whitelogo.png" alt="InfoClad"/></a></div>                        <div class="rodape">Hospedagem de Sites - Registro de Domínio - Soluções Web</div>                        <div class="rodape">Leia nossa Política de Privacidade.</div>                    </div>                    <a name="mapaSite" />                    <div class="columnRight">                        <table class="rodapeLinks">                            <tr><th>Seja um cliente INFOCLAD:</th><td><a href="servicos/hospedagem.html">Hospedagem de Sites</a> | <a href="dominio.html">Registro de Domínio</a> | <a href="servicos/website.html">Soluções Web</a></td></tr>                            <tr><th>A INFOCLAD:</th><td><a href="empresa/sobre.html">A Empresa</a> | <a href="http://www.twitter.com/infoclad" target="_blank">Twitter</a> | <a href="empresa/clientes.html">Nossos Clientes</a> | <a href="empresa/premios.html">Nossos Prêmios</a></td></tr>                            <tr><th>Atendimento ao Cliente:</th><td><a href="servicos/websites.html">Como criar meu site?</a> | <a href="empresa/sobre.html">Como contatar a INFOCLAD?</a> | <a href="javascript:void(window.open('http://academiainfoclad.com.br/atendimento/chat.php','','width=590,height=580,left=0,top=0,resizable=yes,menubar=no,location=no,status=yes,scrollbars=yes'))">Atendimento On-line</a></td></tr>                            <tr><th>Estude em nossa Academia:</th><td><a href="http://www.academiainfoclad.com.br/grade.html" target="_blank">Grade de Horários</a> | <a href="http://www.academiainfoclad.com.br/cursos.html" target="_blank">Nossos Cursos</a> | <a href="http://www.academiainfoclad.com.br/" target="_blank">Valores</a> | <a href="http://www.academiainfoclad.com.br/academia.html" target="_blank">Sobre a Academia</a></td></tr>                        </table>                    </div>                                    </div>            </div>

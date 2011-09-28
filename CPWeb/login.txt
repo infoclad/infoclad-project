@@ -1,7 +1,0 @@
-advogados.infocladsistemas.com.br
-
-Empresa: advogados
-< ADMINISTRACAO >
-
-Usuário: leonardo
-Senha: 222

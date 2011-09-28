@@ -1,8 +1,0 @@
-<?php
-
-$objTemplate->setPage('empresa/localizacao.tpl.html');
-
-// Exibição do Template;
-$objTemplate->show('nav.tpl.html');
-
-?>

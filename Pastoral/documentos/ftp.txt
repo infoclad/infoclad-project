@@ -1,5 +1,0 @@
-Host: ftp.pasesporte.com.br
-
-Usuário: pastoral
-
-Senha: teste12345
